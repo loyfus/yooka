@@ -3,7 +3,7 @@
   "slug": "rd-station",
   "category": "renda-e-negocio",
   "tagline": "Marketing e automação no padrão do mercado brasileiro",
-  "description": "Plataforma brasileira de automação de marketing com CRM, e-mail, landing page, publicação em redes e funil de vendas para pequeno negócio.",
+  "description": "Plataforma brasileira de automação de marketing com CRM, e-mail, landing page, publicação em redes e funil de vendas para o pequeno negócio.",
   "url": "https://www.rdstation.com",
   "affiliateUrl": "https://www.rdstation.com/?via=yooka",
   "price": "A partir de R$ 0/mês (plano Free)",
@@ -15,7 +15,7 @@
     "Funil completo em uma assinatura: e-mail, CRM, landing page, automação e publicação em redes",
     "Interface, material e suporte em português, o que reduz muito o tempo de configuração",
     "Integrações com WhatsApp, Google Ads e plataformas de ecommerce já prontas",
-    "Segmentação e automação de lead nurturing que funcionam bem sem saber programar"
+    "Segmentação e automação de nutrição de lead que funcionam bem sem saber programar"
   ],
   "cons": [
     "O plano gratuito tem limite baixo de contatos e de envios, e a upgrade forçada aparece no segundo mês",
@@ -24,12 +24,30 @@
     "Repositório de templates é genérico e as peças prontas exigem ajuste para soar como a sua marca"
   ],
   "features": [
-    { "name": "CRM de vendas", "detail": "Pipeline, histórico de contato e tarefas de follow-up no mesmo lugar" },
-    { "name": "E-mail marketing", "detail": "Disparador com editor, automação, teste A/B e rastreamento de abertura" },
-    { "name": "Landing pages", "detail": "Páginas de captura prontas, com teste de conversão e domain próprio" },
-    { "name": "Automação de funil", "detail": "Sequências que nutrem o lead e avisam o vendedor quando há intenção" },
-    { "name": "Redes sociais", "detail": "Publicação agendada e calendário de conteúdo dentro da plataforma" },
-    { "name": "Integrações", "detail": "WhatsApp, Google Ads, RD Station CRM e conectores de ecommerce" }
+    {
+      "name": "CRM de vendas",
+      "detail": "Pipeline, histórico de contato e tarefas de follow-up no mesmo lugar"
+    },
+    {
+      "name": "E-mail marketing",
+      "detail": "Disparador com editor, automação, teste A/B e rastreamento de abertura"
+    },
+    {
+      "name": "Landing pages",
+      "detail": "Páginas de captura prontas, com teste de conversão e domínio próprio"
+    },
+    {
+      "name": "Automação de funil",
+      "detail": "Sequências que nutrem o lead e avisam o vendedor quando há intenção"
+    },
+    {
+      "name": "Redes sociais",
+      "detail": "Publicação agendada e calendário de conteúdo dentro da plataforma"
+    },
+    {
+      "name": "Integrações",
+      "detail": "WhatsApp, Google Ads, RD Station CRM e conectores de ecommerce"
+    }
   ],
   "useCases": [
     "Montar a lista de contatos de um curso e disparar a sequência de abertura de venda",
@@ -39,6 +57,10 @@
   ],
   "bestForWho": "Pequeno negócio brasileiro que precisa de e-mail, CRM e funil de vendas no mesmo lugar, sem depender de equipe técnica.",
   "verdict": "O RD Station é o padrão brasileiro de marketing e a maior parte do valor está no que já vem pronto: funil, e-mail, CRM e automação funcionando juntos, com documentação em português que qualquer pessoa sozinha consegue seguir. O ponto que mais incomoda é o modelo de cobrança por contato: o plano gratuito serve para começar, mas a lista cresce rápido e o preço sobe junto, o que costuma surpreender na primeira renovação. Outro cuidado é não tratar o CRM como processo: a ferramenta registra bem o que você configurar, mas quem define as etapas de venda continua sendo você. Para quem vende de forma recorrente e quer um funil organizado, é a escolha mais segura do mercado.",
-  "alternatives": ["workana", "hotmart", "shopify"],
+  "alternatives": [
+    "workana",
+    "hotmart",
+    "shopify"
+  ],
   "updated": "2026-10-30"
 }

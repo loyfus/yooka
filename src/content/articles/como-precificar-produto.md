@@ -1,6 +1,6 @@
 ---
 title: "Como precificar produto em 2026: markup, margem, custo total e tabela de preços"
-description: "Como precificar produto passo a passo: custo total, markup, margem, tabela de conversão, preço de marketplace e de produto digital com números de outubro de 2026."
+description: "Como precificar produto passo a passo: custo total, markup, margem, tabela de conversão e como revisar preço no marketplace e no produto digital."
 date: "2026-10-30"
 updated: "2026-10-30"
 category: "renda-e-negocio"
@@ -65,6 +65,25 @@ A leitura importante: markup de 2x não é margem de 100%. Quando alguém diz "q
 | Curso online | Plataforma, produção, tráfego | Sem custo de produto | 50% a 85% |
 
 Repare na inversão: quanto mais o produto é físico e vendido em marketplace, menor a margem e maior a sensibilidade ao custo de frete. Quanto mais o produto é digital e vendido na sua própria página, maior a margem e menor a dependência de taxa de terceiros. Essa é a razão técnica por trás do conselho de "comece digital".
+
+## Precificação por faixa de preço: onde a decisão do cliente muda
+
+O comportamento de compra muda conforme a faixa de preço, e isso define a estratégia de margem. Em produtos de até R$ 40, a pessoa compara item a item em dois minutos e a diferença de alguns reais decide. O preço precisa ser competitivo e a margem vem de giro, não de markup alto. De R$ 40 a R$ 150, a decisão passa a considerar reputação, prazo e frete, e uma margem de 2x a 3x costuma se sustentar. Acima de R$ 150, entra a comparação de parcelamento, a necessidade de garantia e o peso da prova social, o que permite markup de 3x ou mais.
+
+O caso das plataformas de serviço é diferente: acima de R$ 300 o cliente quer saber quem é a pessoa, qual é a garantia e existe risco de ter o dinheiro gasto sem resultado. Nesse ponto, a precificação depende de **prova** e **processo**, não só de conta. O [guia de como precificar produto](/guias/como-precificar-produto/) que você está lendo serve para o cálculo; a parte de confiança e conversão é tratada no [guia de marketing para pequeno negócio](/guias/marketing-para-pequeno-negocio/).
+
+Um efeito colateral útil: parcelamento muda a percepção de preço sem mudar o preço. Um item de R$ 240 em 12 vezes aparece como R$ 20 por mês, e isso derruba a objeção de valor. Oferecer parcelamento via Pix ou cartão com a plataforma de checkout é uma alavanca de conversão, não de margem, porque o custo do parcelamento já está na tarifa do gateway.
+
+## Testes de preço que rodam sem gastar dinheiro
+
+Você não precisa adivinhar o preço perfeito antes de lançar. Existem quatro testes baratos que produzem dados reais:
+
+1. **Teste de página com preço.** Lance duas páginas iguais com preços diferentes e meca a conversão de cada uma por pelo menos 7 dias, com o mesmo volume de tráfego. O que vendeu mais venceu, mesmo que a margem seja menor.
+2. **Teste de desconto limitado.** Ofereça 10% de desconto por cupom com prazo e limite de usos. Se a taxa de conversão subir mais de 30%, o preço original estava alto.
+3. **Teste de venda direta.** Peça orçamento pelo WhatsApp para dez pessoas da sua lista e anuncie o preço antes de responder. A reação à primeira menção do valor informa muito.
+4. **Teste de pacote.** Ofereça o item avulso e um combo com 15% a 25% de desconto no conjunto. O combo revela quanto o cliente valoriza a combinação.
+
+Depois de qualquer teste, refaça o cálculo de margem com o novo preço. O [guia de IA para vendas](/guias/ia-para-vendas/) mostra como transformar essas respostas em informação estruturada, e o [guia de marketing com IA](/guias/marketing-com-ia/) mostra como produzir variações de anúncio para testar sem escrever cada texto do zero.
 
 ## Erros comuns que destroem a margem
 

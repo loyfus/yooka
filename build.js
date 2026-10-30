@@ -12,8 +12,11 @@ import {
   organizationSchema, websiteSchema, articleSchema, faqSchema,
   itemListSchema, softwareAppSchema, howToSchema, breadcrumbSchema,
 } from './src/lib/seo.js';
-import { calculators } from './src/content/calculators.js';
+import { calculators as calculatorsBase } from './src/content/calculators.js';
+import { calculatorsExtra } from './src/content/calculators-extra.js';
 import { computeOutputs } from './src/static/assets/calc-core.js';
+
+const calculators = [...calculatorsBase, ...calculatorsExtra];
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = __dirname;
@@ -111,15 +114,25 @@ function loadComparisons() {
 }
 
 function loadTools() {
-  return listFiles('tools', '.json').map((f) => {
-    const t = readJSON(f);
-    return {
+  return listFiles('tools', '.json')
+    .map((f) => {
+      try {
+        const t = readJSON(f);
+        t.__file = f;
+        return t;
+      } catch (e) {
+        // Arquivo em edição (JSON inválido): pula em vez de quebrar o build.
+        console.warn(`  aviso: ${path.basename(f)} inválido, ignorado`);
+        return null;
+      }
+    })
+    .filter(Boolean)
+    .map((t) => ({
       ...t,
-      slug: t.slug || path.basename(f, '.json'),
-      url: `/ferramentas/${t.slug || path.basename(f, '.json')}/`,
+      slug: t.slug || path.basename(t.__file, '.json'),
+      url: `/ferramentas/${t.slug || path.basename(t.__file, '.json')}/`,
       updated: t.updated || TODAY,
-    };
-  });
+    }));
 }
 
 const categories = readJSON(path.join(CONTENT, 'categories.json'));
@@ -273,7 +286,7 @@ ${breadcrumbs(crumbs)}
     <aside class="post__aside">
       ${toc(a.headings)}
       ${adSlot('sidebar', 'sticky')}
-      ${offerBox({ compact: true, title: 'Agente de IA sob medida', text: 'Diagnóstico, implantação e suporte.', button: 'Falar agora' })}
+      ${offerForCategory(a.category)}
     </aside>
   </div>
 </article>`;
@@ -2000,6 +2013,16 @@ function writeSearchIndex() {
   fs.writeFileSync(path.join(OUT, 'search-index.json'), JSON.stringify(idx));
 }
 
+function writeIndexNowKey() {
+  // A chave do IndexNow precisa estar publicada na raiz do site para o Bing
+  // validar o envio. O arquivo .indexnow-key fica fora do git (ver .gitignore).
+  const keyFile = path.join(ROOT, '.indexnow-key');
+  if (!fs.existsSync(keyFile)) return;
+  const key = fs.readFileSync(keyFile, 'utf8').trim();
+  if (!key) return;
+  fs.writeFileSync(path.join(OUT, `${key}.txt`), key);
+}
+
 function writeAdsTxt() {
   const client = site.adsense.client.replace(/^ca-/, '');
   const line = client
@@ -2105,6 +2128,7 @@ writeRss();
 writeSearchIndex();
 writeManifest();
 writeAdsTxt();
+writeIndexNowKey();
 writeOgManifest();
 write404();
 

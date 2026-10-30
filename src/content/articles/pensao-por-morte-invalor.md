@@ -43,7 +43,7 @@ A lei define uma ordem de preferência, e ela só é aplicada se houver mais de 
 | Ordem | Dependentes | Condição de acesso |
 |---|---|---|
 | 1 | Cônjuge, companheiro e filhos | Sem limite de idade para os filhos deficientes; cônjuge sem outra renda |
-| 2 | Filhos e enteados sem registro | Enquadramento definido pelo registro civil |
+| 2 | Filhos e enteados sem registro próprio | Enquadramento definido pelo registro civil |
 | 3 | Pais | Com 65 anos ou mais, ou se incapazes para o trabalho |
 | 4 | Irmãos e avós | Incapazes para o trabalho e sem renda própria |
 | 5 | Netos, bisnetos e demais menores | Apenas se não houver dependentes nas ordens anteriores |
@@ -66,7 +66,7 @@ O INSS não multiplica simplesmente o último salário por 3/8. O cálculo tem t
 | R$ 12.000,00 | R$ 4.500,00 | R$ 4.500,00 |
 | R$ 25.000,00 | R$ 9.375,00 | R$ 8.395,93 (teto do INSS) |
 
-Essa tabela é ilustrativa: o valor real depende da data de contribuição, do histórico de salaries e das regras de ajuste vigentes. O número que vale é o que aparece na simulação do Meu INSS, que reproduz o cálculo oficial do seu caso. **Verifique no portal oficial** antes de tomar decisão financeira.
+Essa tabela é ilustrativa: o valor real depende da data de contribuição, do histórico de salários e das regras de ajuste vigentes. O número que vale é o que aparece na simulação do Meu INSS, que reproduz o cálculo oficial do seu caso. **Verifique no portal oficial** antes de tomar decisão financeira.
 
 **Morte por acidente de trabalho.** Quando o falecimento decorre de acidente de trabalho ou doença ocupacional, a pensão é apurada sobre 100% da remuneração de referência, em vez de 3/8, e recebe o mesmo piso e o mesmo teto. Nesse caso o processo é conduzido com o vínculo de risco de trabalho (FET) e pode passar por Junta Médica.
 
@@ -79,7 +79,7 @@ Antes do portal, reúna os documentos. O INSS não abre o requerimento sem a cer
 3. **Autorize o acesso ao Meu INSS.** No serviço Meu INSS, dentro do gov.br, clique em "Autorizar acesso" e escolha o nível que permite solicitar e acompanhar benefícios. Para requerimentos de terceiros, é preciso o segundo nível, com assinatura em duas etapas.
 4. **Abra o requerimento de pensão por morte.** No Meu INSS, entre em "Meus benefícios" e clique em "Novo benefício". Escolha a categoria "Pensão por morte". Se o requerimento é feito em nome de outrem (o dependente), o portal oferece a opção de requerimento para terceiros, que exige o CPF do falecido.
 5. **Informe os dados do falecido e do dependente.** Preencha nome completo, CPF, data de nascimento e data do óbito do falecido. Depois, informe os dados de cada dependente: nome, CPF, data de nascimento e grau de parentesco.
-6. **Declare a composição familiar e as rendas.** O formulário pergunta quantas pessoas moram no domicílio, qual a renda de cada uma e se existe outra fonte de renda. A renda do cônjuge e a existência de patrimônio são critério de análise, e a omissão de dados é uma das causas mais comuns de indeferimento.
+6. **Declare a composição familiar e as rendas.** O formulário pergunta quantas pessoas moram no domicílio, qual a renda de cada uma e se existe outra fonte de renda. A renda do cônjuge e a existência de patrimônio são critérios de análise, e a omissão de dados é uma das causas mais comuns de indeferimento.
 7. **Anexe os documentos.** Envie a certidão de óbito, as certidões de nascimento e casamento, documento de identidade e CPF dos dependentes, carteira de trabalho ou CTPS e, para dependentes com incapacidade, laudos e atestados médicos. Para filhos entre 18 e 21 anos, comprovante de matrícula escolar.
 8. **Envie e acompanhe.** Revise tudo, assine eletronicamente e clique em "Enviar". O andamento fica em "Meus Requerimentos", com as situações "Em análise", "Deferido" ou "Indeferido". Deferido, o requerimento gera o cartão do beneficiário na Carteira de Benefícios.
 

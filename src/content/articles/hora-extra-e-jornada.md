@@ -43,7 +43,7 @@ O art. 79 da CLT trata do banco de horas: a compensação de horas é obrigatór
 2. **Multiplique por 1,5 para achar a hora extra.** O adicional de 60% é somado à hora normal, e não multiplicado. Exemplo: R$ 17,05 + 60% = R$ 27,28 por hora extra.
 3. **Some o DSR (descanso semanal remunerado).** Some 1/6 do valor da hora ao total das horas extras. Isso é o que produz as chamadas "hora extra com DSR". No exemplo: R$ 27,28 + (27,28 ÷ 6) = R$ 31,83 por hora com DSR.
 4. **Calcule os reflexos.** Sobre as horas extras incidem INSS (8% do empregado, por faixa) e FGTS (8% do empregador, com base no total da folha, incluindo as horas extras).
-5. Some a contribuição patronal. Em October de 2026, a alíquota patronal do INSS é de 20% sobre a folha, o que encarece o custo da hora extra em cerca de 1/3 em relação ao valor pago ao empregado.
+5. Some a contribuição patronal. Em outubro de 2026, a alíquota patronal do INSS é de 20% sobre a folha, o que encarece o custo da hora extra em cerca de um terço em relação ao valor pago ao empregado.
 6. **Confira o acordo de compensação.** Se as horas estão em banco, o valor a pagar é o da hora normal, sem adicional, e com compensação em até 6 meses ou 1 ano, conforme o que estiver pactuado.
 7. **Registre e controle.** Lance as horas no sistema de controle (portaria do MTE), com formulário próprio, e guarde as folhas de ponto. A portaria 1.419/2024 do MTE disciplinou o registro de jornada.
 

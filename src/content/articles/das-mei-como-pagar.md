@@ -19,7 +19,7 @@ faq:
     a: "Depende da cidade. Em municípios que já aderiram ao recolhimento conjunto do Simples Nacional, o ISS é recolhido junto com o DAS. Nos demais, o ISS é declarado e pago separadamente à prefeitura."
 ---
 
-Para pagar o DAS do MEI você gera o boleto no Portal do Empreendedor (gov.br), paga até o dia 20 do mês vigente e baixa o comprovante. O valor depende da faixa de faturamento: R$ 71,60 por mês no MEI no limite e valores proporcionais de R$ 71,60 a R$ 106,20 ou mais, com alíquotas de 5% a 15%. Atraso gera multa, juros e risco de desenquadramento.
+Para pagar o DAS do MEI você gera o boleto no Portal do Empreendedor (gov.br), paga até o dia 20 e baixa o comprovante. O valor depende da faixa de faturamento: R$ 71,60 por mês no MEI no limite e valores proporcionais de R$ 71,60 a R$ 106,20 ou mais, com alíquotas de 5% a 15%. Atraso gera multa, juros e risco de desenquadramento.
 
 ## O que é o DAS e o que ele paga
 

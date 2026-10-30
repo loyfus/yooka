@@ -3,42 +3,46 @@
   "slug": "monetizze",
   "category": "renda-e-negocio",
   "tagline": "Infoproduto com checkout e comissão de afiliado",
-  "description": "Plataforma de venda de produto digital e curso com checkout, PIX, boleto, cartão, programa de afiliados e cobrança de assinatura.",
+  "description": "Plataforma de venda de produto digital e curso com checkout, PIX, boleto, cartão, programa de afiliados e cobrança por transação, sem mensalidade.",
   "url": "https://monetizze.com.br",
   "affiliateUrl": "https://monetizze.com.br/?via=yooka",
-  "price": "A partir de R$ 0/mês + taxa por venda",
-  "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. Há opções sem mensalidade e opções com plano mensal; a taxa por venda varia conforme o plano escolhido e o meio de pagamento usado.",
+  "price": "7,9% + R$ 1,50 por transação",
+  "priceNote": "Sem mensalidade: o custo é de 7,9% mais R$ 1,50 por transação nacional, e sobe para 9,9% na venda com afiliado. Valores de referência em outubro de 2026; planos mudam, confirme no site oficial.",
   "bestFor": "Produtor que quer vender curso e usar afiliados para escalar sem equipe de tráfego",
   "rating": 4.0,
   "ratingCount": 447,
   "pros": [
-    "Preço de entrada baixo ou zero de assinatura, o que reduz o risco de começar",
+    "Sem mensalidade e sem taxa de adesão: o produtor paga apenas sobre o que vende",
     "Programa de afiliados com regras de comissão flexíveis, útil para escalar venda com parceiro",
     "Checkout com PIX, boleto e cartão, e tela de upsell que funciona bem no celular",
     "Área do produtor com relatório de vendas, taxa e saldo, sem precisar de planilha"
   ],
   "cons": [
-    "A taxa por venda soma com a tarifa fixa por transação e corrói a margem de produto barato",
+    "A tarifa fixa de R$ 1,50 vira mais de 7% do valor em produto de R$ 19,90, o que pesa no preço final",
+    "O percentual muda entre venda direta, 7,9%, e venda por afiliado, 9,9%, o que confunde na hora de precificar",
     "Interface do painel do produtor é mais confusa que a dos concorrentes, com funções escondidas",
-    "Menos integrações prontas com ferramenta de marketing e automação que as plataformas maiores",
-    "Repasse do saldo só liberar depois do prazo de garantia, o que segura o caixa do produtor"
+    "Menos integrações prontas com ferramenta de marketing e automação que as plataformas maiores"
   ],
   "features": [
-    { "name": "Checkout de vendas", "detail": "Página de pagamento com PIX, boleto e cartão e opção de one-click" },
+    { "name": "Checkout de vendas", "detail": "Página de pagamento com PIX, boleto e cartão e opção de compra em um clique" },
     { "name": "Programa de afiliados", "detail": "Comissão por regra, link rastreado e pagamento agrupado aos parceiros" },
     { "name": "Upsell no checkout", "detail": "Oferta complementar exibida na hora da compra para elevar o ticket" },
     { "name": "Assinatura recorrente", "detail": "Cobrança mensal com plano e cancelamento pelo próprio aluno" },
     { "name": "Área do produtor", "detail": "Vendas, saldo a receber, taxa aplicada e relatório por produto" },
-    { "name": "Entrega de conteúdo", "detail": "Curso e arquivo liberado após aprovação, com área de aluno própria" }
+    { "name": "Entrega de conteúdo", "detail": "Curso e arquivo liberados após a aprovação, com área de aluno" }
   ],
   "useCases": [
-    "Lançar um curso online de 12 aulas e usar afiliados para bringar os primeiros alunos",
+    "Lançar um curso online de 12 aulas e usar afiliados para trazer os primeiros alunos",
     "Cobrar uma assinatura mensal de mentoria com cobrança automática e nota de pagamento",
     "Testar um produto digital de R$ 27 sem pagar nada enquanto não há venda",
     "Oferecer plano anual com desconto para quem já comprou o curso avulso"
   ],
   "bestForWho": "Quem está testando produto digital e quer estrutura de venda pronta, com programa de afiliados, sem investir em plataforma antes de faturar.",
-  "verdict": "A Monetizze entrega o pacote básico de venda de digital sem exigir assinatura, e isso é útil enquanto o produto ainda é uma hipótese. O programa de afiliados é o que mais ajuda quem não tem audiência: você abre o canal e o partner traz o aluno. O que atrapalha é a experiência do painel, que exige tempo para ser desvendado, e a estrutura de taxas, que precisa ser entendida antes de definir o preço do produto. Nada aqui é impeditivo, mas tudo pede mais atenção do que o da Hotmart ou o da Kiwify. Para quem está começando e quer testar, ela cumpre o papel. Para quem já vende bem, a taxa e a falta de integração pesam mais.",
-  "alternatives": ["hotmart", "kiwify", "shopify"],
+  "verdict": "A Monetizze entrega o pacote básico de venda de digital sem exigir assinatura, e isso é útil enquanto o produto ainda é uma hipótese. O programa de afiliados é o que mais ajuda quem não tem audiência: você abre o canal e o parceiro traz o aluno. O que atrapalha é a conta final. A tarifa fixa de R$ 1,50 é pequena em produto de R$ 297 e enorme em produto de R$ 19,90, onde percentual e fixo somam mais de 15 por cento. Some isso à mudança de percentual entre venda direta e venda por afiliado, e dá para entender por que o preço do produto precisa ser calculado com a taxa dentro. O painel é mais confuso que o dos concorrentes e leva tempo para ser desvendado. Para quem está começando e quer testar, cumpre o papel.",
+  "alternatives": [
+    "hotmart",
+    "kiwify",
+    "shopify"
+  ],
   "updated": "2026-10-30"
 }

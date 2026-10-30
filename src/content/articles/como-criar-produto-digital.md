@@ -45,16 +45,14 @@ A segunda conta é a conversão da página de venda. Uma página com oferta clar
 
 ## Passo a passo para criar e vender um produto digital
 
-1. **Escolha um problema que você já resolveu.** Produto digital que você não usou é refund garantido. O [guia de como abrir MEI](/guias/como-abrir-mei-passo-a-passo/) resolve a formalização depois, não o problema antes.
+1. **Escolha um problema que você já resolveu.** Produto digital que você não usou é reembolso garantido. O [guia de como abrir MEI](/guias/como-abrir-mei-passo-a-passo/) resolve a formalização depois, não o problema antes.
 2. **Valide a demanda antes de produzir.** Pesquise o que as pessoas já pagam, olhe as perguntas repetidas em fórum e grupos, e fale com cinco pessoas do público. Se o problema não aparece espontaneamente, troque de produto.
 3. **Defina o escopo fechado.** Um arquivo, uma finalidade, um prazo de uso. "Planilha para controlar custo de produto em loja de marketplace" fecha; "planilha para negócio" não.
 4. **Escolha o formato e a ferramenta.** Planilha, apresentação, documento, código, áudio ou vídeo. Uma ferramenta por vez, e a de verdade que você já domina.
 5. **Produza a versão 1 em um fim de semana.** Não a versão final. Um arquivo funcional já pode ser vendido e gerar os primeiros feedbacks.
 6. **Adicione a camada de apresentação.** Capa, sumário, índice de uso, instruções de primeira execução e um resultado de exemplo dentro do arquivo. É isso que separa o R$ 17 do R$ 97.
 7. **Monte a página de venda com prova.** Demonstração em vídeo, tela do arquivo, depoimento e garantia de 7 dias.
-8. **Configure a entrega automática e a nota.** Plataforma de checkout, entrega por link, e-mail de acesso e emissão de NFS-e. O [guia de como emitir NFS-e](/guias/como-emitir-nfse/) e o [guia de Pix para MEI](/guias/pix-mei-receber/) resolvem a parte fiscal.
-9. **Precie com a tabela de margem.** O [guia de como precificar produto](/guias/como-precificar-produto/) mostra o método, e a margem de produto digital fica entre 45% e 80%.
-10. **Venda para um grupo pequeno primeiro.** Dez vendas com feedback valem mais que uma campanha com mil visitas.
+8. **Configure a entrega automática e a nota.** Plataforma de checkout, entrega por link, e-mail de acesso e emissão de NFS-e. O [guia de como emitir NFS-e](/guias/como-emitir-nfse/) e o [guia de Pix para MEI](/guias/pix-mei-receber/) resolvem a parte fiscal Precie com a tabela de margem.** O [guia de como precificar produto](/guias/como-precificar-produto/) mostra o método, e a margem de produto digital fica entre 45% e 80% Venda para um grupo pequeno primeiro.** Dez vendas com feedback valem mais que uma campanha com mil visitas.****
 
 ## Ferramentas, custos e prazos
 
@@ -72,6 +70,17 @@ A segunda conta é a conversão da página de venda. Uma página com oferta clar
 
 O [guia de como escolher ferramenta de IA](/guias/como-escolher-ferramenta-de-ia/) ajuda a decidir o que assinar, e o [guia de custo real de ter MEI](/guias/custo-real-de-ter-mei/) mostra as despesas que ficam fora da conta.
 
+## Licença, termos de uso e pirataria
+
+Produto digital não é protegido por direito autoral de forma prática: o arquivo que chega ao cliente é um link, e link pode ser compartilhado. Isso muda a estratégia de defesa.
+
+A primeira linha de defesa é **não entregar o original editável quando o original é o produto**. Se o valor está na planilha com fórmulas e validações, entregue um arquivo com as fórmulas ativas, não o equivalente "limpo". Se o valor está no layout, entregue PDF ou vídeo, não o arquivo editável. Se o valor está na atualização contínua, entregue acesso, não arquivo.
+
+A segunda linha é **ter termo de uso simples e visível**, com a licença que o cliente recebe, o que é proibido (revenda, redistribuição, compartilhamento de acesso) e o que acontece em caso de abuso. Isso não impede a cópia, mas cria a base para pedir remoção e para reclamar junto à plataforma de onde o material vazou.
+
+A terceira é **usar marca d'água e identificador do cliente** nos arquivos, principalmente em material entregue por e-mail ou link temporário. Assim, a origem de um vazamento fica visível e o cliente que recebeu pode ser avisado.
+
+Por fim, considere a **política de reembolso** da plataforma como parte do design do produto: em outubro de 2026, a taxa de cancelamento e reembolso na maioria das plataformas digitais fica entre 5% e 15%, e material mal explicado é a causa mais comum. A entrega bem estruturada reduz esse número mais do que qualquer trava técnica.
 ## Erros comuns que travam a venda de produto digital
 
 - **Fazer o que a concorrência já faz.** "Ebook de marketing digital" é commodity. Produto digital bom resolve tarefa específica que o cliente já tentou resolver.

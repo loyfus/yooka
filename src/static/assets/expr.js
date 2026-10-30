@@ -30,13 +30,6 @@ export function evalExpr(expr, vars = {}) {
         i++;
         const right = parseTerm();
         left = c === '+' ? left + right : left - right;
-      } else if (c === '*' || c === '/' || c === '%') {
-        i++;
-        const right = parseTerm();
-        left = c === '*' ? left * right : c === '/' ? left / right : left % right;
-      } else if (c === '^') {
-        i++;
-        left = Math.pow(left, parseTerm());
       } else {
         return left;
       }
@@ -59,57 +52,65 @@ export function evalExpr(expr, vars = {}) {
 
   const parseFactor = () => {
     ws();
+    let base;
+
     if (src[i] === '(') {
       i++;
-      const v = parseExpr();
+      base = parseExpr();
       ws();
       if (src[i] === ')') i++;
-      return v;
-    }
-    if (src[i] === '-') {
+    } else if (src[i] === '-') {
       i++;
-      return -parseFactor();
-    }
-    if (src[i] === '+') {
+      base = -parseFactor();
+    } else if (src[i] === '+') {
       i++;
-      return parseFactor();
-    }
-    const numMatch = /^\d+(\.\d+)?/.exec(src.slice(i));
-    if (numMatch) {
-      i += numMatch[0].length;
-      return parseFloat(numMatch[0]);
-    }
-    const idMatch = /^[a-zA-Z_][a-zA-Z0-9_]*/.exec(src.slice(i));
-    if (idMatch) {
-      i += idMatch[0].length;
-      const name = idMatch[0];
-      ws();
-      if (src[i] === '(') {
-        i++;
-        const args = [];
+      base = parseFactor();
+    } else {
+      const numMatch = /^\d+(\.\d+)?/.exec(src.slice(i));
+      if (numMatch) {
+        i += numMatch[0].length;
+        base = parseFloat(numMatch[0]);
+      } else {
+        const idMatch = /^[a-zA-Z_][a-zA-Z0-9_]*/.exec(src.slice(i));
+        if (!idMatch) throw new Error(`Expressão inválida em "${expr}" (posição ${i})`);
+        i += idMatch[0].length;
+        const name = idMatch[0];
         ws();
-        if (src[i] !== ')') {
-          for (;;) {
-            args.push(parseExpr());
-            ws();
-            if (src[i] === ',') {
-              i++;
-              continue;
+        if (src[i] === '(') {
+          i++;
+          const args = [];
+          ws();
+          if (src[i] !== ')') {
+            for (;;) {
+              args.push(parseExpr());
+              ws();
+              if (src[i] === ',') {
+                i++;
+                continue;
+              }
+              break;
             }
-            break;
           }
+          ws();
+          if (src[i] === ')') i++;
+          const fn = FUNCTIONS[name];
+          if (!fn) throw new Error(`Função desconhecida: ${name}`);
+          base = fn(...args);
+        } else {
+          const v = vars[name];
+          if (v === undefined) throw new Error(`Variável desconhecida: ${name}`);
+          base = Number(v) || 0;
         }
-        ws();
-        if (src[i] === ')') i++;
-        const fn = FUNCTIONS[name];
-        if (!fn) throw new Error(`Função desconhecida: ${name}`);
-        return fn(...args);
       }
-      const v = vars[name];
-      if (v === undefined) throw new Error(`Variável desconhecida: ${name}`);
-      return Number(v) || 0;
     }
-    throw new Error(`Expressão inválida em "${expr}" (posição ${i})`);
+
+    // Expoente: liga mais forte que multiplicação e é associativo à direita.
+    ws();
+    if (src[i] === '^') {
+      i++;
+      return Math.pow(base, parseFactor());
+    }
+    return base;
   };
 
   const result = parseExpr();

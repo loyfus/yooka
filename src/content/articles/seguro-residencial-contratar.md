@@ -25,7 +25,7 @@ Seguro residencial para contratar deve ser avaliado pelo valor de referência do
 
 Seguro residencial é um contrato em que a seguradora assume o risco de certos eventos sobre o seu imóvel e seu conteúdo, mediante o pagamento de um prêmio. A estrutura tem quatro peças que você precisa entender antes de assinar:
 
-1. **Valor de referência.** É a quantia usada para calcular a indenização, normalmente o custo de reposição do imóvel (quanto custa reconstruir), não o valor de mercado do terreno. Se vocêили o valor de referência for baixo demais, a indenização em caso de sinistro parcial fica também baixa.
+1. **Valor de referência.** É a quantia usada para calcular a indenização, normalmente o custo de reposição do imóvel (quanto custa reconstruir), não o valor de mercado do terreno. Se o valor de referência for baixo demais, a indenização em caso de sinistro parcial fica também baixa.
 2. **Franquia.** Percentual ou valor fixo que você paga em cada sinistro. É o principal tradeoff entre prêmio e custo no sinistro.
 3. **Coberturas.** Os riscos que estãoactually protegidos. O que não está listado na apólice não está coberto, por mais que o material de venda diga "proteção completa".
 4. **Franquia e assistências.** Serviços de emergência 24 horas: chaveiro, elétrica, hidráulica, vidros e, em geral, assistência funerária.
@@ -38,14 +38,14 @@ A distinção que mais gera decepção é entre **seguro residencial** e **assis
 2. **Liste o que você realmente quer proteger.** O imóvel, o conteúdo (móveis, eletro), o responsabilidade civil (danos que você causar a vizinhos) e a assistência. Cada bloco tem custo próprio.
 3. **Defina a franquia aceitável.** Compare a mesma cobertura com franquia de 5%, 10% e 15%. A diferença de prêmio entre elas costuma ser de 20% a 40%. Escolha pelo seu perfil de risco, não pelo menor valor da tabela.
 4. **Peça pelo menos três propostas.** Use o simulador de cada seguradora e compare a mesma cobertura, a mesma franquia e o mesmo valor de referência. Comparar "premium different" com coberturas diferentes não leva a lugar nenhum.
-5. **Leia as exclusões antes de tudo.** É lá que mora o problema: marcas (perda de profits), produtos com deterioração por umidade e riscos não relacionados a incêndio e, em geral, eventos de guerra, tremor de terra e movimento de massa, salvo opção específica.
+5. **Leia as exclusões antes de tudo.** É lá que mora o problema: marcas, produtos com deterioração por umidade e riscos não relacionados a incêndio e, em geral, eventos de guerra, tremor de terra e movimento de massa, salvo opção específica.
 6. **Verifique a assistência e o seu escopo.** Quantas assistsências por ano, horário de atendimento, raio de ação, se a mão de obra está incluída ou só o material, e o valor máximo por serviço.
 7. **Confira o processo de sinistro.** Peça o número do telefone de sinistro, o prazo de regulação e a documentação exigida. Sem isso, o seguro só serve no papel.
 8. **Compare com a conta do condomínio e com o IPTU.** Em alguns condomínios, o seguro do prédio cobre apenas a estrutura comum. O seguro da sua unidade é o que cobre o seu apartamento. A [segunda via do IPTU](/guias/iptu-segunda-via/) e o [guia para reduzir contas de casa](/guias/como-reduzir-contas-de-casa/) ajudam a ver o peso total de moradia.
 
 ## Tabela: custo por tipo de cobertura
 
-Valores de referência de outubro de 2026, para apartamento de 80 m2 com valor de referência de R$ 250.000. Preços variam por seguradora, cidade eDedicated. Use como ordem de grandeza.
+Valores de referência de outubro de 2026, para apartamento de 80 m2 com valor de referência de R$ 250.000. Preços variam por seguradora, cidade e região. Use como ordem de grandeza.
 
 | Tipo de seguro | Custo anual de referência | O que cobre | Franquia típica |
 |---|---|---|---|
@@ -53,7 +53,7 @@ Valores de referência de outubro de 2026, para apartamento de 80 m2 com valor d
 | Seguro residencial básico | R$ 300 a R$ 600 | Incêndio, explosão, raio, vendaval, roubo, danos elétricos | 10% a 20% por sinistro |
 | Seguro residencial intermediário | R$ 500 a R$ 900 | Básico mais impacto de veículo, vendaval ampliado, queda de raio ampliada | 5% a 15% por sinistro |
 | Seguro residencial completo | R$ 800 a R$ 1.500 | Completo mais inundação, tremor de terra, responsabilidade civil familiar | 5% a 10% por sinistro |
-| Seguro deContents separado | R$ 150 a R$ 400 | Móveis, eletro e objetos de valor | 10% a 20% por sinistro |
+| Seguro de conteúdo separado | R$ 150 a R$ 400 | Móveis, eletro e objetos de valor | 10% a 20% por sinistro |
 | Seguro de responsabilidade civil | R$ 100 a R$ 300 | Danos causados a terceiros e a unidades vizinhas | Conforme contrato |
 | Seguro de celular (seguro do aparelho) | R$ 200 a R$ 900 por ano | Roubo, queda, dano acidental do aparelho | 10% a 25% do valor |
 
@@ -73,10 +73,38 @@ Valores de referência de outubro de 2026, para apartamento de 80 m2 com valor d
 | Responsabilidade civil familiar | Não | Cobertura específica |
 | Danos por enchente natural | Não | Verifique a apólice do bairro |
 
+## Como comparar duas propostas na prática
+
+Comparar seguro residencial em site de agregador é útil para ter um preço de referência, mas a comparação final precisa ser feita item a item. Um roteiro curto:
+
+1. **Iguale o valor de referência.** Se uma proposal usa R$ 250.000 e outra usa R$ 300.000, a segunda vai parecer mais cara sem ser. Iguale a base antes de comparar.
+2. **Liste as coberturas em duas colunas.** Escreva o que está coberto em cada uma e marque as diferenças. Perceba se a diferença de preço se explica pelas coberturas.
+3. **Confira a franquia em reais, não em percentual.** Some o percentual de cada cobertura e compare os valores absolutos. Uma proposta com 10% de franquia em cobertura maior pode custar mais no sinistro.
+4. **Some o custo da assistência.** Compare a assistência incluída com o que você pagaria separado por um serviço avulso. Em geral, incluir é mais barato.
+5. **Verifique o prazo de ajuste e a periodicidade.** O prêmio costuma ser anual, mas algumas seguradoras vendem mensal com recarregamento. Some o custo anual.
+6. **Confira a possibilidade de cancelamento.** Pergunte por escrito se existe carência para determinado tipo de sinistro e qual o prazo de regulação do aviso.
+
+O resultado desse processo costuma ser uma economia de 10% a 25% sem trocar de cobertura, apenas comparando as mesmas coisas com as mesmas bases.
+
+## Perguntas para fazer à seguradora antes de fechar
+
+Guarde estas perguntas e mande por mensagem, para ter a resposta por escrito:
+
+- Qual é o valor de referência adotado na apólice e como ele será atualizado?
+- Quais coberturas estão contratadas e quais são os limites de cada uma, em reais?
+- Qual a franquia, em percentual e em valor absoluto, por sinistro e por cobertura?
+- Quais assistências estão incluídas, quantas vezes por ano, com qual raio de ação e horário?
+- Quais riscos estão expressamente excluídos?
+- Como funciona a regulação do sinistro e em quanto tempo a indenização é paga?
+- O prêmio é reajustado por qual índice e qual a data de renovação?
+- Em caso de sinistro parcial, a indenização é paga em dinheiro ou em material?
+
+A oitava pergunta é a que mais economiza na hora do sinistro: muitas apólices permitem escolher entre dinheiro ou reparo, e o dinheiro costuma ser melhor quando o serviço é improvisado por um prestador escolhido por você.
+
 ## Erros comuns que transformam o seguro em dinheiro jogado fora
 
-- **Assegurar por valor de mercado e não de reposição.** Com a queda da、建筑 cost, o valor de mercado do imóvel pode estar bem acima do custo de reposição. A seguradora indeniza até o valor de referência.
-- **Não declarar o valor do conteúdo.** Sem a lista de móveis e eletro, a indenização de benDanific fica muito abaixo do prejuízo real.
+- **Assegurar por valor de mercado e não de reposição.** Com a queda da、 cost, o valor de mercado do imóvel pode estar bem acima do custo de reposição. A seguradora indeniza até o valor de referência.
+- **Não declarar o valor do conteúdo.** Sem a lista de móveis e eletro, a indenização fica muito abaixo do prejuízo real.
 - **Confundir assistência com seguro.** Assistência cobre serviço; seguro indeniza. Sem o seguro, um incêndio é perda total do patrimônio.
 - **Escolher a franquia mais alta só para pagar menos.** Franquia de 20% em cobertura de R$ 50.000 significa R$ 10.000 no bolso no momento do sinistro. Se você não tem essa reserva, a franquia alta é falsa economia.
 - **Não verificar a assistência incluída.** Existe seguro barato com assistência limitada a poucas intervenções por ano e raio de ação curto.
@@ -94,4 +122,4 @@ O cálculo é direto: compare o prêmio anual com o prejuízo máximo que você 
 
 Para quem é MEI e quer protecting o patrimônio e o custo do seguro dentro do orçamento da empresa, o [custo real de ter MEI](/guias/custo-real-de-ter-mei/) mostra como o prêmio entra na conta fixa mensal. E, se a sua prioridade agora é reduzir o total da fatura em vez de aumentar a proteção, o [orçamento familiar passo a passo](/guias/orcamento-familiar-passo-a-passo/) organiza a decisão.
 
-Vale a pena citar a分辨 principal: o seguro residencial é um dos poucos produtos em que o custo do serviço acessório (a assistência) e a indenização são coisas separadas. Peça sempre a tabela de coberturas e a tabela de assistências, lado a lado, antes de comparar preço.
+Vale a pena citar a distinção principal: o seguro residencial é um dos poucos produtos em que o custo do serviço acessório (a assistência) e a indenização são coisas separadas. Peça sempre a tabela de coberturas e a tabela de assistências, lado a lado, antes de comparar preço.

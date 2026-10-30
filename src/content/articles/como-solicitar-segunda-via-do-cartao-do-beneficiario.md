@@ -42,7 +42,7 @@ A segunda via entra em cena em situações comuns:
 
 - o cartão físico foi perdido, extraviado, danificado ou ficou ilegível;
 - o cartão emitido ainda não chegou ao endereço cadastrado;
-- a tarjeta foi emitida em formato antigo, sem QR Code, e a cidade ou o serviço já exige o modelo com leitura por QR Code;
+- o cartão foi emitido em formato antigo, sem QR Code, e a cidade ou o serviço já exige o modelo com leitura por QR Code;
 - o beneficiário precisa de um comprovante impresso para apresentar em um convênio.
 
 Para quem tem **apenas** o benefício assistencial (o antigo BPC), existe ainda o **crachá do beneficiário**, um documento com foto usado para conseguir passagem gratuita em transportes públicos. O crachá é emitido presencialmente na agência do INSS e tem regra própria. O cartão de benefícios digital tem emissão mais simples, e é o que este guia mostra.
@@ -93,7 +93,7 @@ Regras de emissão podem ser alteradas pelo INSS sem aviso prévio. **Verifique 
 
 Na farmácia, o documento normalmente é lido por um leitor de código de barras ou QR Code, e o atendente confere se o benefício está ativo e qual a data de início. Em muitos convênios, não basta o cartão: é preciso também o documento de identidade do beneficiário.
 
-No transporte público, as prefeituras têm regras próprias. Onde existe o "Cartão de Benefício" municipal ou o passe livre para idosos, o cartão do INSS é aceito como documento de comprovação, mas o cadastro do benefício é conferido no sistema da cidade. Em cidades que usam bilhetão digital, o cadastro é feito no próprio prefeitura.
+No transporte público, as prefeituras têm regras próprias. Onde existe o "Cartão de Benefício" municipal ou o passe livre para idosos, o cartão do INSS é aceito como documento de comprovação, mas o cadastro do benefício é conferido no sistema da cidade. Em cidades que usam bilhetão digital, o cadastro é feito na própria prefeitura.
 
 Em repartições e bancos, o cartão serve de comprovação de renda para análise de crédito e para abertura de conta. Nesse caso, convém levar o documento impresso, porque o PDF aberto no celular costuma ser recusado por sistemas que não leem tela.
 
@@ -102,7 +102,7 @@ Quem ainda não tem o cartão e quer saber como ele se relaciona com outros docu
 ## O que fazer se der errado
 
 - **O benefício não aparece na Carteira de Benefícios.** Primeiro confirme em "Meus benefícios" se ele está ativo e se a data de início já passou. Se estiver ativo e ainda assim ausente, force a atualização do aplicativo, deslogue da conta e entre de novo.
-- **O cartão não é lido pelo leitor.** Em geral é qualidade de impressão. Regerar a via em PDF e imprimir em resolução maior resolve. Evite imprimir em papel muito fino, porque o QR Code perde contraste.
+- **O cartão não é lido pelo leitor.** Em geral é qualidade de impressão. Gere a via em PDF de novo e imprima em resolução maior: isso resolve. Evite imprimir em papel muito fino, porque o QR Code perde contraste.
 - **O documento está desatualizado.** Cada emissão gera um novo arquivo. Se o benefício foi revisto ou suspenso, a via antiga não vale mais: emita uma nova.
 - **Erro de dados no documento.** Nome incorreto ou número de benefício trocado exigem correção do cadastro no Meu INSS antes da nova emissão. Sem corrigir, o erro se repete em todas as vias.
 - **A conta gov.br está bloqueada.** Após tentativas incorretas, o acesso é travado. Use a recuperação de senha pelo portal gov.br ou o desbloqueio por biometria no aplicativo.

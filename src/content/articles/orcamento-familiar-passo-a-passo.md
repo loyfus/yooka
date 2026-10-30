@@ -109,7 +109,7 @@ Um detalhe que muda tudo: tenha uma conta separada só para o orçamento de gast
 ## Erros comuns que quebram o orçamento
 
 - **Fazer orçamento com a renda bruta.** Planejar com o bruto e planejar com o líquido é a causa número um de orçamento estourado no primeiro mês.
-- **Não considerar gastos não recorrentes.** Presente de aniversário, IPTU, matrícula escolar, revisão do carro,ISTS de viagem. Entram no orçamento anual, não mensal.
+- **Não considerar gastos não recorrentes.** Presente de aniversário, IPTU, matrícula escolar, revisão do carro, custos de viagem. Entram no orçamento anual, não mensal.
 - **Esquecer o 13º e as férias.** Se você é CLT, calcule o ano inteiro com 13 salários. O [guia do 13º salário](/guias/13-salario-como-calcular/) e o [guia de férias](/guias/como-calcular-ferias/) mostram o impacto real. Com MEI, o equivalente é o DAS dos 12 meses mais a sazonalidade do caixa.
 - **Não separar contas.** Um cartão só, um extrato só. Isso impede saber para onde foi o dinheiro.
 - **Zerar a reserva para dar seguinte.** Usar a reserva em emergência é o motivo de ela existir, mas você precisa repor logo depois.

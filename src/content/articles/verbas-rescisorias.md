@@ -81,6 +81,19 @@ Além das verbas legais, há itens que aparecem com frequência e que têm trata
 
 Um erro comum de quem está saindo é achar que o TOTAL do TRCT é o valor do acerto. Na prática, o TRCT separa verbas, descontos e o FGTS em blocos distintos, e é essa separação que permite conferir item por item.
 
+## Quais documentos pediu para o acerto
+
+Quando a empresa enumera as verbas rescisórias, ela entrega documentos que você precisa conferir antes de assinar. O Termo de Rescisão do Trabalho (TRCT) é o principal, e vem acompanhado de:
+
+- Avia de， demonstrativo das verbas, com cada linha discriminada e o valor correspondente.
+- O comprovante de recolhimento do FGTS do mês da rescisão e o demonstrativo do saldo da conta vinculada, já com a multa aplicada.
+- A chave de conectividade, que permite o acesso à conta do FGTS a qualquer momento, sem dependência da empresa.
+- As guias do seguro-desemprego, quando o caso é cabível.
+- O termo de quitação das verbas rescisórias, que é o documento que encerra a relação.
+
+A leitura do TRCT começa pelo bloco de verbas e termina no bloco de descontos. Um erro comum é ler apenas o total e não verificar as linhas, que é exatamente onde a divergência costuma estar. Em caso de dúvida em uma linha específica, peça o cálculo dela por escrito antes de assinar: o prazo para questionar é curto.
+
+
 ## O que o empregador é obrigado a fazer e o que é opcional
 
 Obrigações legais na rescisão sem justa causa:

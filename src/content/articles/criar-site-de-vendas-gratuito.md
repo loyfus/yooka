@@ -19,7 +19,7 @@ faq:
     a: "Focar na aparência e esquecer o caminho da compra. Página sem oferta clara, sem prova social, sem prazo e sem preço visível faz a pessoa sair. Teste a página em celular e cronometre quanto tempo leva do clique ao pagamento."
 ---
 
-Criar site de vendas gratuito é possível e dá para sair do zero em um fim de semana: existe plataforma que entrega página de pagamento, catálogo, checkout e entrega automática sem cobrança de mensalidade. O que nunca é de graça é o processamento: a taxa por venda (4% a 9% em plataformas de produto digital, mais a tarifa do Pix) e o trabalho de escrever a oferta, produzir a prova e gerar tráfego.
+Criar site de vendas gratuito é possível e dá para sair do zero em um fim de semana: existem plataformas que entregam página, checkout e entrega automática sem cobrar mensalidade. O que nunca é de graça é o processamento: a taxa por venda (4% a 9% em plataformas de produto digital, mais a tarifa do Pix) e o trabalho de escrever a oferta, produzir a prova e gerar tráfego.
 
 ## O que dá para fazer de graça e o que não dá
 
@@ -43,12 +43,10 @@ Os planos gratuitos mudam com frequência. Trate a coluna da taxa como referênc
 2. **Escolha a plataforma pelo tipo de entrega.** Produto digital e curso pedem checkout com entrega automática. Catálogo maior e variations pedem loja. Avaliação de preço e taxa está no [guia de como precificar produto](/guias/como-precificar-produto/).
 3. **Abra a conta e complete o cadastro.** Nome, e-mail, documento e dados de saque. Deixe a etapa de cadastro pronta antes de divulgar, porque o primeiro pagamento exige análise.
 4. **Configure o recebimento por Pix e cartão.** Taxa, prazo de repasse e dados bancários. O [guia de Pix para MEI](/guias/pix-mei-receber/) detalha como o Pix funciona na operação e o [guia de como emitir NFS-e](/guias/como-emitir-nfse/) resolve a nota.
-5. **Monte a página com uma estrutura de seis blocos.** Proposta de valor, problema, solução, prova (depoimentos ou demonstração), preço e chamada final. Uma seção por bloco, sem texto decorativo.
+5. **Monte a página com uma estrutura de sete blocos.** Proposta de valor, problema, solução, prova (depoimentos ou demonstração), preço e chamada final. Uma seção por bloco, sem texto decorativo.
 6. **Adicione a prova.** Print do resultado, vídeo curto de quem usa, depoimento com nome e empresa. Sem prova, o preço parece alto.
 7. **Escreva o texto de cada bloco com a linguagem da busca.** Use o termo que a pessoa digita. O [guia de marketing com IA](/guias/marketing-com-ia/) mostra como gerar variações sem publicar texto genérico.
-8. **Teste em celular e meça o tempo até o pagamento.** Abra no celular, clique como se fosse cliente e cronometre. Se levar mais de dois minutos entre escolher e pagar, existe atrito.
-9. **Coloque prova social e garantia antes de divulgar.** "Mais de 300 alunos" e "7 dias de garantia" removem as duas objeções mais comuns na hora da compra.
-10. **Só então traga tráfego.** WhatsApp, Instagram, grupos, indicação. O [guia de marketing para pequeno negócio](/guias/marketing-para-pequeno-negocio/) mostra a ordem que funciona para operação local.
+8. **Teste em celular e meça o tempo até o pagamento.** Abra no celular, clique como se fosse cliente e cronometre. Se levar mais de dois minutos entre escolher e pagar, existe atrito Coloque prova social e garantia, e só então traga tráfego.** "Mais de 300 alunos" e "7 dias de garantia" removem as duas objeções mais comuns na hora da compra. O [guia de marketing para pequeno negócio](/guias/marketing-para-pequeno-negocio/) mostra a ordem que funciona para operação local.**
 
 ## O que configurar antes de abrir o link para o público
 
@@ -62,6 +60,36 @@ Uma lista de verificação curta evita a maioria dos problemas:
 - **Tag de origem** em cada link, para saber de onde veio a venda: link different para WhatsApp, Instagram e indicação.
 
 O [guia de como criar produto digital](/guias/como-criar-produto-digital/) detalha o que colocar na área de entrega da plataforma, e o [guia de curso online como vender](/guias/curso-online-como-vender/) mostra a estrutura completa de um funil de curso.
+
+## A estrutura ideal de uma página que converte
+
+Existe um esqueleto de página que funciona na maioria dos casos de produto digital e curso, e ele é mais curto do que as pessoas imagriam:
+
+| Ordem | Bloco | O que resolve | Tamanho |
+|---|---|---|---|
+| 1 | Título e proposta de valor | "Isto é para quem você pensa que é" | 1 frase |
+| 2 | Dor do público | "Eu te entendo porque isso acontece comigo" | 3 a 5 linhas |
+| 3 | Demonstração do produto | "Veja o que você recebe" | Imagem, vídeo ou 8 linhas |
+| 4 | Prova | "Outros já conseguiram" | 3 depoimentos com nome |
+| 5 | O que está incluído | "Nenhum item está faltando" | Lista de 6 a 10 itens |
+| 6 | Preço, garantia e prazo | "Quanto custa e o que acontece se não gostar" | Caixa destacada |
+| 7 | Chamada final | "O que fazer agora" | Botão repetido 3 vezes |
+
+O erro mais comum é inverter a ordem: colocar o preço no bloco 6 e a demonstração no bloco 3 com uma imagem de banco que não mostra o produto. O inverso também acontece, com a demonstração no fim e o preço escondido. A ordem acima respeita a sequência natural da decisão: primeiro identifico se é para mim, depois vejo como é, depois creio, depois entendo o que recebo, e só então decido o preço.
+
+Para quem escreve a página pela primeira vez, a dificuldade está em escrever a dor do público sem generalizar. Escreva como a pessoa falaria, não como um manual. O [guia de marketing com IA](/guias/marketing-com-ia/) ajuda a gerar cinco variações do bloco 2 e escolher a que mais parece conversa.
+
+## Testes que revelam onde a página perde a venda
+
+Uma página que não vende quase sempre tem um ponto de atrito específico, e dá para encontrá-lo sem ferramenta cara:
+
+1. **Teste dos 5 segundos.** Mostre a página por 5 segundos e pergunte a alguém: "o que é vendido aqui e para quem?". Se a resposta não vier em uma frase, o título está fraco.
+2. **Teste do celular.** Abra no celular com dados móveis, não no wifi do escritório. Meça o tempo de carregamento e clique até o checkout.
+3. **Teste do link colado.** Mande o link pelo WhatsApp, como o cliente receberia. A página que funciona com o logo no topo da tela do celular é a que converte.
+4. **Teste do preço sem explicação.** Tente dizer em voz alta, para outra pessoa, por que vale aquele valor. Se você não consegue em duas frases, o bloco de prova está fraco.
+5. **Teste da objeção.** Peça a cinco pessoas que já compraram de você que digam a maior dúvida que tiveram antes de pagar. Essa lista é o conteúdo da seção de prova.
+
+O [guia de como precificar produto](/guias/como-precificar-produto/) entra exatamente no teste 4, e o [guia de como criar produto digital](/guias/como-criar-produto-digital/) mostra o que colocar na demonstração do bloco 3.
 
 ## Erros comuns que fazem o site não vender
 

@@ -21,7 +21,14 @@ jobs:
         env:
           SITE_URL: ${{ vars.SITE_URL }}
 
+      - name: Publicar a chave do IndexNow
+        run: |
+          if [ -n "${{ secrets.INDEXNOW_KEY }}" ]; then
+            echo "${{ secrets.INDEXNOW_KEY }}" > public/${{ secrets.INDEXNOW_KEY }}.txt
+          fi
+
       - name: Enviar URLs ao IndexNow
+        if: ${{ secrets.INDEXNOW_KEY != '' }}
         run: node scripts/indexnow.js
         env:
           INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}

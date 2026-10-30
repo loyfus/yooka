@@ -10,11 +10,11 @@ featured: false
 draft: false
 faq:
   - q: "Qual a diferença entre taxa de juros e CET?"
-    a: "A taxa de juros é só uma parte do custo. O CET soma juros, IOF, tarifas e encargos, e mostra o valor real da dívida. Dois crédito com a mesma taxa podem ter CET bem diferente por causa das tarifas."
+    a: "A taxa de juros é só uma parte do custo. O CET soma juros, IOF, tarifas e encargos, e mostra o valor real da dívida. Dois créditos com a mesma taxa podem ter CET bem diferente por causa das tarifas."
   - q: "Empréstimo pessoal é mais barato que cartão no rotativo?"
     a: "Quase sempre. O rotativo do cartão gira em torno de 13% a 15% ao mês, enquanto o empréstimo pessoal bem negociado fica entre 1,5% e 4% ao mês no período. Em prazo maior, o empréstimo ganha com folga."
   - q: "Preciso de fiador ou avalista?"
-    a: "Depende do perfil e da modalidade. Empréstimo com garantia de bem ou penhor, crédito consignado e crédito com garantia de imóvel dispensam avalista. Empréstimosem garantia para pessoa com score baixo costuma exigir avalista ou um bem em garantia."
+    a: "Depende do perfil e da modalidade. Empréstimo com garantia de bem ou penhor, crédito consignado e crédito com garantia de imóvel dispensam avalista. Empréstimos sem garantia para pessoa com score baixo costuma exigir avalista ou um bem em garantia."
   - q: "Consigo contratar empréstimo pessoal sendo negativado?"
     a: "É difícil em bancos grandes, mas possível em plataformas de crédito online, fintechs e sociedades de crédito. A taxa costuma ser bem mais alta e o valor liberado, menor. Compare o CET antes de aceitar."
 ---

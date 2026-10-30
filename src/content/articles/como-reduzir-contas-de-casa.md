@@ -16,7 +16,7 @@ faq:
   - q: "Reduzir a vazão do chuveiro economiza quanto?"
     a: "Um chuveiro que consome 12 litros por minuto e passa para 9 litros economiza cerca de 30% da água do banho. Para uma família de quatro, com quatro banhos diários de 8 minutos, isso representa algo entre R$ 40 e R$ 70 por mês, dependendo da tarifa local."
   - q: "Vale a pena trocar a geladeira antiga por uma nova?"
-    a: "Se a geladeira tem mais de 10 anos, a economia de energia pode chegar a 30% a 40%, e a conta de luz de uma geladeira antiga consome o equivalente a um ar-condicionado ligado o dia todo. Verifique a etiqueta de consumo e calcule o payback antes de trocar."
+    a: "Se a geladeira tem mais de 10 anos, a economia de energia pode chegar a 30% a 40%, e a conta de luz de uma geladeira antiga consome o equivalente a um ar-condicionado ligado o dia todo. Verifique a etiqueta de consumo e calcule o tempo de retorno antes de trocar."
 ---
 
 Como reduzir contas de casa funciona melhor quando você age sobre os três maiores gastos da fatura: transporte, energia e comunicação. Ajustes pequenos e permanentes cortam mais do que brigar com uma concessionária, e a economia aparece na fatura do mês seguinte. A meta realista para uma família média é reduzir de R$ 200 a R$ 500 por mês sem cortar qualidade de vida.

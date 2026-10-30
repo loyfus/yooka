@@ -3,7 +3,7 @@
   "slug": "nubank",
   "category": "custos-e-planos",
   "tagline": "Conta digital grátis, cartão de crédito e CDB no mesmo app",
-  "description": "Banco digital com conta e cartão de crédito grátis, Pix sem custo, CDB com rendimento diário e conta PJ para receber das vendas.",
+  "description": "Banco digital com conta, Pix e cartão de crédito grátis, CDB com rendimento diário, cartão virtual para loja e conta PJ para receber das vendas.",
   "url": "https://nubank.com.br",
   "affiliateUrl": "https://nubank.com.br/?via=yooka",
   "price": "Grátis para pessoa física e conta PJ",
@@ -24,12 +24,30 @@
     "Cartões com cobertura internacional, como o Metal, custam bem mais e não são necessários para MEI"
   ],
   "features": [
-    { "name": "Conta e Pix grátis", "detail": "Transferência, Pix e boleto sem tarifa, com pagamento por biometria" },
-    { "name": "Cartão de crédito", "detail": "Cartão físico e virtual, com limite ajustável e sem anuidade" },
-    { "name": "Caixinho CDB", "detail": "Reserva de emergência com rendimento diário, 100 por cento do CDI" },
-    { "name": "Conta PJ", "detail": "Conta de empresa com cartão PJ, Pix e extrato separado do pessoal" },
-    { "name": "Boleto e limite", "detail": "Boleto no app e ajuste de limite de Pix e cartão na hora" },
-    { "name": "Seguro e ofertas", "detail": "Proteções do cartão e ofertas de crédito, sem custo quando não são usadas" }
+    {
+      "name": "Conta e Pix grátis",
+      "detail": "Transferência, Pix e boleto sem tarifa, com pagamento por biometria"
+    },
+    {
+      "name": "Cartão de crédito",
+      "detail": "Cartão físico e virtual, com limite ajustável e sem anuidade"
+    },
+    {
+      "name": "Caixinho CDB",
+      "detail": "Reserva de emergência com rendimento diário, 100 por cento do CDI"
+    },
+    {
+      "name": "Conta PJ",
+      "detail": "Conta de empresa com cartão PJ, Pix e extrato separado do pessoal"
+    },
+    {
+      "name": "Boleto e limite",
+      "detail": "Boleto no app e ajuste de limite de Pix e cartão na hora"
+    },
+    {
+      "name": "Seguro e ofertas",
+      "detail": "Proteções do cartão e ofertas de crédito, sem custo quando não são usadas"
+    }
   ],
   "useCases": [
     "Receber o Pix da venda no celular, sem taxa, e ter o dinheiro disponível no mesmo dia",
@@ -39,6 +57,10 @@
   ],
   "bestForWho": "Brasileiro que quer conta digital gratuita para o dia a dia e, se tiver CNPJ, uma conta PJ separada para o negócio.",
   "verdict": "O Nubank foi a virada de chave na relação do brasileiro com banco: conta, Pix e cartão sem tarifa eliminaram a conta com tarifa da vida de muita gente. Para MEI, a conta PJ resolve um problema real, que é misturar o caixa do negócio com o de casa. O CDB com 100 por cento do CDI é o outro lado bom, porque transforma app em reserva de emergência com resgate no mesmo dia. Os pontos de atenção são honestos: sacar para fora tem custo e valor mínimo, o que prende saldo, e o CDB é papel do próprio banco, com a proteção do FGC até o limite legal. Nada disso atrapalha quem opera dentro do app. Para quem faz pix de valor alto e precisa mover dinheiro, compare antes.",
-  "alternatives": ["inter", "c6-bank", "picpay"],
+  "alternatives": [
+    "inter",
+    "c6-bank",
+    "picpay"
+  ],
   "updated": "2026-10-30"
 }

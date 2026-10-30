@@ -19,7 +19,7 @@ faq:
     a: "Pode, desde que não haja sobreposição de jornada e as atividades sejam compatíveis. Cada relação tem suas próprias obrigações: CLT com registro no eSocial e PJ com nota fiscal e recolhimento próprio."
 ---
 
-CLT ou PJ depende do que você prioriza. CLT entrega férias, 13º, FGTS, seguro-desemprego e proteção contra demissão sem justa causa. PJ costuma pagar mais por hora, permite escolher clientes e agenda, mas joga para você o INSS, o 13º, as férias e a falta de garantia. Na prática, PJ costuma compensar em contratos acima de R$ 6.000,00 por mês e em trabalhos por prazo; CLT costuma vencer quando o que você quer é estabilidade e previsibilidade de renda.
+CLT ou PJ depende do que você prioriza. CLT entrega férias, 13º, FGTS, seguro-desemprego e proteção contra demissão sem justa causa. PJ costuma pagar mais por hora e permite escolher clientes, mas joga para você o INSS, o 13º, as férias e a falta de garantia. PJ compensa em contratos acima de R$ 6.000,00 por mês; CLT vence quando o que você quer é estabilidade.
 
 ## O que muda na prática entre CLT e PJ
 

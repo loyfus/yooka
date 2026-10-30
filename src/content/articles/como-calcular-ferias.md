@@ -19,7 +19,7 @@ faq:
     a: "Não. Férias são direito constitucional e não podem ser renunciadas nem convertidas em dinheiro em hipótese alguma. Se a empresa oferece pagamento em vez de férias, isso não afasta oBis..."
 ---
 
-Como calcular férias é somar um mês de salário dividido por 12 para cada mês trabalhado no período aquisitivo, multiplicar pelo terço constitucional e somar o resultado. Para quem trabalhou os 12 meses do período, isso dá 30 dias de férias mais um terço do salário. Quem foi demitido antes do fim do período recebe as férias proporcionais. Os valores de referência deste guia são de outubro de 2026: confirme no seu caso, porque salário e regras mudam.
+Como calcular férias é somar um mês de salário dividido por 12 para cada mês trabalhado no período aquisitivo, multiplicar pelo terço constitucional e somar o resultado. Quem trabalhou 12 meses recebe 30 dias de férias mais um terço do salário. Quem foi demitido antes do fim do período recebe as férias proporcionais. Referência: outubro de 2026.
 
 ## O que as férias são dentro do CLT
 
@@ -75,6 +75,23 @@ A perda do período aquisitivo ocorre nas hipóteses do art. 130 da CLT. As mais
 | Rescisão antes do fim do período | Férias proporcionais com 1/3 | Não se aplica |
 
 O ponto de atenção: a falta injustificada não pode ser descontada de férias já gozadas sem previsão em acordo ou convenção coletiva. Descontos de faltas e de repouso semanal remunerado (RSR) dependem do que estiver pactuado. Em caso de dúvida no cálculo do saldo, o caminho é o TRT da região.
+
+## Férias no eSocial e na folha: o que conferir no documento
+
+O pagamento das férias não é um evento separado no sistema: ele aparece na folha mensal, no mês em que as férias começam ou em um mês anterior, se a empresa optar pelo pagamento antecipado. Isso gera uma dúvida frequente: o empregado recebe férias em dois formatos, dependendo de quando começa o período.
+
+O formato mais comum tem a empresa pagando o valor integral das férias (salário mais um terço) em uma única parcela, antes do início do período. Nesse formato, o valor pago no início do gozo serve também para a folha do mês seguinte, porque o empregado continua com o salário recebido integralmente como referência.
+
+O segundo formato é o pagamento parcelado ou a retenção das férias no mês seguinte ao gozo, prática comum em empresas de grande porte e no serviço público. Nesse caso, o valor aparece descontado na folha de retorno e o empregado sente o impacto no mês de volta ao trabalho.
+
+Para conferir se está certo, olhe quatro campos na folha ou no demonstrativo:
+
+- O valor bruto de férias, que deve corresponder ao cálculo de 1/12 por mês do período aquisitivo.
+- O terço de 1/3, que aparece como linha separada ou somado ao bruto.
+- A base de INSS e IRRF aplicada, que pode ser o piso ou o teto do INSS, conforme a regra vigente.
+- O registro do período de férias no eSocial, com a data de início e de término.
+
+Se algum desses campos divergir do cálculo deste guia, o primeiro passo é pedir o demonstrativo de cálculo ao RH ou à contabilidade. Divergência de terço e de proporcional é comum em folhas processadas por sistema automático com regra mal configurada, e o ajuste é rápido quando identificado cedo.
 
 ## O que o empregador é obrigado a fazer e o que é opcional
 

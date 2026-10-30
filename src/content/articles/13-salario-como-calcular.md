@@ -77,6 +77,21 @@ A confusão mais comum no mês de rescisão é somar 13º proporcional e férias
 
 O aviso-prévio merece uma observação: o art. 487 da CLT limita a projeção do aviso-prévio a 60 dias (7 dias por ano de serviço, com o máximo de 60 no caso do art. 487, parágrafo único). Quem tem mais de 20 anos de serviço e mais de 60 anos de idade não é obrigado a cumprir o aviso-prévio, segundo a regra do art. 487, § 2º. Confirme no seu caso.
 
+## Do que é feito o 13: as três etapas que o pagamento
+
+O caminho do 13º tem três etapas, e vale conhecê-las porque é nelas que aparecem os erros de cálculo.
+
+**Primeira: a apuração.** A folha de dezembro é montada com um mês de adicional para quem tem 12 meses de serviço. O sistema usa a referência de salário cadastrada no mês de dezembro, e não a média dos últimos meses. É por isso que uma， redução de salário em novembro aparece como redução do 13º.
+
+**Segunda: a base de INSS.** A contribuição do empregado é calculada em separado, sobre uma base que corresponde ao 13º e limitada ao teto do INSS. Quando o salário do empregado está acima do teto, o desconto percentual efetivo é menor do que o dos meses normais, o que costuma gerar a percepção de que "o 13º veio com desconto menor". É o contrário do que muita gente imagina.
+
+**Terceira: o pagamento e o registro.** O valor entra na folha de dezembro, ou no mês anterior quando as férias começaram em dezembro, e o registro vai para o eSocial junto com o FGTS. Quem recebe em conta bancária tem o valor creditado; quem recebe em dinheiro ou cheque recebe na data.
+
+Uma observação útil para o planejamento: o 13º não é corrigido por índice. Não existe reajuste do 13º como existe para o salário mínimo. Se o salário não foi reajustado no ano, o 13º segue o salário do mês de dezembro, sem qualquer correção adicional.
+
+Para saber como esse valor se conecta com outros dois IMPORTANTES do ano, o guia de [férias](/guias/como-calcular-ferias/) mostra o cálculo das férias com 1/3, e o de [CLT ou PJ](/guias/clt-ou-pj/) compara o peso dessas verbas na escolha do modelo de trabalho.
+
+
 ## O que o empregador é obrigado a fazer e o que é opcional
 
 Obrigações legais:

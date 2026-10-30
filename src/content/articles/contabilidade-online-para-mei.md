@@ -25,7 +25,7 @@ Contabilidade online para MEI é o serviço em que um contador ou uma plataforma
 
 O MEI é o único regime da Simples Nacional em que a contabilidade não é obrigatória. A Lei Complementar 123/2006 dispensa o microempreendedor da contratação de contador responsável, e o trabalho de escrituração e de emissão de documentos fica com o próprio titular. O que a lei permite é a contratação de contador para orientação e acompanhamento.
 
-Na prática, "contabilidade online" é um pacote mensal em que o prestador assume as tarefas repetitivas e Sie da a você um painel do que foi feito:
+Na prática, "contabilidade online" é um pacote mensal em que o prestador assume as tarefas repetitivas e entrega a você um painel do que foi feito:
 
 - Cálculo e geração do DAS mensal, com conferência do faturamento usado como base.
 - Emissão ou organização da NFS-e, com envio ao cliente e arquivo do XML.
@@ -38,7 +38,7 @@ O que fica com você, mesmo com contador: decidir preço, fechar contrato com cl
 
 ## Passo a passo para contratar e deixar a rotina rodando
 
-1. **Defina o que você quer terceirizar.** Para a maioria dos MEI, o núcleo é: DAS, NFS-e e declaração anual. Se o município não aderiu ao recolhimento conjunto, inclua a declaração do ISS, que é o item mais Easy de esquecer.
+1. **Defina o que você quer terceirizar.** Para a maioria dos MEI, o núcleo é: DAS, NFS-e e declaração anual. Se o município não aderiu ao recolhimento conjunto, inclua a declaração do ISS, que é o item mais fácil de esquecer.
 2. **Peça três propostas e compare o escopo, não só o preço.** Verifique quantas NFS-e estão inclusas, se há cobrança por nota extra, quem emite o documento (o contador ou a plataforma), qual o prazo de resposta e se o preço inclui atendimento de urgência.
 3. **Verifique o acesso ao MEI.** Para gerar o DAS e emitir NFS-e no seu nome, o contador precisa de autorização no Portal do Empreendedor, formalizada por solicitação de acesso ou procuração eletrônica. Confirme que esse processo está no escopo do serviço.
 4. **Formalize e peça a base.** Contrato simples, valor mensal, escopo por escrito e o CNPJ da empresa que vai cobrar. Peça também as credenciais de acesso ao portal e a lista do que será obrigação sua.
@@ -53,9 +53,9 @@ O que fica com você, mesmo com contador: decidir preço, fechar contrato com cl
 | Básico | R$ 60 a R$ 90 por mês | DAS mensal, até um volume fixo de NFS-e, declaração anual | Faturamento até R$ 20.000 por ano, poucas notas |
 | Intermediário | R$ 90 a R$ 150 por mês | Mais NFS-e, conciliação bancária, controle de custos, atendimento | Faturamento de R$ 20.000 a R$ 50.000 por ano |
 | Completo | R$ 150 a R$ 250 por mês | Folha, livros, alteração cadastral, suporte por WhatsApp, relatórios | Faturamento acima de R$ 50.000 por ano |
-| Contador autônomo | R$ 100 a R$ 300 por mês | Escopo谈判 amplo definido em contrato, atendimento próximo | Quem quer tratar com uma pessoa só |
+| Contador autônomo | R$ 100 a R$ 300 por mês | Escopo amplo definido em contrato, atendimento próximo | Quem quer tratar com uma pessoa só |
 
-Os preços variam por cidade, por volume de notas e por nível de atendimento. Contadores que já atendem muitos MEI cobram menos por cliente, porque o processo é padronizado; plataformas cobram mais, mas entregam painel e automação. Confirme o valor antes de fechar e peça o que está fora da faixa inclusa, como nota extra, alteração de CNAE ou atendimento em节日. Corte a dúvida com uma pergunta direta: quantas NFS-e por mês estão inclusas no valor cotado.
+Os preços variam por cidade, por volume de notas e por nível de atendimento. Contadores que já atendem muitos MEI cobram menos por cliente, porque o processo é padronizado; plataformas cobram mais, mas entregam painel e automação. Confirme o valor antes de fechar e peça o que está fora da faixa inclusa, como nota extra, alteração de CNAE ou atendimento em feriado. Corte a dúvida com uma pergunta direta: quantas NFS-e por mês estão inclusas no valor cotado.
 
 ## Quando compensa e quando não compensa
 
@@ -69,6 +69,28 @@ Vale a pena contratar contabilidade quando você tem ao menos um destes cenário
 - Quer se aposentar como segurado e precisa de histórico de contribuições organizado.
 
 Não compensa, em geral, quando o faturamento está abaixo de R$ 15.000 por ano, não há employees, você não presta serviço (logo, não emite NFS-e) e o DAS é de valor fixo. Nesse cenário, o tempo de 30 minutos por mês com o [guia do DAS](/guias/das-mei-como-pagar/) entrega o mesmo resultado.
+
+## O que o contador entrega e o que continua sendo seu
+
+Contratar contabilidade não transfere a gestão do negócio. Ela transfere o registro contábil. Saber a diferença evita a frustração de quem espera que alguém resolva preço e cliente, e evita o erro oposto, de continuar pagando contador e fazendo tudo duas vezes.
+
+O que costuma vir no pacote mensal:
+
+- Boleto do DAS gerado, com conferência da base de faturamento e aviso quando o valor muda de faixa.
+- NFS-e emitida ou revisada, XML arquivado e nota enviada ao cliente.
+- Declaração anual do MEI montada e revisada com os dados do ano, pronta para você transmitir e assinar.
+- Declaração do ISS nos municípios em que ela é separada.
+- Relatório mensal de entradas, saídas, impostos pagos e resultado do período.
+
+O que continua com você:
+
+- Definir preço, contrato, escopo e prazo de entrega do serviço prestado.
+- prospectar e atender cliente, emitir a nota quando o contador não emite.
+- Conferir if os números da contabilidade batem com o extrato e com o contrato.
+- Guardar os documentos que não são fiscais ( WhatsApp com cliente, contrato assinado, comprovante de entrega).
+- Decidir quando contratar, ampliar ou rescindir o serviço.
+
+Uma boa revisão trimestral de 30 minutos, com quem presta o serviço, evita a surpresa de discover que a NFS-e do mês não foi emitida, que o ISS ficou sem declarar ou que o faturamento do PGDAS-D está defasado. É o mesmo circuito de controle descrito na [lista de obrigações do MEI](/guias/obrigacoes-do-mei-lista/), aplicado com a contabilidade na outra ponta.
 
 ## Erros comuns na contratação
 

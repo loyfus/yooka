@@ -27,7 +27,7 @@ O Fundo de Garantia do Tempo de Serviço guarda 8% do salário bruto depositado 
 
 Na regra clássica, chamada de **saque-rescisão**, o saldo fica bloqueado até a saída do emprego, e só pode ser sacado integralmente.
 
-No **saque-aniversário**, criado pela Lei 13.932/2019 e alterado pela Lei 14.905/2024, o trabalhador pode retirar dinheiro ao longo do ciclo de dois anos do seu contrato. A cada mês de aniversário, um novo ciclo começa, e o saque liberado é correspondente ao conjunto de parcelas de juros e amortização que incidem sobre o saldo.
+No **saque-aniversário**, criado pela Lei 13.932/2019 e alterado pela Lei 14.905/2024, o trabalhador pode retirar dinheiro ao longo do ciclo de dois anos do seu contrato. A cada mês de aniversário, um novo ciclo começa, e o saque liberado corresponde ao conjunto de parcelas de juros e amortização que incidem sobre o saldo.
 
 O ponto mais importante para não errar: **o saque-aniversário não retira o dinheiro da conta**. Ele antecipa parte do que está em nome do trabalhador e usa esse valor para abater o financiamento da empresa. O saldo continua sendo seu, com a mesma atualização monetária.
 
@@ -62,7 +62,7 @@ Quem tem R$ 10.000,00 de saldo parado há anos tende a ter limite anual maior do
 
 O aplicativo FGTS, da Caixa Econômica Federal, e o aplicativo do Banco do Brasil são os canais oficiais. Os dois usam a conta gov.br e pedem autorização por níveis de acesso para o serviço "FGTS - Saque-aniversário".
 
-1. **Baixe o aplicativo oficial.** Instale o aplicativo FGTS da Caixa ou o aplicativo do Banco do Brasil diretamente da loja oficial do celular. Aplicativos com nome parecido são falsos, e a Caixa alerta que nunca pede senha ou senha do banco por mensagem.
+1. **Baixe o aplicativo oficial.** Instale o aplicativo FGTS da Caixa ou o aplicativo do Banco do Brasil diretamente da loja oficial do celular. Aplicativos com nome parecido são falsos, e a Caixa alerta que nunca pede senha do banco por mensagem.
 2. **Entre com a conta gov.br.** Toque em "Entrar" e informe CPF e senha do gov.br. Na primeira vez, o aplicativo vai pedir autorização: aceite o nível de acesso que permite consultar o saldo e solicitar saques. Sem essa autorização, o aplicativo abre sem mostrar a conta vinculada.
 3. **Confirme o celular e aceite o termo de segurança.** O aplicativo pede a vinculação do número de telefone e a leitura do Termo de Responsabilidade, em que você confirma ser o titular da conta. Essa confirmação protege contra saque indevido.
 4. **Abra a aba de saques.** Na tela inicial, localize o item de saque-aniversário, que aparece como "Saque-aniversário" ou "Meus saques", dependendo da versão.
@@ -110,7 +110,7 @@ Os percentuais de juros, as regras de reversão e as condições das linhas de c
 - **O valor liberado é menor do que o esperado.** Isso costuma acontecer quando parte do saldo ainda está no período de carência do ciclo, que reduz a parcela de amortização. É comportamento normal do sistema.
 - **O crédito não caiu na data.** Depois do status "Validado", o banco tem até 5 dias úteis. Se passou disso, contate a central do aplicativo com o número do protocolo.
 - **A pessoa quer sair do saque-aniversário.** Verifique no aplicativo se há botão de reversão disponível. A regra mudou nos últimos anos e o prazo é real: depois de encerrada a possibilidade, o saldo fica no regime do saque-aniversário até o fim do contrato.
-- **Uso do saldo como garantia de empréstimo.** Antes de assinar, confira o Custo total, o número de parcelas e o que acontece com a quitação antecipada. Finalizar o contrato de trabalho com o saldo usado em empréstimo exige atenção redobrada.
+- **Uso do saldo como garantia de empréstimo.** Antes de assinar, confira o custo total, o número de parcelas e o que acontece com a quitação antecipada. Finalizar o contrato de trabalho com o saldo usado em empréstimo exige atenção redobrada.
 
 ## Conclusão
 

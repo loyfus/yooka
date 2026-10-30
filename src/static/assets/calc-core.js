@@ -19,6 +19,19 @@ export function inss(base) {
   );
 }
 
+/** IRRF mensal pela tabela progressiva com dedução simplificada (referência: outubro de 2026). */
+export function irrf(base, deducao = 528) {
+  const b = Math.max(0, (Number(base) || 0) - deducao);
+  const faixa = (teto, piso, aliq) => Math.max(0, Math.min(b, teto) - piso) * aliq;
+  return (
+    faixa(2428.0, 0, 0) +
+    faixa(2826.65, 2428.0, 0.075) +
+    faixa(3751.05, 2826.65, 0.15) +
+    faixa(4664.68, 3751.05, 0.22) +
+    Math.max(0, b - 4664.68) * 0.275
+  );
+}
+
 /** Faixas do DAS do MEI (referência: outubro de 2026). */
 export const DAS_FAIXAS = [
   { min: 0, max: 18000, rate: 0.05, ded: 828.4, label: 'Até R$ 18.000/ano' },
@@ -60,6 +73,9 @@ export function computeOutputs(calc, values) {
       case 'inss':
         value = inss(evalExpr(o.base, v));
         break;
+      case 'irrf':
+        value = irrf(evalExpr(o.base, v), Number(v.deducaoIrpf) || 528);
+        break;
       case 'das':
         value = dasAnual(v[o.field]).mensal;
         break;
@@ -80,8 +96,14 @@ export function computeOutputs(calc, values) {
         const base = evalExpr(o.base, v);
         let total = base;
         if (o.inss) total -= inss(base);
+        if (o.irrf) total -= irrf(base, Number(v.deducaoIrpf) || 528);
         if (o.outros) total -= Number(v.outros) || 0;
         value = total;
+        break;
+      }
+      case 'descontoSalarial': {
+        const base = evalExpr(o.base, v);
+        value = ((inss(base) + irrf(base, Number(v.deducaoIrpf) || 528)) / Math.max(1, base)) * 100;
         break;
       }
       default:

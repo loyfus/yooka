@@ -2,34 +2,52 @@
   "name": "Tiny ERP",
   "slug": "tiny-erp",
   "category": "mei-e-nota-fiscal",
-  "tagline": "ERP brasileiro que cabe na microempresa de verdade",
-  "description": "ERP online para micro e pequena empresa, com controle de estoque, NFS-e, financeiro e integrações prontas para o ecommerce e o marketplace.",
+  "tagline": "O antigo Tiny, hoje Sistema ERP da Olist",
+  "description": "ERP para micro e pequena empresa com NF-e, NFC-e e NFS-e, controle de estoque, financeiro, cobrança por Pix e integração com marketplaces e lojas.",
   "url": "https://www.tiny.com.br",
   "affiliateUrl": "https://www.tiny.com.br/?via=yooka",
-  "price": "A partir de R$ 0/mês (plano gratuito limitado)",
-  "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. Existe plano gratuito com limites de usuário e de pedidos, e planos pagos cobrados por usuário.",
+  "price": "A partir de R$ 66/mês",
+  "priceNote": "Plano Avance a R$ 66/mês, Construa a R$ 177/mês, Impulsione a R$ 390/mês e Domine a R$ 948/mês, com desconto nos primeiros meses no ciclo anual. Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. As taxas de recebimento caem a cada plano, de R$ 1,20 por Pix QR no Avance a R$ 0,35 no Domine.",
   "bestFor": "Comércio com estoque que precisa emitir nota e controlar venda, custo e margem",
   "rating": 4.4,
   "ratingCount": 741,
   "pros": [
-    "Planilha de estoque, custo e margem ligada direto à NFS-e, sem redigitar o produto a cada venda",
-    "Integrações prontas com marketplaces e plataformas de e-commerce, o que evita retrabalho de pedido",
-    "Controle financeiro com fluxo de caixa por conta e conciliação bancária automática",
-    "Cultura de uso conhecida no varejo brasileiro: material de treinamento e material de curso em português"
+    "NF-e, NFC-e e NFS-e já no plano de entrada, com Sped fiscal a partir do plano intermediário",
+    "Estoque, custo e margem ligados direto à nota, sem redigitar o produto a cada venda",
+    "Cobrança por Pix, boleto e maquininha dentro do ERP, o que evita pagar gateway separado",
+    "Teste gratuito de 30 dias e plano mensal sem fidelidade, para testar antes de assinar o ano"
   ],
   "cons": [
-    "O plano gratuito tem limites apertados de usuário e de pedidos, e empurra a cobrança rápido",
-    "Planos pagos são cobrados por usuário adicional, o que encarece quando o time cresce",
-    "A curva de aprendizado do Tiny é mais íngreme que a de um sistema simples de NFS-e",
-    "Migração de outro ERP ou de planilha antiga é trabalhosa e raramente sai perfeita de primeira"
+    "O preço escala rápido: R$ 66 no Avance e R$ 948 no Domine, com saltos grandes entre os planos",
+    "Cada transação de Pix ou boleto tem tarifa, de R$ 1,20 a R$ 0,35 por operação conforme o plano",
+    "A curva de aprendizado do sistema é mais íngreme que a de um emissor de NFS-e simples",
+    "A marca mudou: o Tiny hoje é o Sistema ERP da Olist, o que confunde quem procura suporte antigo"
   ],
   "features": [
-    { "name": "Estoque e margem", "detail": "Preço de custo, margem por produto e alerta de estoque baixo" },
-    { "name": "NFS-e e NFC-e", "detail": "Emissão de nota de serviço e de venda com serie automática" },
-    { "name": "Financeiro integrado", "detail": "Contas a pagar e a receber, fluxo de caixa e comissionamento" },
-    { "name": "Marketplaces e e-commerce", "detail": "Integração com lojas e marketplaces para importar pedidos e estoque" },
-    { "name": "Relatórios de giro", "detail": "Curva ABC, produtos mais vendidos e resultado por canal de venda" },
-    { "name": "Conta do contador", "detail": "Acesso do contador online para ver o caixa sem depender de relatório" }
+    {
+      "name": "Três tipos de nota",
+      "detail": "NF-e, NFC-e e NFS-e disponíveis já no plano Avance"
+    },
+    {
+      "name": "Estoque e margem",
+      "detail": "Preço de custo, margem por produto e alerta de estoque baixo"
+    },
+    {
+      "name": "Financeiro integrado",
+      "detail": "Contas a pagar e a receber, fluxo de caixa e comissionamento"
+    },
+    {
+      "name": "Cobrança no ERP",
+      "detail": "Pix QR, boleto e maquininha com tarifa por transação, menor nos planos de cima"
+    },
+    {
+      "name": "Marketplaces e e-commerce",
+      "detail": "Integração com lojas e marketplaces para importar pedidos e estoque"
+    },
+    {
+      "name": "Sped e contabilidade",
+      "detail": "Sped fiscal a partir do Impulsione e acesso online para o contador"
+    }
   ],
   "useCases": [
     "Baixar o estoque do ecommerce e do marketplace em um só lugar, sem planilha duplicada",
@@ -38,7 +56,11 @@
     "Fechar o comissãoamento dos vendedores do mês com o relatório pronto do ERP"
   ],
   "bestForWho": "Comércio e prestador de serviço com estoque, que precisa emitir nota e saber a margem de cada produto sem montar planilha à mão.",
-  "verdict": "O Tiny é o ERP que aguenta o crescimento da microempresa sem virar um sistema de grande porte. A parte que realmente economiza tempo é o link entre estoque, preço de custo e NFS-e: quando o cadastro está certo, a nota sai com a margem já calculada. O plano gratuito serve para testar e para quem fatura pouco, mas os limites de usuário e de pedidos empurram a assinatura rápido, e o preço por usuário adicional é onde o custo cresce. Em loja com estoque real e mais de um usuário, a assinatura se paga no primeiro mês se a operação fica em um lugar só. Em empresa que fatura pouco e emite pouca nota, um sistema de NFS-e simples é mais barato e mais rápido de aprender.",
-  "alternatives": ["omie", "contabilizei", "iugu"],
+  "verdict": "O Tiny, hoje rebatizado como Sistema ERP da Olist, é o ERP que aguenta o crescimento da microempresa sem virar um sistema de grande porte. A parte que realmente economiza tempo é o link entre estoque, preço de custo e nota: quando o cadastro está certo, a nota sai com a margem já calculada. E o teste de 30 dias com plano mensal sem fidelidade reduz muito o risco de assinar no escuro. O que pesa é a escada de preços, de R$ 66 a R$ 948 por mês, com saltos que obrigam a decidir bem a faixa. As tarifas de Pix e boleto também são reais e somam na operação de alto volume. Em loja com estoque e mais de um usuário, o plano de cima se paga no primeiro mês se a operação fica em um lugar só.",
+  "alternatives": [
+    "omie",
+    "contabilizei",
+    "iugu"
+  ],
   "updated": "2026-10-30"
 }

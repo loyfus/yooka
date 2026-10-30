@@ -19,7 +19,7 @@ faq:
     a: "Meça pedidos originados de cada canal, retorno do investimento em anúncio e taxa de conversão de WhatsApp para pedido. Contagem de curtidas e de seguidores não indica resultado e costuma distrair mais do que ajudar."
 ---
 
-Marketing para pequeno negócio é o conjunto de ações de baixo custo que fazem o cliente do seu bairro ou da sua cidade encontrar você, confiar e voltar. Em outubro de 2026, o marketing local ainda é a relação mais vantajosa para a maioria das pequenas empresas brasileiras: a distância entre a decisão e a compra é curta, e o concorrente mais forte não está no outro lado do mundo, está na rua ao lado.
+Marketing para pequeno negócio é o conjunto de ações de baixo custo que fazem o cliente do seu bairro encontrar você, confiar e voltar. Em outubro de 2026, o marketing local é a relação mais vantajosa para as pequenas empresas brasileiras: a distância entre a decisão e a compra é curta, e o concorrente mais forte não está do outro lado do mundo, está na rua ao lado.
 
 ## Por onde começar: os quatro canais que resolvem a maior parte
 
@@ -58,6 +58,36 @@ Definir o canal principal evita a dispersão que consome o tempo de quem opera s
 | Ferramentas de IA para criativos | R$ 50 a R$ 200 | 4 a 8 horas | 1 a 2 semanas | Tempo de produção |
 
 Repare que o tempo do dono aparece como custo real na maior parte das linhas. Se você opera sozinho, uma hora por dia de marketing tira uma hora do atendimento, e isso aparece na receita que deixa de entrar.
+
+## As métricas que importam em um pequeno negócio
+
+Em negócio pequeno, a métrica que engana é a vaidade: curtidas, seguidores, alcance e visualizações de página. Elas geram sensación de progresso sem gerar receita. O conjunto mínimo que funciona tem quatro números:
+
+| Métrica | Como medir | Frequência | Meta de referência |
+|---|---|---|---|
+| Origem dos pedidos | Campo de origem no formulário ou na conversa | Semanal | 60% vindo dos canais orgânicos |
+| Conversão de WhatsApp | Conversas que viram pedido, sobre total de conversas | Semanal | 25% a 45% |
+| Custo por pedido | Investimento em mídia dividido por pedidos | Mensal | Abaixo de 30% do ticket médio |
+| Retorno do cliente | Percentual de pedidos de quem já comprou | Mensal | Acima de 25% |
+
+A quarta é a mais reveladora. Se o retorno de cliente está baixo, o problema não é falta de lead, é entrega ou experiência. Se a conversão de WhatsApp está baixa, o problema é velocidade de resposta ou clareza da oferta. Se a origem está concentrada em um único canal paga, o negócio está refém de algoritmo. O [guia de IA para vendas](/guias/ia-para-vendas/) mostra como transformar esses números em decisão semanal, e o [guia de CRM com IA para vendas](/guias/crm-ia-para-vendas/) mostra onde registrar a origem.
+
+Para a parte fiscal, que precisa estar pronta antes do volume crescer, o [guia de como emitir NFS-e](/guias/como-emitir-nfse/) e o [guia de Pix para MEI](/guias/pix-mei-receber/) resolvem o recebimento e o documento.
+
+## Orçamento mensal realista de um pequeno negócio
+
+O orçamento de marketing de uma operação de R$ 15.000 a R$ 40.000 de faturamento mensal se parece mais com isso:
+
+| Item | Faixa mensal (referência de outubro de 2026) | Peso no faturamento |
+|---|---|---|
+| Ferramentas de IA para criativos e conteúdo | R$ 50 a R$ 200 | 0,3% a 1,3% |
+| Mídia paga | R$ 300 a R$ 3.000 | 2% a 20% |
+| Impressão de material local (cartão, folder) | R$ 50 a R$ 250 | 0,3% a 1,6% |
+| Fotografia e vídeo | R$ 0 a R$ 800 | 0% a 5% |
+| Software de agendamento e CRM | R$ 0 a R$ 200 | 0% a 1,3% |
+| Horas do dono em marketing | 20 a 60 horas | o maior custo real |
+
+A última linha é a que costuma faltar da conta. Se você cobre R$ 40 por hora do seu tempo e gasta 40 horas por mês em marketing, são R$ 1.600 de custo antes de qualquer ferramenta. O [guia de orçamento familiar passo a passo](/guias/orcamento-familiar-passo-a-passo/) mostra como encaixar esse tipo de custo na sua planilha financeira mensal, e o [guia de automação para pequenas empresas](/guias/automacao-para-pequenas-empresas/) mostra como reduzir as horas gastas em tarefas repetitivas de divulgação.
 
 ## Erros comuns que queimam orçamento e tempo
 

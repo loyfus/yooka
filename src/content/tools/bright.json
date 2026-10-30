@@ -3,7 +3,7 @@
   "slug": "bright",
   "category": "custos-e-planos",
   "tagline": "Conta PJ digital com cartão e contabilidade do MEI",
-  "description": "Banco digital para empresa com conta PJ gratuita, cartão de crédito PJ, Pix, CDB e contabilidade online do MEI incluída em plano.",
+  "description": "Banco digital para empresa com conta PJ, cartão de crédito, Pix, CDB e contabilidade do MEI com NFS-e emitida dentro do próprio aplicativo.",
   "url": "https://www.bright.com.br",
   "affiliateUrl": "https://www.bright.com.br/?via=yooka",
   "price": "Grátis para conta PJ; planos pagos a partir de R$ 0/mês",
@@ -24,21 +24,43 @@
     "Contrato anual com fidelidade, e a multa de cancelamento aparece na hora de sair"
   ],
   "features": [
-    { "name": "Conta PJ", "detail": "Conta de empresa com Pix, extrato e limite de transação controlado" },
-    { "name": "Cartão PJ", "detail": "Crédito para a empresa, com limiteIED e compras nacionais" },
-    { "name": "Contabilidade MEI", "detail": "DAS, obrigação mensal e contabilidade online dentro do app" },
-    { "name": "NFS-e", "detail": "Emissão de nota de serviço com envio ao cliente e status de entrega" },
-    { "name": "CDB e reserva", "detail": "Rendimento do dinheiro da empresa dentro do aplicativo" },
-    { "name": "Cartão digital", "detail": "Cartão virtual para assinatura de ferramenta e compra online" }
+    {
+      "name": "Conta PJ",
+      "detail": "Conta de empresa com Pix, extrato e limite de transação controlado"
+    },
+    {
+      "name": "Cartão PJ",
+      "detail": "Crédito para a empresa, com limiteIED e compras nacionais"
+    },
+    {
+      "name": "Contabilidade MEI",
+      "detail": "DAS, obrigação mensal e contabilidade online dentro do app"
+    },
+    {
+      "name": "NFS-e",
+      "detail": "Emissão de nota de serviço com envio ao cliente e status de entrega"
+    },
+    {
+      "name": "CDB e reserva",
+      "detail": "Rendimento do dinheiro da empresa dentro do aplicativo"
+    },
+    {
+      "name": "Cartão digital",
+      "detail": "Cartão virtual para assinatura de ferramenta e compra online"
+    }
   ],
   "useCases": [
     "Abrir conta PJ de MEI e emitir a primeira NFS-e sem sair do aplicativo",
     "Pagar o DAS por Pix direto do caixa da conta da empresa",
-    "Comprar ferramenta de trabalho no cartão PJ e deixar a nota organizer",
+    "Comprar ferramenta de trabalho no cartão PJ e deixar a nota organizada",
     "Separar o caixa da empresa do dinheiro pessoal em um só lugar, com cartão separado"
   ],
-  "bestForWho": "MEI que quer junta de banco digital, cartão de crédito e contabilidade online em um único aplicativo.",
-  "verdict": "O Bright faz uma proposta rara no mercado brasileiro: banco PJ e contabilidade de MEI no mesmo aplicativo, o que elimina a conta separado e a mensalidade do contador. Em uso real, o ganho maior é operacional: emitir nota e pagar o DAS acontecem dentro do mesmo login, sem alternar entre quatro telas. O custo aparece no desenho dos planos, que cobra por volume de serviços e por NFS-e emitida, e na fidelidade contratual. Para MEI que fatura pouco, a conta com contabilidade separada costuma sair mais barata no total. Para quem fatura de forma constante e quer tudo num lugar só, a conta fecha e a dor de mudar de ferramenta quase some.",
-  "alternatives": ["inter", "nubank", "c6-bank"],
+  "bestForWho": "MEI que junta banco digital, cartão de crédito e contabilidade online em um único aplicativo.",
+  "verdict": "O Bright faz uma proposta rara no mercado brasileiro: banco PJ e contabilidade de MEI no mesmo aplicativo, o que elimina a conta separada e a mensalidade do contador. Em uso real, o ganho maior é operacional: emitir nota e pagar o DAS acontecem dentro do mesmo login, sem alternar entre quatro telas. O custo aparece no desenho dos planos, que cobra por volume de serviços e por NFS-e emitida, e na fidelidade contratual. Para MEI que fatura pouco, a conta com contabilidade separada costuma sair mais barata no total. Para quem fatura de forma constante e quer tudo num lugar só, a conta fecha e a dor de mudar de ferramenta quase some.",
+  "alternatives": [
+    "inter",
+    "nubank",
+    "c6-bank"
+  ],
   "updated": "2026-10-30"
 }

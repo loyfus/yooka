@@ -55,7 +55,7 @@ Para MEI, o caminho é o seguinte: se a sua cidade tem sistema próprio em padr�
 ## Passo a passo para emitir a NFS-e
 
 1. **Regularize a empresa.** CNPJ ativo, código de acesso do portal em mãos e inscrição municipal (cadastro de prestador) concluída na prefeitura da sua cidade. Sem o cadastro de prestador, o sistema recusa a emissão.
-2. **Escolha o ambiente de emissão.** Entre no portal nacional da NFS-e ou no sistema da prefeitura e verifique se o seu CNPJ já está homologado para emissão. Em cities com padrão nacional, o portal mostra o botão de emissão de NFS-e para MEI.
+2. **Escolha o ambiente de emissão.** Entre no portal nacional da NFS-e ou no sistema da prefeitura e verifique se o seu CNPJ já está homologado para emissão. Em cidades com padrão nacional, o portal mostra o botão de emissão de NFS-e para MEI.
 3. **Inicie o novo documento.** Clique em "Nova NFS-e" e escolha a natureza da operação como prestação de serviços. Defina se é nota normal, de substituição (quando existe uma nota anterior que precisa ser corrigida) ou retroativa (serviço prestado em período anterior).
 4. **Preencha a discriminação.** Descreva o serviço com clareza: o que foi feito, o período, o código de ocupação e o valor. A discriminação é o campo que o cliente lê e o fisco audita. Escreva como o cliente descreveria o serviço no contrato.
 5. **Informe o tomador.** CPF ou CNPJ, razão social ou nome, endereço e e-mail do cliente. Cliente pessoa jurídica exige CNPJ correto: é por ele que a nota é contabilizada e que as retenções são aplicadas.

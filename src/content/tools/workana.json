@@ -39,6 +39,10 @@
   ],
   "bestForWho": "Freelancer iniciante que precisa do primeiro cliente e de portfólio documentado, e aceita pagar taxa por projeto.",
   "verdict": "O Workana funciona como vitrine de entrada do freelancing brasileiro: o perfil indexado já serve de portfólio e os anúncios com orçamento definido evitam a conversa indigesta de precificar do zero. O problema é a economia por projeto: a taxa incide sobre o valor arrematado, e em contrato pequeno ela pesa demais, enquanto a concorrência por proposta é alta e o retorno demora. Existe ainda o risco clássico de cliente atrasar ou cancelar, mesmo com intermediação da plataforma. O uso estratégico que mais funciona é tratar a plataforma como vitrine, pegar dois ou três contratos para ter histórico e usar a indicação. Como fonte principal de renda, a taxa e a instabilidade cobram caro.",
-  "alternatives": ["rd-station", "hotmart", "kiwify"],
+  "alternatives": [
+    "rd-station",
+    "hotmart",
+    "kiwify"
+  ],
   "updated": "2026-10-30"
 }

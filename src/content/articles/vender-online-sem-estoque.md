@@ -19,7 +19,7 @@ faq:
     a: "Em plataformas de produto digital, a taxa por venda fica entre 4% e 9%, com acréscimo da tarifa do Pix. Em marketplace, a referência de outubro de 2026 é de 12% a 20% sobre o valor vendido, com regras diferentes para frete e para conta profissional."
 ---
 
-Vender online sem estoque é possível e é o caminho mais usado por quem não tem capital para comprar mercadoria. A prática consiste em intermediar a venda: você recebe o pedido, compra do fornecedor ou entrega o produto sob demanda e lucra pela diferença entre o que pagou e o que cobrou. O que você não tem é controle de prazo e de qualidade, e é exatamente aí que a operação trava.
+Vender online sem estoque é possível e é o caminho mais usado por quem não tem capital para comprar mercadoria. A prática consiste em intermediar a venda: você recebe o pedido, compra do fornecedor, entrega o produto sob demanda e lucra pela diferença entre o que pagou e o que cobrou. O que você não tem é controle de prazo e de qualidade, e é aí que a operação trava.
 
 ## Os cinco modelos de venda sem estoque
 
@@ -67,6 +67,24 @@ Um detalhe que quase todo iniciante ignora: **no marketplace, o repasse da venda
 | Mercado Pago, PagSeguro e afins | Comissão por venda ou mensalidade | Você |
 
 Some as linhas da tabela e divida pelo preço de venda. O resultado é a margem real. Se o número não ficar acima de 15% depois de tudo, o negócio só funciona com giro alto, o que significa capital que você não tem.
+
+## Onde esse modelo funciona melhor no Brasil
+
+O ambiente brasileiro muda o que é viável. O primeiro fator é o **prazo de entrega**, que na maior parte do país é de 7 a 15 dias úteis quando o envio é por transportadora e pode chegar a 20 dias em regiões do Norte e Nordeste. Vender sem estoque com promessa de entrega em 3 dias, como aparece em anúncio importado, é descumprir o que foi prometido. O segundo fator é o **custo de frete**, que pesa muito mais em produto de baixo valor: um frete de R$ 18 sobre um item de R$ 39 come metade da margem, e o cliente ainda compara a oferta inteira com o mercado.
+
+O terceiro fator é o **hábito de compra**. Parte relevante dos consumidores brasileiros ainda prefere ver o produto, tocar, testar ou trocar. Isso favorece canal próprio com previsão de retirada, venda presencial com pedido por WhatsApp e serviço com hora marcada, em vez de marketplace com entrega por transportadora. O quarto fator é o **peso do impost** sobre o preço final: como o MEI incide sobre a receita bruta, um preço muito baixo quase não sobra depois do DAS, da taxa da plataforma e da tarifa do Pix.
+
+Por isso, o desenho que funciona melhor no mercado brasileiro costuma combinar três coisas: produto de faixa intermediária (R$ 60 a R$ 200), entrega com prazo honesto e descrição curta, e um canal de origem que já gere confiança, como WhatsApp e indicação.
+
+## A parte documental que trava a venda
+
+Vender sem estoque não reduz a burocracia: ela apenas muda de lugar. Antes de anunciar, cinco itens precisam estar resolvidos:
+
+- **Formalização.** MEI com CNAE compatível com comércio atacadista, varejista ou serviço de intermediação. O [guia de como abrir MEI passo a passo](/guias/como-abrir-mei-passo-a-passo/) mostra o processo e o [guia de quando sair do MEI](/guias/quando-sair-do-mei/) explica os limites de faturamento.
+- **Nota fiscal.** Toda venda precisa de documento. O [guia de como emitir NFS-e](/guias/como-emitir-nfse/) mostra o caminho para serviço, e o [guia de como emitir nota fiscal de serviço](/guias/como-emitir-nota-fiscal-de-servico/) detalha casos específicos.
+- **Conta de recebimento.** Pix com a tarifa da plataforma ou do provedor, sem mistura com a conta pessoal. O [guia de Pix para MEI](/guias/pix-mei-receber/) explica a tarifa e o prazo de repasse.
+- **DAS mensal.** Pago sobre a receita bruta, com data de vencimento ao longo do mês. O [guia de como pagar o DAS](/guias/das-mei-como-pagar/) mostra o cálculo e o [guia de obrigações do MEI](/guias/obrigacoes-do-mei-lista/) traz a lista do que não pode atrasar.
+- **Contabilidade e custos fixos.** Mesmo sem estoque, existe despesa fixa de MEI, contabilidade, embalagem e ferramenta. O [guia de custo real de ter MEI](/guias/custo-real-de-ter-mei/) mostra a conta inteira, e o [guia de contabilidade online para MEI](/guias/contabilidade-online-para-mei/) compara as opções.
 
 ## Erros comuns que quebram a operação
 

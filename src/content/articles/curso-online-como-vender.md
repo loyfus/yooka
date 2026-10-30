@@ -47,9 +47,7 @@ A receita, porém, não é o faturamento. Do valor vendido saem a taxa da plataf
 5. **Grave a capa e a parte que converte.** A aula que mostra o resultado do aluno em 90 segundos é a que vende. A ordem sugerida para a entrega vai do resultado para o método.
 6. **Monte a página de venda com o bloco de prova.** Depoimento, demonstração do conteúdo, garantia e prazo. O [guia de criar site de vendas gratuito](/guias/criar-site-de-vendas-gratuito/) mostra a estrutura completa.
 7. **Escolha a plataforma de checkout.** Compare taxa, prazo de repasse, taxa de assinatura, confirmação de entrega e preço do plano. O quadro de taxas está na seção seguinte.
-8. **Configure a entrega automática e a sequência de e-mail.** Abertura do material, primeiro complemento, lembrete e a oferta do próximo produto. Sem isso, você vende uma vez e esquece o cliente.
-9. **Feche a parte fiscal.** MEI, NFS-e, Pix com a tarifa correta e DAS. O [guia de como abrir MEI](/guias/como-abrir-mei-passo-a-passo/), o [guia de como emitir NFS-e](/guias/como-emitir-nfse/) e o [guia de Pix para MEI](/guias/pix-mei-receber/) resolvem a parte burocrática.
-10. **Lance pequeno e colete feedback.** Venda para dez pessoas primeiro, ajuste a partir do que elas perguntam e só então amplie o tráfego.
+8. **Configure a entrega automática e a sequência de e-mail.** Abertura do material, primeiro complemento, lembrete e a oferta do próximo produto. Sem isso, você vende uma vez e esquece o cliente Feche a parte fiscal.** MEI, NFS-e, Pix com a tarifa correta e DAS. O [guia de como abrir MEI](/guias/como-abrir-mei-passo-a-passo/), o [guia de como emitir NFS-e](/guias/como-emitir-nfse/) e o [guia de Pix para MEI](/guias/pix-mei-receber/) resolvem a parte burocrática Lance pequeno e colete feedback.** Venda para dez pessoas primeiro, ajuste a partir do que elas perguntam e só então amplie o tráfego.****
 
 ## Taxas, prazos e custos por plataforma
 
@@ -64,6 +62,22 @@ A receita, porém, não é o faturamento. Do valor vendido saem a taxa da plataf
 
 Some as três primeiras colunas para saber o custo de vender. Em outubro de 2026, uma venda de R$ 197 em plataforma com taxa de 9% mais tarifa do Pix de 1% deixa R$ 176,13 antes de impostos e antes de qualquer custo de tráfego.
 
+## Como montar a oferta e o preço do curso
+
+O curso se vende pelo resultado que promete, não pelas horas que tem. Uma oferta de curso costuma ter quatro componentes, e a maioria falha em um deles:
+
+| Componente | O que responde | Como escrever |
+|---|---|---|
+| Promessa | Para quem é e o que muda | "Aprenda a montar o plano de vendas do seu negócio em 4 aulas" |
+| Mecanismo | Como funciona | Método com nome, em 3 a 5 passos |
+| Prova | Por que acreditar | Demonstração, depoimento, resultado de aluno |
+| Risco | O que acontece se não gostar | Garantia de 7 dias, cancelamento por um clique |
+
+O **mecanismo com nome** é o que diferencia o curso de um vídeo solto no YouTube. Dê um nome ao método, ensaie a sequência e repita o nome em todas as peças de divulgação. Isso cria reconheibilidade e ocupa espaço na memória do comprador.
+
+Sobre **preço**, a referência prática é o valor do problema para o cliente, não o seu custo de produção. Um curso que economiza dez horas por mês de um profissional cobra entre R$ 197 e R$ 497 se entregar o método. Para começar, o [guia de como precificar produto](/guias/como-precificar-produto/) traz o cálculo completo de margem, e o [guia de como criar produto digital](/guias/como-criar-produto-digital/) mostra como formatar a entrega para justificar o preço.
+
+Por fim, **o preço não é uma decisão de uma vez**. Depois das primeiras dez vendas, com dados de conversão e de pergunta no atendimento, dá para subir o preço ou criar uma versão reduzida para o topo do funil. O [guia de como criar produto digital](/guias/como-criar-produto-digital/) mostra como estruturar esses degraus sem canibalizar a oferta principal.
 ## Erros comuns que travam a primeira venda
 
 - **Gravar antes de saber o que vende.** O material mais bonito não vende. A oferta é o produto; o material é a entrega.

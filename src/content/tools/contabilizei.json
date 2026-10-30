@@ -6,8 +6,8 @@
   "description": "Contabilidade online para MEI e microempresa, com NFS-e emitida dentro do sistema, DAS calculado e atendimento por WhatsApp, em planos mensais.",
   "url": "https://www.contabilizei.com.br",
   "affiliateUrl": "https://www.contabilizei.com.br/?via=yooka",
-  "price": "A partir de R$ 39/mês",
-  "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. A mensalidade varia por porte e por quantidade de notas, e o DAS é cobrado à parte pelo contador.",
+  "price": "A partir de R$ 139/mês",
+  "priceNote": "Plano Básico a partir de R$ 139/mês, com valor que varia conforme o faturamento; Simples Nacional a partir de R$ 195/mês, Lucro Presumido a partir de R$ 239/mês, Padrão a R$ 195/mês e Experts a R$ 395/mês. Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. A abertura de CNPJ está inclusa, mas os planos têm fidelidade de 12 meses.",
   "bestFor": "MEI e microempresa que quer contabilidade e NFS-e sem planilha e sem papelada",
   "rating": 4.3,
   "ratingCount": 682,
@@ -15,19 +15,20 @@
     "NFS-e emitida dentro da própria plataforma, com envio por link e download em lote",
     "DAS calculado com link de pagamento pronto, que corta justamente a maior causa de atraso do MEI",
     "Atendimento por WhatsApp e chat, mais rápido que e-mail para dúvida de nota e de receita",
-    "Mensalidade fixa por CNPJ, sem cobrança por nota emitida ou por documento baixado"
+    "Abertura de CNPJ inclusa nos planos, o que economiza a taxa de contabilidade avulsa na abertura"
   ],
   "cons": [
-    "Contrato com fidelidade de 12 meses e multa rescisória para quem cancela antes do prazo",
-    "Um plano por CNPJ: quem tem duas empresas ou duas unidades paga duas mensalidades",
-    "MEI dentro da faixa de isenção do DAS ainda paga a contabilidade online separada do imposto",
-    "Migração de contabilidade anterior exige abrir mão do histórico e começar o ano do zero"
+    "Fidelidade de 12 meses nos planos, e a multa rescisória aparece na hora de cancelar antes do prazo",
+    "O preço muda conforme o faturamento, então a mensalidade sobe justo quando o negócio está crescendo",
+    "Não há teste grátis: a avaliação é uma conversa com o contador, não um período de uso liberado",
+    "MEI e Simples pagam planos distintos, e o MEI nem sempre tem plano próprio com preço publicado"
   ],
   "features": [
     { "name": "NFS-e online", "detail": "Emissão, envio por e-mail e download em lote no padrão da prefeitura" },
     { "name": "DAS calculado", "detail": "Valor, vencimento e link de pagamento do imposto dentro do painel" },
     { "name": "Contador no WhatsApp", "detail": "Canal direto com a contabilidade, sem formulário e sem esperar e-mail" },
     { "name": "Checklist de obrigações", "detail": "Lista do que fazer no mês, com prazos e links para cada tarefa do MEI" },
+    { "name": "Abertura de CNPJ", "detail": "Registro do CNPJ incluso no plano, sem honorário adicional de abertura" },
     { "name": "Arquivos anuais", "detail": "Download dos livros e arquivos digitais para guardar e entregar ao contador" }
   ],
   "useCases": [
@@ -37,7 +38,11 @@
     "Abrir um CNPJ novo e já deixar contabilidade e emissão de NFS-e rodando no mesmo dia"
   ],
   "bestForWho": "MEI e microempresa que quer fechar a contabilidade e emitir nota sem papel, sem planilha e sem depender de contador local.",
-  "verdict": "A Contabilizei resolve a parte que mais trava o MEI, que é emitir nota e pagar o DAS sem virar contador de si mesmo. O painel é simples de verdade: quem nunca emitiu NFS-e consegue emitir a primeira em poucos minutos pelo WhatsApp, e isso vale mais do que a quantidade de relatórios. O que incomoda é o contrato de fidelidade e a mensalidade por CNPJ, dois custos que passam despercebidos no primeiro mês e aparecem quando já se acostumou. Para quem é MEI com faturamento baixo e um só CNPJ, o custo-benefício fecha. Para quem tem duas empresas, microsafras ou faturamento instável, compare antes de assinar, porque a conta muda rápido.",
-  "alternatives": ["tiny-erp", "omie", "iugu"],
+  "verdict": "A Contabilizei resolve a parte que mais trava o MEI, que é emitir nota e pagar o DAS sem virar contador de si mesmo. O painel é simples de verdade: quem nunca emitiu NFS-e consegue emitir a primeira em poucos minutos pelo WhatsApp, e isso vale mais do que a quantidade de relatórios. O que incomoda é o preço e o contrato: a partir de R$ 139/mês já é uma conta relevante para quem fatura pouco, e a fidelidade de 12 meses com multa impede o ajuste rápido quando a receita muda. Soma-se a isso o salto de valor conforme o faturamento cresce, que chega tarde para quem está começando. Para empresa com faturamento estável, o serviço compensa pelo tempo economizado. Para MEI com receita baixa, compare com um contador local e com um ERP gratuito antes de assinar.",
+  "alternatives": [
+    "tiny-erp",
+    "omie",
+    "iugu"
+  ],
   "updated": "2026-10-30"
 }

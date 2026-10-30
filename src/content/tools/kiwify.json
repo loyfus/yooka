@@ -2,43 +2,47 @@
   "name": "Kiwify",
   "slug": "kiwify",
   "category": "renda-e-negocio",
-  "tagline": "Venda de digital com taxa fixa transparente",
+  "tagline": "Venda de digital com taxa por venda e sem mensalidade",
   "description": "Plataforma brasileira de vendas para curso, ebook e material digital, com checkout, PIX e boleto, comissão de afiliados e cobrança por transação.",
   "url": "https://kiwify.com.br",
   "affiliateUrl": "https://kiwify.com.br/?via=yooka",
-  "price": "A partir de R$ 0/mês + taxa por venda",
-  "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. Não há mensalidade obrigatória para começar; o custo principal é a taxa por venda, cobrada sobre cada transação aprovada e variável conforme o plano e o meio de pagamento.",
+  "price": "8,99% + R$ 2,49 por venda",
+  "priceNote": "Sem mensalidade nem taxa de adesão: o custo é de 8,99% mais R$ 2,49 por venda aprovada, e o saque custa R$ 3,67 por solicitação. Valores de referência em outubro de 2026; planos mudam, confirme no site oficial.",
   "bestFor": "Produtor iniciante que quer começar a vender digital sem pagar assinatura antes de vender",
   "rating": 4.3,
   "ratingCount": 512,
   "pros": [
     "Começa sem mensalidade: o produtor só paga quando vende, o que elimina risco de assinatura parada",
-    "Taxa por venda com estrutura simples e explicada no painel, sem taxa escondida de setup",
-    "Checkout, upsell e order bump já prontos, o que ajuda a subir o ticket médio do produto digital",
-    "Central de afiliados com comissão configurável e repasse automático do saldo"
+    "Estrutura de taxa simples e explicada no painel, sem taxa de instalação e sem cobrança por tarefa",
+    "Checkout, upsell de um clique e entrega automática já prontos, o que ajuda a subir o ticket médio",
+    "PIX e boleto sem sobretaxa própria: vale o percentual da venda mais o custo do saque"
   ],
   "cons": [
-    "A taxa por venda é maior que a de plataformas com plano pago, o que pesa em produto de preço baixo",
-    "Menor ecossistema e menos integrações prontas que a Hotmart, o que exige mais trabalho manual",
-    "Recursos avançados de funil e de teste A/B não existem ou só entram em plano superior",
-    "Repasse e saque têm prazo e regra próprios, o que exige planejar o caixa do produtor"
+    "A taxa de 8,99% mais R$ 2,49 por venda é maior que a das plataformas com plano mensal pago",
+    "O saque cobra R$ 3,67 por solicitação, e esse valor é cobrado mesmo quando a transação falha",
+    "A Kiwify liquida o produtor e não oferece split de pagamento nativo documentado, só coprodução",
+    "Menor ecossistema e menos integrações prontas que a Hotmart, o que exige mais trabalho manual"
   ],
   "features": [
     { "name": "Checkout de venda", "detail": "Página de pagamento com PIX, boleto e cartão, otimizada para celular" },
-    { "name": "Upsell e order bump", "detail": "Oferta de complementro e produto adicional dentro do próprio checkout" },
+    { "name": "Upsell de um clique", "detail": "Oferta complementar oferecida na própria tela de pagamento" },
     { "name": "Central de afiliados", "detail": "Comissão por regra, link de afiliado e painel de desempenho por parceiro" },
     { "name": "Cobrança recorrente", "detail": "Plano mensal e assinatura com cobrança automática e cancelamento online" },
-    { "name": "Produto digital e entrega", "detail": "Upload de arquivos e course, com acesso liberado após a aprovação do pagamento" },
-    { "name": "Repasse de saldo", "detail": "Saldo liberado após o prazo de garantia e transferido para a conta do produtor" }
+    { "name": "Área do produtor", "detail": "Vendas, saldo a receber, taxa aplicada e repasse no mesmo painel" },
+    { "name": "Entrega de conteúdo", "detail": "Curso e arquivo liberados após a aprovação do pagamento" }
   ],
   "useCases": [
-    "Publicar a primeira prova social de um curso e pagar taxa só quando houver venda aprovada",
+    "Publicar a primeira oferta de um curso e pagar taxa só quando houver venda aprovada",
     "Oferecer um upgrade de R$ 47 dentro do checkout de um ebook de R$ 97",
     "Recrutar cinco afiliados para divulgar um produto com comissão de 30 por cento",
     "Cobrar uma assinatura mensal de comunidade e liberar o conteúdo depois do pagamento"
   ],
   "bestForWho": "Produtor de produto digital que está começando, quer estrutura de venda profissional e não quer pagar assinatura antes de faturar.",
-  "verdict": "A Kiwify é a porta de entrada mais honesta do mercado de infoproduto: sem mensalidade, você paga taxa só quando vende, e isso muda a decisão de quem ainda está testando produto. O checkout e o upsell já instalados economizam semanas de trabalho, o que vale mais do que a taxa um pouco maior em relação a plataformas com plano fixo. O lado fraco é a profundidade: funil avançado, integração com ferramenta externa e teste de oferta são mais limitados, e você acaba fazendo mais trabalho manual de campanha. Para quem está na primeira venda, é a escolha com menor risco. Para quem já tem volume e tempo, a Hotmart normalmente compensa pelo ecossistema.",
-  "alternatives": ["hotmart", "monetizze", "shopify"],
+  "verdict": "A Kiwify é a porta de entrada mais honesta do mercado de infoproduto: sem mensalidade, você paga taxa só quando vende, e isso muda a decisão de quem ainda está testando produto. O checkout e o upsell de um clique já instalados economizam semanas de trabalho, o que vale mais do que a taxa um pouco maior em relação a plataformas com plano fixo. O lado fraco é a profundidade: funil avançado, integração com ferramenta externa e teste de oferta são mais limitados, e você acaba fazendo mais trabalho manual de campanha. O custo de saque de R$ 3,67 por solicitação também incomoda quem vende parcelado e recebe em parcelas. Para quem está na primeira venda, é a escolha com menor risco. Para quem já tem volume e tempo, a Hotmart normalmente compensa pelo ecossistema.",
+  "alternatives": [
+    "hotmart",
+    "monetizze",
+    "shopify"
+  ],
   "updated": "2026-10-30"
 }

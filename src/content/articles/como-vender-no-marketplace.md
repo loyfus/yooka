@@ -19,7 +19,7 @@ faq:
     a: "Para começar, sim: marketplace gera as primeiras vendas e a primeira avaliação, e o site próprio permite usar o próprio domínio e lista de contatos. Com o tempo, a venda direta reduz a taxa de 12% a 20% cobrada pelo intermediário."
 ---
 
-Como vender no marketplace é(listar o produto, configurar preço e frete, publicar o anúncio com título e foto que ranks, atender o comprador e emitir a nota) para vender dentro de uma plataforma que já tem tráfego e cobra comissão por venda. O marketplace resolve o problema de confiança e de audiência, e cobra por isso: a referência de outubro de 2026 é de taxa de 12% a 20% sobre o valor vendido, mais frete, mais devolução.
+Como vender no marketplace é listar o produto, configurar preço e frete, publicar o anúncio, atender o comprador e emitir a nota para vender em uma plataforma com tráfego próprio, que cobra comissão por venda. O marketplace resolve o problema de confiança e de audiência, e cobra por isso: a referência de outubro de 2026 é de taxa de 12% a 20% sobre o valor vendido, mais frete e devolução.
 
 ## Como o marketplace ganha dinheiro e como ranqueia
 
@@ -43,9 +43,7 @@ Além disso, existe o efeito de **republish**: republicar o anúncio periodicame
 5. **Calcule o preço com custo total.** Produto, frete de envio, taxa de 12% a 20%, devolução e embalagem. O [guia de como precificar produto](/guias/como-precificar-produto/) tem o método completo, incluindo a conversão entre markup e margem.
 6. **Configure o frete com cuidado.** Frete grátis ajuda na conversão, mas sai do seu bolso e precisa entrar no cálculo. Compare o frete grátis do marketplace com a opção de você ter o custo de envio controlado.
 7. **Escreva a descrição que responde dúvida.** Tamanho, material, prazo, garantia, o que está na caixa e a política de troca. Descrição curta não vende, e item com dúvida gera cancelamento.
-8. **Deixe o estoque e o envio em dia.** Para produto físico, defina o que acontece quando acabar. Prazo quebrado derruba a posição do anúncio inteiro.
-9. **Atenda o comprador em minutos.** A resposta rápida no chat interno é o principal alavancador de conversão do marketplace.
-10. **Republique e revise semanalmente.** Preço, título e foto revisados sobem a conversão sem precisar de novo produto.
+8. **Deixe o estoque e o envio em dia.** Para produto físico, defina o que acontece quando acabar. Prazo quebrado derruba a posição do anúncio inteiro Atenda o comprador em minutos e revise semanalmente.** A resposta rápida no chat interno é o principal alavancador de conversão do marketplace. Preço, título e foto revisados sobem a conversão sem precisar de novo produto.**
 
 ## Taxas, prazos e custos por plataforma
 
@@ -70,6 +68,31 @@ Vender em marketplace sem emitir documento é o erro que mais aparece. O comprad
 5. **Conferir se o CNAE cobre a atividade.** Vender produto físico e serviço com CNAE errado gera inconsistência. Em caso duvidoso, confirme com a contabilidade.
 
 O [guia de contabilidade online para MEI](/guias/contabilidade-online-para-mei/) mostra quanto custa manter isso em dia.
+
+## Frete: a variável que mais muda o resultado
+
+Se você olhar os anúncios do topo de qualquer busca no marketplace, vai perceber que o frete domina a decisão mais que o preço. Isso acontece porque o marketplace mostra o valor do produto e o valor do frete em separado, e o comprador monta o total mentalmente. Um produto de R$ 89 com frete de R$ 29 aparece como R$ 118, e a comparação justa é com um produto de R$ 110 com frete grátis.
+
+Três decisões definem o resultado:
+
+- **Frete grátis assumido por você.** Converte mais, mas tira do preço a margem e antecipa a desembolso. Funciona melhor em ticket acima de R$ 120, onde o frete é menor que 15% do valor.
+- **Frete calculado.** Mantém a margem, mas derruba a conversão e aumenta a taxa de abandono. Compensa em produto de baixo valor ou volumoso.
+- **Frete grátis do marketplace.** O programa de frete grátis do vendedor existe nas plataformas que têm esse modelo, com um teto de vendas por mês. Quando o pedido é elegível, o marketplace arca com o deslocamento e você paga uma tarifa fixa por venda.
+
+Além do valor, há três cuidados de operação. O **prazo anunciado** precisa ser o que o fornecedor realmente cumpre, com folga de dois dias. O **rastreio** precisa ser validado no sistema da transportadora no mesmo dia do despacho, porque anúncio sem rastreio perde posição. E o **endereço de coleta** precisa estar regularizado, porque plataforma que não encontra o remetente cancela o pedido e o vendedor recebe a reputação negatively.
+
+Para produto sem estoque próprio, o fornecedor que faz a entrega precisa ter integração de rastreio com a plataforma. Se não tem, o pedido vai sem rastreio e a taxa de cancelamento sobe. O [guia de vender online sem estoque](/guias/vender-online-sem-estoque/) detalha como negociar com o fornecedor para reduzir esse risco.
+
+## Checklist semanal de um vendedor de marketplace
+
+1. **Anúncios sem estoque.** Pause ou tire do ar o que está sem reposição. Anúncio disponível e sem estoque gera cancelamento, que é o sinal mais forte de queda de posição.
+2. **Preço contra a concorrência.** Refaça a conta de custo total e compare com os cinco primeiros resultados da sua busca.
+3. **Taxa de cancelamento e devolução.** Se passou de 5% no mês, investigue a causa: descrição incompleta, prazo curto ou produto com defeito.
+4. **Repasse pendente.** Confira o cronograma de recebimento, que é de 10 a 30 dias. É nesse intervalo que o caixa fica travado.
+5. **Avaliações.** Responda todas, inclusive as negativas, com texto próprio e prazo de solução. Responder rápido recupera reputação.
+6. **Tempo de resposta no chat.** Acompanhe o tempo médio de atendimento. Acima de 2 horas, a conversão cai.
+7. **Republicação e revisão de título.** Um título revisado com o termo certo recupera posição sem mudar nada no produto.
+8. **Nota fiscal e MEI em dia.** O [guia de como pagar o DAS](/guias/das-mei-como-pagar/) e o [guia de obrigações do MEI](/guias/obrigacoes-do-mei-lista/) organizam a parte que, se atrasar, trava o repasse.
 
 ## Erros comuns que fecham a conta
 
