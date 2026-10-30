@@ -162,7 +162,7 @@ Sem linha de base, não há resultado. Registre por 30 dias antes de começar: c
 5. **Semana 5 — rode um piloto com grupo de controle.** Uma campanha, um canal, dois segmentos: um com mensagem adaptada por IA e outro com a mensagem padrão. Semana suficiente.
 6. **Semana 6 — leia o resultado e decida.** Compare conversão, custo por lead e descadastro. Escale o que ganhou, corrija o que ficou neutro e desligue o que piorou.
 
-Para montar a base técnica, o [guia de como criar agente de IA](/guias/como-criar-agente-de-ia/) mostra o desenho mínimo, e a comparação de modelos está em [ChatGPT x Claude x Gemini](/guias/chatgpt-vs-claude-vs-gemini/).
+Para montar a base técnica, o [guia de como criar agente de IA](/guias/como-criar-agente-de-ia/) mostra o desenho mínimo, e a comparação de modelos está em [ChatGPT x Claude x Gemini](/comparativos/chatgpt-vs-claude-vs-gemini/).
 
 ## Perguntas frequentes sobre marketing com IA
 

@@ -141,13 +141,13 @@ O cenário mais comum no Brasil hoje é a empresa querer montar um agente e não
 
 **Plataforma visual, sem time técnico.** É o caso da padaria com 12 funcionários que quer confirmar pedidos no WhatsApp, ou da clínica que quer reduzir as 40 ligações por dia de agendamento. O custo é maior por unidade de trabalho e a manutenção exige alguém da operação. O [guia de automação com n8n](/guias/automacao-com-n8n/) mostra o caminho.
 
-**Plataforma com código, com time técnico.** É o caso da indústria que precisa ler nota fiscal e conciliar com pedido de compra, ou do escritório de advocacia que precisa processar documentos com padrão próprio. Mais controle, mais velocidade em escala, e exige alguém que program. A comparação está em [n8n vs Make](/guias/n8n-vs-make/) e em [LangChain vs CrewAI](/guias/langchain-vs-crewai/).
+**Plataforma com código, com time técnico.** É o caso da indústria que precisa ler nota fiscal e conciliar com pedido de compra, ou do escritório de advocacia que precisa processar documentos com padrão próprio. Mais controle, mais velocidade em escala, e exige alguém que program. A comparação está em [n8n vs Make](/comparativos/n8n-vs-make/) e em [LangChain vs CrewAI](/comparativos/langchain-vs-crewai/).
 
 **Construção própria.** Só se justifica com volume muito alto, exigência de segurança incomparável ou processo muito específico que nenhuma plataforma atende. O custo de entrada é o mais alto e o prazo é o mais longo.
 
 ## O que comparar entre modelos de linguagem
 
-Esta é a última decisão, e ela é rápida. O [comparativo ChatGPT vs Claude vs Gemini](/guias/chatgpt-vs-claude-vs-gemini/) detalha as diferenças de comportamento. O que importa na escolha, em ordem:
+Esta é a última decisão, e ela é rápida. O [comparativo ChatGPT vs Claude vs Gemini](/comparativos/chatgpt-vs-claude-vs-gemini/) detalha as diferenças de comportamento. O que importa na escolha, em ordem:
 
 1. **Custo por token**, porque é o que aparece na fatura. Claude Haiku 5.5, a US$ 0,10 por milhão de tokens de entrada, serve para triagem e classificação. Claude Sonnet 5.5, a US$ 2,00, é o padrão para agentes de empresa. Claude Opus 5.5, a US$ 4,00 de entrada e US$ 20,00 de saída, é para análise que exige raciocínio pesado.
 2. **Comprimento de contexto**, porque define quanta documentação você consegue enviar de uma vez.

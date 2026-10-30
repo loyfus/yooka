@@ -54,7 +54,7 @@ O Flowise é um construtor visual open source de licença Apache 2.0, projeto qu
 
 ## Comparação por critério
 
-O cenário é o de uma PME brasileira querendo um assistente interno que responda sobre catálogo, contrato e reembolso, alimentado por documentos da empresa. Exige base de conhecimento com material interno, publicação para o time usar e controle de custo que não estoure no fim do mês. A comparação de hoje inclui um critério que não existia em 2025: a saúde do projeto, porque uma plataforma sem time não tem prazo de correção de segurança nem documentação que acompanhe a versão. Preço verificado em outubro de 2026; os planos mudam; confira no site oficial. Se a dúvida é geral, o [guia de como escolher ferramenta de IA](/guias/como-escolher-ferramenta-de-ia/) filtra antes.
+O cenário é o de uma PME brasileira querendo um assistente interno que responda sobre catálogo, contrato e reembolso, alimentado por documentos da empresa. Exige base de conhecimento com material interno, publicação para o time usar e controle de custo que não estoure no fim do mês. A comparação inclui hoje um critério que não existia em 2025: a saúde do projeto, porque uma plataforma sem time não corrige segurança nem atualiza documentação. Preço verificado em outubro de 2026; os planos mudam; confira no site oficial. Se a dúvida é geral, o [guia de como escolher ferramenta de IA](/guias/como-escolher-ferramenta-de-ia/) filtra antes.
 
 | Critério | Dify | Flowise |
 |---|---|---|
@@ -67,7 +67,7 @@ O cenário é o de uma PME brasileira querendo um assistente interno que respond
 
 ## Preço total
 
-O Dify se posiciona como produto pronto, e isso aparece no [custo de agente de IA](/guias/custo-de-agente-de-ia/). A versão self-hosted Community é gratuita e sobe com um comando Docker, mas a operação é sua: servidor, banco e atualização. Na nuvem há o Sandbox gratuito, com limites, e planos pagos a partir de US$59 por workspace por mês no Professional, com o Team em US$159 e Enterprise sob consulta. No Flowise, o cálculo muda de natureza: o self-hosted continua gratuito e ilimitado em execuções, mas o último preço oficial de nuvem era de US$35 por mês no Starter e US$65 no Pro, e esses planos estão no fim da vida útil. O custo real do Flowise agora é o custo de manter o fork: alguém que leia o código, aplique correções de segurança e atualize dependências, ano após ano. Preço verificado em outubro de 2026; os planos mudam; confira no site oficial.
+O Dify se posiciona como produto pronto, e isso aparece no [custo de agente de IA](/guias/custo-de-agente-de-ia/). A versão self-hosted Community é gratuita e sobe com um comando Docker, mas a operação é sua: servidor, banco e atualização. Na nuvem há o Sandbox gratuito, com limites, e planos pagos a partir de US$59 por workspace por mês no Professional, com o Team em US$159 e Enterprise sob consulta. No Flowise, o cálculo muda de natureza: o self-hosted continua gratuito e ilimitado, mas o último preço oficial de nuvem era de US$35 no Starter e US$65 no Pro, e esses planos estão no fim da vida útil. O custo real agora é manter o fork: ler o código, aplicar correções de segurança e atualizar dependências, ano após ano. Preço verificado em outubro de 2026; os planos mudam; confira no site oficial.
 
 | Critério | Dify | Flowise |
 |---|---|---|
@@ -79,7 +79,7 @@ O Dify se posiciona como produto pronto, e isso aparece no [custo de agente de I
 
 ## Curva de aprendizado
 
-O Dify tem curva menor para quem não programa. A interface é de produto: você cria uma aplicação, arrasta um nó de chat, conecta a base de conhecimento e publica. O RAG funciona com poucos ajustes, porque segmentação, embedding, busca e reranking já vêm com padrões pré-configurados. O Flowise teve curva mais íngreme, não por ser difícil, e sim por expor o fluxo inteiro: você decide embeddings, chunking, memória e modelo em cada nó, o que dá controle real e o trabalho de descobrir o que cada parâmetro faz. Em 2026 o custo de aprendizado do Flowise tem duas camadas: a técnica, que continua a mesma, e a de migração, que aparece para quem precisa sair de uma instalação antiga sem perder os fluxos já desenhados.
+O Dify tem curva menor para quem não programa. A interface é de produto: você cria uma aplicação, arrasta um nó de chat, conecta a base de conhecimento e publica. O RAG funciona com poucos ajustes, porque segmentação, embedding, busca e reranking já vêm com padrões pré-configurados. O Flowise teve curva mais íngreme, não por ser difícil, e sim por expor o fluxo inteiro: você decide embeddings, chunking, memória e modelo em cada nó, o que dá controle real e o trabalho de descobrir o que cada parâmetro faz. Em 2026 o aprendizado do Flowise tem duas camadas: a técnica, que continua igual, e a de migração, para quem sai de uma instalação antiga sem perder os fluxos desenhados.
 
 | Critério | Dify | Flowise |
 |---|---|---|
@@ -91,7 +91,7 @@ O Dify tem curva menor para quem não programa. A interface é de produto: você
 
 ## Integrações
 
-O Dify integra por catálogo de plugins: provedor de modelo por nó, ferramentas, base de conhecimento, publicação do app como API e como webapp, e um marketplace de apps prontos. O modelo roda onde a empresa permitir, de OpenAI a Ollama, o que resolve exigência de dado sem trocar de plataforma. O Flowise integra por catálogo técnico: MCP, requisição HTTP, calculadora e Wikipedia como ferramentas, loaders de documento, memória de sessão, e uma lista larga de vector stores, de Chroma e Pinecone a Supabase, Qdrant, Weaviate, Milvus e pgvector. A vantagem do Flowise era a compatibilidade com a base de dados que a empresa já usa, e ela continua valendo para quem mantém um fork. O que muda é o custo de manutenção: cada integração nova que dependia de biblioteca externa passa a ser responsabilidade de quem mantém o fork.
+O Dify integra por catálogo de plugins: provedor de modelo por nó, ferramentas, base de conhecimento, publicação do app como API e como webapp, e um marketplace de apps prontos. O modelo roda onde a empresa permitir, de OpenAI a Ollama, o que resolve exigência de dado sem trocar de plataforma. O Flowise integra por catálogo técnico: MCP, requisição HTTP, calculadora e Wikipedia como ferramentas, loaders de documento, memória de sessão, e uma lista larga de vector stores, de Chroma e Pinecone a Supabase, Qdrant, Weaviate, Milvus e pgvector. A vantagem do Flowise era a compatibilidade com a base de dados que a empresa já usa, e ela continua valendo para quem mantém um fork. O que muda é a manutenção: cada integração que dependia de biblioteca externa passa a ser responsabilidade de quem mantém o fork.
 
 | Critério | Dify | Flowise |
 |---|---|---|
@@ -103,7 +103,7 @@ O Dify integra por catálogo de plugins: provedor de modelo por nó, ferramentas
 
 ## Suporte em português
 
-Aqui a diferença deixou de ser pequena. A documentação do Dify é em inglês, o suporte comercial também, mas a interface tem tradução para português, que às vezes fica defasada frente ao inglês, e o time de operação continua o mais organizado entre as duas: issues respondidas, documentação em evolução e uma comunidade que ainda recebe resposta do time. No Flowise, o Discord e o GitHub perderam a presença oficial em 31 de agosto de 2026; o que resta é a comunidade e os forks mantidos por terceiros, com qualidade variável. Para uma empresa que precisa de suporte contratual em português, nenhuma das duas resolve: seria preciso um parceiro de implementação.
+Aqui a diferença deixou de ser pequena. A documentação do Dify é em inglês, o suporte comercial também, mas a interface tem tradução para português, que às vezes fica defasada frente ao inglês, e o time de operação continua o mais organizado entre as duas: issues respondidas, documentação em evolução e uma comunidade que ainda recebe resposta do time. No Flowise, o Discord e o GitHub perderam a presença oficial em 31 de agosto de 2026; o que resta é a comunidade e os forks mantidos por terceiros, com qualidade variável. Para suporte contratual em português, nenhuma das duas resolve: seria preciso um parceiro de implementação.
 
 | Critério | Dify | Flowise |
 |---|---|---|
@@ -152,7 +152,7 @@ Escolha o Dify quando a empresa tem entre 10 e 300 pessoas, não tem time de des
 
 ## Quando escolher o Flowise
 
-O Flowise só se justifica hoje em três situações concretas: a empresa já tem uma instalação rodando e aceita assumir um fork, com alguém responsável por correções de segurança; a empresa precisa do canvas livre para um fluxo que nenhuma outra plataforma entrega e tem capacidade de manter código; ou a equipe está usando o Flowise como referência de migração, aproveitando os fluxos já desenhados como referência para montar o mesmo desenho no Dify. O perfil típico é um time de 3 a 8 pessoas, com alguém responsável por operação, e um servidor de custo modesto, já que o self-hosted é gratuito e ilimitado em execuções. Se a empresa já usa Supabase, Pinecone ou Qdrant, a compatibilidade com esses bancos é o argumento decisivo. Preço verificado em outubro de 2026; os planos mudam; confira no site oficial.
+O Flowise só se justifica hoje em três situações concretas: a empresa já tem uma instalação rodando e aceita assumir um fork, com alguém responsável por correções de segurança; a empresa precisa do canvas livre para um fluxo que nenhuma outra plataforma entrega e tem capacidade de manter código; ou a equipe está usando o Flowise como referência de migração, aproveitando os fluxos já desenhados como referência para montar o mesmo desenho no Dify. O perfil típico é um time de 3 a 8 pessoas, com alguém responsável por operação, e um servidor de custo modesto. Se a empresa já usa Supabase, Pinecone ou Qdrant, a compatibilidade com esses bancos é o argumento decisivo. Preço verificado em outubro de 2026; os planos mudam; confira no site oficial.
 
 | Critério | Flowise |
 |---|---|

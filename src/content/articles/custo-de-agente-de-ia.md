@@ -52,7 +52,7 @@ Valores verificados em outubro de 2026, convertidos para real com taxa de refer�
 | Gemini Pro | US$ 1,25 | US$ 10,00 | R$ 7,25 | R$ 58,00 | Análise multimodal, documentos longos |
 | Claude Opus 5.5 | US$ 4,00 | US$ 20,00 | R$ 23,20 | R$ 116,00 | Decisão complexa, baixo volume |
 
-Três leituras: um modelo barato é 20 a 40 vezes mais barato que um caro por token, mas essa economia só se traduz em benefício se a qualidade se mantiver. Segunda: saída é proporcionalmente mais cara, então "responda em uma frase" economiza mais do que parece. Terceira: o modelo mais caro raramente é a melhor escolha em produção — ele é útil no desenvolvimento, para calibrar o prompt, e nos casos de exceção. O [comparativo ChatGPT x Claude x Gemini](/guias/chatgpt-vs-claude-vs-gemini/) detalha quando usar cada um.
+Três leituras: um modelo barato é 20 a 40 vezes mais barato que um caro por token, mas essa economia só se traduz em benefício se a qualidade se mantiver. Segunda: saída é proporcionalmente mais cara, então "responda em uma frase" economiza mais do que parece. Terceira: o modelo mais caro raramente é a melhor escolha em produção — ele é útil no desenvolvimento, para calibrar o prompt, e nos casos de exceção. O [comparativo ChatGPT x Claude x Gemini](/comparativos/chatgpt-vs-claude-vs-gemini/) detalha quando usar cada um.
 
 ## Custo por execução: quanto custa uma tarefa completa
 

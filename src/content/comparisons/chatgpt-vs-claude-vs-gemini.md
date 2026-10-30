@@ -209,4 +209,4 @@ O Claude vence porque resolve o problema mais comum de quem assina IA para a emp
 
 **Preciso assinar as três IAs para testar em empresa?** Não. Comece com uma assinatura por pessoa na ferramenta que resolve o caso de uso mais crítico, meça o uso por três meses e só então decida a segunda. Para montar agente em produção, a API é cobrada por token à parte nos três, independente do plano.
 
-Veja também o [comparativo de ChatGPT, Claude e Gemini](/guias/chatgpt-vs-claude-vs-gemini/), o [catálogo de ferramentas](/ferramentas/) e a lista completa de [comparativos](/comparativos/).
+Veja também o [comparativo de ChatGPT, Claude e Gemini](/comparativos/chatgpt-vs-claude-vs-gemini/), o [catálogo de ferramentas](/ferramentas/) e a lista completa de [comparativos](/comparativos/).

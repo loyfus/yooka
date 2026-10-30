@@ -57,7 +57,7 @@ O erro mais comum é começar pela peça dois. Prompt de sistema sem escopo defi
 
 3. **Modele as ferramentas antes de integrar.** Para cada ação, anote o que entra e o que sai. Por exemplo: `consultar_agenda(clinica, data)` retorna a lista de horários vagos com o nome do médico. Escrever essa tabela antes evita que a integração vire um emaranhado de tentativas.
 
-4. **Escolha a base de orquestração.** Se a sua empresa não tem time de desenvolvimento, comece por uma ferramenta visual como n8n ou Make. O guia [automação com n8n](/guias/automacao-com-n8n/) mostra como montar o fluxo sem escrever código, e o comparativo [n8n vs Make](/guias/n8n-vs-make/) ajuda a decidir. Se houver programador, frameworks como LangChain ou CrewAI dão mais controle, com mais complexidade — a comparação está em [LangChain vs CrewAI](/guias/langchain-vs-crewai/).
+4. **Escolha a base de orquestração.** Se a sua empresa não tem time de desenvolvimento, comece por uma ferramenta visual como n8n ou Make. O guia [automação com n8n](/guias/automacao-com-n8n/) mostra como montar o fluxo sem escrever código, e o comparativo [n8n vs Make](/comparativos/n8n-vs-make/) ajuda a decidir. Se houver programador, frameworks como LangChain ou CrewAI dão mais controle, com mais complexidade — a comparação está em [LangChain vs CrewAI](/comparativos/langchain-vs-crewai/).
 
 5. **Escreva o prompt de sistema em cinco blocos.** Papel, contexto da empresa, tarefa, formato de saída e limites do que não fazer. Prompts vagos produzem respostas longas e inúteis, que custam caro e não são lidas por ninguém.
 

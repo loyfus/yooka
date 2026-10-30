@@ -67,24 +67,45 @@ Regras obrigatórias:
 
 ### URLs garantidas (existem no build)
 
+Guias (`/guias/<slug>/`):
+
 ```
 /guias/como-criar-agente-de-ia/
 /guias/agente-de-ia-o-que-e/
-/guias/n8n-vs-make-comparativo/
-/guias/custo-de-agente-de-ia/
-/guias/chatbot-para-whatsapp/
-/guias/ia-para-financeiro/
 /guias/prompts-para-agentes-de-ia/
-/guias/automacao-para-pequenas-empresas/
-/guias/ia-para-vendas/
-/guias/como-escolher-ferramenta-de-ia/
 /guias/rag-explicado/
 /guias/guardrails-agentes-de-ia/
+/guias/como-escolher-ferramenta-de-ia/
+/guias/automacao-para-pequenas-empresas/
+/guias/o-que-e-automacao-de-processos/
 /guias/automacao-com-n8n/
+/guias/custo-de-agente-de-ia/
+/guias/chatbot-para-whatsapp/
+/guias/ia-para-atendimento-humano/
+/guias/ia-para-financeiro/
+/guias/ia-para-vendas/
 /guias/ia-para-recrutamento/
 /guias/ia-para-juridico/
 /guias/renderizacao-de-faturas-ia/
 /guias/crm-ia-para-vendas/
+/guias/marketing-com-ia/
+```
+
+Comparativos (`/comparativos/<slug>/`):
+
+```
+/comparativos/n8n-vs-make/
+/comparativos/make-vs-zapier/
+/comparativos/langchain-vs-crewai/
+/comparativos/chatgpt-vs-claude-vs-gemini/
+/comparativos/dify-vs-flowise/
+/comparativos/manychat-vs-typebot/
+/comparativos/elevenlabs-vs-heygen/
+```
+
+Índices:
+
+```
 /comparativos/
 /ferramentas/
 /guias/
@@ -98,6 +119,9 @@ Regras obrigatórias:
 /categorias/marketing-e-vendas/
 /categorias/custos/
 ```
+
+> Um comparativo **nunca** mora em `/guias/`. Se o slug do arquivo de
+> comparação for `slug`, a URL é `/comparativos/slug/`.
 
 ---
 

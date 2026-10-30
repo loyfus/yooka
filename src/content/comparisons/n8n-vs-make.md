@@ -180,4 +180,4 @@ O n8n vence porque o custo real de uma automação mal desenhada não é a assin
 
 **Dá para usar n8n e Make juntos?** Dá, e é a arquitetura mais comum em empresas que já têm as duas. As duas expõem webhook e módulo HTTP, então um fluxo dispara o outro: o Make cuida da parte comercial e o n8n assume IA e dado sensível.
 
-Para continuar: [catálogo de ferramentas](/ferramentas/), [comparativo detalhado n8n x Make](/guias/n8n-vs-make/) e [lista completa de comparativos](/comparativos/).
+Para continuar: [catálogo de ferramentas](/ferramentas/), [comparativo detalhado n8n x Make](/comparativos/n8n-vs-make/) e [lista completa de comparativos](/comparativos/).

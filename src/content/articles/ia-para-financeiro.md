@@ -183,7 +183,7 @@ O padrão é o mesmo do resto do site: o custo vem do volume de chamadas, não d
 7. **Semana 9 — proposta de lançamento.** Gere rascunho a partir de nota, contrato e extrato, com trilha de auditoria e aprovação em lote.
 8. **Semana 10 — revise e decida.** Compare horas economizadas, divergências e risco por operação. Desligue o que não deu ganho.
 
-Como montar o agente sem virar programador está no [guia de como criar agente de IA](/guias/como-criar-agente-de-ia/), e as opções de orquestração estão em [LangChain x CrewAI](/guias/langchain-vs-crewai/) e [n8n x Make](/guias/n8n-vs-make/).
+Como montar o agente sem virar programador está no [guia de como criar agente de IA](/guias/como-criar-agente-de-ia/), e as opções de orquestração estão em [LangChain x CrewAI](/comparativos/langchain-vs-crewai/) e [n8n x Make](/comparativos/n8n-vs-make/).
 
 ## Perguntas frequentes sobre IA no financeiro
 

@@ -53,7 +53,7 @@ A recomendação honesta é começar no assistido. Um agente que só sugere e de
 
 **2. RPA (Robotic Process Automation).** Robô que imita o uso de mouse e teclado em um sistema que não tem API. Faz sentido em sistema legado sem integração, como um ERP dos anos 2000 ou um sistema do banco. É frágil: quebra com mudança de layout e cobra caro na implantação. Em geral, prefira API e use RPA só como último recurso.
 
-**3. Automação com IA generativa.** O modelo lê, escreve, classifica ou resume. Aplica-se a tarefas com variabilidade: e-mail de cliente, documento fiscal, descrição de produto. Custo por token, de R$ 0,002 a R$ 0,25 por tarefa. Ferramentas: [n8n](/guias/automacao-com-n8n/), [LangChain x CrewAI](/guias/langchain-vs-crewai/) e os modelos comparados em [ChatGPT x Claude x Gemini](/guias/chatgpt-vs-claude-vs-gemini/).
+**3. Automação com IA generativa.** O modelo lê, escreve, classifica ou resume. Aplica-se a tarefas com variabilidade: e-mail de cliente, documento fiscal, descrição de produto. Custo por token, de R$ 0,002 a R$ 0,25 por tarefa. Ferramentas: [n8n](/guias/automacao-com-n8n/), [LangChain x CrewAI](/comparativos/langchain-vs-crewai/) e os modelos comparados em [ChatGPT x Claude x Gemini](/comparativos/chatgpt-vs-claude-vs-gemini/).
 
 **4. Agente de IA.** Sistema que planeja, escolhe ferramenta, executa e verifica em loop, com estado. Resolve tarefas abertas que exigiriam uma pessoa navigating em vários sistemas. É o mais caro e o mais difícil de governar. O [guia de agentes de IA](/guias/agente-de-ia-o-que-e/) e o [passo a passo para criar um](/guias/como-criar-agente-de-ia/) explicam quando essa camada realmente compensa.
 
@@ -70,7 +70,7 @@ A recomendação honesta é começar no assistido. Um agente que só sugere e de
 2. **Desenhe o processo como está hoje.** Cada passo, o sistema usado, o tempo gasto e onde trava. Guarde esse desenho: ele é o que permite medir a melhora depois.
 3. **Calcule o custo atual.** Horas por mês × custo médio da hora + custo de erros. Esse número é o teto do seu investimento.
 4. **Classifique cada etapa: regra fixa ou interpretação.** A regra fixa vai para n8n, Make ou Zapier. A interpretação vai para IA. Essa separação é o que evita pagar token por uma comparação de string.
-5. **Escolha a ferramenta pelo volume e pela lógica.** Poucos apps, integração simples: Zapier ou Make. Muita transformação, código ou volume: n8n. O [comparativo n8n x Make](/guias/n8n-vs-make/) e o [guia de escolha de ferramenta](/guias/como-escolher-ferramenta-de-ia/) resolvem essa escolha.
+5. **Escolha a ferramenta pelo volume e pela lógica.** Poucos apps, integração simples: Zapier ou Make. Muita transformação, código ou volume: n8n. O [comparativo n8n x Make](/comparativos/n8n-vs-make/) e o [guia de escolha de ferramenta](/guias/como-escolher-ferramenta-de-ia/) resolvem essa escolha.
 6. **Monte o fluxo mínimo, com alerta e retentativa.** Comece com o caminho principal e um caminho de exceção que chama o responsável. Sem isso, o fluxo quebra e ninguém percebe.
 7. **Roda em paralelo por 15 dias.** Compare com o processo manual, registre divergências e ajuste as regras com base no que aconteceu de verdade.
 8. **Calcule o ROI e documente.** Some horas economizadas e erros evitados, divida pelo custo total e registre em um documento curto: objetivo, gatilho, passos, credenciais, responsável e o que fazer quando quebrar.

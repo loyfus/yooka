@@ -228,7 +228,7 @@ O [guia de guardrails para agentes de IA](/guias/guardrails-agentes-de-ia/) most
 
 **Prompts longos melhoram a qualidade?** Nem sempre. Um prompt com 200 linhas de regras repetidas dá ao modelo mais material para se contradizer. Prefira blocos curtos, um teste por regra e uma revisão a cada alteração.
 
-**Preciso reescrever o prompt quando troco de modelo?** Em geral, sim, mas não totalmente. Modelos diferentes interpretam ênfase e ordem de instruções de maneiras diferentes. Depois da troca, rode o conjunto de teste e ajuste o que mudou de comportamento. A comparação entre modelos está em [ChatGPT vs Claude vs Gemini](/guias/chatgpt-vs-claude-vs-gemini/).
+**Preciso reescrever o prompt quando troco de modelo?** Em geral, sim, mas não totalmente. Modelos diferentes interpretam ênfase e ordem de instruções de maneiras diferentes. Depois da troca, rode o conjunto de teste e ajuste o que mudou de comportamento. A comparação entre modelos está em [ChatGPT vs Claude vs Gemini](/comparativos/chatgpt-vs-claude-vs-gemini/).
 
 **Como sei se o prompt está bom?** Pela taxa de acerto em um conjunto de casos reais. Sem o conjunto, qualquer alteração parece melhora porque não existe linha de base para comparar.
 

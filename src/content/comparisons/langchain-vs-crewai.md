@@ -13,7 +13,7 @@ tools:
     affiliateUrl: "https://www.langchain.com/?via=yooka"
     price: "Gratuito (open source); LangSmith Plus a partir de US$39/assento/mês"
     bestFor: "Ecossistema amplo, RAG e observabilidade em produção"
-    rating: 4.7
+    rating: 4.5
     verdict: "O LangChain é mais forte quando o agente já é complexo: RAG pesado, estado persistente, human-in-the-loop e observabilidade de produção, com LangGraph e LangSmith no mesmo ecossistema e o maior catálogo de integrações prontas do mercado. Em troca, exige mais tempo de aprendizado, um vocabulário de engenharia e um plano pago para enxergar o que o agente está fazendo."
     pros:
       - "Maior ecossistema de integrações prontas do mercado: provedores de LLM, vector stores e loaders de documentos"
@@ -29,7 +29,7 @@ tools:
     affiliateUrl: "https://www.crewai.com/?via=yooka"
     price: "Gratuito (open source); Enterprise varia por plano"
     bestFor: "Times enxutos que querem multiagente rápido"
-    rating: 4.5
+    rating: 4.2
     verdict: "O CrewAI ganha quando o objetivo é colocar um agente multiagente para rodar antes, e não ajustá-lo à exaustão: o código é curto, o protótipo sai em horas e o conceito de agente, com papel, objetivo e tarefa, é legível por quem não é dev. Em troca, o controle de estado é menor que o do LangGraph, o catálogo de integrações encolhe e a observabilidade depende de ferramentas de terceiros."
     pros:
       - "Código curto e legível, com vocabulário de negócio: role, goal, backstory e task"
@@ -151,10 +151,10 @@ O CrewAI ganha este comparativo porque o gargalo real da maioria das PMEs brasil
 
 **LangChain ou CrewAI é mais fácil para começar?** O CrewAI. Um time de 2 a 4 devs sai do zero com protótipo funcional em horas, porque o código é curto e usa vocabulário de negócio. O LangChain leva mais tempo, porque você aprende camadas de abstração como chains e LCEL, que só compensam quando o agente fica complexo.
 
-**Qual dos dois é mais barato?** As duas bibliotecas são gratuitas e open source sob licença MIT. A diferença está na camada gerenciada: no LangChain, o LangSmith Developer é gratuito e o Plus sai a US$39 por assento/mês, com a LangGraph Platform a partir de US$250/mês; no CrewAI, o plano Basic é gratuito e os planos pagos começam por volta de US$25 por mês, variando por plano. Preços verificados em outubro de 2026; os planos mudam; confira no site oficial.
+**Qual dos dois é mais barato?** As duas bibliotecas são gratuitas e open source sob licença MIT. A diferença está na camada gerenciada: no LangChain, o LangSmith Developer é gratuito e o Plus sai a US$39 por assento/mês, com a LangGraph Platform a partir de US$250/mês; no CrewAI, o plano Basic é gratuito e os planos pagos começam por volta de US$25 por mês, variando por plano. Preço de referência: verificado em outubro de 2026; os planos mudam; confira no site oficial.
 
 **CrewAI funciona em português?** O framework é agnóstico de provedor, então responde no idioma configurado no prompt. Documentação e suporte comercial oficiais são em inglês, nos dois casos. A diferença real está no ecossistema: por ser empresa brasileira, o CrewAI tem mais comunidades e material em português do que o LangChain.
 
 **Posso usar LangChain e CrewAI ao mesmo tempo?** Sim, e essa combinação é comum: o LangChain, ou o LangGraph, cuida da camada de dados, do RAG e da recuperação, e o CrewAI orquestra os agentes com papel, objetivo e tarefa. O custo é manter duas abstrações no mesmo código, o que compensa só quando a complexidade do fluxo justifica.
 
-Veja também o [catálogo de ferramentas](/ferramentas/), o [guia completo sobre LangChain x CrewAI](/guias/langchain-vs-crewai/) e os [outros comparativos](/comparativos/).
+Veja também o [catálogo de ferramentas](/ferramentas/), o [guia completo sobre LangChain x CrewAI](/comparativos/langchain-vs-crewai/) e os [outros comparativos](/comparativos/).

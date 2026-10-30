@@ -12,7 +12,7 @@ faq:
   - q: "Quanto custa usar o n8n no Brasil?"
     a: "O plano Starter sai € 20 por mês (cerca de R$ 132), o Pro custa € 50 por mês (cerca de R$ 330) e a versão self-hosted não cobra licença, apenas a infraestrutura, a partir de R$ 70 por mês em um VPS."
   - q: "n8n ou Make é mais barato?"
-    a: "Para automações com muita lógica ou código, o n8n costuma sair mais barato porque cobra por execução de fluxo e não por operação. Para integrações simples com dezenas de apps prontos, a Make é mais barata no começo. O [comparativo n8n x Make](/guias/n8n-vs-make/) detalha os dois modelos."
+    a: "Para automações com muita lógica ou código, o n8n costuma sair mais barato porque cobra por execução de fluxo e não por operação. Para integrações simples com dezenas de apps prontos, a Make é mais barata no começo. O [comparativo n8n x Make](/comparativos/n8n-vs-make/) detalha os dois modelos."
   - q: "Vale a pena rodar o n8n self-hosted?"
     a: "Vale quando o volume passa de 10.000 execuções por mês, quando há dado sensível que não pode sair da sua infraestrutura, ou quando o time tem capacidade de manter servidor. Abaixo disso, a nuvem quase sempre sai mais barato."
   - q: "É difícil aprender n8n sem saber programar?"
@@ -70,7 +70,7 @@ Comparação direta de custo por volume mensal, considerando apenas a orquestra�
 | 20.000 execuções | R$ 330 (Pro) | Sob consulta (Enterprise) | R$ 116 (Professional) |
 | 50.000 execuções | R$ 4.402 (Business) | Sob consulta (Enterprise) | R$ 400 (Team) |
 
-A leitura honesta dessa tabela: o Zapier ganha em volume alto de tarefas simples porque o task é mais barato que a execução; o n8n ganha quando o fluxo é complexo, porque uma execução faz o trabalho de dez tasks. Compare a fundo no [comparativo n8n x Make](/guias/n8n-vs-make/) e no [catálogo de ferramentas](/ferramentas/).
+A leitura honesta dessa tabela: o Zapier ganha em volume alto de tarefas simples porque o task é mais barato que a execução; o n8n ganha quando o fluxo é complexo, porque uma execução faz o trabalho de dez tasks. Compare a fundo no [comparativo n8n x Make](/comparativos/n8n-vs-make/) e no [catálogo de ferramentas](/ferramentas/).
 
 ## Self-hosted: quando compensa e quanto custa a infraestrutura
 
@@ -105,7 +105,7 @@ O n8n é a melhor ferramenta para fluxo com lógica. Não é a melhor para todo 
 - **Execuções com mais de 100 mil por mês e lógica trivial.** O plano Business custa R$ 4.402; nesse volume, Make ou Zapier Team saem mais barato.
 - **Precisa de governança corporativa avançada.** SSO, auditoria e SLA existem, mas custam. Uma empresa pequena não deveria pagar Business antes de resolver o processo.
 
-A escolha entre as plataformas está detalhada em [n8n vs Make](/guias/n8n-vs-make/). E, se a dúvida for entre modelos de IA dentro do fluxo, o [comparativo ChatGPT x Claude x Gemini](/guias/chatgpt-vs-claude-vs-gemini/) mostra a diferença de custo e de qualidade por tarefa.
+A escolha entre as plataformas está detalhada em [n8n vs Make](/comparativos/n8n-vs-make/). E, se a dúvida for entre modelos de IA dentro do fluxo, o [comparativo ChatGPT x Claude x Gemini](/comparativos/chatgpt-vs-claude-vs-gemini/) mostra a diferença de custo e de qualidade por tarefa.
 
 ## Onde o orçamento estoura: custos ocultos do n8n
 

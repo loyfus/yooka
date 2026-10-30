@@ -125,7 +125,7 @@ O gargalo de custo está em como cada plataforma conta o trabalho invisível: ve
 
 ## Flexibilidade
 
-O Make é mais flexível na modelagem. Um cenário pode conter sub-cenários reutilizáveis, iterators para revisar registros, routers com branches e agregadores, módulo HTTP, requisição web para expor o cenário como endpoint e um módulo agendador. Templates e blueprints aceleram o primeiro fluxo, e existe construtor de apps via API. O Zapier cobre o básico com Zaps de múltiplos passos e Paths, soma Zapier Tables e as interfaces Zapier Interfaces. Para regra complexa com reuso, o Make dá mais espaço. O [comparativo n8n x Make](/guias/n8n-vs-make/) usa o mesmo método com uma terceira opção.
+O Make é mais flexível na modelagem. Um cenário pode conter sub-cenários reutilizáveis, iterators para revisar registros, routers com branches e agregadores, módulo HTTP, requisição web para expor o cenário como endpoint e um módulo agendador. Templates e blueprints aceleram o primeiro fluxo, e existe construtor de apps via API. O Zapier cobre o básico com Zaps de múltiplos passos e Paths, soma Zapier Tables e as interfaces Zapier Interfaces. Para regra complexa com reuso, o Make dá mais espaço. O [comparativo n8n x Make](/comparativos/n8n-vs-make/) usa o mesmo método com uma terceira opção.
 
 | Critério | Make | Zapier |
 | --- | --- | --- |

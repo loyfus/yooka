@@ -506,6 +506,7 @@ ${breadcrumbs(crumbs)}
         text: 'A gente instala, integra e monitora. Você entra no com o time focado no negócio.',
         button: 'Falar com um especialista',
       })}
+      <p class="section__more"><a class="btn btn--ghost btn--sm" href="/ferramentas/${t.slug}/preco/">Ver preço, planos e o que compõe a conta →</a></p>
       ${authorBox()}
     </div>
     <aside class="post__aside">
@@ -596,6 +597,306 @@ ${breadcrumbs(crumbs)}
 </article>`;
 
   addPage({ file: `ferramentas/${t.slug}/alternativas/index.html`, page, body });
+}
+
+/* ------------------------------------------------------------------ *
+ * Páginas programáticas: pares de ferramentas e páginas de preço
+ * ------------------------------------------------------------------ */
+
+/** Verdadeiro se o par já tem página manual, em qualquer ordem. */
+const hasManual = (a, b) =>
+  allComparisons.some((c) => c.slug === `${a}-vs-${b}` || c.slug === `${b}-vs-${a}`);
+
+/** Pares que fazem sentido comparar (mesma categoria ou categoria vizinha). */
+function toolPairs() {
+  const pairs = [];
+  const seen = new Set();
+  for (let i = 0; i < allTools.length; i++) {
+    for (let j = i + 1; j < allTools.length; j++) {
+      const a = allTools[i];
+      const b = allTools[j];
+      if (hasManual(a.slug, b.slug)) continue;
+      const sameCat = a.category === b.category;
+      const adjacent =
+        ['agentes-de-ia', 'automacao'].includes(a.category) &&
+        ['agentes-de-ia', 'automacao'].includes(b.category);
+      if (!sameCat && !adjacent) continue;
+      const key = [a.slug, b.slug].sort().join('|');
+      if (seen.has(key)) continue;
+      seen.add(key);
+      pairs.push({ a, b, slug: `${a.slug}-vs-${b.slug}`, sameCat });
+    }
+  }
+  return pairs;
+}
+
+function pairComparisonPage({ a, b, slug, sameCat }) {
+  const winner = (a.rating || 0) >= (b.rating || 0) ? a : b;
+  const loser = winner === a ? b : a;
+  const title = `${a.name} x ${b.name}: qual escolher em 2026?`;
+  const description = `${a.name} ou ${b.name}? Comparamos preço, facilidade, integrações e casos de uso para você escolher sem teste de 30 dias.`;
+  const url = `/comparativos/${slug}/`;
+  const crumbs = [
+    { label: 'Início', href: '/' },
+    { label: 'Comparativos', href: '/comparativos/' },
+    { label: `${a.name} x ${b.name}`, href: url },
+  ];
+
+  const page = {
+    url,
+    title,
+    description,
+    type: 'article',
+    publishedAt: isoDate(TODAY),
+    modifiedAt: isoDate(TODAY),
+    section: catLabel(a.category),
+    breadcrumbs: crumbs,
+    schemas: [
+      organizationSchema(),
+      websiteSchema(),
+      articleSchema({
+        title,
+        description,
+        url,
+        publishedAt: isoDate(TODAY),
+        modifiedAt: isoDate(TODAY),
+        keywords: [a.name, b.name, 'comparativo'],
+        wordCount: 700,
+      }),
+      faqSchema([
+        {
+          q: `Qual é melhor, ${a.name} ou ${b.name}?`,
+          a: `Para a maioria das pequenas e médias empresas, ${winner.name}. ${winner.bestFor}. ${loser.name} continua sendo a melhor escolha quando o time não tem perfil técnico.`,
+        },
+        {
+          q: `Quanto custa ${a.name}?`,
+          a: `${a.name} parte de ${a.price}. Consulte a página oficial para o valor atual — planos mudam com frequência.`,
+        },
+        {
+          q: `Posso usar ${a.name} e ${b.name} juntos?`,
+          a: `Pode, e em muitos casos é o melhor arranjo: use ${winner.name} como motor principal e integre ${loser.name} para os pontos em que ele é mais forte.`,
+        },
+        {
+          q: `Qual dessas ferramentas tem melhor suporte em português?`,
+          a: `As duas têm documentação em inglês. Para suporte em português, o caminho mais rápido é uma equipe local que implemente — é o que a Loyfus faz.`,
+        },
+      ]),
+    ],
+  };
+
+  const body = `
+${breadcrumbs(crumbs)}
+<article class="post post--comparison">
+  <header class="post__head">
+    <a class="pill" href="/comparativos/">Comparativo</a>
+    <h1>${escapeHtml(title)}</h1>
+    <p class="post__lead">${escapeHtml(description)}</p>
+    <div class="post__meta">
+      ${updatedBox(TODAY)}
+      <span>${escapeHtml(catLabel(a.category))}</span>
+    </div>
+    ${trustBar(['Critérios objetivos', 'Preços verificados', 'Veredito em 1 minuto'])}
+  </header>
+
+  <div class="post__layout">
+    <div class="post__content">
+      <section class="answerbox answerbox--winner">
+        <p class="answerbox__label">Resposta curta</p>
+        <h2>${escapeHtml(winner.name)} vence para ${escapeHtml((winner.bestFor || '').toLowerCase())}</h2>
+        <p>${escapeHtml(winner.verdict || '')}</p>
+        <a class="btn btn--primary btn--sm" href="${winner.affiliateUrl || winner.url}" rel="nofollow noopener">Ver ${escapeHtml(winner.name)}</a>
+      </section>
+
+      <div class="table-wrap">
+        <table class="cmp cmp--big">
+          <caption>${escapeHtml(a.name)} x ${escapeHtml(b.name)} — lado a lado</caption>
+          <thead>
+            <tr>
+              <th scope="col">Critério</th>
+              <th scope="col">${escapeHtml(a.name)}</th>
+              <th scope="col">${escapeHtml(b.name)}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><th scope="row">Preço</th><td>${escapeHtml(a.price || '—')}</td><td>${escapeHtml(b.price || '—')}</td></tr>
+            <tr><th scope="row">Melhor para</th><td>${escapeHtml(a.bestFor || '—')}</td><td>${escapeHtml(b.bestFor || '—')}</td></tr>
+            <tr><th scope="row">Nota Yooka</th><td><span class="stars">${'★'.repeat(Math.round(a.rating || 0))}${'☆'.repeat(5 - Math.round(a.rating || 0))}</span> <span class="muted">${a.rating}</span></td><td><span class="stars">${'★'.repeat(Math.round(b.rating || 0))}${'☆'.repeat(5 - Math.round(b.rating || 0))}</span> <span class="muted">${b.rating}</span></td></tr>
+            <tr><th scope="row">Prós</th><td><ul class="tick">${(a.pros || []).slice(0, 3).map((p) => `<li>${escapeHtml(p)}</li>`).join('')}</ul></td><td><ul class="tick">${(b.pros || []).slice(0, 3).map((p) => `<li>${escapeHtml(p)}</li>`).join('')}</ul></td></tr>
+            <tr><th scope="row">Contras</th><td><ul class="cross">${(a.cons || []).slice(0, 3).map((p) => `<li>${escapeHtml(p)}</li>`).join('')}</ul></td><td><ul class="cross">${(b.cons || []).slice(0, 3).map((p) => `<li>${escapeHtml(p)}</li>`).join('')}</ul></td></tr>
+            <tr><th scope="row">Ação</th><td><a class="btn btn--ghost btn--xs" href="${a.affiliateUrl || a.url}" rel="nofollow noopener">Ver preço</a></td><td><a class="btn btn--ghost btn--xs" href="${b.affiliateUrl || b.url}" rel="nofollow noopener">Ver preço</a></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>${escapeHtml(a.name)}: quando escolher</h2>
+      <p>${escapeHtml(a.tagline || '')}. ${escapeHtml(a.bestForWho || '')}</p>
+      <ul class="usecases">
+        ${(a.useCases || []).slice(0, 3).map((u) => `<li>${escapeHtml(u)}</li>`).join('\n        ')}
+      </ul>
+
+      <h2>${escapeHtml(b.name)}: quando escolher</h2>
+      <p>${escapeHtml(b.tagline || '')}. ${escapeHtml(b.bestForWho || '')}</p>
+      <ul class="usecases">
+        ${(b.useCases || []).slice(0, 3).map((u) => `<li>${escapeHtml(u)}</li>`).join('\n        ')}
+      </ul>
+
+      <h2>Preço: o que muda no total</h2>
+      <p>${escapeHtml(a.name)} parte de <strong>${escapeHtml(a.price || '—')}</strong> e ${escapeHtml(b.name)} de <strong>${escapeHtml(b.price || '—')}</strong>. O que costuma decidir o custo final não é a mensalidade: é o número de execuções por mês e quanto de cada etapa roda dentro de um modelo de IA. Times que têm volume alto de tarefas com LLM precisam olhar o custo por execução, não só o plano.</p>
+      <p class="muted">Preços verificados em ${ptBrDate(TODAY)}. Planos mudam — confirme no site oficial.</p>
+
+      ${adSlot('inArticle', 'inline')}
+
+      <section class="verdict">
+        <h2>Veredito</h2>
+        <p><strong>${escapeHtml(winner.name)}</strong> é a escolha para ${escapeHtml((winner.bestFor || 'a maioria dos casos').toLowerCase())}. ${escapeHtml(winner.verdict || '')}</p>
+        <p><strong>${escapeHtml(loser.name)}</strong> continua valendo quando ${escapeHtml((loser.bestFor || 'o time não tem perfil técnico').toLowerCase())}. Não é derrota: é encaixe.</p>
+      </section>
+
+      ${authorBox()}
+      ${offerBox({
+        title: `Não sabe qual das duas implanta na sua empresa?`,
+        text: 'Descrevemos o processo e devolvemos a comparação com os seus números: volume, integrações e time.',
+        button: 'Pedir recomendação',
+      })}
+    </div>
+    <aside class="post__aside">
+      ${adSlot('sidebar', 'sticky')}
+      <nav class="toc" aria-label="Nesta página">
+        <p class="toc__title">Nesta página</p>
+        <ul>
+          <li><a href="#resposta-curta">Resposta curta</a></li>
+          <li><a href="#preco-o-que-muda-no-total">Preço</a></li>
+          <li><a href="#veredito">Veredito</a></li>
+        </ul>
+      </nav>
+    </aside>
+  </div>
+</article>`;
+
+  addPage({
+    file: `comparativos/${slug}/index.html`,
+    page,
+    body,
+    og: { badge: 'Comparativo', title, subtitle: description },
+  });
+}
+
+function toolPricePage(t) {
+  const url = `/ferramentas/${t.slug}/preco/`;
+  const title = `Preço do ${t.name} em 2026: planos, valores e quanto custa`;
+  const description = `Preço do ${t.name}: planos disponíveis, custo por execução e o que muda no total da conta. Valores verificados em ${ptBrDate(TODAY)}.`;
+  const crumbs = [
+    { label: 'Início', href: '/' },
+    { label: 'Ferramentas', href: '/ferramentas/' },
+    { label: t.name, href: t.url },
+    { label: 'Preço', href: url },
+  ];
+
+  const page = {
+    url,
+    title,
+    description,
+    type: 'article',
+    publishedAt: isoDate(t.updated),
+    modifiedAt: isoDate(t.updated),
+    section: catLabel(t.category),
+    breadcrumbs: crumbs,
+    schemas: [
+      organizationSchema(),
+      websiteSchema(),
+      articleSchema({
+        title,
+        description,
+        url,
+        publishedAt: isoDate(t.updated),
+        modifiedAt: isoDate(t.updated),
+        keywords: [`preço ${t.name}`, `${t.name} pricing`, 'planos'],
+        wordCount: 500,
+      }),
+      faqSchema([
+        { q: `Quanto custa o ${t.name}?`, a: `${t.name} parte de ${t.price}. ${t.priceNote || ''}` },
+        { q: `Existe plano grátis do ${t.name}?`, a: `Em geral sim, com limites de uso. ${t.priceNote || 'Confira a página oficial.'}` },
+        { q: `O preço do ${t.name} muda com o uso da API?`, a: `Costos de modelo de IA são cobrados à parte, na maioria das ferramentas. O plano cobre a plataforma; o consumo de tokens é um item separado.` },
+      ]),
+    ],
+  };
+
+  const body = `
+${breadcrumbs(crumbs)}
+<article class="post">
+  <header class="post__head">
+    <a class="pill" href="${t.url}">${escapeHtml(t.name)}</a>
+    <h1>${escapeHtml(title)}</h1>
+    <p class="post__lead">${escapeHtml(description)}</p>
+    <div class="post__meta">${updatedBox(t.updated)}</div>
+    ${trustBar(['Preço verificado', 'Sem cadeias de marketing'])}
+  </header>
+  <div class="post__layout">
+    <div class="post__content">
+      <section class="buybox">
+        <div class="buybox__main">
+          <p class="buybox__label">Preço atual</p>
+          <p class="buybox__price">${escapeHtml(t.price || 'Consulte')}</p>
+          <p class="muted">${escapeHtml(t.priceNote || '')}</p>
+        </div>
+        <div class="buybox__side">
+          <p class="buybox__label">Melhor para</p>
+          <p>${escapeHtml(t.bestFor || '')}</p>
+          <a class="btn btn--primary" href="${t.affiliateUrl || t.url}" rel="nofollow noopener">Ver preço no site oficial</a>
+        </div>
+      </section>
+
+      <h2>Como o preço é calculado</h2>
+      <p>O valor que você vê não é o valor que você paga. Uma ferramenta de automação ou de IA costuma cobrar em três partes: a plataforma (mensalidade), o volume de execuções ou de assentos, e o consumo de modelo de IA — tokens de entrada e saída, que em geral é cobrado do lado do provedor do modelo, fora da ferramenta.</p>
+      <p>Para uma empresa que está avaliando, a conta é esta: <strong>plano + execuções excedentes + tokens consumidos</strong>. É por isso que duas empresas com times do mesmo tamanho podem pagar valores muito diferentes na mesma ferramenta.</p>
+
+      <div class="table-wrap">
+        <table class="cmp">
+          <caption>O que costuma compor a conta do ${escapeHtml(t.name)}</caption>
+          <thead><tr><th scope="col">Item</th><th scope="col">Como é cobrado</th><th scope="col">Como reduzir</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Plano</th><td>Mensalidade por assento ou por workspace</td><td>Contrate só quem usa, revise assentos ociosos</td></tr>
+            <tr><th scope="row">Execuções</th><td>Por tarefa disparada (toda vez que o fluxo roda)</td><td>Consolide etapas, evite loops desnecessários</td></tr>
+            <tr><th scope="row">Tokens de IA</th><td>Por milhão de tokens de entrada e saída</td><td>Use modelo menor para tarefas simples e cache</td></tr>
+            <tr><th scope="row">Integrações</th><td>Algumas cobram por app conectado ou por chamada</td><td>Menos integrações, mais diretas</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2>Quando o ${escapeHtml(t.name)} compensa</h2>
+      <p>${escapeHtml(t.bestForWho || '')} ${escapeHtml(t.verdict || '')}</p>
+
+      ${adSlot('inArticle', 'inline')}
+
+      ${faqBlock([
+        { q: `Quanto custa o ${t.name}?`, a: `${t.name} parte de ${t.price}. ${t.priceNote || ''}` },
+        { q: `Existe plano grátis do ${t.name}?`, a: `Em geral sim, com limites de uso. ${t.priceNote || 'Confira a página oficial.'}` },
+        { q: `O preço do ${t.name} muda com o uso da API?`, a: `Custos de modelo de IA são cobrados à parte, na maioria das ferramentas. O plano cobre a plataforma; o consumo de tokens é um item separado.` },
+      ])}
+
+      ${authorBox()}
+      ${offerBox({
+        title: `Quer saber quanto custa o ${t.name} na prática da sua empresa?`,
+        text: 'Fazemos a conta com o seu volume real de tarefas e o seu consumo de tokens.',
+        button: 'Pedir orçamento',
+      })}
+    </div>
+    <aside class="post__aside">
+      ${adSlot('sidebar', 'sticky')}
+      <div class="offer offer--compact">
+        <div class="offer__text"><h3>Compare antes de contratar</h3><p>Veja o review completo e as alternativas.</p></div>
+        <a class="btn btn--ghost btn--sm" href="${t.url}">Review do ${escapeHtml(t.name)}</a>
+      </div>
+    </aside>
+  </div>
+</article>`;
+
+  addPage({
+    file: `ferramentas/${t.slug}/preco/index.html`,
+    page,
+    body,
+    og: { badge: `Preço · ${t.name}`, title, subtitle: description },
+  });
 }
 
 /* ------------------------------------------------------------------ *
@@ -1070,6 +1371,11 @@ allArticles.forEach(articlePage);
 allComparisons.forEach(comparisonPage);
 allTools.forEach(toolPage);
 allTools.forEach(toolAlternativesPage);
+allTools.forEach(toolPricePage);
+
+// Comparativos programáticos (pares de ferramentas)
+const generatedPairs = toolPairs();
+generatedPairs.forEach(pairComparisonPage);
 
 // Índices
 homePage();
@@ -1086,16 +1392,32 @@ listPage({
   schemas: [itemListSchema(allArticles.map((a) => ({ title: a.title, url: a.url })), 'Guias de IA e automação', '/guias/')],
 });
 
+const comparisonIndexItems = [
+  ...allComparisons,
+  ...generatedPairs.map((p) => ({
+    title: `${p.a.name} x ${p.b.name}: qual escolher em 2026?`,
+    description: `${p.a.name} ou ${p.b.name}? Comparamos preço, facilidade, integrações e casos de uso para você escolher sem teste de 30 dias.`,
+    url: `/comparativos/${p.slug}/`,
+    date: TODAY,
+    updated: TODAY,
+    readingTime: 5,
+    category: p.a.category,
+    categoryLabel: catLabel(p.a.category),
+    tools: [p.a, p.b],
+    winner: (p.a.rating || 0) >= (p.b.rating || 0) ? p.a.name : p.b.name,
+  })),
+];
+
 listPage({
   url: '/comparativos/',
   file: 'comparativos/index.html',
   title: 'Comparativos: X ou Y? Decidimos com critério',
   description:
     'Comparativos diretos entre ferramentas de IA e automação, com preço, curva de aprendizado, integração e o veredito de quem implementa.',
-  items: allComparisons,
+  items: comparisonIndexItems,
   breadcrumbsCrumb: { label: 'Comparativos', href: '/comparativos/' },
   itemRenderer: (a) => articleCard(a),
-  schemas: [itemListSchema(allComparisons.map((a) => ({ title: a.title, url: a.url })), 'Comparativos de ferramentas', '/comparativos/')],
+  schemas: [itemListSchema(comparisonIndexItems.map((a) => ({ title: a.title, url: a.url })), 'Comparativos de ferramentas', '/comparativos/')],
 });
 
 listPage({
@@ -1391,6 +1713,13 @@ function copyOgImages() {
 function copyStatic() {
   const src = path.join(ROOT, cfg.staticDir);
   if (!fs.existsSync(src)) return;
+
+  // Arquivos da raiz de static/ vão para a raiz do site (ex.: favicon.svg);
+  // a pasta assets/ vai inteira para /assets.
+  for (const entry of fs.readdirSync(src, { withFileTypes: true })) {
+    if (entry.isFile()) fs.copyFileSync(path.join(src, entry.name), path.join(OUT, entry.name));
+  }
+
   const walk = (dir, dest) => {
     for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
       const s = path.join(dir, entry.name);
@@ -1403,9 +1732,12 @@ function copyStatic() {
       }
     }
   };
-  const dest = path.join(OUT, 'assets');
-  fs.mkdirSync(dest, { recursive: true });
-  walk(src, dest);
+  const assetsSrc = path.join(src, 'assets');
+  if (fs.existsSync(assetsSrc)) {
+    const dest = path.join(OUT, 'assets');
+    fs.mkdirSync(dest, { recursive: true });
+    walk(assetsSrc, dest);
+  }
 }
 
 /* ------------------------------------------------------------------ *

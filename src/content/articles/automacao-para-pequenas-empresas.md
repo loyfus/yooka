@@ -73,7 +73,7 @@ Os valores abaixo foram verificados em outubro de 2026 e já estão convertidos 
 | Claude | Team | US$ 30/usuário/mês | R$ 174 | Contexto compartilhado, mínimo de 5 usuários |
 | Gemini | Google AI Pro | US$ 19,99/mês | R$ 116 | Gemini Pro, 2 TB de armazenamento |
 
-O [comparativo n8n x Make](/guias/n8n-vs-make/) detalha a diferença de modelo de cobrança: o n8n cobra por execução de fluxo, a Make por crédito por operação e o Zapier por task. Para quem automatiza muita coisa com lógica, essa diferença pesa mais que o preço de tabela.
+O [comparativo n8n x Make](/comparativos/n8n-vs-make/) detalha a diferença de modelo de cobrança: o n8n cobra por execução de fluxo, a Make por crédito por operação e o Zapier por task. Para quem automatiza muita coisa com lógica, essa diferença pesa mais que o preço de tabela.
 
 ## Custo por processo automatizado, em reais
 
