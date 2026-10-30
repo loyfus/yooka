@@ -25,7 +25,7 @@ A segunda via de certidão é emitida gratuitamente pelos cartórios de registro
 
 Certidão é a cópia oficial de um registro. A segunda via é a reprodução do mesmo assento, com os mesmos dados, emitida novamente quando a pessoa precisa de um documento novo: o original foi perdido, danificado, usado em outro órgão, ou tem dados desatualizados.
 
-Para quem é a certidão de nascimento, é o primeiro documento de praticamente toda a vida civil brasileira. Ela é exigida em matrícula escolar, contrato de trabalho, abertura de conta em banco, pedido de benefício do INSS, registro em plano de saúde e em quase todo trâmite que exige identificação civil.
+Para quem é a certidão de nascimento, ela é o primeiro documento de praticamente toda a vida civil brasileira. Ela é exigida em matrícula escolar, contrato de trabalho, abertura de conta em banco, pedido de benefício do INSS, registro em plano de saúde e em quase todo trâmite que exige identificação civil.
 
 A regra do art. 79 da Lei 6.015/1973 define que a certidão de registro civil é gratuita quando requerida pelo próprio titular. Na prática, o que costuma ter cobrança é a emissão feita por terceiros ou por empresas intermediárias, e os emolumentos dos cartórios de registro de imóveis, que seguem a tabela de cada estado.
 
@@ -100,4 +100,4 @@ Os emolumentos, os prazos e a oferta de emissão online mudam conforme o estado 
 
 A segunda via de certidão é um documento gratuito, com validade indeterminada e emissão em poucos minutos pelo serviço online de registro civil. O que trava o pedido costuma ser dado errado no formulário, cartório mudado de circunscrição ou certidão antiga sem código de verificação. Com nome, data e cidade de nascimento corretos, o PDF sai na hora e vale em qualquer órgão.
 
-Para usar a certidão de óbito e de casamento em um pedido de benefício, veja [pensão por morte e invalidez no INSS](/guias/pensao-por-morte-invalor/). Para os demais benefícios, veja [benefícios do INSS](/guias/beneficios-do-inss/). E para o documento profissional, veja [como emitir a Carteira de Trabalho Digital](/guias/como-emitir-carteira-de-trabalho-digital/).
+As certidões de óbito e de casamento são as que abrem um pedido no Meu INSS, e é por isso que a emissão online vale a pena. Para usar esses documentos em um pedido de benefício, veja [pensão por morte e invalidez no INSS](/guias/pensao-por-morte-invalor/). Para os demais benefícios, veja [benefícios do INSS](/guias/beneficios-do-inss/). E para o documento profissional, veja [como emitir a Carteira de Trabalho Digital](/guias/como-emitir-carteira-de-trabalho-digital/).

@@ -13,7 +13,7 @@ faq:
     a: "A abertura no Portal do Empreendedor (gov.br) não tem taxa. O custo começa no DAS: R$ 71,60 por mês para o MEI no limite e valores proporcionais entre R$ 71,60 e R$ 106,20 ou mais conforme a faixa de faturamento, todos como referência de outubro de 2026. Confirme a tabela vigente no portal."
   - q: "Quem pode abrir um MEI?"
     a: "Pessoa física maior de 18 anos, com CPF regular, sem participação como sócio ou administrador de outra empresa, e que exerce atividade da lista permitida aos microempreendedores. Estrangeiro precisa de autorização de residência no país."
-  - q: "Qual a diferença entre CNAE e código deoccupation?"
+  - q: "Qual a diferença entre CNAE e código de ocupação?"
     a: "O CNAE é o código nacional da atividade e define o enquadramento na Simples Nacional. O código de ocupação é o código municipal do serviço, usado para calcular o ISS e identificar o cadastro de prestador na prefeitura da sua cidade."
   - q: "Quanto tempo demora para o CNPJ do MEI sair?"
     a: "De 1 a 15 dias, dependendo da validação da identidade, da análise da ocupação escolhida e do registro municipal. O cadastro inicial no portal é imediato; o que demora é a análise e a emissão dos documentos."
@@ -59,7 +59,7 @@ Abrir MEI é preencher formulário, mas três códigos determinam o que você po
 
 6. **Revise e confirme.** A última tela mostra o resumo: dados pessoais, endereço, CNAE, código de ocupação, cidade e a declaração de que a atividade não depende de participação profissional. Marque as declarações, confirme e registre o envio.
 
-7. **Acompanhe a análise e receba o CNPJ.** O CNPJ chega por e-mail, junto com o código de acesso, em 1 a 15 dias. Se houver pendência, o portal mostra o motivo no painel "Meus serviços": occupation mismatch, endereço divergente do CPF ou falta de autorização para a atividade.
+7. **Acompanhe a análise e receba o CNPJ.** O CNPJ chega por e-mail, junto com o código de acesso, em 1 a 15 dias. Se houver pendência, o portal mostra o motivo no painel "Meus serviços": divergência de ocupação, endereço divergente do CPF ou falta de autorização para a atividade.
 
 8. **Faça a inscrição municipal e a primeira nota.** Com o CNPJ em mãos, entre na prefeitura da sua cidade e faça o cadastro de prestador de serviços (Inscrição Municipal) usando o número do CNPJ. Se a sua ocupação exigir licença (sanitária, de transporte, de vigilância, por exemplo), solicite o alvará em paralelo. Emita a primeira NFS-e para o seu cliente e o banco de pagamento do DAS.
 

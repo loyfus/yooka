@@ -78,6 +78,23 @@ O que muda no papel:
 
 O caso do vale-refeição ganhou regra nova com a Lei 14.887/2024, que institui o Programa de Alimentação do Trabalhador (PAT). O guia de [vale-transporte e vale-refeição](/guias/vale-transporte-e-vale-refeicao/) detalha as regras atuais.
 
+## A entrevista remota: o que perguntam e como responder
+
+A entrevista por vídeo tem um formato previsível, e quem sabe o que vai ser perguntado responde melhor. São cinco blocos, na mesma ordem na maioria dos processos.
+
+**Apresentação (5 minutos).** Quem você é, o que você entrega e por que essa vaga. Traga um exemplo concreto, com número. A frase que funciona melhor é a que liga um problema de negócio a um resultado que você produziu.
+
+**Experiência (15 minutos).** O recrutador abre uma entrega que você fez e pergunta como foi feito. É aqui que o portfólio deixa de ser decorativo: com o caso na tela, a conversa deixa de ser genérica.
+
+**Estudo ou desafio (30 a 60 minutos).** Muitas empresas remotas pedem uma tarefa real, com prazo de um ou dois dias. A qualidade do que você entrega nesse teste vale mais do que qualquer apresentação verbal. Leia o enunciado antes de começar e confirme o escopo por escrito.
+
+**Perguntas sobre o modelo de trabalho.** Quantas horas por dia, como é a comunicação, o que a empresa espera de presença, se há compensate de fuso horário. Faça essas perguntas você também: a resposta muda se você aceita ou recusa.
+
+**Fit com a equipe.** Como você resolve conflito, como organiza prazo apertado, se prefere autonomia ou acompanhamento. Responda com casos, não com adjetivos.
+
+A parte que mais destoa em candidatura remota é o pedido de disponibilidade. Quem responde em duas linhas genéricas passa despercebido. Quem responde com horários reais, disponibilidade para videochamada em determinado fuso e um método de trabalho mostra que já opera de forma assíncrona.
+
+
 ## O que o empregador é obrigado a fazer e o que é opcional
 
 Obrigações do empregador em trabalho remoto:
@@ -96,6 +113,21 @@ Opcional, dependente de negociação ou de convenção:
 - Auxílio deslocamento nos dias de ida à sede, no modelo híbrido.
 - Horário flexível de entrada e saída, com compensação de jornada.
 - Dia de home office, com a empresa pagando coworking em parte do mês.
+
+## Como montar um plano de estudo em 90 dias
+
+Ter um plano com prazo evita a armadilha mais comum: ficar estudando tecnologia sem nunca colocar nada no ar. O cronograma abaixo funciona para quem já tem a base técnica e quer um resultado público em três meses.
+
+**Dias 1 a 30: um projeto com nome, prazo e escopo fechado.** Escolha um problema que você resolve melhor que a média: automatizar um relatório, reduzir o tempo de atendimento de um e-commerce, organizar o controle financeiro de um pequeno negócio. Defina o escopo em uma frase, escolha a ferramenta e anuncie o início.
+
+**Dias 31 a 60: o projeto no ar e documentado.** Publique o que funciona, mesmo que incompleto. Documente o processo: o que foi tentado, o que falhou e por quê. Esse registro vale mais em entrevista do que o resultado final, porque mostra raciocínio.
+
+**Dias 61 a 90: o portfólio montado e a primeira candidatura.** Reúna os três casos, monte o perfil, defina o preço por hora e comece a se candidatar. A partir daí, o ciclo vira: entrega, portfólio, candidatura, entrega.
+
+O que costuma travar esse plano não é técnico. É a falta de um escopo fechado. Um projeto sem prazo definido vira um projeto infinito, e projeto infinito não entra em portfólio.
+
+Para as ferramentas que ajudam a montar cada etapa, o cluster de [automação para pequenas empresas](/guias/automacao-para-pequenas-empresas/) mostra o que dá para automatizar em cada fase, e o guia de [criar agente de IA](/guias/como-criar-agente-de-ia/) detalha o caso de um projeto com IA no centro.
+
 
 ## O que separa quem consegue vaga remota de quem não consegue
 

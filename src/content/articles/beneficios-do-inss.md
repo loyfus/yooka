@@ -88,7 +88,7 @@ Regras e valores podem ser alterados por lei ou por portaria. **Verifique no por
 
 Depois de enviado, o requerimento fica listado em "Meus Requerimentos", com situação "Em análise", "Deferido" ou "Indeferido". Quando o benefício é deferido, o pagamento é creditado na conta bancária informada no cadastro — por isso o dado bancário errado é outra causa frequente de atraso na liberação.
 
-Todo beneficiário de benefício do INSS tem direito a um cartão de benefícios com o Número de Identificação do Beneficiário (NIB), usado para comprovar a condição de beneficiário em farmácias, clínicas, exames e no transporte público de algumas cidades. A segunda via é tratada em [segunda via do cartão do beneficiário INSS](/guias/como-solicitar-segunda-via-do-cartao-do-beneficiario/).
+Todo beneficiário de benefício do INSS tem direito a um cartão de benefícios com o Número de Identificação do Beneficiário (NIB). O documento é emitido pela Carteira de Benefícios, dentro do Meu INSS, e serve para comprovar a condição de beneficiário em farmácias, clínicas, exames e no transporte público de algumas cidades. A segunda via é tratada em [segunda via do cartão do beneficiário INSS](/guias/como-solicitar-segunda-via-do-cartao-do-beneficiario/).
 
 Para conferir a renda e o histórico, ainda no Meu INSS estão disponíveis o "Extrato de Contribuições" (CNIS), o "Extrato de Benefícios" e o "Meu Mapa de Contribuições", que mostram mês a mês o que foi repassado ao INSS.
 

@@ -3,12 +3,12 @@
   "slug": "picpay",
   "category": "custos-e-planos",
   "tagline": "Carteira digital simples para receber Pix no dia a dia",
-  "description": "Carteira digital com Pix, cartão de crédito, conta PJ e QR Code para receber no balcão, com recarga por boleto, saque pelo aplicativo e comprovante de pagamento.",
+  "description": "Carteira digital com Pix, cartão de crédito, conta PJ e QR Code para receber no balcão, com recarga por boleto, saque no aplicativo e comprovante.",
   "url": "https://picpay.com",
   "affiliateUrl": "https://picpay.com/?via=yooka",
   "price": "Grátis para pessoa física; conta PJ com planos pagos",
   "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. O app de pessoa física é gratuito; a Conta PJ tem planos mensais com valor e serviço corte, e taxas específicas para saque e cartão.",
-  "bestFor": "Quem quer receber Pix por QR Code e vender no caixa sem complicar a vida com banco",
+  "bestFor": "Quem quer receber Pix por QR Code e vender no balcão sem complicar a vida com banco",
   "rating": 4.1,
   "ratingCount": 655,
   "pros": [
@@ -56,7 +56,7 @@
     "Enviar comprovante de recebimento junto com a nota para o cliente do serviço"
   ],
   "bestForWho": "Comerciante ou prestador de serviço de bairro que precisa receber no Pix com simplicidade e separar o caixa do negócio.",
-  "verdict": "O PicPay faz uma coisa muito bem: ser o lugar mais simples de receber Pix no balcão, sem maquininha e sem contrato. Para o comércio de bairro, o QR Code estático resolve o dia a dia em segundos, e a Conta PJ separa o dinheiro do negócio do dinheiro de casa. O que atrapalha é a estrutura de cobrança da Conta PJ, com planos cobrados por volume e tarifas de saque que só aparecem quando você precisa do dinheiro. O rendimento do saldo guardado também não compete com CDB de banco digital, então o PicPay não substitui uma conta de investimento. Para operação de balcão, ele é a ferramenta certa. Para quem quer guardar reserva, o app sozinho não dá conta.",
+  "verdict": "O PicPay faz uma coisa muito bem: ser o lugar mais simples de receber Pix no balcão, sem maquininha e sem contrato. Para o comércio de bairro, o QR Code estático resolve o dia a dia em segundos, e a Conta PJ separa o dinheiro do negócio do dinheiro de casa. O que atrapalha é a estrutura de cobrança da Conta PJ, com planos cobrados por volume e tarifas de saque que só aparecem quando você precisa do dinheiro. O rendimento do saldo guardado também não compete com CDB de banco digital, então o PicPay não substitui uma conta de investimento. Para operação de balcão, ele é a ferramenta certa; para quem quer guardar reserva, o aplicativo sozinho não dá conta.",
   "alternatives": [
     "nubank",
     "mercado-pago",

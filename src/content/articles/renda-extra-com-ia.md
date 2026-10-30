@@ -23,7 +23,7 @@ Renda extra com IA é o uso de inteligência artificial para executar tarefas qu
 
 ## O que a IA realmente muda na sua rotina de trabalho
 
-A grande maioria dos anúncios sobre renda extra com IA vende a mesma coisa: a ideia de que existe uma ferramenta capaz de produzir renda enquanto a pessoa dorme. Isso não existe. O que existe é trabalho de venda, suporte, estudo eConstância, com a IA reduzindo o tempo gasto nas tarefas repetitivas.
+A grande maioria dos anúncios sobre renda extra com IA vende a mesma coisa: a ideia de que existe uma ferramenta capaz de produzir renda enquanto a pessoa dorme. Isso não existe. O que existe é trabalho de venda, suporte, estudo e constância, com a IA reduzindo o tempo gasto nas tarefas repetitivas.
 
 A diferença prática aparece em três frentes. Primeiro, o **custo de produzir**: escrever 30 descrições de produto, um catálogo inteiro, um e-mail de venda, um roteiro de vídeo ou um plano de conteúdo deixa de levar um fim de semana e passa a levar uma tarde. Segundo, o **custo de atender**: a primeira resposta para o cliente deixa de depender de você estar com o celular na mão. Terceiro, o **custo de tentar**: antes de montar um catálogo ou um curso, você valida a ideia com material real e descobre se o mercado paga aquilo.
 
@@ -39,24 +39,24 @@ Vale ser direto sobre a expectativa: renda extra com IA, na maioria dos casos, n
 | Atendimento automático no WhatsApp | Resposta, triagem, agenda | Clínica, oficina, loja local | R$ 800 a R$ 3.000 por mês | 3 a 6 semanas |
 | Catálogo e anúncios para marketplace | Foto, título, ficha de produto | Lojista de marketplace | R$ 25 a R$ 80 por produto | 2 a 5 semanas |
 | Conteúdo para redes locais | Post, roteiro, legenda | Restaurante, clínica, salão | R$ 600 a R$ 2.000 por mês | 3 a 6 semanas |
-| Design de produto digital | Template, planilha, checklist | Criador de conteúdo, consultor | R$ 40 a R$ 300 por arquivo | 1 a 3 semanas |
+| Design de produto digital | Modelo pronto, planilha, checklist | Criador de conteúdo, consultor | R$ 40 a R$ 300 por arquivo | 1 a 3 semanas |
 | Automação de processo interno | Fluxo entre planilha, e-mail, agenda | Empresa de 5 a 50 pessoas | R$ 1.500 a R$ 8.000 por projeto | 4 a 10 semanas |
 | Relatório e análise por assinatura | Painel com dado do cliente | Loja online, agência | R$ 200 a R$ 900 por mês | 4 a 8 semanas |
 
-Vale notar o padrão: os caminhos com o primeiro cliente mais rápido vendem para quem **já tem** o problema visível. Ninguém contrata automação antes de ter Planilha espalhada, e ninguém contrata conteúdo antes de ter o que vender. Por isso, o melhor ponto de entrada costuma ser o seu entorno imediato: a clínica do seu bairro, a loja da sua rua, o grupo de mensagens do seu condomínio.
+Vale notar o padrão: os caminhos com o primeiro cliente mais rápido vendem para quem **já tem** o problema visível. Ninguém contrata automação antes de ter planilha espalhada, e ninguém contrata conteúdo antes de ter o que vender. Por isso, o melhor ponto de entrada costuma ser o seu entorno imediato: a clínica do seu bairro, a loja da sua rua, o grupo de mensagens do seu condomínio.
 
 Se você ainda não tem nem o serviço definido, o [guia de freelancer](/guias/freelancer-como-comecar/) mostra como estruturar a oferta e o contrato antes de cobrar, e o [guia de como abrir MEI](/guias/como-abrir-mei-passo-a-passo/) resolve a parte burocrática que costuma travar quem está começando.
 
 ## Passo a passo para montar renda extra com IA em 30 dias
 
-1. **Escolha um cliente específico, não um público.** "Lojas de MODE" não é um cliente, "a clínica de estética da Vila Madalena que perde 40% das mensagens no WhatsApp" é. Você precisa imaginar nome, tamanho e dor para conseguir falar com a pessoa.
+1. **Escolha um cliente específico, não um público.** "Lojas de moda" não é um cliente, "a clínica de estética da Vila Madalena que perde 40% das mensagens no WhatsApp" é. Você precisa imaginar nome, tamanho e dor para conseguir falar com a pessoa.
 2. **Fale com cinco pessoas desse perfil antes de construir qualquer coisa.** Pergunte como resolvem hoje, quanto tempo gastam e o que já tentaram. Se nenhuma disser que o problema incomoda, troque de cliente. Esta etapa é a que mais evita trabalho jogado fora.
 3. **Escreva a entrega em uma frase.** "Monto catálogo de 40 produtos com foto, título e descrição otimizada para busca, entregue em 5 dias úteis." Se você não consegue limitar o escopo, o preço vai subir até virar inviável.
 4. **Monte a base legal e fiscal.** Abra MEI se a atividade couber no CNAE, entenda como emitir NFS-e e configure o recebimento por Pix com taxa. O [guia de Pix para MEI](/guias/pix-mei-receber/) e o [guia de emissão de NFS-e](/guias/como-emitir-nfse/) resolvem essa parte com o passo a passo.
 5. **Só agora escolha a ferramenta.** Compare custo e finalidade antes de assinar qualquer coisa: o [guia de como escolher ferramenta de IA](/guias/como-escolher-ferramenta-de-ia/) mostra o que olhar, e o [guia de custo de agente de IA](/guias/custo-de-agente-de-ia/) detalha quando o custo fixo começa a pesar.
 6. **Produza uma entrega de teste com dados reais.** Não um exemplo fictício. Use o catálogo, a lista de clientes ou o material do próprio cliente. É assim que aparecem os problemas que só aparecem no volume real.
 7. **Cobre a primeira entrega e peça feedback em duas perguntas.** O que mais economizou e o que ainda falta. Esse retorno define a segunda entrega melhor que qualquer curso.
-8. **Só então registre o que deu certo em um procedimento.** Texto, modelo de resposta, lista de verificação. O objetivo do segundo mês é cada entrega levar menos horas que a primeira.
+8. **Só então registre o que deu certo em um checklist reaproveitável.** Texto, modelo de resposta, lista de verificação. O objetivo do segundo mês é cada entrega levar menos horas que a primeira.
 
 ## Quanto custa começar, item por item
 

@@ -16,19 +16,26 @@ jobs:
         with:
           node-version: '24'
 
+      - name: Instalar dependências
+        run: npm ci
+
       - name: Build
         run: npm run build:fast
         env:
           SITE_URL: ${{ vars.SITE_URL }}
 
-      - name: Publicar a chave do IndexNow
+      - name: Publicar a chave do IndexNow na raiz do site
         run: |
-          if [ -n "${{ secrets.INDEXNOW_KEY }}" ]; then
-            echo "${{ secrets.INDEXNOW_KEY }}" > public/${{ secrets.INDEXNOW_KEY }}.txt
+          if [ -n "$INDEXNOW_KEY" ]; then
+            echo "$INDEXNOW_KEY" > "public/$INDEXNOW_KEY.txt"
+            echo "chave publicada"
+          else
+            echo "sem chave configurada — nada a publicar"
           fi
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
 
       - name: Enviar URLs ao IndexNow
-        if: ${{ secrets.INDEXNOW_KEY != '' }}
         run: node scripts/indexnow.js
         env:
           INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}

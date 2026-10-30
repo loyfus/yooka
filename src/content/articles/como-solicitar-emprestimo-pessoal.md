@@ -80,7 +80,7 @@ A tabela revela o principal: a diferença entre a melhor e a pior opção para o
 - **Fechar o contrato com o consignado errado.** Consignado com desconto maior nem sempre é o mais barato: compare o total, não só a taxa.
 - **Desistir por achar que "empréstimo pessoal é golpe".** Empréstimo legítimo é crédito com registro em bureau de crédito. Desconfie de quem promete liberação sem análise de crédito, cobra depósito antecipado ou pede senha do aplicativo do banco.
 - **Esquecer o prazo de carência na primeira parcela.** Some a carência no cálculo do total. Ela empurra todos os vencimentos.
-- **Contratar e não guardar o contrato.** A PDF da contratação é a prova do que foi combinado. Sem ela, é difícil contestar taxa ou tarifa depois.
+- **Contratar e não guardar o contrato.** O PDF da contratação é a prova do que foi combinado. Sem ela, é difícil contestar taxa ou tarifa depois.
 
 ## Documentos que você precisa deixar prontos
 

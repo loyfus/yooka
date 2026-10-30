@@ -16,7 +16,7 @@ faq:
   - q: "Férias proporcionais existem mesmo?"
     a: "Sim. Quem é demitido ou encerra o contrato antes do fim do período aquisitivo recebe férias proporcionais, calculadas por 1/12 por mês incompleto no ano em que as férias incompletas vigem, mais o terço."
   - q: "Posso vender férias?"
-    a: "Não. Férias são direito constitucional e não podem ser renunciadas nem convertidas em dinheiro em hipótese alguma. Se a empresa oferece pagamento em vez de férias, isso não afasta oBis..."
+    a: "Não. Férias são direito constitucional e não podem ser renunciadas nem convertidas em dinheiro em hipótese alguma. Se a empresa oferece pagamento em vez de férias, isso não afasta o direito do empregado."
 ---
 
 Como calcular férias é somar um mês de salário dividido por 12 para cada mês trabalhado no período aquisitivo, multiplicar pelo terço constitucional e somar o resultado. Quem trabalhou 12 meses recebe 30 dias de férias mais um terço do salário. Quem foi demitido antes do fim do período recebe as férias proporcionais. Referência: outubro de 2026.

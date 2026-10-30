@@ -11,8 +11,8 @@ draft: false
 faq:
   - q: "Qual a diferença entre markup e margem de lucro?"
     a: "Markup é o quanto você acrescenta sobre o custo: R$ 100 de custo com markup de 2x gera R$ 200 de preço. Margem é o quanto sobra do preço: R$ 200 de preço com R$ 100 de custo gera 50% de margem. Os dois números usam a mesma base e por isso confundem muita gente."
-  - q: "Como sei quanto cobrar por um produto que revendo?"
-    a: "Some todos os custos: compra, frete, taxa de marketplace, taxa do Pix, embalagem, impostas e provisão de devolução. Divida por (1 menos a soma percentual dos custos) e aplique o multiplicador de markup que você quer. O resultado é o preço mínimo, não o preço final."
+  - q: "Como sei quanto cobrar por um produto que eu revendo?"
+    a: "Some todos os custos: compra, frete, taxa de marketplace, taxa do Pix, embalagem, impostos e provisão de devolução. Divida por (1 menos a soma percentual dos custos) e aplique o multiplicador de markup que você quer. O resultado é o preço mínimo, não o preço final."
   - q: "Preciso incluir o DAS do MEI na precificação?"
     a: "Inclua como percentual do faturamento, calculado sobre a receita bruta, e não sobre o lucro. O [guia de como pagar o DAS](/guias/das-mei-como-pagar/) mostra o valor da faixa vigente e a forma de cálculo."
   - q: "Por que meu preço parece alto perto do do concorrente?"
@@ -59,9 +59,9 @@ A leitura importante: markup de 2x não é margem de 100%. Quando alguém diz "q
 |---|---|---|---|
 | Revenda em marketplace | Produto, frete, taxa de 12% a 20%, devolução | 2,0x a 3,5x | 8% a 20% |
 | Revenda com estoque próprio | Produto, frete, embalagem, devolução | 2,5x a 4,0x | 15% a 30% |
-| Print on demand | Produto, estampa, envio, taxa | 3,0x a 5,0x | 20% a 40% |
+| Estampa sob encomenda | Produto, estampa, envio, taxa | 3,0x a 5,0x | 20% a 40% |
 | Produto digital em plataforma | Taxa de 4% a 9%, tarifa do Pix, cupom | Sem custo de produto | 45% a 80% |
-| Serviço e assessment | Seu tempo, impostos, agenda | Sem markup de produto | 40% a 70% |
+| Serviço e avaliação | Seu tempo, impostos, agenda | Sem markup de produto | 40% a 70% |
 | Curso online | Plataforma, produção, tráfego | Sem custo de produto | 50% a 85% |
 
 Repare na inversão: quanto mais o produto é físico e vendido em marketplace, menor a margem e maior a sensibilidade ao custo de frete. Quanto mais o produto é digital e vendido na sua própria página, maior a margem e menor a dependência de taxa de terceiros. Essa é a razão técnica por trás do conselho de "comece digital".
@@ -95,7 +95,7 @@ Depois de qualquer teste, refaça o cálculo de margem com o novo preço. O [gui
 
 - **Copiar o preço do concorrente.** Você não conhece o custo dele, o frete que ele subsidia nem a devolução que ele absorve. Comparar preço sem comparar custo é comparar uma variável com uma hipótese.
 
-- **Dar desconto para fechar venda.** Desconto não debería ser a ferramenta de decisão; se o cliente precisa de 30% para comprar, o problema é a proposta ou o público, não o preço.
+- **Dar desconto para fechar venda.** Desconto não deveria ser a ferramenta de decisão; se o cliente precisa de 30% para comprar, o problema é a proposta ou o público, não o preço.
 
 - **Preço de tabela e preço real.** Em negociação, marketplace ou venda pelo WhatsApp, sempre volte ao custo total. O [guia de marketing para pequeno negócio](/guias/marketing-para-pequeno-negocio/) mostra como apresentar preço sem perder margem.
 

@@ -16,7 +16,7 @@ faq:
   - q: "Quanto tempo leva para criar e vender o primeiro curso?"
     a: "De 30 a 60 dias para um curso enxuto, contando planejamento, gravação, página de venda, tráfego e as primeiras vendas. O tempo maior é dedicado ao funil e ao conteúdo do que à gravação em si."
   - q: "Vou perder dinheiro vendendo curso?"
-    a: "Com taxa de 4% a 9% e margem alta, o risco financeiro é baixo. O risco real é invest weeks de trabalho em um curso para um público que não queria, e isso se evita validando a oferta antes de gravar."
+    a: "Com taxa de 4% a 9% e margem alta, o risco financeiro é baixo. O risco real é investir semanas de trabalho em um curso para um público que não queria, e isso se evita validando a oferta antes de gravar."
 ---
 
 Curso online como vender é o processo de transformar conhecimento em um produto digital hospedado em uma plataforma, com página de venda, checkout, entrega automática e uma sequência de relacionamento que leva a pessoa até a compra. A estrutura é simples, mas cada etapa tem uma taxa, um prazo e um número de conversão que decide se o negócio fecha.
@@ -34,7 +34,7 @@ O funil típico tem quatro camadas:
 | Checkout | Tirar a fricção da decisão | Taxa de abandono do carrinho | 60% a 90% de conversão do checkout |
 | Entrega e upsell | Entregar e oferecer o próximo passo | Taxa de abertura e de recompra | 30% a 60% de abertura do material |
 
-Multiplicando quatro taxas, uma visitor de mil pessoas pode virar uma venda. Essa matemática é o coração do negócio: o curso não vive de esforço em gravação, vive de tamanho de audiência e de taxa de conversão. Por isso, o [guia de marketing para pequeno negócio](/guias/marketing-para-pequeno-negocio/) é tão relevante quanto o de produção do material.
+Multiplicando quatro taxas, mil visitas podem virar uma venda. Essa matemática é o coração do negócio: o curso não vive de esforço em gravação, vive de tamanho de audiência e de taxa de conversão. Por isso, o [guia de marketing para pequeno negócio](/guias/marketing-para-pequeno-negocio/) é tão relevante quanto o de produção do material.
 
 A receita, porém, não é o faturamento. Do valor vendido saem a taxa da plataforma (4% a 9% em outubro de 2026, mais tarifa do Pix), os impostos sobre a receita bruta, o custo de tráfego pago e a taxa de estorno e cancelamento.
 
@@ -42,22 +42,22 @@ A receita, porém, não é o faturamento. Do valor vendido saem a taxa da plataf
 
 1. **Defina o problema específico que o curso resolve.** "Ensinar marketing" não é um produto. "Escrever o primeiro e-mail de venda para um e-commerce que nunca vendeu" é. Escopo fechado vende; escopo aberto não.
 2. **Valide antes de gravar.** Escreva a ementa, publique um post ou um vídeo curto com a primeira aula e anuncie intenção de compra. Se ninguém reagir a uma promessa, gravar dez horas não resolve.
-3. **Escolha o formato que você consegue terminar.** Aula gravada com slides, aula ao vivo com gravação, workshop de três horas, ou um projeto com template e acompanhamento. Formato que você não termina é o erro mais comum.
+3. **Escolha o formato que você consegue terminar.** Aula gravada com slides, aula ao vivo com gravação, workshop de três horas, ou um projeto com modelo pronto e acompanhamento. Formato que você não termina é o erro mais comum.
 4. **Produza a estrutura antes do conteúdo.** Ementa com módulos, ordem, tempo de cada aula e material de apoio. Grave por módulo, não "do zero".
 5. **Grave a capa e a parte que converte.** A aula que mostra o resultado do aluno em 90 segundos é a que vende. A ordem sugerida para a entrega vai do resultado para o método.
 6. **Monte a página de venda com o bloco de prova.** Depoimento, demonstração do conteúdo, garantia e prazo. O [guia de criar site de vendas gratuito](/guias/criar-site-de-vendas-gratuito/) mostra a estrutura completa.
 7. **Escolha a plataforma de checkout.** Compare taxa, prazo de repasse, taxa de assinatura, confirmação de entrega e preço do plano. O quadro de taxas está na seção seguinte.
-8. **Configure a entrega automática e a sequência de e-mail.** Abertura do material, primeiro complemento, lembrete e a oferta do próximo produto. Sem isso, você vende uma vez e esquece o cliente Feche a parte fiscal.** MEI, NFS-e, Pix com a tarifa correta e DAS. O [guia de como abrir MEI](/guias/como-abrir-mei-passo-a-passo/), o [guia de como emitir NFS-e](/guias/como-emitir-nfse/) e o [guia de Pix para MEI](/guias/pix-mei-receber/) resolvem a parte burocrática Lance pequeno e colete feedback.** Venda para dez pessoas primeiro, ajuste a partir do que elas perguntam e só então amplie o tráfego.****
+8. **Configure a entrega automática, a sequência de e-mail e a parte fiscal.** Abertura do material, primeiro complemento, lembrete e a oferta do próximo produto: sem isso, você vende uma vez e esquece o cliente. No lado fiscal, resolva MEI, NFS-e, Pix com a tarifa correta e DAS. O [guia de como abrir MEI](/guias/como-abrir-mei-passo-a-passo/), o [guia de como emitir NFS-e](/guias/como-emitir-nfse/) e o [guia de Pix para MEI](/guias/pix-mei-receber/) resolvem a parte burocrática. Lance pequeno: venda para dez pessoas primeiro, ajuste a partir do que elas perguntam e só então amplie o tráfego.
 
 ## Taxas, prazos e custos por plataforma
 
 | Plataforma | Taxa por venda (outubro de 2026) | Tarifa do Pix | Taxa de assinatura | Prazo de repasse | Observação |
 |---|---|---|---|---|---|
-| Hotmart | 4% a 9% | Sim, acrescida | 0% em plano inicial; 1% a 3% em planos superiores | 2 a 30 dias | Publica e faz split com terceiros; ticket médio alto |
+| Hotmart | 4% a 9% | Sim, acrescida | 0% em plano inicial; 1% a 3% em planos superiores | 2 a 30 dias | Publica e faz divisão de receita com terceiros; ticket médio alto |
 | Kiwify | 4% a 9% | Sim, acrescida | 0% a 2% conforme plano | 2 a 15 dias | Foco em checkout, upsell e assinatura |
 | Monetizze | 4% a 9% | Sim, acrescida | 0% a 2% conforme plano | 2 a 15 dias | Otimizado para infoproduto e curso |
 | Shopify | Sem taxa de venda no plano | Não se usar gateway próprio | Mensalidade do plano | Conforme gateway | Você paga o gateway e a mensalidade |
-| WordPress com WooCommerce | Sem taxa de venda | Conforme plugin de pagamento | Hospedagem e plugins | Conforme gateway | Mais liberdade, mais configuração |
+| WordPress com WooCommerce | Sem taxa de venda | Conforme a extensão de pagamento | Hospedagem e extensões | Conforme gateway | Mais liberdade, mais configuração |
 | Stripe, Mercado Pago, PagSeguro | Taxa por venda ou mensalidade | Conforme tarifa | 0% a 1,5% em planos | 1 a 15 dias | Processador de pagamento, não plataforma de entrega |
 
 Some as três primeiras colunas para saber o custo de vender. Em outubro de 2026, uma venda de R$ 197 em plataforma com taxa de 9% mais tarifa do Pix de 1% deixa R$ 176,13 antes de impostos e antes de qualquer custo de tráfego.
@@ -78,6 +78,7 @@ O **mecanismo com nome** é o que diferencia o curso de um vídeo solto no YouTu
 Sobre **preço**, a referência prática é o valor do problema para o cliente, não o seu custo de produção. Um curso que economiza dez horas por mês de um profissional cobra entre R$ 197 e R$ 497 se entregar o método. Para começar, o [guia de como precificar produto](/guias/como-precificar-produto/) traz o cálculo completo de margem, e o [guia de como criar produto digital](/guias/como-criar-produto-digital/) mostra como formatar a entrega para justificar o preço.
 
 Por fim, **o preço não é uma decisão de uma vez**. Depois das primeiras dez vendas, com dados de conversão e de pergunta no atendimento, dá para subir o preço ou criar uma versão reduzida para o topo do funil. O [guia de como criar produto digital](/guias/como-criar-produto-digital/) mostra como estruturar esses degraus sem canibalizar a oferta principal.
+
 ## Erros comuns que travam a primeira venda
 
 - **Gravar antes de saber o que vende.** O material mais bonito não vende. A oferta é o produto; o material é a entrega.
@@ -90,17 +91,17 @@ Por fim, **o preço não é uma decisão de uma vez**. Depois das primeiras dez 
 
 - **Esquecer o custo do tempo.** Um curso de oito horas com atendimento por WhatsApp vira emprego. Defina o escopo de suporte antes de lançar.
 
-- **Ignorar o impost e o DAS.** A receita bruta do MEI é o valor cheio da venda. O [guia de como pagar o DAS](/guias/das-mei-como-pagar/) e o [guia de custo real de ter MEI](/guias/custo-real-de-ter-mei/) mostram o efeito na margem.
+- **Ignorar os impostos e o DAS.** A receita bruta do MEI é o valor cheio da venda. O [guia de como pagar o DAS](/guias/das-mei-como-pagar/) e o [guia de custo real de ter MEI](/guias/custo-real-de-ter-mei/) mostram o efeito na margem.
 
 - **Não pedir depoimento.** Sem depoimento, a página nova vende muito menos que a segunda. Peça a todo aluno, com uma pergunta específica.
 
 - **Plataforma sem checkout mobile testado.** A maior parte das vendas de link de Instagram chega no celular. Teste no celular antes de anunciar.
 
-## Como aumentar o ticket sem perder conversão
+## Como aumentar o valor médio do pedido sem perder conversão
 
 O caminho mais saudável é o funil de três degraus: entrada (material gratuito ou aula aberta), produto principal (o curso) e produto de expansão (mentoria, comunidade, curso avançado). O [guia de como criar produto digital](/guias/como-criar-produto-digital/) detalha como estruturar cada degrau.
 
-O segundo caminho é o **upsell no checkout**, com oferta de supplement added antes do pagamento. O terceiro é o **order bump** (R$ 19,90 de bônus), que costuma ter conversão alta porque o valor é baixo. O quarto é o **boleto parcelado** em plataformas que aceitam, o que resolve a objeção de preço em vez de baixar o valor.
+O segundo caminho é o **upsell no checkout**, com uma oferta complementar antes do pagamento. O terceiro é o **adicional de baixo valor** (R$ 19,90 de bônus), que costuma ter conversão alta porque o valor pedido é pequeno. O quarto é o **boleto parcelado** em plataformas que aceitam, o que resolve a objeção de preço em vez de baixar o valor.
 
 Para criar esses materiais com eficiência, o [guia de como criar produto digital](/guias/como-criar-produto-digital/) mostra os formatos que vendem, e o [guia de como escolher ferramenta de IA](/guias/como-escolher-ferramenta-de-ia/) ajuda a escolher o que usar na produção do conteúdo. Se a estratégia depender de atendimento automatizado para responder dúvida antes da compra, o [guia de chatbot para WhatsApp](/guias/chatbot-para-whatsapp/) e o [guia de IA para vendas](/guias/ia-para-vendas/) mostram o desenho da automação.
 

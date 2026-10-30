@@ -15,7 +15,7 @@
     "Cadastro gratuito e perfil público indexado, que serve como portfólio mesmo sem nenhum projeto",
     "Projetos com orçamento visível, o que permite calcular a hora antes de se candidatar",
     "Contrato e pagamento intermediados pela plataforma, com garantia para as duas pontas",
-    "Volume alto de propostas pequenas, útil para o primeiro cliente e para teste de preço"
+    "Volume alto de propostas de baixo valor, útil para o primeiro cliente e para teste de preço"
   ],
   "cons": [
     "A taxa sobre o projeto ganho é sempre cobrada, e em valor baixo de contrato ela come a margem",
@@ -24,12 +24,30 @@
     "Perfil sem proposta mostra pouco: sem histórico, o algoritmo de ranqueamento empurra o candidato para baixo"
   ],
   "features": [
-    { "name": "Projetos com orçamento", "detail": "Anúncios com valor, prazo e escopo definidos pelo cliente" },
-    { "name": "Perfil público", "detail": "Página indexada com portfólio, habilidades e avaliações dos clientes" },
-    { "name": "Candidatura", "detail": "Propostas com valor e prazo, liberadas para envio ao cliente" },
-    { "name": "Contrato intermediado", "detail": "Acordo, escopo e pagamento registrados dentro da plataforma" },
-    { "name": "Repasse do valor", "detail": "Dinheiro liberado ao freelancer conforme as etapas do contrato" },
-    { "name": "Avaliações", "detail": "Notas e comentários dos clientes que viram prova social do perfil" }
+    {
+      "name": "Projetos com orçamento",
+      "detail": "Anúncios com valor, prazo e escopo definidos pelo cliente"
+    },
+    {
+      "name": "Perfil público",
+      "detail": "Página indexada com portfólio, habilidades e avaliações dos clientes"
+    },
+    {
+      "name": "Candidatura",
+      "detail": "Propostas com valor e prazo, liberadas para envio ao cliente"
+    },
+    {
+      "name": "Contrato intermediado",
+      "detail": "Acordo, escopo e pagamento registrados dentro da plataforma"
+    },
+    {
+      "name": "Repasse do valor",
+      "detail": "Dinheiro liberado ao freelancer conforme as etapas do contrato"
+    },
+    {
+      "name": "Avaliações",
+      "detail": "Notas e comentários dos clientes que viram prova social do perfil"
+    }
   ],
   "useCases": [
     "Ganhar o primeiro projeto de design ou texto sem precisar de indicação de ninguém",

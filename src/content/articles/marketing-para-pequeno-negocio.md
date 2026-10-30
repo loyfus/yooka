@@ -5,14 +5,14 @@ date: "2026-10-30"
 updated: "2026-10-30"
 category: "renda-e-negocio"
 tags: ["marketing", "pequeno negocio", "google meu negocio", "instagram", "whatsapp"]
-keywords: ["marketing para pequeno negocio", "como divulgar meu negocio", "google meu negocio paraEmpresa", "marketing local para iniciante", "divulgacao para loja"]
+keywords: ["marketing para pequeno negocio", "como divulgar meu negocio", "google meu negocio para empresa", "marketing local para iniciante", "divulgacao para loja"]
 featured: false
 draft: false
 faq:
   - q: "Qual é o canal de marketing mais barato para um pequeno negócio?"
     a: "Google Meu Negócio e WhatsApp Business são os mais baratos, porque não exigem produção nem mídia paga. O Instagram fica no meio: é gratuito para postar, mas exige consistência e foto decente para render. Em outubro de 2026, a ordem para a maioria dos serviços locais é Google, depois WhatsApp, depois Instagram."
   - q: "Preciso gastar em anúncio para ter marketing?"
-    a: "Não para começar. Com perfil no Google Meu Negócio completo, WhatsApp Business configurado e um fluxo de indicação, muita operação local já tem demanda. O anúncio pago entra quando o orgânico satura e o custo por lead precisa cair."
+    a: "Não para começar. Com perfil no Google Meu Negócio completo, WhatsApp Business configurado e um fluxo de indicação, muita operação local já tem demanda. O anúncio pago entra quando o orgânico satura e o custo por cliente potencial precisa cair."
   - q: "Quanto custa o marketing de um pequeno negócio por mês?"
     a: "De R$ 0 a R$ 600 por mês na fase orgânica, com tempo do dono como principal custo. Com mídia paga, some R$ 300 a R$ 3.000 por mês e um custo de produção. Referência de outubro de 2026."
   - q: "Como saber se o marketing está funcionando?"
@@ -31,7 +31,7 @@ Marketing para pequeno negócio é o conjunto de ações de baixo custo que faze
 
 **Indicação e vizinhança.** Não é canal digital, e é o de melhor conversão. Cartão com WhatsApp direto, voucher de primeira compra com prazo de validade, e pedido de indicação para cliente satisfeito. Custa pouco e devolve cliente com taxa de recompra bem maior que a de anúncio pago.
 
-Definir o canal principal evita a dispersão que consome o tempo de quem opera sozinho. O [guia de marketing com IA](/guias/marketing-com-ia/) mostra como gerar criativos e variations sem gastar mais.
+Definir o canal principal evita a dispersão que consome o tempo de quem opera sozinho. O [guia de marketing com IA](/guias/marketing-com-ia/) mostra como gerar criativos e variações sem gastar mais.
 
 ## Passo a passo: plano de marketing de 90 dias para pequeno negócio
 
@@ -46,7 +46,7 @@ Definir o canal principal evita a dispersão que consome o tempo de quem opera s
 
 ## Custos, prazos e o que cada canal entrega
 
-| Canal | Custo por mês (referência de outubro de 2026) | Tempo de setup | Prazo para ver resultado | Métrica que importa |
+| Canal | Custo por mês (referência de outubro de 2026) | Tempo de configuração | Prazo para ver resultado | Métrica que importa |
 |---|---|---|---|---|
 | Google Meu Negócio | R$ 0 | 3 a 6 horas | 4 a 12 semanas | Chamadas e rota pelo mapa |
 | WhatsApp Business | R$ 0 | 2 a 4 horas | 1 a 4 semanas | Conversa para pedido |
@@ -61,16 +61,16 @@ Repare que o tempo do dono aparece como custo real na maior parte das linhas. Se
 
 ## As métricas que importam em um pequeno negócio
 
-Em negócio pequeno, a métrica que engana é a vaidade: curtidas, seguidores, alcance e visualizações de página. Elas geram sensación de progresso sem gerar receita. O conjunto mínimo que funciona tem quatro números:
+Em negócio pequeno, a métrica que engana é a vaidade: curtidas, seguidores, alcance e visualizações de página. Elas geram sensação de progresso sem gerar receita. O conjunto mínimo que funciona tem quatro números:
 
 | Métrica | Como medir | Frequência | Meta de referência |
 |---|---|---|---|
 | Origem dos pedidos | Campo de origem no formulário ou na conversa | Semanal | 60% vindo dos canais orgânicos |
 | Conversão de WhatsApp | Conversas que viram pedido, sobre total de conversas | Semanal | 25% a 45% |
-| Custo por pedido | Investimento em mídia dividido por pedidos | Mensal | Abaixo de 30% do ticket médio |
+| Custo por pedido | Investimento em mídia dividido por pedidos | Mensal | Abaixo de 30% do valor médio do pedido |
 | Retorno do cliente | Percentual de pedidos de quem já comprou | Mensal | Acima de 25% |
 
-A quarta é a mais reveladora. Se o retorno de cliente está baixo, o problema não é falta de lead, é entrega ou experiência. Se a conversão de WhatsApp está baixa, o problema é velocidade de resposta ou clareza da oferta. Se a origem está concentrada em um único canal paga, o negócio está refém de algoritmo. O [guia de IA para vendas](/guias/ia-para-vendas/) mostra como transformar esses números em decisão semanal, e o [guia de CRM com IA para vendas](/guias/crm-ia-para-vendas/) mostra onde registrar a origem.
+A quarta é a mais reveladora. Se o retorno de cliente está baixo, o problema não é falta de cliente novo, é entrega ou experiência. Se a conversão de WhatsApp está baixa, o problema é velocidade de resposta ou clareza da oferta. Se a origem está concentrada em um único canal paga, o negócio está refém de algoritmo. O [guia de IA para vendas](/guias/ia-para-vendas/) mostra como transformar esses números em decisão semanal, e o [guia de CRM com IA para vendas](/guias/crm-ia-para-vendas/) mostra onde registrar a origem.
 
 Para a parte fiscal, que precisa estar pronta antes do volume crescer, o [guia de como emitir NFS-e](/guias/como-emitir-nfse/) e o [guia de Pix para MEI](/guias/pix-mei-receber/) resolvem o recebimento e o documento.
 

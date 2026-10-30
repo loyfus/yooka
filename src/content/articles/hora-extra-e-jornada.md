@@ -78,13 +78,26 @@ A diferença prática entre banco de horas e hora extra está no que você leva 
 
 O acordo individual de trabalho (Lei 8.036/1990 e CLT, art. 422) é o instrumento que permite negociar jornada, compensação e pré-aviso. Ele precisa registrar as condições do compensatório, o período de apuração e o limite de saldo, sob pena de a compensação ser descaracterizada e as horas voltarem a ser remuneradas como extras.
 
+## Turnos, escala e o que a empresa pode cambiar
+
+A jornada de 44 horas é o regime padrão, mas há três formatos de organização do trabalho que mudam a forma de contar as horas e de calcular o que é extra.
+
+**Turno de 12 horas.** Escala de revezamento, com turnos de 12 horas em dias alternados de trabalho e descanso. Nesse regime, o DSR é pago a cada 7 dias de trabalho, e as horas que excedem 44 na semana ou 36 na média de 2 semanas geram adicional. A Súmula 60 II do TST reconhece adicional de 100% nas horas de sábado, domingo e feriado, mesmo dentro do turno de 12 horas.
+
+**Turno ininterrupto de até 8 horas.** O empregado pode trabalhar de 6 às 14 horas ou de 22 às 6 horas, com intervalo de descanso no meio do turno. Nesse caso, o adicional noturno de 20% incide sobre a hora já com o adicional de turno, o que é diferente do regime de turno de 8 horas.
+
+**Compensação de jornada com acordo individual.** Aqui está a parte que mais aparece em reclamações: a empresa pode instituir compensação de jornada, mas precisa definir no acordo as regras de compensação, o período de apuração e o limite de saldo. Sem esses elementos, o TST considera a compensação inválida e reconverte as horas em extras com adicional de 60%, DSR e reflexos.
+
+O ponto prático para quem trabalha: guarde as folhas de ponto e as escalas. A diferença entre o que a empresa registra e o que você trabalhou é a base de qualquer discussão sobre hora extra não paga, e o ônus da prova, em regra, é do empregador quando o controle de jornada é eletrônico. A portaria do MTE sobre registro de jornada define as regras do documento de controle.
+
+
 ## O que o empregador é obrigado a fazer e o que é opcional
 
 Obrigações legais:
 
 - Pagar a hora extra com adicional de 60%, DSR e reflexos.
 - Conceder intervalo intrajornada de 1 a 2 horas e o intervalo semanal remunerado de 24 horas.
-- Manter controle de jornada registration em formulário próprio, disponível ao empregado.
+- Manter controle de jornada em formulário próprio, disponível ao empregado.
 - Não exceder a jornada de 44 horas semanais sem pagamento do excedente ou compensação dentro do prazo legal.
 - Recolher INSS e FGTS sobre as horas extras e registrar a folha no eSocial.
 
@@ -100,4 +113,4 @@ Opcional ou dependente de negociação:
 
 O valor da hora extra é a base de cálculo de outros direitos: férias com 1/3, 13º e verbas rescisórias. O guia de [13º salário](/guias/13-salario-como-calcular/) mostra como as horas extras habituais entram na base do 13º, e o de [férias](/guias/como-calcular-ferias/) mostra o mesmo para as férias proporcionais. Se a questão é o fim do contrato, [verbas rescisórias](/guias/verbas-rescisorias/) detalha como a média de horas extras das últimas semanas pode alterar o acerto. E se a dúvida é sobre os benefícios que acompanham a jornada, [vale-transporte e vale-refeição](/guias/vale-transporte-e-vale-refeicao/) detalha as regras de desconto.
 
-A Yooka explica o processo e os cálculos. Ela não substitui advogado, contador ou profissional de RH: convenções coletivas, agreements individuais e acordos de compensação da sua empresa podem mudar as regras, e isso precisa de confirmação no seu caso.
+A Yooka explica o processo e os cálculos. Ela não substitui advogado, contador ou profissional de RH: convenções coletivas, acordos individuais e acordos de compensação da sua empresa podem mudar as regras, e isso precisa de confirmação no seu caso.

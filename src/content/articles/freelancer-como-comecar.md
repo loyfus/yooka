@@ -78,6 +78,23 @@ O que o MEI não dá:
 
 Se você ultrapassar o teto de faturamento, não precisa fechar tudo: existe a possibilidade de ampliar o CNPJ para ME, com um plano de transição. O guia de [obrigações do MEI](/guias/obrigacoes-do-mei-lista/) lista as que você assume ao entrar e o que monitorar mês a mês.
 
+## Precificação: como chegar no número do seu preço
+
+O preço é a decisão que mais determina se o projeto fecha. O método mais simples de usar começa por três números e termina em uma divisão.
+
+**Passo 1: custo de vida mensal.** Some moradia, alimentação, transporte, saúde, educação e qualquer despesa fixa. Esse é o seu piso: abaixo dele, o trabalho não se paga.
+
+**Passo 2: custo operacional.** Materiais, ferramentas, softwares, contador, hora administrativa e impostos. O contador do MEI, por exemplo, é um custo fixo mensal que precisa entrar na conta mesmo nos meses sem projeto.
+
+**Passo 3: reserva de 13º e férias.** Reserve 1/12 de um mês de salário para o 13º e 1/12 para as férias, mais o terço de 1/3 dessas férias. São 16,7% do valor mensal que você precisa guardar.
+
+**Passo 4: some a reserva.** Some os três, multiplique pela margem que você quer ter e divida pelo número de horas que você pretende vender por mês. O resultado é o preço da sua hora.
+
+O erro mais comum é o inverso: olhar o preço que o mercado paga e aplicar um desconto, sem verificar se a conta fecha. A conta é o que define o preço, e não o mercado.
+
+Uma variável que muda tudo em 2026: se a sua atividade couber no MEI, a alíquota do DAS fica entre 4% e 11% do faturamento, conforme a faixa. Se não couber, ou se você já estiver no CNPJ, o percentual efetivo é outro. Por isso o preço final muda conforme o regime: refazer esse cálculo depois da mudança de enquadramento é obrigatório.
+
+
 ## O que o empregador é obrigado a fazer e o que é opcional
 
 Do lado do cliente, e do seu:

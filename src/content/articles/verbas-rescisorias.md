@@ -12,7 +12,7 @@ faq:
   - q: "Quais são as verbas rescisórias?"
     a: "Saldo de salário, férias proporcionais com 1/3, 13º proporcional, aviso-prévio, FGTS com multa de 40%, e seguro-desemprego quando cabível. Multas contratuais, adiantamentos e descontos de férias e 13º dependem do que estiver acordado."
   - q: "Qual é o prazo para o pagamento das verbas rescisórias?"
-    a: "Em regra, até 10 dias após o término do contrato para rescisão sem justa causa, pagamento em uma única parcela. Na justa causa, 5 dias úteis para as verbas incontroversas. Verbas incontroversas podem ser pagas em até 90 dias."
+    a: "Em regra, até 10 dias após o término do contrato na rescisão sem justa causa, em uma única parcela. Na justa causa, são 5 dias úteis para as verbas incontroversas. Verbas contestadas podem ser discutidas no TRT por até 90 dias."
   - q: "Como é calculado o aviso-prévio?"
     a: "São 7 dias por ano de serviço, com o limite máximo de 60 dias no caso do art. 487, parágrafo único da CLT. O empregado com mais de 60 anos e mais de 20 anos de serviço pode escolher entre receber o aviso ou o valor correspondente."
   - q: "Multa do FGTS é sempre de 40%?"
@@ -75,17 +75,17 @@ Além das verbas legais, há itens que aparecem com frequência e que têm trata
 | Férias não gozadas por decisão do empregador | Dobro das férias com 1/3 a mais (art. 138 da CLT) | Verba rescisória |
 | Férias não gozadas por decisão do empregado | Perda do período e do 1/3, salvo acordo | Perdas do TRCT |
 | Multa por violação do aviso-prévio pelo empregado | 50% do valor do aviso-prévio, descontada | Desconto no TRCT |
-| Empréstimo consignado,Vale-transporte e outros descontos | Descontados da primeira parcela | Descontos do TRCT |
+| Empréstimo consignado, vale-transporte e outros descontos | Descontados da primeira parcela | Descontos do TRCT |
 | Férias em dobro por acordo coletivo | Verifica-se na convenção da categoria | Verba rescisória complementar |
-|adiantamentos de férias e 13º | Descontados proporcionalmente | Descontos do TRCT |
+| Adiantamentos de férias e 13º | Descontados proporcionalmente | Descontos do TRCT |
 
 Um erro comum de quem está saindo é achar que o TOTAL do TRCT é o valor do acerto. Na prática, o TRCT separa verbas, descontos e o FGTS em blocos distintos, e é essa separação que permite conferir item por item.
 
-## Quais documentos pediu para o acerto
+## Quais documentos a empresa pede para o acerto
 
 Quando a empresa enumera as verbas rescisórias, ela entrega documentos que você precisa conferir antes de assinar. O Termo de Rescisão do Trabalho (TRCT) é o principal, e vem acompanhado de:
 
-- Avia de， demonstrativo das verbas, com cada linha discriminada e o valor correspondente.
+- A via do demonstrativo das verbas, com cada linha discriminada e o valor correspondente.
 - O comprovante de recolhimento do FGTS do mês da rescisão e o demonstrativo do saldo da conta vinculada, já com a multa aplicada.
 - A chave de conectividade, que permite o acesso à conta do FGTS a qualquer momento, sem dependência da empresa.
 - As guias do seguro-desemprego, quando o caso é cabível.
@@ -93,15 +93,14 @@ Quando a empresa enumera as verbas rescisórias, ela entrega documentos que voc�
 
 A leitura do TRCT começa pelo bloco de verbas e termina no bloco de descontos. Um erro comum é ler apenas o total e não verificar as linhas, que é exatamente onde a divergência costuma estar. Em caso de dúvida em uma linha específica, peça o cálculo dela por escrito antes de assinar: o prazo para questionar é curto.
 
-
 ## O que o empregador é obrigado a fazer e o que é opcional
 
 Obrigações legais na rescisão sem justa causa:
 
 - Pagar as verbas rescisórias em uma única parcela, até 10 dias após o término do contrato.
-- Entregar o TRCT com o demonstrativo de cálculo, as guias do FGTS e a chave de conectividade.
+- Entregar o TRCT com o demonstrativo de cálculo de cada verba.
 - Depositar o FGTS do mês da rescisão e pagar a multa de 40%, com o demonstrativo do saldo.
-- Entregar o demonstrativo do FGTS com a chave de conectividade, que permite o acesso à conta vinculada.
+- Entregar as guias de recolhimento do FGTS do mês da rescisão, mesmo quando o saldo é transferido para a conta vinculada.
 - Emitir o termo de quitação das verbas rescisórias e as guias do seguro-desemprego quando cabível.
 - Registrar a rescisão no eSocial no mês em que o contrato termina.
 
@@ -111,6 +110,7 @@ Opcional ou dependente de negociação:
 - Acordo mútuo, com quitação das verbas e formalização da saída.
 - Pagamento parcelado em casos excepcionais, mediante acordo escrito com o empregado.
 - Uso do crédito de que trata a Lei 14.905/2024, que permite ao empregado usar parte do saldo do FGTS em situações específicas. A aplicação depende do caso concreto.
+
 ## O que fazer quando os valores não fecham
 
 Sequência prática:

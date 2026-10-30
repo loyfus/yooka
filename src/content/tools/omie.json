@@ -24,30 +24,12 @@
     "Para MEI com receita baixa, o conjunto de módulos é peso morto e não compensa"
   ],
   "features": [
-    {
-      "name": "Financeiro completo",
-      "detail": "Fluxo de caixa, contas a pagar e a receber, CMV e margem por venda"
-    },
-    {
-      "name": "Estoque e produção",
-      "detail": "Custo médio, sugestão de compra e controle de componentes ou insumos"
-    },
-    {
-      "name": "Três tipos de nota",
-      "detail": "Emissão de NF-e, NFS-e e NFC-e com apuração dos impostos sobre a venda"
-    },
-    {
-      "name": "App de vendas",
-      "detail": "Catálogo, pedido e carrinho em tablet ou celular, com baixa de estoque"
-    },
-    {
-      "name": "Contabilidade integrada",
-      "detail": "Lançamentos contábeis automáticos a partir das operações do dia a dia"
-    },
-    {
-      "name": "Marketplaces e e-commerce",
-      "detail": "Conector oficial para Shopify, Nuvemshop, WooCommerce e redes de loja"
-    }
+    { "name": "Financeiro completo", "detail": "Fluxo de caixa, contas a pagar e a receber, CMV e margem por venda" },
+    { "name": "Estoque e produção", "detail": "Custo médio, sugestão de compra e controle de componentes ou insumos" },
+    { "name": "Três tipos de nota", "detail": "Emissão de NF-e, NFS-e e NFC-e com apuração dos impostos sobre a venda" },
+    { "name": "App de vendas", "detail": "Catálogo, pedido e carrinho em tablet ou celular, com baixa de estoque" },
+    { "name": "Contabilidade integrada", "detail": "Lançamentos contábeis automáticos a partir das operações do dia a dia" },
+    { "name": "Marketplaces e e-commerce", "detail": "Conector oficial para Shopify, Nuvemshop, WooCommerce e redes de loja" }
   ],
   "useCases": [
     "Controlar custo, margem e caixa de uma loja de materiais de construção com dez produtos",
@@ -56,7 +38,7 @@
     "Sair da planilha de financeiro quando o CPF e o CNPJ passam a ser separados"
   ],
   "bestForWho": "Pequena empresa com equipe, estoque e faturamento em crescimento, que já passou da fase de emitir nota e agora precisa de ERP.",
-  "verdict": "O Omie é o degrau entre um sistema de nota e um ERP de verdade, e entrega os dois lados com consistência. O que mais impressiona na prática é o caminho do dinheiro: a venda gera lançamento contábil e baixa de estoque sem ninguém redigitar nada. O ponto forte pouco citado é o usuário ilimitado, que elimina a surpresa de taxa por pessoa exatamente quando a empresa cresce. Em contrapartida, o preço é calculado por faixa de faturamento e a interface cobra um pedágio de aprendizado que assusta quem está saindo da planilha. Para empresa com time fixo e faturamento acima do MEI, o custo cabe e o ganho de tempo é concreto. Para MEI sozinho, emitindo nota e controlando caixa à mão, é ferramenta demais e caro demais.",
+  "verdict": "O Omie é o degrau entre um sistema de nota e um ERP de verdade, e entrega os dois lados com consistência. O que mais impressiona na prática é o caminho do dinheiro: a venda gera lançamento contábil e baixa de estoque sem ninguém redigitar nada. O ponto forte pouco citado é o usuário ilimitado, que elimina a surpresa de taxa por pessoa exatamente quando a empresa cresce. Em contrapartida, o preço é calculado por faixa de faturamento e a interface cobra um pedágio de aprendizado que assusta quem está saindo da planilha. Para empresa com time fixo e faturamento acima do MEI, o custo cabe e o ganho de tempo é concreto; para MEI sozinho, é ferramenta demais e caro demais.",
   "alternatives": [
     "tiny-erp",
     "contabilizei",

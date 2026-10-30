@@ -31,7 +31,7 @@ Na prática, a CTD é usada em três frentes:
 - **Para o trabalhador.** O histórico de vínculos, os dados do PIS/PASEP e o acesso ao FGTS ficam na palma da mão;
 - **Para terceiros.** Bancos, empresas e órgãos leem o documento pelo QR Code, sem precisar de via física.
 
-A CTD também substitui a Carteira de Trabalho em versão impressa dentro do aplicativo, que hoje reúne vários serviços públicos do trabalho em um só lugar. Este guia mostra o caminho de emissão; para o número de cadastro, veja [PIS, NIS e PASEP: como consultar](/guias/pis-nis-pasep-consulta/).
+O aplicativo reúne a Carteira de Trabalho Digital e outros serviços públicos do trabalho em um só lugar, e é por ele que a maior parte dos documentos sai. Este guia mostra o caminho de emissão; para o número de cadastro, veja [PIS, NIS e PASEP: como consultar](/guias/pis-nis-pasep-consulta/).
 
 ## O que a CTD guarda e por que vale emitir
 
@@ -43,7 +43,7 @@ A CTD também substitui a Carteira de Trabalho em versão impressa dentro do apl
 | Número do PIS/PASEP/NIT | Vinculado ao cadastro do trabalhador |
 | Acesso ao FGTS | Consulta de saldo e solicitação de saque pelo aplicativo |
 | Carteira de benefícios | Comprovante de benefício do INSS quando a pessoa é segurada |
-| Certidões | Documentos de registro civil obtainable pelo aplicativo |
+| Certidões | Documentos de registro civil obtíveis pelo aplicativo |
 | Nome social e dados de contato | Campo editável pelo próprio trabalhador |
 
 O ponto prático é a portabilidade: quem perde o emprego ou muda de cidade não precisa mais pedir via física em cartório de trabalho, e o empregador novo registra o contrato direto no sistema.
@@ -80,7 +80,6 @@ Na prática, o fluxo funciona assim:
 3. **O trabalhador confere o conteúdo.** Se houver erro, o pedido de correção é feito pelo aplicativo, na área de dados cadastrais, e a empresa precisa confirmar a alteração.
 4. **O registro alimenta o histórico e o FGTS.** O vínculo passa a contar no CNIS do INSS, o PIS/PASEP fica vinculado e os depósitos da empresa começam a aparecer no saldo.
 
-
 Conferir o aviso de contratação é importante: salário e jornada registrados de forma errada afetam o cálculo de férias, 13º e rescisão. Reclamar de erro no registro é muito mais simples antes de o primeiro pagamento do FGTS.
 
 ## Prazos, custos e documentos exigidos
@@ -114,4 +113,4 @@ Os prazos e os documentos podem ser ajustados pelo Ministério do Trabalho e Emp
 
 Emitir a Carteira de Trabalho Digital é gratuito, digital e leva poucos minutos. O caminho é: conta gov.br confirmada, aplicativo oficial instalado, autorização do serviço, dados cadastrais conferidos, foto e documento enviados, assinatura eletrônica. Em outubro de 2026, é o procedimento padrão para quem entra no mercado de trabalho, e também para quem quer o histórico profissional e o FGTS na palma da mão.
 
-Para localizar o número do PIS ou do PASEP que aparece na CTD, veja [PIS, NIS e PASEP: como consultar](/guias/pis-nis-pasep-consulta/). Para sacar o que está no FGTS, veja [FGTS saque-aniversário](/guias/fgts-saque-aniversario/). E para o documento de benefício do INSS, veja [segunda via do cartão do beneficiário](/guias/como-solicitar-segunda-via-do-cartao-do-beneficiario/).
+A Carteira de Benefícios dentro do aplicativo é o caminho para ver os benefícios do INSS de quem é segurado. Para localizar o número do PIS ou do PASEP que aparece na CTD, veja [PIS, NIS e PASEP: como consultar](/guias/pis-nis-pasep-consulta/). Para sacar o que está no FGTS, veja [FGTS saque-aniversário](/guias/fgts-saque-aniversario/). E para o documento de benefício do INSS, veja [segunda via do cartão do beneficiário](/guias/como-solicitar-segunda-via-do-cartao-do-beneficiario/).

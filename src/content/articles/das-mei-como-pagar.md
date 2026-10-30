@@ -96,7 +96,7 @@ A reorganização de janeiro é o ponto que mais gera dúvida. O CGMN republica 
 
 **O que acontece se eu não pagar o DAS?** Aplica-se multa de 2% por mês, juros de 1% ao mês e atualização pelo Índice Nacional de Preços ao Consumidor, contados sobre o valor original. Em São Paulo, o acúmulo de débitos pode cancelar a inscrição no cadastro de Contribuintes Mobiliários do Estado, e a Receita Federal pode iniciar o desenquadramento por inatividade ou irregularidade.
 
-**Preciso pagar DAS se não faturei nada?** Precisa. O MEI paga por mês de atividade, não por mês com receita. A suspensão da formalidade existe, mas exige solicitação formal e a Regularidade anterior precisa estar resolvida.
+**Preciso pagar DAS se não faturei nada?** Precisa. O MEI paga por mês de atividade, não por mês com receita. A suspensão da formalidade existe, mas exige solicitação formal e a regularidade anterior precisa estar resolvida.
 
 **O ISS está incluído no DAS?** Depende do município. Onde houve adesão ao recolhimento conjunto, o ISS entra no DAS. Onde não houve, você declara o ISS na prefeitura e paga por carnê ou por guia, à parte. Confirme o regime do seu município no portal.
 

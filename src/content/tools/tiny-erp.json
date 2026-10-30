@@ -24,30 +24,12 @@
     "A marca mudou: o Tiny hoje é o Sistema ERP da Olist, o que confunde quem procura suporte antigo"
   ],
   "features": [
-    {
-      "name": "Três tipos de nota",
-      "detail": "NF-e, NFC-e e NFS-e disponíveis já no plano Avance"
-    },
-    {
-      "name": "Estoque e margem",
-      "detail": "Preço de custo, margem por produto e alerta de estoque baixo"
-    },
-    {
-      "name": "Financeiro integrado",
-      "detail": "Contas a pagar e a receber, fluxo de caixa e comissionamento"
-    },
-    {
-      "name": "Cobrança no ERP",
-      "detail": "Pix QR, boleto e maquininha com tarifa por transação, menor nos planos de cima"
-    },
-    {
-      "name": "Marketplaces e e-commerce",
-      "detail": "Integração com lojas e marketplaces para importar pedidos e estoque"
-    },
-    {
-      "name": "Sped e contabilidade",
-      "detail": "Sped fiscal a partir do Impulsione e acesso online para o contador"
-    }
+    { "name": "Três tipos de nota", "detail": "NF-e, NFC-e e NFS-e disponíveis já no plano Avance" },
+    { "name": "Estoque e margem", "detail": "Preço de custo, margem por produto e alerta de estoque baixo" },
+    { "name": "Financeiro integrado", "detail": "Contas a pagar e a receber, fluxo de caixa e comissionamento" },
+    { "name": "Cobrança no ERP", "detail": "Pix QR, boleto e maquininha com tarifa por transação, menor nos planos de cima" },
+    { "name": "Marketplaces e e-commerce", "detail": "Integração com lojas e marketplaces para importar pedidos e estoque" },
+    { "name": "Sped e contabilidade", "detail": "Sped fiscal a partir do Impulsione e acesso online para o contador" }
   ],
   "useCases": [
     "Baixar o estoque do ecommerce e do marketplace em um só lugar, sem planilha duplicada",
@@ -56,7 +38,7 @@
     "Fechar o comissãoamento dos vendedores do mês com o relatório pronto do ERP"
   ],
   "bestForWho": "Comércio e prestador de serviço com estoque, que precisa emitir nota e saber a margem de cada produto sem montar planilha à mão.",
-  "verdict": "O Tiny, hoje rebatizado como Sistema ERP da Olist, é o ERP que aguenta o crescimento da microempresa sem virar um sistema de grande porte. A parte que realmente economiza tempo é o link entre estoque, preço de custo e nota: quando o cadastro está certo, a nota sai com a margem já calculada. E o teste de 30 dias com plano mensal sem fidelidade reduz muito o risco de assinar no escuro. O que pesa é a escada de preços, de R$ 66 a R$ 948 por mês, com saltos que obrigam a decidir bem a faixa. As tarifas de Pix e boleto também são reais e somam na operação de alto volume. Em loja com estoque e mais de um usuário, o plano de cima se paga no primeiro mês se a operação fica em um lugar só.",
+  "verdict": "O Tiny, hoje rebatizado como Sistema ERP da Olist, é o ERP que aguenta o crescimento da microempresa sem virar um sistema de grande porte. A parte que realmente economiza tempo é o link entre estoque, preço de custo e nota: quando o cadastro está certo, a nota sai com a margem já calculada, e o teste de 30 dias com plano mensal sem fidelidade reduz o risco de assinar no escuro. O que pesa é a escada de preços, de R$ 66 a R$ 948 por mês, com saltos que obrigam a decidir bem a faixa. As tarifas de Pix e boleto também são reais e somam na operação de alto volume. Em loja com estoque e mais de um usuário, o plano de cima se paga no primeiro mês se a operação fica em um só lugar.",
   "alternatives": [
     "omie",
     "contabilizei",

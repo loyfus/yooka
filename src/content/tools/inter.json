@@ -7,12 +7,12 @@
   "url": "https://www.inter.co",
   "affiliateUrl": "https://www.inter.co/?via=yooka",
   "price": "Grátis para superconta e conta PJ",
-  "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. A superconta e a conta PJ não têm tarifa de manutenção; existem produtos pagos, como CDB com menor rendimento, cartão Platinum e servicios de saque com limite maior.",
+  "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. A superconta e a conta PJ não têm tarifa de manutenção; existem produtos pagos, como CDB com menor rendimento, cartão Platinum e serviços de saque com limite maior.",
   "bestFor": "Quem quer conta digital gratuita com CDB que rende mais e resgata na hora",
   "rating": 4.5,
   "ratingCount": 618,
   "pros": [
-    "Superconta sem tarifa de manutenção e com Pix ilimitado e gratuito, o que acaba com a conta bancária caro",
+    "Superconta sem tarifa de manutenção e com Pix ilimitado e gratuito, o que acaba com a conta bancária cara",
     "CDB resgatável no próprio app, com rendimento de 100 por cento do CDI para quem não usa a conta corrente",
     "Cartão de crédito Platinum com limite ajustado e rewards em dinheiro de volta",
     "Conta PJ com Pix, cartão e CDB da conta, para quem não quer misturar caixa pessoal e empresa"
@@ -56,7 +56,7 @@
     "Receber Pix de vários clientes e sacar sem pagar tarifa para conta de outro banco"
   ],
   "bestForWho": "Pessoa física ou MEI que quer conta digital sem tarifa, CDB de resgate imediato e cartão de crédito no mesmo aplicativo.",
-  "verdict": "O Inter é a resposta direta para quem reclama de taxa de manutenção e de CDB preso em banco. A superconta é gratuita de verdade e o CDB resgatável no app dá flexibilidade sem perder rendimento. A diferença para o Nubank está no desenho do CDB e no CDB de conta PJ, que rende bem, mas exige comparar a taxa do seu lado com o rendimento atualizado do dia, porque esse número muda. Outro ponto real é o limite de saque para fora, que incomoda quem precisa mover dinheiro de uma vez para pagar fornecedor. No uso normal de MEI, não aparece. Vale a troca.",
+  "verdict": "O Inter é a resposta direta para quem reclama de taxa de manutenção e de CDB preso em banco. A superconta é gratuita de verdade e o CDB resgatável no aplicativo dá flexibilidade sem perder rendimento. A diferença para o Nubank está no desenho do CDB e no CDB da conta PJ, que rende bem, mas exige comparar o rendimento atualizado do dia, porque esse número muda. Outro ponto real é o limite de saque para fora, que incomoda quem precisa mover dinheiro de uma vez para pagar fornecedor. No uso normal de MEI, esse limite não aparece, e a troca costuma valer.",
   "alternatives": [
     "nubank",
     "c6-bank",

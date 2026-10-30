@@ -51,6 +51,20 @@ O NIS tem 11 dígitos, e o último é o dígito verificador. Nos holerites e nos
 
 Quem trabalha como autônomo também tem número: ao se inscrever como contribuinte individual, o cadastro é criado e o NIS é gerado, e é esse número que identifica a contribuição. O mesmo vale para o segurado especial, o trabalhador rural que contribui para o INSS por conta própria.
 
+## Comprovante de Inscrição e Comprovante de Rendimentos não são a mesma coisa
+
+Dois documentos aparecem no atendimento do INSS e nas mãos do trabalhador, e a confusão entre eles gera perda de tempo na fila. A diferença está em quem emite e no que cada um prova.
+
+| Aspecto | Comprovante de Inscrição | Comprovante de Rendimentos |
+|---|---|---|
+| Quem emite | O órgão do cadastro: Caixa, Banco do Brasil ou a Carteira de Trabalho | O INSS, uma vez por ano |
+| O que prova | Que o trabalhador tem cadastro e qual é o número do NIS/PASEP | Quanto foi declarado e quanto foi recolhido em cada mês |
+| Quem pode pedir | O próprio trabalhador, o empregador e órgãos autorizados | O próprio segurado e quem tiver autorização |
+| Onde aparece | Aplicativo Carteira de Trabalho Digital e agência do banco | Área "Meus Declarações" no Meu INSS e aplicativo Meu INSS |
+| Para que serve | Identificar o trabalhador em contrato, banco, convênio e cadastro oficial | Comprovar renda para empréstimo, pensão alimentícia, aposentadoria e IR |
+
+Na prática, o Comprovante de Inscrição é o que resolve a dúvida "qual é o meu número de cadastro", e o Comprovante de Rendimentos é o que resolve "quanto foi recolhido". Quem chega ao banco pedindo o segundo para descobrir o primeiro acaba voltando depois.
+
 ## Como consultar na Carteira de Trabalho Digital: passo a passo
 
 A Carteira de Trabalho Digital é o caminho mais direto, porque reúne o cadastro do trabalhador e o Comprovante de Inscrição em um só lugar.

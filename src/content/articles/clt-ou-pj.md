@@ -5,14 +5,14 @@ date: "2026-10-30"
 updated: "2026-10-30"
 category: "trabalho-e-carreira"
 tags: ["clt", "pj", "carreira", "direitos-trabalhistas", "mei"]
-keywords: ["clt ou pj", "diferença entre clt e pj", "trabalhar como pj", "clt ou autonomo", "custo de um_funcional clt", "meiversus clt"]
+keywords: ["clt ou pj", "diferença entre clt e pj", "trabalhar como pj", "clt ou autonomo", "custo de um funcionario clt", "mei versus clt"]
 featured: true
 draft: false
 faq:
   - q: "Qual é mais vantajoso, CLT ou PJ?"
     a: "Depende da sua prioridade. O CLT oferece férias, 13º, FGTS, seguro-desemprego e proteção na demissão. O PJ costuma render mais por hora e permite escolher os clientes, mas você assume INSS, 13º, férias e a ausência de garantia contra rescisão. PJ costuma compensar em contratos acima de R$ 6.000,00 por mês."
   - q: "Ser PJ protege contra demissão sem justa causa?"
-    a: "Não. No contrato de prestação de serviços não existe aviso-prévio, multa do FGTS nem seguro-desemprego. A rescisão é regida pelo Código Civil, e o cliente pode encerrar a_aviso com um aviso prévio de 30 dias ou o que estiver no contrato, sem multa rescisória."
+    a: "Não. No contrato de prestação de serviços não existe aviso-prévio, multa do FGTS nem seguro-desemprego. A rescisão é regida pelo Código Civil, e o cliente pode encerrar o contrato com um aviso prévio de 30 dias ou o que estiver pactuado, sem multa rescisória."
   - q: "Quem paga INSS no PJ?"
     a: "Você. Por isso o valor da sua nota ou o valor do contrato precisa comportar o recolhimento, o IRRF e a reserva para 13º e férias. Trabalhar como MEI muda a forma de cálculo, mas não elimina a obrigação de recolher."
   - q: "Posso ser CLT e PJ ao mesmo tempo?"
@@ -29,7 +29,7 @@ As duas relações nascem de contratos diferentes: o CLT nasce da Consolidação
 |---|---|---|
 | Férias | 30 dias por ano, mais 1/3 da remuneração | Não há |
 | 13º salário | 1/12 por mês trabalhado | Não há |
-| FGTS | 8% do salário, mais multa de 40% na rescisão porvio | Não há |
+| FGTS | 8% do salário, mais multa de 40% na rescisão | Não há |
 | INSS | Descontado pela empresa (8% do empregado, por faixa) | Recolhido por você (em regra 20% sobre a base) |
 | IRRF | Retido na fonte pela empresa | Pago por você, com retenção na fonte em nota |
 | Vale-transporte | Garantido se o deslocamento exigir e a empresa for do município do local de trabalho | Não é obrigação |
@@ -53,10 +53,10 @@ Três efeitos práticos desse desenho: quem contrata PJ pode trocar o fornecedor
 1. **Calcule o seu líquido no PJ.** Pegue o valor da sua nota fiscal ou do contrato e subtraia o INSS (em regra 20% da base de contribuição para segurado individual), o IRRF pela tabela progressiva e a reserva de 13º e férias que você quer manter (1/12 de cada um por mês). O que sobra é o seu salário real de PJ.
 2. **Simule o custo CLT do mesmo posto.** Some ao salário base o FGTS de 8%, o INSS patronal de 20%, o provisionamento de férias com 1/3 (cerca de 19,4% ao ano somado ao 13º) e o vale-transporte de 6% do salário quando o benefício é concedido e não usado. Divida pelo salário base: em contas de referência de outubro de 2026, um cargo de R$ 6.000,00 custa entre R$ 8.500,00 e R$ 9.300,00 por mês para o empregador.
 3. **Liste os riscos que você não quer carregar.** Doença, acidente, demissão sem justa causa, maternidade, perda de renda e instabilidade de agenda. Se o seu perfil tem dificuldade de manter uma reserva de pelo menos seis meses de custo de vida, o CLT protege uma lacuna que a sua própria organização não preenche.
-4. **Verifique se o valor cabe no MEI.** Se o contrato anual ficar acima do teto de faturamento, o caminho do MEI se fecha e você precisa de CNPJMEI ouMEI ampliado — com diferenças de custo e de obrigação.
+4. **Verifique se o valor cabe no MEI.** Se o contrato anual ficar acima do teto de faturamento, o caminho do MEI se fecha e você precisa de CNPJ comum ou de um MEI ampliado, com diferenças de custo e de obrigação.
 5. **Compare as garantias que você realmente usaria.** Faça uma lista dos benefícios que você usaria nos próximos 12 meses: fim de ano, uma viagem, uma emergência médica, um mês parado. O que você não usaria não deve entrar na conta.
 6. **Teste por prazo definido.** Antes de migrar de forma definitiva, negocie uma fase de três a seis meses como PJ ou como CLT, com data de revisão escrita no contrato. Isso evita a decisão binária e reduz o risco dos dois lados.
-7. **Formalize tudo por escrito.** No PJ, o contrato precisa dizer objeto, prazo, valor, forma de pagamento,multa e forma de rescisão. No CLT, acordo individual, jornada e plano de compensação de horas devem estar documentados e registrados.
+7. **Formalize tudo por escrito.** No PJ, o contrato precisa dizer objeto, prazo, valor, forma de pagamento, multa e forma de rescisão. No CLT, acordo individual, jornada e plano de compensação de horas devem estar documentados e registrados.
 
 ## Tabela de custos comparados (referência de outubro de 2026)
 
@@ -91,7 +91,7 @@ O que é opcional ou depende de negociação:
 
 - Vale-transporte, limitado a 6% do salário, e apenas quando o deslocamento exigir e a empresa for do município do local de trabalho.
 - Vale-refeição ou vale-alimentação, na forma do Programa de Alimentação do Trabalhador (PAT, Lei 14.887/2024).
-- Plano de saúde, PLR eParticipação nos Resultados — a PLR é isenta de INSS e de IRRF até R$ 7.350,00 por ano (teto; acima disso, incidem os tributos), mas só quando prevista em instrumento coletivo ou individual.
+- Plano de saúde, PLR e Participação nos Resultados — a PLR é isenta de INSS e de IRRF até R$ 7.350,00 por ano (teto; acima disso, incidem os tributos), mas só quando prevista em instrumento coletivo ou individual.
 - Banco de horas, compensação de jornada e trabalho remoto, que dependem de acordo individual ou coletivo.
 - Adicional noturno, adicional de sábado e ajuda de custo.
 
@@ -99,7 +99,7 @@ O que é opcional ou depende de negociação:
 
 Mudar de PJ para CLT costuma fazer sentido quando o contrato fica longo, quando a empresa assume a carga de gestão e você passa a depender dela, ou quando você quer construir um direito a férias e 13º que já está sendo conquistado na prática. O caminho é o registro no eSocial e a assinatura do contrato de trabalho com carteira.
 
-Mudar de CLT para PJ costuma fazer sentido quando a renda fica irregular, quando você passa a ter mais de dois clientes ou quando a atividade passa a depender de um CNPJ. O caminho é abrir CNPJ, emite nota fiscal, recolher os tributos e organizar a reserva de 13º e férias.
+Mudar de CLT para PJ costuma fazer sentido quando a renda fica irregular, quando você passa a ter mais de dois clientes ou quando a atividade passa a depender de um CNPJ. O caminho é abrir CNPJ, emitir nota fiscal, recolher os tributos e organizar a reserva de 13º e férias.
 
 Para o passo a passo da abertura do CNPJ do MEI e das obrigações do regime, veja [como abrir MEI passo a passo](/guias/como-abrir-mei-passo-a-passo/) e [obrigações do MEI](/guias/obrigacoes-do-mei-lista/). Se a sua dúvida agora é como encaixar o modelo escolhido no dia a dia, o cálculo de [13º salário](/guias/13-salario-como-calcular/) e de [férias](/guias/como-calcular-ferias/) é o próximo passo.
 

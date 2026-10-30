@@ -77,11 +77,11 @@ A confusão mais comum no mês de rescisão é somar 13º proporcional e férias
 
 O aviso-prévio merece uma observação: o art. 487 da CLT limita a projeção do aviso-prévio a 60 dias (7 dias por ano de serviço, com o máximo de 60 no caso do art. 487, parágrafo único). Quem tem mais de 20 anos de serviço e mais de 60 anos de idade não é obrigado a cumprir o aviso-prévio, segundo a regra do art. 487, § 2º. Confirme no seu caso.
 
-## Do que é feito o 13: as três etapas que o pagamento
+## Do que é feito o 13: as três etapas até o pagamento
 
 O caminho do 13º tem três etapas, e vale conhecê-las porque é nelas que aparecem os erros de cálculo.
 
-**Primeira: a apuração.** A folha de dezembro é montada com um mês de adicional para quem tem 12 meses de serviço. O sistema usa a referência de salário cadastrada no mês de dezembro, e não a média dos últimos meses. É por isso que uma， redução de salário em novembro aparece como redução do 13º.
+**Primeira: a apuração.** A folha de dezembro é montada com um mês de adicional para quem tem 12 meses de serviço. O sistema usa a referência de salário cadastrada no mês de dezembro, e não a média dos últimos meses. É por isso que uma redução de salário em novembro aparece como redução do 13º.
 
 **Segunda: a base de INSS.** A contribuição do empregado é calculada em separado, sobre uma base que corresponde ao 13º e limitada ao teto do INSS. Quando o salário do empregado está acima do teto, o desconto percentual efetivo é menor do que o dos meses normais, o que costuma gerar a percepção de que "o 13º veio com desconto menor". É o contrário do que muita gente imagina.
 

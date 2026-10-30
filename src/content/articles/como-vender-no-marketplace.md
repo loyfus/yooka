@@ -1,6 +1,6 @@
 ---
 title: "Como vender no marketplace em 2026: Mercado Livre, Shopee, Amazon e Magalu passo a passo"
-description: "Como vender no marketplace passo a passo: taxas, comissão, frete, nota fiscal, republished, ranking e o que faz a venda aparecer para o comprador."
+description: "Como vender no marketplace passo a passo: taxas, comissão, frete, nota fiscal, publicação de anúncio, ranking e o que faz a venda aparecer para o comprador."
 date: "2026-10-30"
 updated: "2026-10-30"
 category: "renda-e-negocio"
@@ -10,11 +10,11 @@ featured: false
 draft: false
 faq:
   - q: "Quanto custa vender em marketplace no Brasil em outubro de 2026?"
-    a: "A referência de outubro de 2026 é de 12% a 20% sobre o valor vendido, variando por plataforma, categoria e tipo de conta, com regras adicionais para frete subsidized e venda por conta de marketplace. Some a isso a taxa do Pix ou do gateway, o custo de embalagem e a provisão de devolução."
+    a: "A referência de outubro de 2026 é de 12% a 20% sobre o valor vendido, variando por plataforma, categoria e tipo de conta, com regras adicionais para frete subsidiado e venda por conta do marketplace. Some a isso a taxa do Pix ou do gateway, o custo de embalagem e a provisão de devolução."
   - q: "É obrigatório ter CNPJ para vender em marketplace?"
     a: "Para vender como pessoa jurídica, sim. O MEI cobre comércio e serviços dentro do limite de faturamento e permite emitir nota. Também existe a conta de pessoa física em algumas plataformas, com limites de quantidade e de saque."
   - q: "Por que meu anúncio não aparece nas buscas?"
-    a: "Os três motivos mais comuns são título sem o termo que a pessoa busca, nota baixa de vendas e feedbacks recentes ruins. Também conta o preço mal posicionado frente ao frete e a falta de reposição quando o item é variation com muitas opções."
+    a: "Os três motivos mais comuns são título sem o termo que a pessoa busca, nota baixa de vendas e feedbacks recentes ruins. Também conta o preço mal posicionado frente ao frete e a falta de reposição quando o item é uma variação com muitas opções."
   - q: "Vale a pena vender em marketplace e também ter site próprio?"
     a: "Para começar, sim: marketplace gera as primeiras vendas e a primeira avaliação, e o site próprio permite usar o próprio domínio e lista de contatos. Com o tempo, a venda direta reduz a taxa de 12% a 20% cobrada pelo intermediário."
 ---
@@ -32,7 +32,7 @@ O ranqueamento é quase inteiramente explicado por quatro fatores:
 3. **Histórico.** Tempo de atividade, avaliações e taxa de resposta do vendedor entram na conta. Responder rápido importa.
 4. **Logística.** Prazo de envio dentro do prometido e rastreio válido. Vendedor que atrasa perde posição.
 
-Além disso, existe o efeito de **republish**: republicar o anúncio periodicamente devolve ele ao topo das buscas, desde que o vendedor mantenha preço e conteúdo atualizados. É o equivalente interno de "repostar o story".
+Além disso, existe o efeito de **republicação**: republicar o anúncio periodicamente devolve ele ao topo das buscas, desde que o vendedor mantenha preço e conteúdo atualizados. É o equivalente interno de reativar o anúncio.
 
 ## Passo a passo para começar a vender no marketplace
 
@@ -43,7 +43,7 @@ Além disso, existe o efeito de **republish**: republicar o anúncio periodicame
 5. **Calcule o preço com custo total.** Produto, frete de envio, taxa de 12% a 20%, devolução e embalagem. O [guia de como precificar produto](/guias/como-precificar-produto/) tem o método completo, incluindo a conversão entre markup e margem.
 6. **Configure o frete com cuidado.** Frete grátis ajuda na conversão, mas sai do seu bolso e precisa entrar no cálculo. Compare o frete grátis do marketplace com a opção de você ter o custo de envio controlado.
 7. **Escreva a descrição que responde dúvida.** Tamanho, material, prazo, garantia, o que está na caixa e a política de troca. Descrição curta não vende, e item com dúvida gera cancelamento.
-8. **Deixe o estoque e o envio em dia.** Para produto físico, defina o que acontece quando acabar. Prazo quebrado derruba a posição do anúncio inteiro Atenda o comprador em minutos e revise semanalmente.** A resposta rápida no chat interno é o principal alavancador de conversão do marketplace. Preço, título e foto revisados sobem a conversão sem precisar de novo produto.**
+8. **Deixe o estoque e o envio em dia, atenda rápido e revise semanalmente.** Para produto físico, defina o que acontece quando o item acabar: prazo quebrado derruba a posição do anúncio inteiro. A resposta no chat interno em minutos é o principal alavancador de conversão do marketplace. Preço, título e foto revisados sobem a conversão sem precisar de novo produto.
 
 ## Taxas, prazos e custos por plataforma
 
@@ -53,7 +53,7 @@ Além disso, existe o efeito de **republish**: republicar o anúncio periodicame
 | Shopee | 14% a 20% em categorias concorridas | Principalmente marketplace, com venda direta em cidades com centro de distribuição | 7 a 21 dias | Comissão por venda e por item vendido, com programa de frete grátis do vendedor |
 | Amazon | 10% a 15% de comissão, mais mensalidade e taxa de fechamento | Venda com entrega, ou venda sem estoque com envio pela Amazon | 14 a 30 dias | Exige nota fiscal para venda como vendedor e análise de conta |
 | Magalu | 12% a 17% conforme categoria | Marketplace com contrato, ou venda na plataforma da Magalu | 15 a 30 dias | Comissão fixa em categoria popular, com custo de serviço por item |
-| Elo7, OLX e similares | 8% a 15% | Anúncio classificado com negotiated | 5 a 20 dias | Menos tráfego, menor barreira de entrada |
+| Elo7, OLX e similares | 8% a 15% | Anúncio classificado com preço negociado | 5 a 20 dias | Menos tráfego, menor barreira de entrada |
 
 Sobre a linha do marketplace, a comparação completa está no [guia de vender online sem estoque](/guias/vender-online-sem-estoque/).
 
@@ -75,11 +75,11 @@ Se você olhar os anúncios do topo de qualquer busca no marketplace, vai perceb
 
 Três decisões definem o resultado:
 
-- **Frete grátis assumido por você.** Converte mais, mas tira do preço a margem e antecipa a desembolso. Funciona melhor em ticket acima de R$ 120, onde o frete é menor que 15% do valor.
+- **Frete grátis assumido por você.** Converte mais, mas tira do preço a margem e antecipa o desembolso. Funciona melhor em ticket acima de R$ 120, onde o frete é menor que 15% do valor.
 - **Frete calculado.** Mantém a margem, mas derruba a conversão e aumenta a taxa de abandono. Compensa em produto de baixo valor ou volumoso.
 - **Frete grátis do marketplace.** O programa de frete grátis do vendedor existe nas plataformas que têm esse modelo, com um teto de vendas por mês. Quando o pedido é elegível, o marketplace arca com o deslocamento e você paga uma tarifa fixa por venda.
 
-Além do valor, há três cuidados de operação. O **prazo anunciado** precisa ser o que o fornecedor realmente cumpre, com folga de dois dias. O **rastreio** precisa ser validado no sistema da transportadora no mesmo dia do despacho, porque anúncio sem rastreio perde posição. E o **endereço de coleta** precisa estar regularizado, porque plataforma que não encontra o remetente cancela o pedido e o vendedor recebe a reputação negatively.
+Além do valor, há três cuidados de operação. O **prazo anunciado** precisa ser o que o fornecedor realmente cumpre, com folga de dois dias. O **rastreio** precisa ser validado no sistema da transportadora no mesmo dia do despacho, porque anúncio sem rastreio perde posição. E o **endereço de coleta** precisa estar regularizado, porque plataforma que não encontra o remetente cancela o pedido e o vendedor recebe a reputação rebaixada.
 
 Para produto sem estoque próprio, o fornecedor que faz a entrega precisa ter integração de rastreio com a plataforma. Se não tem, o pedido vai sem rastreio e a taxa de cancelamento sobe. O [guia de vender online sem estoque](/guias/vender-online-sem-estoque/) detalha como negociar com o fornecedor para reduzir esse risco.
 
@@ -100,9 +100,9 @@ Para produto sem estoque próprio, o fornecedor que faz a entrega precisa ter in
 
 - **Frete grátis sem provisionar.** O frete sai do preço e o repasse chega depois. Some antes de listar.
 
-- **Título em bahasa de marca.** Se ninguém busca pelo nome da marca, o anúncio não aparece.
+- **Título em linguagem de marca.** Se ninguém busca pelo nome da marca, o anúncio não aparece.
 
-- **Foto de banco de imagem.** Anúncio genérico não converte e, com o tempo, a plataforma penaliza por padrão de announce.
+- **Foto de banco de imagem.** Anúncio genérico não converte e, com o tempo, a plataforma penaliza por padrão de anúncio.
 
 - **Ignorar a taxa de venda do canal.** O marketplace não é gratuito: o custo real está entre 12% e 20% e precisa estar no preço ou na margem.
 

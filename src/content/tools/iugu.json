@@ -15,7 +15,7 @@
     "Recorrência nativa: boleto, PIX e cartão em cobrança mensal automática, sem gateway de fora",
     "Nota fiscal eletrônica emitida a partir da cobrança, com integrações prontas com eNotas, NFe.io e Notazz",
     "API e webhooks bem documentados, o que permite integrar com o site e com o sistema contábil",
-    "Cancelamento com aviso de 30 dias, o que dá tempo de planejar a saída sem multaimmediate"
+    "Cancelamento com aviso de 30 dias, o que dá tempo de planejar a saída sem multa imediata"
   ],
   "cons": [
     "A mensalidade do plano Essencial não fica visível no site, e o preço final só aparece na simulação",
@@ -24,12 +24,30 @@
     "O split de pagamento não vem no plano Essencial, e precisa ser contratado à parte"
   ],
   "features": [
-    { "name": "Cobrança recorrente", "detail": "Assinatura mensal com boleto, PIX ou cartão, com nova tentativa automática" },
-    { "name": "Nota a partir da cobrança", "detail": "Emissão de nota fiscal eletrônica integrada, via emissores parceiros" },
-    { "name": "Boleto e PIX", "detail": "Boleto com conciliação por pagamento e Pix com tarifa percentual própria" },
-    { "name": "Checkout e link de pagamento", "detail": "Página pronta ou link direto para cobrar por e-mail e WhatsApp" },
-    { "name": "API e webhooks", "detail": "Integração com site, ERP e automações, com eventos de status da cobrança" },
-    { "name": "Painel de inadimplência", "detail": "Cobrança de atraso, renegociação e suspensão automática por contrato" }
+    {
+      "name": "Cobrança recorrente",
+      "detail": "Assinatura mensal com boleto, PIX ou cartão, com nova tentativa automática"
+    },
+    {
+      "name": "Nota a partir da cobrança",
+      "detail": "Emissão de nota fiscal eletrônica integrada, via emissores parceiros"
+    },
+    {
+      "name": "Boleto e PIX",
+      "detail": "Boleto com conciliação por pagamento e Pix com tarifa percentual própria"
+    },
+    {
+      "name": "Checkout e link de pagamento",
+      "detail": "Página pronta ou link direto para cobrar por e-mail e WhatsApp"
+    },
+    {
+      "name": "API e webhooks",
+      "detail": "Integração com site, ERP e automações, com eventos de status da cobrança"
+    },
+    {
+      "name": "Painel de inadimplência",
+      "detail": "Cobrança de atraso, renegociação e suspensão automática por contrato"
+    }
   ],
   "useCases": [
     "Cobrar mensalidade de um serviço de limpeza com boleto e Pix automáticos e nota junto",
@@ -38,7 +56,7 @@
     "Conciliar o caixa do mês comparando o extrato do banco com o painel de cobranças"
   ],
   "bestForWho": "Prestador de serviço que vende contrato mensal, assinatura ou curso parcelado e quer emitir nota fiscal junto com a cobrança.",
-  "verdict": "A iugu acerta em cheio o nicho de quem precisa de recorrência com nota fiscal no mesmo lugar, e a API é o ponto mais forte: dá para montar o próprio checkout ou cobrar por link no WhatsApp sem depender de aplicativo externo. O custo está na estrutura da tarifa, que é percentual mais valor fixo, e por isso aperta em boleto de valor baixo e em venda de alto volume. Outro ponto de atenção é a visibilidade do preço: a mensalidade do Essencial não aparece no site, então é preciso simular para saber o total, o que atrasa a decisão. O cancelamento com aviso de 30 dias é civilizado, mas a penalidade contratual existe. Para quem realmente vende de forma recorrente, a automação justifica. Para quem só quer receber uma vez, uma plataforma mais simples sai bem mais barato.",
+  "verdict": "A iugu acerta em cheio o nicho de quem precisa de recorrência com nota fiscal no mesmo lugar, e a API é o ponto mais forte: dá para montar o próprio checkout ou cobrar por link no WhatsApp sem depender de aplicativo externo. O custo está na estrutura da tarifa, que é percentual mais valor fixo, e por isso aperta em boleto de valor baixo e em venda de alto volume. Outro ponto de atenção é a visibilidade do preço: a mensalidade do Essencial não aparece no site, então é preciso simular para saber o total, o que atrasa a decisão. O cancelamento com aviso de 30 dias é civilizado, mas a penalidade contratual existe. Para quem realmente vende de forma recorrente, a automação justifica; para quem só quer receber uma vez, uma plataforma mais simples sai bem mais barato.",
   "alternatives": [
     "mercado-pago",
     "tiny-erp",

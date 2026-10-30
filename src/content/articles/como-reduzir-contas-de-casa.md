@@ -35,14 +35,14 @@ Antes de qualquer ajuste, tenha a linha de base: some as faturas dos últimos 6 
 ## Passo a passo para reduzir as contas de casa em 9 passos
 
 1. **Levante todas as cobranças dos últimos 3 meses.** Abra o extrato bancário e liste tudo que saiu, separando em moradia, transporte, comunicação, alimentação e assinaturas. Assinaturas esquecidas aparecem aqui. Detalhes em [assinatura streaming cortar](/guias/assinatura-streaming-cortar/).
-2. **Elimine o que você não usa.** Cancele streaming não assistido, app de fitness que você não frequenta, seguro adicional do cartão que não contracted. Essa é a única etapa que gera economia sem consumir nada.
+2. **Elimine o que você não usa.** Cancele streaming não assistido, app de fitness que você não frequenta, seguro adicional do cartão que você não contratou. Essa é a única etapa que gera economia sem consumir nada.
 3. **Compare a conta de energia com o seu uso real.** Some o que seus eletrodomésticos gastam e compare com a fatura. Diferença grande significa vazamento de energia, chuveiro elétrico antigo ou instalação com problema.
 4. **Troque as lâmpadas e o chuveiro.** Lâmpada LED para o mesmo uso e chuveiro com selo de economia reduzem o consumo em 30% a 60% na parte de iluminação e aquecimento de água.
-5. **Use o ar-condicionado com critério.** Ajuste para 23 graus, use o modo automático, mantenha os filtros limpos e o aparelho com maintenance em dia. Modo sleep e desligamento no horário de pico de tarifa ajudam quando a sua concessionária tem cobrança por faixa de horário.
-6. **Revise a conta de água.** Torneira com vazamento consome cerca de 40 litros por dia. Banho de 15 minutos vira 5, e ralos de box com vazamento, máquina de lavar cheia e mais cheia que o necessário.
+5. **Use o ar-condicionado com critério.** Ajuste para 23 graus, use o modo automático, mantenha os filtros limpos e o aparelho com manutenção em dia. O modo de economia e o desligamento no horário de pico tarifário ajudam quando a sua concessionária cobra por faixa de horário.
+6. **Revise a conta de água.** Torneira com vazamento consome cerca de 40 litros por dia. Banho de 15 minutos vira 5 minutos. Ralos de box com vazamento, máquina de lavar cheia e mais cheia que o necessário.
 7. **Revise internet e celular.** Teste a velocidade real com o cabo, desligue o roteador em horário de ausência e negocie um plano de celular com mais dados e menos voz. A portabilidade de número permite trocar de operadora sem perder o chip.
-8. **Revise transporte e combustível.** Para quem tem carro, compare o custo do estacionamento, do IPVA e do seguro com o custo de um aplicativo de corrida para os trajetos que não exige carro. Se conseguir eliminar uma diária de estacionamento, o payback é imediato.
-9. **Revise os serviços da casa.** Condomínio, taxa de manutenção, limpeza, IPTU e insurance. Alguns serviços podem ser renegociados ou cancelados, outros são obrigatórios. O [guia do seguro residencial](/guias/seguro-residencial-contratar/) mostra quanto custa esse item e quando vale a pena.
+8. **Revise transporte e combustível.** Para quem tem carro, compare o custo do estacionamento, do IPVA e do seguro com o custo de um aplicativo de corrida para os trajetos em que o carro não é necessário. Se conseguir eliminar uma diária de estacionamento, o retorno é imediato.
+9. **Revise os serviços da casa.** Condomínio, taxa de manutenção, limpeza, IPTU e seguro. Alguns serviços podem ser renegociados ou cancelados, outros são obrigatórios. O [guia do seguro residencial](/guias/seguro-residencial-contratar/) mostra quanto custa esse item e quando vale a pena.
 
 ## Tabela: economia estimada por ajuste
 
@@ -57,7 +57,7 @@ Valores de referência para uma família de quatro pessoas, em outubro de 2026. 
 | Ar-condicionado em 23 graus, com filtro limpo | R$ 0 | R$ 50 a R$ 180 | No mês de calor |
 | Internet: plano ajustado à necessidade | R$ 0 | R$ 20 a R$ 60 | Imediato |
 | Celular: plano com mais dados, menos voz | R$ 0 | R$ 15 a R$ 40 | Imediato |
-| Roteador de bolso ou plano de datos móveis | R$ 60 a R$ 150 | R$ 20 a R$ 50 | Em 2 meses |
+| Roteador de bolso ou plano de dados móveis | R$ 60 a R$ 150 | R$ 20 a R$ 50 | Em 2 meses |
 | Saquear 3 dias por semana, usar app | Variável | R$ 100 a R$ 300 | Em 3 meses |
 | Renegociar condomínio ou serviço de limpeza | R$ 0 | R$ 50 a R$ 200 | No próximo contrato |
 

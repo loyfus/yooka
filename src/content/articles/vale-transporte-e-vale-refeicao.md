@@ -1,6 +1,6 @@
 ---
 title: "Vale-transporte e vale-refeição em 2026: regras de desconto e limites"
-description: "Vale-transporte e vale-refeição em 2026: desconto de 6% do salário, quando o benefício é obrigatório, regras do PAT com a Lei 14.887/2024 e como conferir o holerite."
+description: "Vale-transporte e vale-refeição em 2026: desconto de 6% do salário, quando o benefício é obrigatório e as regras do PAT com a Lei 14.887/2024."
 date: "2026-10-30"
 updated: "2026-10-30"
 category: "trabalho-e-carreira"
@@ -68,6 +68,26 @@ O Programa de Alimentação do Trabalhador (PAT) foi instituído pela Lei 14.887
 
 O ponto prático para o empregado: um vale-refeição com desconto de 30% em um estabelecimento do tipo "restaurante" segue as faixas definidas no regulamento do PAT, e não uma tabela livre escolhida pela empresa. Se o desconto estiver fora do que o programa permite, isso pode ser questionado.
 
+## Vale-carnes, ticket e os outros benefícios que aparecem no holerite
+
+Além do vale-transporte e do vale-refeição, o holerite costuma bringing outros itens, e cada um tem regra própria de desconto e de natureza tributária. Confundir eles é a origem de boa parte das dúvidas sobre desconto.
+
+| Benefício | Como funciona | Desconto típico |
+|---|---|---|
+| Vale-transporte | Bilhões de ônibus ou metro, gerenciado por empresa de bilhetagem | Até 6% do salário |
+| Vale-refeição ou vale-alimentação | Crédito em cartão ou aplicativo, restrito a estabelecimentos da categoria definida | Definido pelo PAT e pelo contrato |
+| Vale-carnes | Crédito em cartão para mercearias e supermercados | Variável, com teto definido em contrato |
+| Vale-combustível | Abastecimento, quando a empresa oferece | Variável |
+| Auxílio-alimentação | Pagamento em espécie, sem cartão e sem restrição de estabelecimento | Não há teto legal fixo |
+| Vale-equipamento | Para uso em trabalho remoto, quando a empresa oferece | Variável |
+
+O vale-carnes e o vale-combustível são os que mais geram dúvida de INSS e IRRF, porque o tratamento depende da forma como o benefício é entregue: quando há um cartão com restrição de uso e uma rede de estabelecimentos definida, o benefício é tratado como pagamento em espécie e fica isento; quando o benefício é liberado em dinheiro ou em um cartão sem restrição, passa a ter natureza de salário e sofre descontos.
+
+A distinção prática que resolve quase todo caso: benefício com cartão e restrição de uso em rede de estabelecimentos é diferente de benefício em espécie. Se a empresa paga um valor fixo sem qualquer controle de onde o empregado gasta, vira renda e entra na folha como salário.
+
+Para as empresas, o vale-refeição no formato do PAT é o instrumento mais usado para substituir o ticket de refeição antigo, porque o programa define faixas de desconto por tipo de estabelecimento e permite ao empregado escolher entre as modalidades previstas. O guia de [freelancer: como começar](/guias/freelancer-como-comecar/) mostra como montar esse tipo de pacote de atendimento para a sua equipe.
+
+
 ## O que o empregador é obrigado a fazer e o que é opcional
 
 Obrigações legais:
@@ -84,6 +104,25 @@ Opcional ou dependente de negociação:
 - Vale-transporte e vale-refeição para trabalho remoto, como ayuda de custo ou benefício de conveniência.
 - Auxílio-alimentação em espécie, com naturezaRIBUTION different daiggers do vale, sujeito a INSS e IRRF.
 - Plano de saúde e PLR, itens opcionais e independentes do vale.
+
+## Onde o vale-transporte aparece no holerite e o que fazer quando está errado
+
+O vale-transporte é um dos itens que mais geram dúvida na folha, porque o valor é descontado antes de qualquer discussão sobre o pagamento. Entender onde ele aparece evita a surpresa.
+
+**No Recibo de Pagamento (holerite).** O desconto aparece na seção de descontos, identificado como vale-transporte, com o valor do mês. Ao lado, em geral, vem a referência do bilhete ou o código de uso. É o número que permite conferir contra o extrato da empresa de bilhetagem.
+
+**Na comparação entre o que foi concedido e o que foi usado.** A empresa de bilhetagem emite um relatório mensal com o total de bilhetes utilizados. Se o total usado for menor que o valor descontado, existe saldo a devolver, e o acerto deve aparecer no mês seguinte.
+
+**No caso de acerto de dois meses.** Se o empregado entrou em um mês e saiu no seguinte, o desconto pode ter sido proporcional ao período, com a devolução do saldo não usado. É nesse tipo de acerto que o erro de desconto aparece com mais frequência, porque a empresa costuma descartar o saldo do cartão sem conferir.
+
+Sequência para resolver divergência:
+
+1. Baixe o extrato de uso do cartão ou app da empresa de bilhetagem.
+2. Some os bilhetes do mês e compare com o valor descontado.
+3. Se o valor descontado for maior que o usado, o excedente é saldo não usado e deve ser devolvido.
+4. Se o desconto passar de 6% do salário, o problema é de limite legal, não de saldo.
+5. Registre a contestação por escrito ao RH e guarde o protocolo.
+
 
 ## Como conferir no holerite e o que fazer se estiver errado
 

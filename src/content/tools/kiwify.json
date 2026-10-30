@@ -18,18 +18,36 @@
     "PIX e boleto sem sobretaxa própria: vale o percentual da venda mais o custo do saque"
   ],
   "cons": [
-    "A taxa de 8,99% mais R$ 2,49 por venda é maior que a das plataformas com plano mensal pago",
+    "A taxa de 8,99% mais R$ 2,49 por venda não cai com o volume, ao contrário da Hotmart, que reduz o percentual por faixa de faturamento",
     "O saque cobra R$ 3,67 por solicitação, e esse valor é cobrado mesmo quando a transação falha",
     "A Kiwify liquida o produtor e não oferece split de pagamento nativo documentado, só coprodução",
     "Menor ecossistema e menos integrações prontas que a Hotmart, o que exige mais trabalho manual"
   ],
   "features": [
-    { "name": "Checkout de venda", "detail": "Página de pagamento com PIX, boleto e cartão, otimizada para celular" },
-    { "name": "Upsell de um clique", "detail": "Oferta complementar oferecida na própria tela de pagamento" },
-    { "name": "Central de afiliados", "detail": "Comissão por regra, link de afiliado e painel de desempenho por parceiro" },
-    { "name": "Cobrança recorrente", "detail": "Plano mensal e assinatura com cobrança automática e cancelamento online" },
-    { "name": "Área do produtor", "detail": "Vendas, saldo a receber, taxa aplicada e repasse no mesmo painel" },
-    { "name": "Entrega de conteúdo", "detail": "Curso e arquivo liberados após a aprovação do pagamento" }
+    {
+      "name": "Checkout de venda",
+      "detail": "Página de pagamento com PIX, boleto e cartão, otimizada para celular"
+    },
+    {
+      "name": "Upsell de um clique",
+      "detail": "Oferta complementar oferecida na própria tela de pagamento"
+    },
+    {
+      "name": "Central de afiliados",
+      "detail": "Comissão por regra, link de afiliado e painel de desempenho por parceiro"
+    },
+    {
+      "name": "Cobrança recorrente",
+      "detail": "Plano mensal e assinatura com cobrança automática e cancelamento online"
+    },
+    {
+      "name": "Área do produtor",
+      "detail": "Vendas, saldo a receber, taxa aplicada e repasse no mesmo painel"
+    },
+    {
+      "name": "Entrega de conteúdo",
+      "detail": "Curso e arquivo liberados após a aprovação do pagamento"
+    }
   ],
   "useCases": [
     "Publicar a primeira oferta de um curso e pagar taxa só quando houver venda aprovada",
@@ -38,7 +56,7 @@
     "Cobrar uma assinatura mensal de comunidade e liberar o conteúdo depois do pagamento"
   ],
   "bestForWho": "Produtor de produto digital que está começando, quer estrutura de venda profissional e não quer pagar assinatura antes de faturar.",
-  "verdict": "A Kiwify é a porta de entrada mais honesta do mercado de infoproduto: sem mensalidade, você paga taxa só quando vende, e isso muda a decisão de quem ainda está testando produto. O checkout e o upsell de um clique já instalados economizam semanas de trabalho, o que vale mais do que a taxa um pouco maior em relação a plataformas com plano fixo. O lado fraco é a profundidade: funil avançado, integração com ferramenta externa e teste de oferta são mais limitados, e você acaba fazendo mais trabalho manual de campanha. O custo de saque de R$ 3,67 por solicitação também incomoda quem vende parcelado e recebe em parcelas. Para quem está na primeira venda, é a escolha com menor risco. Para quem já tem volume e tempo, a Hotmart normalmente compensa pelo ecossistema.",
+  "verdict": "A Kiwify é a porta de entrada mais honesta do mercado de infoproduto: sem mensalidade, você paga taxa só quando vende, e isso muda a decisão de quem ainda está testando produto. O checkout e o upsell de um clique já instalados economizam semanas de trabalho, o que vale mais do que a taxa um pouco maior em relação a plataformas com plano fixo. O lado fraco é a profundidade, porque funil avançado, integração com ferramenta externa e teste de oferta são mais limitados, e você acaba fazendo mais trabalho manual de campanha. O custo de saque de R$ 3,67 por solicitação também incomoda quem vende parcelado e recebe em parcelas. Para quem está na primeira venda, é a escolha com menor risco; para quem já tem volume e tempo, a Hotmart normalmente compensa pelo ecossistema.",
   "alternatives": [
     "hotmart",
     "monetizze",

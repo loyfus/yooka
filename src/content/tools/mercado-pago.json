@@ -24,30 +24,12 @@
     "Saque para conta externa tem custo e taxa, e o valor mínimo impede resgatar valores pequenos"
   ],
   "features": [
-    {
-      "name": "Conta PJ gratuita",
-      "detail": "CNPJ cadastrado e conta de recebimento sem taxa de manutenção"
-    },
-    {
-      "name": "Link de pagamento",
-      "detail": "Cobrar por PIX ou boleto enviando um link pronto no WhatsApp ou e-mail"
-    },
-    {
-      "name": "Checkout e integração",
-      "detail": "Botão de pagamento e SDK para colocar a marca na loja ou no site"
-    },
-    {
-      "name": "Antecipação de venda",
-      "detail": "Receber antes do repasse com custo por antecipação informada na hora"
-    },
-    {
-      "name": "Split de pagamento",
-      "detail": "Dividir o valor entre conta de marketplace e conta do vendedor"
-    },
-    {
-      "name": "Relatórios de venda",
-      "detail": "Extrato por período e por meio de pagamento, exportável"
-    }
+    { "name": "Conta PJ gratuita", "detail": "CNPJ cadastrado e conta de recebimento sem taxa de manutenção" },
+    { "name": "Link de pagamento", "detail": "Cobrar por PIX ou boleto enviando um link pronto no WhatsApp ou e-mail" },
+    { "name": "Checkout e integração", "detail": "Botão de pagamento e SDK para colocar a marca na loja ou no site" },
+    { "name": "Antecipação de venda", "detail": "Receber antes do repasse com custo por antecipação informada na hora" },
+    { "name": "Split de pagamento", "detail": "Dividir o valor entre conta de marketplace e conta do vendedor" },
+    { "name": "Relatórios de venda", "detail": "Extrato por período e por meio de pagamento, exportável" }
   ],
   "useCases": [
     "Receber por PIX de uma venda combinada no WhatsApp e emitir o recibo no mesmo dia",
@@ -56,7 +38,7 @@
     "Abrir conta PJ com CNPJ de MEI em poucos minutos, sem burocracia de banco"
   ],
   "bestForWho": "MEI ou prestador de serviço que precisa receber por PIX e cartão hoje, sem mensalidade e sem se complicar com o banco.",
-  "verdict": "O Mercado Pago é a escolha mais óbvia para quem está começando a receber pela internet, e a vantagem não é só a taxa: é a reputação e a simplicidade de instalação. Para MEI, abrir conta e receber o primeiro PIX leva minutos, e o link de pagamento no WhatsApp resolve venda que antes não existia. Os dois pontos que costumam frustrar são o repasse atrasado e o custo de antecipar ou sacar, que precisa entrar na conta do preço do produto. A taxa por venda é competitiva para quem aceita cartão, mas encolhe se o ticket médio é baixo e o pagamento é sempre no Pix. Para operação enxuta, é o melhor ponto de partida. Para volume alto, vale comparar com um gateway com taxa menor, porque a diferença percentual pesa.",
+  "verdict": "O Mercado Pago é a escolha mais óbvia para quem está começando a receber pela internet, e a vantagem não é só a taxa: é a reputação e a simplicidade de instalação. Para MEI, abrir conta e receber o primeiro Pix leva minutos, e o link de pagamento no WhatsApp resolve venda que antes não existia. Os dois pontos que costumam frustrar são o repasse atrasado e o custo de antecipar ou sacar, que precisa entrar na conta do preço do produto. A taxa por venda é competitiva para quem aceita cartão, mas encolhe se o ticket médio é baixo e o pagamento é sempre no Pix. Para operação enxuta, é o melhor ponto de partida; para volume alto, vale comparar com um gateway de taxa menor, porque a diferença percentual pesa.",
   "alternatives": [
     "iugu",
     "picpay",

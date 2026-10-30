@@ -24,30 +24,12 @@
     "Recursos de conta PJ são mais limitados que os de Nubank e Inter para quem vende"
   ],
   "features": [
-    {
-      "name": "CDB com rendimento elevado",
-      "detail": "Rendimento acima do CDI, com resgate a partir de valor pequeno"
-    },
-    {
-      "name": "Conta e Pix grátis",
-      "detail": "Sem tarifa de manutenção, com Pix, transferência e extrato no app"
-    },
-    {
-      "name": "Cartão de crédito",
-      "detail": "Cartões com rewards, seguro e benefícios de viagem e mercado"
-    },
-    {
-      "name": "Investimentos",
-      "detail": "Renda fixa, ações e fundos com aporte mínimo baixo"
-    },
-    {
-      "name": "Limite de resgate",
-      "detail": "Resgate de CDB com valor e quantidade diária definidos no app"
-    },
-    {
-      "name": "Atendimento",
-      "detail": "Chat e telefone, com prazo de resposta maior que o dos grandes bancos digitais"
-    }
+    { "name": "CDB com rendimento elevado", "detail": "Rendimento acima do CDI, com resgate a partir de valor pequeno" },
+    { "name": "Conta e Pix grátis", "detail": "Sem tarifa de manutenção, com Pix, transferência e extrato no app" },
+    { "name": "Cartão de crédito", "detail": "Cartões com rewards, seguro e benefícios de viagem e mercado" },
+    { "name": "Investimentos", "detail": "Renda fixa, ações e fundos com aporte mínimo baixo" },
+    { "name": "Limite de resgate", "detail": "Resgate de CDB com valor e quantidade diária definidos no app" },
+    { "name": "Atendimento", "detail": "Chat e telefone, com prazo de resposta maior que o dos grandes bancos digitais" }
   ],
   "useCases": [
     "Guardar a reserva de emergência rendendo mais que a poupança, sem ir ao banco",
@@ -56,7 +38,7 @@
     "Começar a investir em ações com valor pequeno, dentro do mesmo aplicativo"
   ],
   "bestForWho": "Pessoa que quer reserva de emergência rendendo bem, conta digital gratuita e cartão com benefícios, sem depender de banco tradicional.",
-  "verdict": "O C6 Bank se sustenta num nicho claro: o CDB com rendimento acima do CDI, que é o melhor atrativo da casa. Para quem tem reserva de emergência guardada em poupança ou CDB de banco grande, a troca costuma render mais no mesmo tempo, sem custo de entrada relevante. Os contras são reais: resgate tem mínimo e limite diário, e isso incomoda quem precisa do dinheiro em cima da hora, e o rendimento é variável, então ninguém pode prometer número fechado. O suporte é mais demorado que o dos concorrentes, o que aparece justamente quando há problema. Fora do CDB, a conta é competente e sem surpresa. É uma boa escolha para reserva, não para giro.",
+  "verdict": "O C6 Bank se sustenta num nicho claro: o CDB com rendimento acima do CDI, que é o melhor atrativo da casa. Para quem tem reserva de emergência guardada em poupança ou CDB de banco grande, a troca costuma render mais no mesmo tempo, sem custo de entrada relevante. Os contras são reais, porque o resgate tem mínimo e limite diário, o que incomoda quem precisa do dinheiro em cima da hora, e o rendimento é variável, então ninguém pode prometer número fechado. O suporte é mais demorado que o dos concorrentes, o que aparece justamente quando há problema. Fora do CDB, a conta é competente e sem surpresa, e é uma boa escolha para reserva, não para giro.",
   "alternatives": [
     "nubank",
     "inter",

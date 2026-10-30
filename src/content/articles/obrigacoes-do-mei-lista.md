@@ -27,7 +27,9 @@ O Microempreendedor Individual é pessoa jurídica com CNPJ, e o CNPJ tem obriga
 
 A regra de responsabilidade é simples: as obrigações são do MEI, mas o responsável por cumpri-las é o titular. Se a empresa não paga o DAS, a dívida é da empresa. Se o MEI é desenquadrado, a dívida não desaparece com ele — ela é transferida para o CPF.
 
-O regime é simples nas obrigações e rigoroso no corte: o MEI vive de limite de faturamento de R$ 81.000 por ano, de um único empregado e de uma lista curta de atividades. Quem cumpre as obrigações tem um regime: DAS baixo, Simples Nacional e acesso ao INSS. Quem não cumpre, perde o acesso ao regime.
+O regime é simples nas obrigações e rigoroso no corte: o MEI vive de limite de faturamento de R$ 81.000 por ano, de um único empregado e de uma lista curta de atividades. Quem cumpre as obrigações fica no regime: DAS baixo, Simples Nacional e acesso ao INSS. Quem não cumpre, perde o acesso ao regime.
+
+Vale separar quem cobra o quê. O DAS é federal e sai em um boleto único. O ISS é municipal e, em boa parte das cidades, tem registro próprio. E há camadas estaduais: em São Paulo, por exemplo, o MEI precisa de Inscrição Estadual no cadastro de Contribuintes Mobiliários, e o acúmulo de débitos pode cancelar essa inscrição automaticamente, o que trava a emissão de documentos fiscais no estado. Em outros estados, a exigência é de cadastro municipal de prestador, sem inscrição estadual. É por isso que a rotina de um MEI não é igual em todos os lugares: ela tem uma parte federal, uma parte municipal e, dependendo do estado, mais uma camada.
 
 ## Passo a passo para montar sua rotina e não depender de memória
 

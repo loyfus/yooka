@@ -89,7 +89,7 @@ Leitura honesta dessa tabela: comprar no rotativo a 15% ao mês custa mais que o
 - **Não olhar o CET.** Anúncio de "12x de R$ 83" é incompleto sem a informação de que o total é R$ 996 e o CET é o dobro do rotativo.
 - **Usar o cartão para comprar o próprio crédito.** Trocar dívida cara por dívida cara gera tarifas, juros e um novo contrato sem resolver o problema de fundo.
 - **Buscar cashback como principal motivo.** 1% de devolução em compras que somam R$ 3.000 por ano é R$ 30. Uma anuidade de R$ 250 já anulou isso. Recompensa importa menos do que taxa e limite.
-- **Aceitar a oferta de "limite pré-aprovado" no caixa do banco.** A oferta de captura de dados é rápida e o contrato vem com tarifas que a conversa de balcão não cita.
+- **Aceitar a oferta de "limite pré-aprovado" no caixa do banco.** A oferta de adesão é rápida e o contrato vem com tarifas que a conversa de balcão não cita.
 - **Deixar o seguro do cartão sem cancelamento.** Seguro viagem, garantia estendida e proteção de compra são cobrados separadamente e quase nunca são usados por quem não viaja ou não compra muito.
 - **Atrasar e voltar depois.** Atraso na fatura pode levar à negativação no CPF ou CNPJ e ao bloqueio do cartão para novas compras, o que corta a sua capacidade de comprar à vista em situação de aperto.
 
@@ -107,6 +107,6 @@ O [custo real de ter MEI](/guias/custo-real-de-ter-mei/) detalha o peso do DAS n
 
 ## Onde olhar para conferir os números
 
-Para os dados agregados do setor — taxa média do rotativo, número de cartões, inadimplência — a fonte oficial é o Banco Central, que publica estatísticas de crédito e o relatório de estatísticas de crédito do sistema financeiro. Para limpar o nome quando a dívida já existe, o serviço mais conhecido é o Serasa Limpa Nome, que oferece empréstimo consolidado com prazo menor e taxa explícita. Do ponto de vista do orçamento, o caminho mais barato continua sendo: pagar a fatura total.
+Para os dados agregados do setor — taxa média do rotativo, número de cartões, inadimplência — a fonte oficial é o Banco Central, que publica as estatísticas de crédito e o relatório de estatísticas monetárias do sistema financeiro. Para limpar o nome quando a dívida já existe, o serviço mais conhecido é o Serasa Limpa Nome, que oferece empréstimo consolidado com prazo menor e taxa explícita. Do ponto de vista do orçamento, o caminho mais barato continua sendo: pagar a fatura total.
 
 Se você quer organizar o orçamento antes de contratar um cartão, comece pelo [orçamento familiar passo a passo](/guias/orcamento-familiar-passo-a-passo/) e entenda o [custo real de ter MEI](/guias/custo-real-de-ter-mei/) antes de contrair dívida para cobrir a empresa. Se a sua questão é o crédito mais barato para uma necessidade pontual, veja [como solicitar empréstimo pessoal](/guias/como-solicitar-emprestimo-pessoal/). E se o problema não é o cartão, mas a quantidade de cobranças mês a mês, o [guia para reduzir contas de casa](/guias/como-reduzir-contas-de-casa/) costuma render mais economia por mês do que qualquer anuidade de cartão premium.

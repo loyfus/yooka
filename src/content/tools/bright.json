@@ -3,18 +3,18 @@
   "slug": "bright",
   "category": "custos-e-planos",
   "tagline": "Conta PJ digital com cartão e contabilidade do MEI",
-  "description": "Banco digital para empresa com conta PJ, cartão de crédito, Pix, CDB e contabilidade do MEI com NFS-e emitida dentro do próprio aplicativo.",
+  "description": "Banco digital para empresa com conta PJ, cartão de crédito, Pix, CDB e contabilidade do MEI, com NFS-e emitida dentro do próprio aplicativo.",
   "url": "https://www.bright.com.br",
   "affiliateUrl": "https://www.bright.com.br/?via=yooka",
-  "price": "Grátis para conta PJ; planos pagos a partir de R$ 0/mês",
-  "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. A conta PJ tem opção gratuita com limites de transação, e os planos pagos liberam mais volume, cartão e serviços de contabilidade.",
+  "price": "Conta PJ com opção gratuita",
+  "priceNote": "A conta PJ tem opção gratuita com limites de transação, e os planos pagos liberam mais volume, cartão e serviços de contabilidade. Valores de referência em outubro de 2026; planos mudam, confirme no site oficial.",
   "bestFor": "MEI que quer conta PJ, cartão e contabilidade online no mesmo aplicativo",
   "rating": 4.0,
   "ratingCount": 341,
   "pros": [
     "Conta PJ, cartão de crédito, Pix e CDB no mesmo app, sem precisar de abrir conta em dois lugares",
     "Contabilidade online do MEI integrada à conta, com emissão de NFS-e e DAS no mesmo painel",
-    "Cartão PJ com limiteIED e pagamento por aproximação, útil para compra de insumo",
+    "Cartão PJ com limite ajustado e pagamento por aproximação, útil para compra de insumo",
     "Emissão de NFS-e direto na plataforma, o que resolve a obrigação mais apagada do MEI"
   ],
   "cons": [

@@ -19,8 +19,8 @@ const KEY = process.env.INDEXNOW_KEY || fs.existsSync(path.join(ROOT, '.indexnow
   : null;
 
 if (!KEY) {
-  console.error('Defina INDEXNOW_KEY ou crie o arquivo .indexnow-key na raiz do projeto.');
-  process.exit(1);
+  console.log('  IndexNow: nenhuma chave configurada (INDEXNOW_KEY ou .indexnow-key). Pulando.');
+  process.exit(0);
 }
 
 if (!fs.existsSync(sitemapPath)) {

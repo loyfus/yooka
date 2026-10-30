@@ -10,7 +10,7 @@ featured: false
 draft: false
 faq:
   - q: "Quantos dias de carência são necessários para pedir auxílio-doença?"
-    a: "São 180 dias de contribuição nos 4 anos anteriores ao afastamento. Quem tevetoa pausa no trabalho por mais de 15 dias dentro desse mesmo período já tem a carência cumprida, porque o período interrupted conta como contribuição."
+    a: "São 180 dias de contribuição nos 4 anos anteriores ao afastamento. Quem ficou mais de 15 dias afastado dentro desse mesmo período já tem a carência cumprida, porque o período de afastamento conta como contribuição."
   - q: "Qual é o valor do auxílio-doença em 2026?"
     a: "O valor corresponde a 80% da média dos 36 últimos salários de contribuição, limitado ao piso de 1 salário mínimo (R$ 1.631,80 em outubro de 2026) e ao teto de R$ 8.395,93. As regras de cálculo foram alteradas por emendas constitucionais recentes, então confirme no Meu INSS."
   - q: "O empregador tem que continuar pagando o salário durante o benefício?"
@@ -64,14 +64,14 @@ A regra dos 15 dias define quem paga o quê e evita boa parte da confusão no in
 
 O pedido é totalmente digital. O que muda em relação a outros benefícios do INSS é a etapa médica: sem atestado e sem laudo, o requerimento não sai.
 
-1. **Tenha o atestado médico em mãos.** O atestado deve conter o diagnóstico em código CID, o tempo de afastamento e a data de emissão. Doctor particular, clínica ou pronto-socorro emitem o documento; o plano de saúde também emite atestado para esse fim.
+1. **Tenha o atestado médico em mãos.** O atestado deve conter o diagnóstico em código CID, o tempo de afastamento e a data de emissão. Médico particular, clínica ou pronto-socorro emitem o documento; o plano de saúde também emite atestado para esse fim.
 2. **Crie ou use sua conta gov.br.** Entre no portal gov.br e clique em "Entrar". Se não tiver conta, a criação é feita no próprio portal com CPF, e-mail e senha, com confirmação por e-mail.
 3. **Autorize o acesso ao Meu INSS.** No serviço Meu INSS, dentro do gov.br, clique em "Autorizar acesso" e escolha o nível que permite solicitar e acompanhar benefícios. Sem essa autorização, o Meu INSS abre apenas em modo de consulta.
 4. **Abra o requerimento no aplicativo ou no portal.** No aplicativo Meu INSS, toque em "Meus benefícios" e depois em "Novo benefício". No portal, o caminho é o menu "Meus benefícios" e a opção de novo benefício. Escolha a categoria "Auxílio-doença".
 5. **Informe os dados do afastamento.** Preencha o período de afastamento (data de início e data prevista de término), o tipo de incapacidade e a área profissional de atividade. Se o afastamento for por acidente de trabalho, selecione essa opção, porque muda o rito de análise.
 6. **Anexe o atestado e os documentos.** Envie o atestado em PDF ou imagem nítida, com o documento inteiro visível. Acompanhe o documento de identidade com foto, o CPF e, quando solicitado, exames e laudos. Documentos ilegíveis ou cortados são a principal causa de devolução.
 7. **Revise, assine e envie.** Confira os dados, assine eletronicamente e clique em "Enviar". Em alguns casos, o portal exige a assinatura em dois níveis de acesso, o que significa confirmar também pelo aplicativo do celular.
-8. **Acompanhe o andamento.** O requerimento aparece em "Meus Requerimentos" com a situação "Em análise". Quando há Junta Médica, o portal e o aplicativo avisam sobre a convocação e o local da avaliação.
+8. **Acompanhe o andamento.** O requerimento aparece em "Meus Requerimentos" com a situação "Em análise". Quando há Junta Médica, o portal e o aplicativo avisam sobre a convocação e o local da avaliação. Deferido, o benefício aparece na Carteira de Benefícios, com o cartão do beneficiário pronto para emitir.
 
 ## Prazos, custos e documentos exigidos
 
@@ -93,10 +93,10 @@ A tabela de valores do benefício é reajustada periodicamente. **Verifique no p
 
 ## O que fazer se der errado
 
-- **Carência não reconhecida.** O INSS considera 180 dias nos 4 anos anteriores, e o registro de cada mês vem do CNIS. Se o mês não aparece no extrato, protocole o "Extrato de Contribuições" (CNIS) como documento complementar. Erros de digitação no PIS/NIS são frequentes e corrigem o problema.
+- **Carência não reconhecida.** O INSS considera 180 dias nos 4 anos anteriores, e o registro de cada mês vem do CNIS. Se o mês não aparece no extrato, protocole o "Extrato de Contribuições" (CNIS) como documento complementar. Erros de digitação no PIS/NIS são frequentes, e corrigi-los resolve o caso.
 - **Requerimento devolvido por atestado ilegível.** Reenvie com o documento inteiro na imagem, em boa resolução e sem corte. Se o atestado tiver o CID ilegível ou o prazo de afastamento sem data final, peça outro ao médico.
 - **Período de afastamento curto.** O benefício começa a partir do 16º dia. Afastamentos repetidos de poucos dias não geram pagamento pelo INSS, mas as contribuições continuam sendo contadas para a carência.
-- **Benefício suspenso por novo emprego.** Ao ser contratado, o benefício é suspenso e o dinheiro volta a ser creditado. Quem é contratado durante o afastamento deve comunicar a empresa para evitar bloqueio de conta e devolução.
+- **Benefício suspenso por novo emprego.** Com a contratação, o benefício é suspenso e o INSS pode pedir a devolução dos valores recebidos depois do novo vínculo. Quem é contratado durante o afastamento deve comunicar a empresa e o INSS para regularizar a situação.
 - **Divergência de valor com o simulador.** O percentual aplicado e a média usada podem diferir da sua conta. Peça a revisão do requerimento com o extrato de contribuições anexado.
 - **Convocação para Junta Médica perdida.** A convocação aparece no portal e no aplicativo, com data e endereço do posto. Se a data já passou, protocole a justificativa no Meu INSS para reagendar.
 - **A empresa não está repassando as contribuições.** Sem contribuições, não há carência nem benefício. Reclame da empresa, registre a reclamação no gov.br e, persistindo, procure a agência do INSS responsável pelo CNIS do seu caso.
