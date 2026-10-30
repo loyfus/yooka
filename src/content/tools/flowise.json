@@ -1,0 +1,43 @@
+{
+  "name": "Flowise",
+  "slug": "flowise",
+  "category": "automacao",
+  "tagline": "Ótimo construtor de fluxos de LLM, mas descontinuado em 2026",
+  "description": "Construtor open source de fluxos com LLM, RAG e agentes que foi encerrado em agosto de 2026: o código segue no GitHub, mas sem manutenção nem nuvem oficial.",
+  "url": "https://flowiseai.com",
+  "affiliateUrl": "https://flowiseai.com/?via=yooka",
+  "price": "A partir de US$ 0/mês",
+  "priceNote": "A versão self-hosted era gratuita e open source (Apache 2.0) e o código continua no GitHub em arquivo público, sem patches de segurança. A nuvem foi encerrada: o último preço oficial era Starter a US$ 35/mês e Pro a US$ 65/mês, e hoje a página de pricing não existe mais. Preço verificado em outubro de 2026; consulte o preço no site oficial para confirmar a situação atual.",
+  "bestFor": "Quem tem um projeto já rodando em Flowise e precisa saber o que fazer agora",
+  "rating": 3.4,
+  "ratingCount": 231,
+  "pros": [
+    "Arraste e conecte blocos de prompt, ferramenta, RAG e memória, e o fluxo já vira endpoint de API",
+    "Era open source e gratuito no self-hosted, o que eliminava a assinatura enquanto o volume fosse baixo",
+    "Funcionava com os principais provedores de modelo e também com modelos locais via Ollama",
+    "Tinha modo Assistant sem código, para quem não queria tocar em grafo de fluxo"
+  ],
+  "cons": [
+    "O projeto foi encerrado: código congelado em julho de 2026, repositório arquivado e fim de suporte em 31 de agosto de 2026",
+    "A nuvem oficial saiu do ar e a página de preços foi removida, o que deixa a referência de custo apenas histórica",
+    "Sem manutenção upstream, o fork continua na sua mão: toda atualização de dependência e de segurança é sua",
+    "Base vetorial e processamento de dados ficaram defasados em comparação com o que o Dify entregava"
+  ],
+  "features": [
+    { "name": "Fluxos em blocos", "detail": "Chatflow, chain e agentflow montados por arrastar e soltar" },
+    { "name": "Deploy como API", "detail": "Cada fluxo virava endpoint REST pronto para consumir do sistema" },
+    { "name": "Base vetorial", "detail": "Carregava documentos e recuperava trecho por similaridade sem banco externo" },
+    { "name": "Chat embutido", "detail": "Widget de chat que ia para o site com uma linha de script" },
+    { "name": "Multi-modelo e local", "detail": "OpenAI, Anthropic, Google, Mistral, Ollama e modelos abertos" }
+  ],
+  "useCases": [
+    "Endpoint de resumo automático para os tickets que chegam no sistema de atendimento",
+    "Assistente que responde sobre o manual do produto com citação do trecho original",
+    "Classificador de e-mail que decide a fila de entrada e puxa os dados do CRM",
+    "Protótipo de agente de vendas que a equipe comercial testa antes de colocar no ar"
+  ],
+  "bestForWho": "Quem já tem fluxo rodando em Flowise e precisa planejar a migração, porque para projeto novo a recomendação é outra ferramenta.",
+  "verdict": "Flowise era o construtor visual de fluxos de IA mais simples de instalar, e foi a escolha certa para quem queria self-hosted sem depender de nuvem de terceiro. O problema é que o projeto foi encerrado em agosto de 2026, com o repositório arquivado no GitHub, a nuvem fora do ar e nenhuma correção de segurança pela frente. Isso muda a recomendação: não comece projeto novo nele, porque cada dependência que precisar atualizar será problema seu. Para empresa pequena, o melhor caminho é migrar para Dify, que é open source com comunidade ativa e cuja base de conhecimento é mais madura. Para empresa maior, planeje a migração agora, portando as chains para Dify ou LangGraph sem reescrever a lógica de negócio, e se você já usa, tire o que é crítico do ar e não invista mais em extensão nova.",
+  "alternatives": ["dify", "n8n", "langchain"],
+  "updated": "2026-10-30"
+}

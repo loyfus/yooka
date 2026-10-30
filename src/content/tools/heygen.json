@@ -1,0 +1,43 @@
+{
+  "name": "HeyGen",
+  "slug": "heygen",
+  "category": "marketing-e-vendas",
+  "tagline": "Avatar em vídeo para treinamento e vídeo de venda",
+  "description": "Gera vídeo com avatar humano, tradução e dublagem automática em dezenas de idiomas, útil para treinamento, conteúdo e vídeos de venda em escala.",
+  "url": "https://www.heygen.com",
+  "affiliateUrl": "https://www.heygen.com/?via=yooka",
+  "price": "A partir de US$ 29/mês",
+  "priceNote": "Plano Creator a US$ 29/mês (US$ 24/mês na cobrança anual), com 600 créditos por mês e vídeos de até 30 minutos; plano Pro a partir de US$ 49/mês e plano Business a US$ 149/mês, com usuários extras a US$ 20. A cobrança é por crédito, cerca de 20 créditos por minuto no avatar mais usado, e avatares premium têm custo adicional. Preço verificado em outubro de 2026; consulte o preço no site oficial para confirmar os valores vigentes.",
+  "bestFor": "Vídeo de treinamento e conteúdo em vários idiomas sem gravar",
+  "rating": 4.2,
+  "ratingCount": 397,
+  "pros": [
+    "Avatar com expressão e gestos naturais, aceito bem em vídeo de treinamento interno",
+    "Tradução e dublagem automática entregam o mesmo vídeo em dezenas de idiomas",
+    "Gera o vídeo em minutos, o que permite publicar conteúdo diário sem equipe de produção",
+    "API disponível para montar geração de vídeo dentro de um fluxo de atendimento ou onboarding"
+  ],
+  "cons": [
+    "A cobrança por crédito, de 20 a 48 por minuto conforme o avatar, fica cara rápido em série para redes sociais",
+    "Close no rosto, o avatar denuncia ser artificial e erra a mão e a pronúncia",
+    "O controle de gestos e de enquadramento é limitado, não dá para produzir cinemateca",
+    "Para vídeo de venda de alto valor, um apresentador real ainda converte melhor"
+  ],
+  "features": [
+    { "name": "Avatares realistas", "detail": "Biblioteca de apresentadores com expressões e gestos naturais" },
+    { "name": "Vídeo por texto", "detail": "Escreve o roteiro e gera o vídeo com avatar narrando" },
+    { "name": "Tradução e dublagem", "detail": "Traduz o vídeo e replica a voz mantendo o sincronismo labial" },
+    { "name": "Clone de voz", "detail": "Cria voz a partir de amostra, para o apresentador da marca falar" },
+    { "name": "Modelos e API", "detail": "Modelos prontos por formato e API para gerar vídeo em fluxo" }
+  ],
+  "useCases": [
+    "Módulo de treinamento de vendas com o mesmo roteiro em português e espanhol",
+    "Vídeo de boas-vindas para novo cliente, com o nome e a proposta da empresa",
+    "Conteúdo diário para redes sociais em que só muda o texto do roteiro",
+    "Tutorial de uso do produto enviado dentro da plataforma, sem gravar tela e voz"
+  ],
+  "bestForWho": "Empresa com time de vendas ou treinamento distribuído em vários países, que precisa de vídeo em escala.",
+  "verdict": "HeyGen resolve um caso bem específico e muito útil: manter o mesmo conteúdo de treinamento em vários idiomas sem contratar equipe de localização, e a dublagem com sincronismo labial é o destaque. Onde a ferramenta ainda não substitui o apresentador real é em vídeo de venda, porque o público percebe o avatar em close e a conversão cai. O custo também merece atenção: a cobrança é por crédito, e vídeo de dois minutos por semana em vários idiomas estoura a cota do plano de entrada em poucos meses. Para empresa pequena, use no máximo para treinamento interno e vídeos curtos, e o plano Creator cobre bem isso. Para empresa maior, o plano Business com API compensa quando a produção de vídeo entra no fluxo de outras ferramentas e precisa de automação.",
+  "alternatives": ["elevenlabs", "manychat"],
+  "updated": "2026-10-30"
+}

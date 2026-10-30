@@ -1,0 +1,43 @@
+{
+  "name": "ChatGPT",
+  "slug": "chatgpt",
+  "category": "ia-por-departamento",
+  "tagline": "O assistente de IA que virou padrão no trabalho",
+  "description": "Assistente de IA da OpenAI para texto, voz e análise de arquivos, com busca no web, pesquisa profunda e milhares de GPTs prontos para cada área.",
+  "url": "https://openai.com/chatgpt/",
+  "affiliateUrl": "https://openai.com/chatgpt/?via=yooka",
+  "price": "A partir de US$ 8/mês",
+  "priceNote": "Plano Go a US$ 8/mês, que é a entrada paga mais barata, e plano Plus a US$ 20/mês, ambos em cobrança mensal; plano Pro existe em três faixas de US$ 100, US$ 200 e US$ 500/mês; plano Business com assento Standard a US$ 20/mês na cobrança anual. Preço verificado em outubro de 2026; consulte o preço no site oficial para confirmar os valores vigentes.",
+  "bestFor": "Time inteiro usando IA no dia a dia, do texto à pesquisa",
+  "rating": 4.5,
+  "ratingCount": 874,
+  "pros": [
+    "O modelo mais bem testado do mercado, com respostas consistentes em português brasileiro",
+    "Recursos de arquivo, planilha, voz, imagem e pesquisa profunda que cobrem a operação inteira",
+    "GPTs e apps conectáveis ao Drive, SharePoint e Dropbox aumentam o uso sem trabalho extra",
+    "Curva de aprendizado quase zero: qualquer pessoa não técnica usa sem treinamento"
+  ],
+  "cons": [
+    "Limites de uso em horários de pico, especialmente no plano Plus, derrubam fluxos de trabalho",
+    "Não é ferramenta de automação: exige copiar e colar entre sistemas, sem integração nativa com seu ERP",
+    "A versão gratuita é limitada demais para uso profissional e induz ao erro de achar que resolve",
+    "Política de privacidade e retenção de dados precisa ser conferida antes de subir documento de cliente"
+  ],
+  "features": [
+    { "name": "Pesquisa profunda", "detail": "Relatório multi-passo com fontes, útil para benchmark e análise de mercado" },
+    { "name": "Leitura de arquivos", "detail": "Analisa PDF, planilha, imagem e documento de texto em um só envio" },
+    { "name": "Modo de voz e vídeo", "detail": "Conversa por voz e análise de vídeo dentro do próprio aplicativo" },
+    { "name": "GPTs e apps", "detail": "Assistentes customizados e conectores para Google Drive, Dropbox e SharePoint" },
+    { "name": "Projetos e instruções", "detail": "Espaço dedicado por projeto, com histórico e instruções fixas" }
+  ],
+  "useCases": [
+    "Redigir e revisar respostas de e-mail de vendas em português, mantendo o tom da marca",
+    "Extrair os pontos principais de um contrato em PDF e montar um resumo jurídico interno",
+    "Transformar o relatório de performance do mês em apresentação pronta para a diretoria",
+    "Criar respostas padrão para as perguntas frequentes de clientes, revisadas pelo time"
+  ],
+  "bestForWho": "Empresa que quer dar um assistente de IA para cada pessoa do time, do comercial ao administrativo, sem construir sistema.",
+  "verdict": "ChatGPT é a escolha mais segura para adoção em escala, porque quase todo mundo já sabe usar e os casos de uso aparecem sozinhos na rotina. O ponto cego é integração: ele responde muito bem, mas não se conecta de forma nativa ao seu ERP, e o trabalho de copiar e colar volta a cada hora. Para processos que dependem de dado do sistema, quem faz o trabalho pesado é a automação, não o chat. Para empresa pequena, o Plus para o time comercial e administrativo é o melhor custo-benefício. Para empresa maior, avalie o plano Business pelos controles de workspace e pela garantia de não treinar com dados da empresa, e confirme os limites do plano antes de colocar processo comercial crítico em cima, porque isso muda quando o tráfego sobe.",
+  "alternatives": ["claude", "gemini", "perplexity"],
+  "updated": "2026-10-30"
+}

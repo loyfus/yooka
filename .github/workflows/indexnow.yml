@@ -1,0 +1,27 @@
+name: IndexNow
+
+on:
+  schedule:
+    # todo dia às 03:20 UTC
+    - cron: '20 3 * * *'
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Build
+        run: npm run build:fast
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+
+      - name: Enviar URLs ao IndexNow
+        run: node scripts/indexnow.js
+        env:
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}

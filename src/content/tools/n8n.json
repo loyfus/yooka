@@ -1,0 +1,44 @@
+{
+  "name": "n8n",
+  "slug": "n8n",
+  "category": "automacao",
+  "tagline": "Automação com código e self-hosted para times técnicos",
+  "description": "Plataforma de automação open source que combina 400+ integrações prontas com código JavaScript ou Python, rodando na nuvem ou no seu servidor.",
+  "url": "https://n8n.io",
+  "affiliateUrl": "https://n8n.io/?via=yooka",
+  "price": "A partir de US$ 24/mês",
+  "priceNote": "Plano Starter de EUR 20/mês na cobrança anual (aproximadamente US$ 24) com 2.500 execuções; plano Pro de EUR 50/mês com 10.000 execuções; versão self-hosted Community gratuita e sem limite de execuções. Preço verificado em outubro de 2026.",
+  "bestFor": "Times técnicos que precisam de IA dentro do fluxo e controle do servidor",
+  "rating": 4.6,
+  "ratingCount": 412,
+  "pros": [
+    "Open source e self-hosted: o dado não sai da sua infraestrutura e o custo de servidor é previsível",
+    "Editor visual que aceita JavaScript ou Python quando o conector pronto não resolve o caso",
+    "Cobra por execução, e não por tarefa, o que favorece fluxos longos com vários passos internos",
+    "Comunidade grande, documentação densa e centenas de templates prontos para adaptar"
+  ],
+  "cons": [
+    "Curva de aprendizado alta para quem não programa: expressões, JSON e webhooks são armadilhas frequentes",
+    "A cobrança por execução pune fluxos com loop e com IA, porque cada iteração vira uma execução nova",
+    "Self-hosted exige alguém responsável por Docker, backup, logs e atualização de versão",
+    "Documentação e suporte concentrados em inglês; material confiável em português é escasso"
+  ],
+  "features": [
+    { "name": "Editor visual de fluxos", "detail": "Etapas, branches e loops no arraste-e-solta, com código sob demanda" },
+    { "name": "400+ integrações prontas", "detail": "Conectores para CRM, ERP, e-mail, WhatsApp e provedores de IA" },
+    { "name": "Agentes de IA com ferramentas", "detail": "Agentes que chamam APIs e fluxos internos via HTTP Request" },
+    { "name": "Self-hosted open source", "detail": "Community é gratuita e sem limite de execuções; licença paga à parte" },
+    { "name": "Comunidade e templates", "detail": "Fórum ativo, centenas de fluxos prontos e plugins da comunidade" },
+    { "name": "Agendamento e webhooks", "detail": "Dispara por cron, evento de app ou requisição HTTP vinda de outro sistema" }
+  ],
+  "useCases": [
+    "Gerar proposta em PDF e cadastrar o lead no CRM assim que o formulário do site é enviado",
+    "Extrair dados de faturas em PDF e lançar o título no sistema financeiro toda semana",
+    "Disparar mensagem de WhatsApp ao cliente no instante em que o pedido sai para entrega",
+    "Consolidar vendas de planilhas, marketplace e WhatsApp em um painel único atualizado todo dia"
+  ],
+  "bestForWho": "Empresas que têm alguém técnico no time e querem automatizar processos reais, com IA no meio, sem depender de plataforma proprietária.",
+  "verdict": "n8n é a melhor escolha quando a automação precisa de IA de verdade no meio do fluxo e existe alguém na empresa que entende um pouco de código. Em um cliente que atendemos, um fluxo que consome a API de um modelo economizou cerca de 40 horas mensais de trabalho manual em planilhas; o mesmo desenho no Zapier custaria mais e rodaria mais devagar. O que mais atrapalha não é o preço, é a manutenção: quem instala self-hosted precisa assumir backup, atualização de imagem e leitura de logs. Para empresa pequena sem time técnico, comece no plano cloud e só migre para self-hosted quando o volume de execuções justificar. Para empresa maior, self-hosted com licença paga e um responsável claramente nomeado é o único cenário que sustenta volume alto sem susto na fatura.",
+  "alternatives": ["make", "zapier", "flowise", "dify"],
+  "updated": "2026-10-30"
+}

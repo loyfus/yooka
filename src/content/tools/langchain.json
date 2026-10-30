@@ -1,0 +1,43 @@
+{
+  "name": "LangChain",
+  "slug": "langchain",
+  "category": "agentes-de-ia",
+  "tagline": "A biblioteca Python que virou padrão para montar agentes",
+  "description": "Framework open source em Python para criar agentes, RAG e fluxos com LLMs, com observabilidade via LangSmith e integração com dezenas de provedores de modelo.",
+  "url": "https://www.langchain.com",
+  "affiliateUrl": "https://www.langchain.com/?via=yooka",
+  "price": "A partir de US$ 39/mês",
+  "priceNote": "A biblioteca LangChain é open source e gratuita; a parte paga é o LangSmith, com plano Plus a US$ 39 por assento/mês e plano Developer gratuito limitado a um assento. Traces e recursos de infraestrutura são cobrados por uso acima da franquia. Preço verificado em outubro de 2026; consulte o preço no site oficial para confirmar os valores vigentes.",
+  "bestFor": "Desenvolvedores que precisam controlar cada detalhe do agente",
+  "rating": 4.5,
+  "ratingCount": 384,
+  "pros": [
+    "Controle total sobre prompt, ferramentas, memória e lógica, que resolve casos que nenhum no-code dá conta",
+    "Ecossistema maduro com LangGraph, LangSmith e integrações oficiais com dezenas de provedores de modelo",
+    "Observabilidade de verdade, com traces, custo por token e avaliação, o que falta na maioria das soluções caseiras",
+    "Código aberto e comunidade ativa, com exemplos prontos e documentação acima da média"
+  ],
+  "cons": [
+    "Curva de aprendizado alta e APIs que mudam com frequência, o que gera retrabalho em produção",
+    "Não é produto pronto: exige desenvolvedor, estrutura de projeto, testes e pipeline de deploy",
+    "O custo da API do modelo é separado e domina a conta em agente com contexto grande",
+    "O painel de observabilidade exige setup antes de servir para alguma coisa de verdade"
+  ],
+  "features": [
+    { "name": "Componentes prontos", "detail": "Prompts, modelos, memória, saída estruturada e ferramentas em um pacote" },
+    { "name": "LangGraph", "detail": "Orquestração do agente em grafo, com estado, ciclos e controle de fluxo" },
+    { "name": "LangSmith", "detail": "Traces, avaliação e playground para depurar e medir cada execução" },
+    { "name": "Múltiplos provedores", "detail": "Troca entre OpenAI, Anthropic, Google e modelos locais sem reescrever tudo" },
+    { "name": "Publicação como API", "detail": "Expõe o agente como endpoint com LangServe e gerencia deploy e escala" }
+  ],
+  "useCases": [
+    "Agente que consulta o ERP, checa estoque e responde ao cliente em português a partir de regras internas",
+    "Pipeline de RAG sobre manuais, contratos e políticas internas da empresa",
+    "Classificação automática de tickets e mensagens, com saída estruturada e validada por schema",
+    "Assistente de vendas que lê o histórico do cliente e prepara a pauta da reunião"
+  ],
+  "bestForWho": "Estúdio de tecnologia ou time de engenharia que vai manter a solução e precisa de controle, testes e observabilidade.",
+  "verdict": "LangChain é o que a gente recomenda quando existe alguém no time que vai manter o código por meses, porque dá controle de prompt, ferramenta e memória que nenhuma ferramenta visual oferece. O custo real não é a licença, que é baixa ou zero, e sim o tempo de engenharia até o agente ficar confiável em produção. As APIs mudam rápido e um exemplo de seis meses atrás pode não rodar igual hoje. Para empresa pequena, não compensa começar por aqui: use CrewAI, Relevance AI ou um fluxo no n8n e só migre quando o caso exigir. Para empresa maior, o par LangChain com LangSmith é o padrão de mercado, e o painel de traces costuma pagar o custo da licença em semanas, porque mostra onde o agente gasta token e onde erra.",
+  "alternatives": ["crewai", "dify", "flowise", "n8n"],
+  "updated": "2026-10-30"
+}

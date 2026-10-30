@@ -1,0 +1,282 @@
+[
+  {
+    "term": "Agente de IA",
+    "slug": "agente-de-ia",
+    "short": "Sistema de IA que planeja, executa ações em ferramentas externas e verifica o resultado antes de responder.",
+    "body": "Um agente de IA é um sistema que recebe um objetivo, decompõe a tarefa em etapas, executa ações em ferramentas externas e verifica o resultado antes de responder. O termo vem da pesquisa em agentes autônomos dos anos 1990 e ganhou tração prática em 2023, quando os modelos de linguagem passaram a chamar APIs por conta própria. Na prática, um agente combina três partes: um LLM que decide, um conjunto de ferramentas que executa e um laço de controle que repete o ciclo até concluir. Exemplo prático: um agente de cobrança que lê o contrato do cliente, consulta o ERP, negocia o boleto e escala para um humano quando o valor ultrapassa o limite. A diferença para um chatbot é justamente a capacidade de agir, não apenas responder.",
+    "related": ["llm", "tool-use", "orquestracao", "memoria-do-agente"]
+  },
+  {
+    "term": "LLM (Large Language Model)",
+    "slug": "llm",
+    "short": "Modelo de linguagem treinado em grandes volumes de texto para gerar respostas plausíveis a partir de um prompt.",
+    "body": "LLM é a sigla de Large Language Model: um modelo estatístico de linguagem treinado em terabytes de texto para aprender padrões de escrita, raciocínio e código. A origem está no Processamento de Linguagem Natural, que saltou em 2017 com a arquitetura Transformer, do artigo Attention Is All You Need. Hoje um LLM é acessado por API, recebe um prompt e devolve tokens. O ponto que importa para uma empresa: o modelo não guarda o dado do seu negócio nem consulta seus sistemas sozinho, ele só gera texto plausível a partir do que você forneceu. Exemplo prático: uma loja usa um LLM para redigir respostas de e-mail e monta a base de conhecimento da empresa com RAG, para que o texto venha dos documentos internos e não da memória genérica do modelo.",
+    "related": ["token", "janela-de-contexto", "inference", "custo-por-token"]
+  },
+  {
+    "term": "Prompt",
+    "slug": "prompt",
+    "short": "Instrução, contexto e dados enviados a um modelo de IA para obter uma resposta específica.",
+    "body": "Prompt é o conjunto de instruções, contexto e dados que você entrega a um modelo de IA para obter a resposta. A palavra vem da expressão prompt engineering e a prática antecede os LLMs: já existia em formulários de comando, scripts de terminal e templates de e-mail. Um prompt de qualidade define papel, tarefa, contexto, formato de saída e critérios de qualidade, nessa ordem. Exemplo prático: em vez de pedir um e-mail para o cliente, o time escreve: você é um analista de crédito, analise os dados abaixo, responda em JSON com os campos approved, score e reasons e nunca invente valores ausentes. Quanto mais específico o prompt, menos o modelo precisa adivinhar, e quanto menos adivinha, menos alucina.",
+    "related": ["prompt-engineering", "llm", "structured-output"]
+  },
+  {
+    "term": "Prompt Engineering",
+    "slug": "prompt-engineering",
+    "short": "Prática de escrever, testar e versionar instruções para deixar as respostas de um modelo previsíveis.",
+    "body": "Prompt engineering é a prática de escrever, testar e versionar instruções para obter respostas previsíveis de um modelo de IA. O termo nasceu como conversa de ajuste fino, mas se firmou quando ficou claro que trocar um modelo barato por um mais caro quase nunca compensa a troca de um prompt bem construído. O trabalho consiste em definir papel, contexto, exemplos de referência, formato de saída e regras de falha, e em medir o resultado. Exemplo prático: um time de suporte escreve o prompt do agente de triagem, roda 200 tickets reais, anota as falhas por categoria e ajusta o texto até o acerto passar de 90%. O ganho é imediato, sem troca de infraestrutura, sem retreinamento e quase sem custo extra de token.",
+    "related": ["prompt", "avaliacao-de-agentes", "guardrail", "structured-output"]
+  },
+  {
+    "term": "RAG (Retrieval-Augmented Generation)",
+    "slug": "rag",
+    "short": "Técnica que recupera documentos relevantes antes de pedir a resposta, para a IA usar o conhecimento da empresa.",
+    "body": "RAG é a técnica de buscar documentos relevantes antes de pedir a resposta ao modelo, para que a IA se baseie no conhecimento da sua empresa. A sigla vem de um artigo de 2020 que combinou recuperação de trechos com geração de texto. Em vez de retreinar o modelo, você indexa a base documental, recupera os trechos mais próximos e os injeta no prompt. Exemplo prático: um agente de RH que responde sobre políticas internas consulta o manual do colaborador e a convenção coletiva antes de falar, citando documento e parágrafo. O ganho é atualizar o conhecimento sem retreinar e sem custo de treinamento. O custo é operacional: manter o índice atualizado, medir a qualidade da recuperação e pagar por mais tokens a cada consulta.",
+    "related": ["embedding", "vector-database", "llamaindex", "pipeline-de-dados"]
+  },
+  {
+    "term": "Embedding",
+    "slug": "embedding",
+    "short": "Representação vetorial de um texto que permite medir similaridade de significado por distância.",
+    "body": "Embedding é a representação numérica vetorial de um texto, frase ou imagem, gerada por um modelo de IA e usada para medir similaridade de significado. A técnica nasce da área de recuperação de informação e ganhou tração com o Word2Vec, em 2013, e depois com modelos de sentença como o Sentence-BERT. Em vez de comparar palavras, compara-se posição no espaço vetorial: textos sobre o mesmo assunto ficam próximos, mesmo sem compartilhar nenhum termo. Exemplo prático: uma loja de materiais de construção gera embeddings das descrições de produto e das dúvidas recebidas no atendimento; o sistema recupera os itens mais parecidos semanticamente e o time de vendas recebe sugestões coerentes mesmo quando o cliente escreveu do jeito dele.",
+    "related": ["vector-database", "rag", "llamaindex"]
+  },
+  {
+    "term": "Vector Database",
+    "slug": "vector-database",
+    "short": "Banco de dados que guarda embeddings e busca por similaridade vetorial em vez de correspondência exata.",
+    "body": "Vector database é um banco de dados especializado em armazenar embeddings e responder buscas por similaridade vetorial, em vez de por correspondência exata de texto ou por filtros em colunas. A categoria se consolidou depois que bancos relacionais ficaram lentos para busca por distância em escala. As opções mais conhecidas são Pinecone, Qdrant, Weaviate e o pgvector, extensão do PostgreSQL. Exemplo prático: uma seguradora guarda embeddings de contratos, apólices e pareceres jurídicos; ao receber a pergunta do corretor, o banco devolve os cinco documentos mais relevantes em milissegundos, mesmo sem nenhuma palavra em comum com a pergunta. Para a maioria das PMEs, pgvector em um PostgreSQL já existente basta.",
+    "related": ["embedding", "rag", "pipeline-de-dados"]
+  },
+  {
+    "term": "Fine-tuning (Ajuste fino)",
+    "slug": "fine-tuning",
+    "short": "Retreinamento continued de um modelo existente com exemplos do domínio, para mudar comportamento ou formato.",
+    "body": "Fine-tuning é o retreinamento de um LLM já existente com exemplos específicos do seu domínio, para que ele mude de comportamento, formato de saída ou vocabulário. É a continuação do pré-treinamento: em vez de aprender a linguagem do zero, o modelo aprende o jargão e as regras do seu negócio. Serve para tarefas repetitivas e estáveis: classificar documentos, extrair campos, responder sempre em JSON. Não serve para colocar manuais atualizados dentro do modelo, isso é RAG. Exemplo prático: uma contabilidade treina o modelo com 5 mil notas fiscais já anotadas para extrair fornecedor, valor e centro de custo, e o time de Notas Fiscais deixa de digitar esses campos um a um.",
+    "related": ["llm", "prompt-engineering", "batch-processing"]
+  },
+  {
+    "term": "Token",
+    "slug": "token",
+    "short": "Menor unidade de texto processada pelo modelo, usada como base de medição e de cobrança.",
+    "body": "Token é a menor unidade de texto que um modelo processa: pode ser uma palavra inteira, uma parte de palavra ou um sinal de pontuação. O vocabulário de um LLM tem dezenas de milhares de tokens, e o texto é convertido neles antes de qualquer cálculo. É também a unidade de cobrança, já que todo modelo comercial cobra por token de entrada e de saída. Detalhe que afecta budgets: como a tokenização foi treinada em inglês, texto em português costuma sair mais caro por palavra. Exemplo prático: uma empresa mede que cada atendimento consome cerca de 1.200 tokens de entrada e 300 de saída, e usa esse número para estimar o custo mensal do agente de atendimento antes de fechar contrato com o cliente.",
+    "related": ["llm", "custo-por-token", "janela-de-contexto"]
+  },
+  {
+    "term": "Janela de Contexto",
+    "slug": "janela-de-contexto",
+    "short": "Quantidade máxima de tokens que o modelo consegue considerar de uma só vez em uma requisição.",
+    "body": "Janela de contexto é a quantidade máxima de tokens que o modelo consegue considerar de uma vez, o equivalente à mão de papel com que ele trabalha. O conceito nasce da arquitetura Transformer, que processa o contexto inteiro de uma só vez, com atenção entre todos os tokens, o que explica o custo crescendo conforme o contexto cresce. Modelos atuais costumam ter entre 4 mil e 1 milhão de tokens de janela. Exemplo prático: um agente jurídico resume um contrato de 120 páginas alimentando as cláusulas em blocos sucessivos e acumulando um resumo parcial, porque o documento inteiro não cabe em uma janela com folga e o resumo intermediário é o que cabe.",
+    "related": ["token", "llm", "memoria-do-agente", "batch-processing"]
+  },
+  {
+    "term": "Alucinação",
+    "slug": "alucinacao",
+    "short": "Quando o modelo inventa informação plausível com a mesma confiança de uma resposta verdadeira.",
+    "body": "Alucinação é o nome dado ao comportamento em que um modelo gera informação plausível e inventada, com a mesma confiança de uma resposta correta. A metáfora vem da psicologia e descreve um modo de falha conhecido desde os primeiros LLMs: o modelo otimiza por continuação provável, não por veracidade, e não tem mecanismo para dizer que não sabe. O problema ganhou o nome em inglês, hallucination, e ganhou projeção em 2023. A alucinação piora quando a pergunta exige dados que o modelo não tem, como prazos, preços ou cláusulas específicas. Exemplo prático: um assistente de suporte inventa o prazo de garantia que não está em nenhum manual. A mitigação é RAG com citação de fontes, saída estruturada validada e guardrails.",
+    "related": ["guardrail", "rag", "avaliacao-de-agentes", "observabilidade"]
+  },
+  {
+    "term": "Guardrail",
+    "slug": "guardrail",
+    "short": "Barreira de segurança e qualidade entre a saída do modelo e o mundo real, para evitar dano.",
+    "body": "Guardrail são as barreiras de segurança e qualidade colocadas entre a saída do modelo e o mundo real, para impedir que uma resposta cause dano. A metáfora vem da engenharia ferroviária, onde a barreira impede o trem de sair dos trilhos. Na prática, guardrails combinam validação de schema, listas de bloqueio, verificação de conteúdo, limites de permissão por ferramenta e aprovação humana para ações destrutivas. Exemplo prático: um agente que envia e-mails ao cliente passa por uma regra que bloqueia anexos, limita o número de destinatários por mensagem e exige aprovação humana quando o valor citado supera R$ 5.000. Sem isso, um erro de modelo vira um erro operacional e, às vezes, jurídico.",
+    "related": ["alucinacao", "human-in-the-loop", "orquestracao"]
+  },
+  {
+    "term": "Tool Use",
+    "slug": "tool-use",
+    "short": "Capacidade do modelo de pedir a execução de uma ferramenta externa, como API, banco ou e-mail.",
+    "body": "Tool use é a capacidade de um modelo solicitar a execução de uma ferramenta externa, como buscar no ERP, enviar um e-mail ou rodar uma consulta em SQL, em vez de responder apenas em texto. A prática se consolidou em 2023 junto com o padrão de function calling e dos frameworks de agentes. O fluxo é sempre o mesmo: o modelo decide o que chamar, o sistema executa com permissões controladas e devolve o resultado, e o modelo continua o raciocínio com esse dado novo. Exemplo prático: um agente de vendas consulta o CRM, cruza o histórico do cliente com a tabela de preços vigente e monta a proposta comercial, algo que antes exigia plugin do modelo ou integração manual planilha por planilha.",
+    "related": ["function-calling", "agente-de-ia", "mcp"]
+  },
+  {
+    "term": "Function Calling",
+    "slug": "function-calling",
+    "short": "Mecanismo em que o modelo escolhe uma função definida pelo time e preenche os argumentos em JSON.",
+    "body": "Function calling é o mecanismo pelo qual um LLM escolhe uma função previamente definida e preenche seus argumentos com valores estruturados, em vez de escrever a chamada em texto livre. O nome ganhou força com o plugin de funções da OpenAI em 2023 e virou o padrão da Function Calling API. O ganho é concreto: a saída vira JSON validável, com tipos definidos pelo desenvolvedor, o que elimina a fragilidade de fazer parsing de texto com regex. Exemplo prático: a equipe define enviar_boleto(cliente, valor, vencimento) com um schema JSON; se o valor vier negativo ou a data inválida, a chamada é rejeitada antes de tocar no sistema financeiro, e o caso volta para o modelo corrigir ou para a fila de revisão.",
+    "related": ["tool-use", "structured-output", "api", "mcp"]
+  },
+  {
+    "term": "LangChain",
+    "slug": "langchain",
+    "short": "Framework open source que abstrai prompts, modelos, ferramentas e memória em componentes encadeáveis.",
+    "body": "LangChain é um framework open source, lançado em 2022, que abstrai as peças de um sistema de IA em componentes que se encadeiam: prompts, modelos, ferramentas, memória e recuperação. Ele nasceu da constatação de que todo projeto de LLM repetia o mesmo código de cola para conectar essas peças. Em 2023 ganhou uma divisão entre o pacote principal e a expression language, chamada LCEL, que permite definir fluxos de forma declarativa e com reprodutibilidade. Exemplo prático: uma equipe monta um agente que consulta a base documental da empresa, chama a API do ERP e envia o resultado por e-mail, encadeando os componentes em menos de uma hora de trabalho. O ponto de atenção é a curva de aprendizado, que é maior do que a de uma ferramenta visual como o n8n.",
+    "related": ["llamaindex", "langgraph", "agente-de-ia"]
+  },
+  {
+    "term": "LlamaIndex",
+    "slug": "llamaindex",
+    "short": "Framework focado em conectar LLMs a dados próprios, com abstrações de indexação e recuperação.",
+    "body": "LlamaIndex é um framework open source para conectar LLMs a dados proprietários, com foco forte em indexação e recuperação. Criado em 2022 por Jerry Liu, nasceu como GPT Index para resolver um problema específico: dar ao modelo acesso aos documentos da empresa sem precisar retreiná-lo. O diferencial é a abstração de indexadores e recuperadores, com opções vetoriais, por palavra-chave e híbridas, além de parsers para PDF, planilha e e-mail. Exemplo prático: uma consultoria indexa contratos, propostas e notas de reunião; a busca semântica responde à pergunta do gestor sem expor o documento inteiro ao modelo, e o relatório exibido ao usuário sempre aponta a fonte original.",
+    "related": ["langchain", "rag", "embedding"]
+  },
+  {
+    "term": "n8n",
+    "slug": "n8n",
+    "short": "Ferramenta de automação de fluxos, auto-hospedada ou em nuvem, com nós visuais e código sob demanda.",
+    "body": "n8n é uma ferramenta de automação de fluxos de trabalho, auto-hospedada ou oferecida em nuvem, que combina nós visuais com execuções de JavaScript quando o visual não basta. Criado em 2019 por Mateusz Granatowski e hoje mantido pela n8n GmbH, nasceu com o foco em desenvolvedores que queriam automação com código sem depender de plataformas SaaS fechadas. Sua licença fair-code permite uso interno sem cobrança por execução, o que pesa no orçamento de uma PME com alto volume. Exemplo prático: uma equipe comercial liga o formulário do site ao CRM, dispara o e-mail de boas-vindas e notifica o vendedor no Slack, com tudo montado no visual e código apenas no nó que valida e normaliza o CPF.",
+    "related": ["workflow", "no", "no-code", "webhook"]
+  },
+  {
+    "term": "Workflow",
+    "slug": "workflow",
+    "short": "Grafo de etapas que descreve um processo automatizado, com gatilhos, condições, ações e estados.",
+    "body": "Workflow é o grafo de etapas que descreve um processo automatizado do começo ao fim, com gatilhos, condições, ações e estados intermediários. O termo vem da gestão de processos e da teoria de grafos aplicada ao negócio. Um workflow bem desenhado tem entrada e saída claras, é previsível e pode ser lido por quem não programa, o que muda a conversa com a área operacional. Em projetos de agentes de IA, o workflow costuma ser a espinha dorsal que segura o agente: define o que ele pode fazer, em que ordem e com quais limites, enquanto o modelo só resolve os pontos de decisão não estruturados. Exemplo prático: no atendimento, o workflow recebe o ticket, classifica, consulta o ERP e escala para um humano conforme o valor.",
+    "related": ["no", "n8n", "orquestracao", "automacao-de-processos"]
+  },
+  {
+    "term": "Nó",
+    "slug": "no",
+    "short": "Unidade básica de um workflow visual: um bloco com entrada, processamento e saída, ligado a outros nós.",
+    "body": "Nó é a unidade básica de um workflow em ferramentas visuais como n8n, Make e Zapier: um bloco com entrada, processamento e saída, conectado a outros nós por arestas. A nomenclatura vem da teoria dos grafos, em que os elementos são nós e as ligações são arestas. Cada nó corresponde a um passo do processo: disparar um webhook, consultar uma API, filtrar registros, aguardar, ramificar em paralelo ou disparar uma mensagem. Exemplo prático: um workflow de emissão de nota tem os nós webhook de entrada, consultar pedido, condicional por valor, gerar PDF e enviar por e-mail; nomear bem cada nó documenta o processo e evita a dependência de comentários que ninguém lê seis meses depois.",
+    "related": ["workflow", "n8n", "low-code"]
+  },
+  {
+    "term": "Automação de Processos",
+    "slug": "automacao-de-processos",
+    "short": "Execução de tarefas repetitivas de negócio sem intervenção manual, conectando sistemas por regras.",
+    "body": "Automação de processos é a prática de executar tarefas repetitivas de negócio sem intervenção manual, conectando sistemas por regras, gatilhos e integrações. A ideia é anterior à IA: vem das linhas de montagem e dos scripts de planilha dos anos 1990, e passou por décadas como integração classique. O que mudou com os LLMs foi a camada de decisão: passos antes rígidos passaram a interpretar documentos, e-mails e linguagem natural antes de agir. Exemplo prático: no financeiro, a rotina de conferir faturas, lançar os valores no ERP e agendar o pagamento é automatizada, e o agente entra apenas para decidir o que é corpo de fatura, o que é boleto e o que é erro de digitação.",
+    "related": ["workflow", "rpa", "no-code", "orquestracao"]
+  },
+  {
+    "term": "RPA (Robotic Process Automation)",
+    "slug": "rpa",
+    "short": "Robôs de software que repetem ações humanas na tela do computador, como clicar e preencher formulários.",
+    "body": "RPA é a tecnologia de robôs de software que repetem ações que pessoas fazem na interface do computador: clicar, copiar, colar, preencher formulários, baixar planilhas. A prática foi popularizada pela UiPath a partir de 2017 e dominou o mercado corporativo brasileiro na última década, com times de automação dedicados. RPA é frágil por natureza: qualquer mudança de layout, de cor de botão ou de versão do sistema quebra o robô silenciosamente. A tendência atual é combinar RPA com IA e, sempre que existir, substituir cliques por integração via API. Exemplo prático: um robô legado ainda precisa ler o portal do cliente, mas a IA passa a extrair os campos antes de o robô preencher o sistema interno.",
+    "related": ["automacao-de-processos", "api", "no-code"]
+  },
+  {
+    "term": "No-code",
+    "slug": "no-code",
+    "short": "Ferramentas em que a automação é montada visualmente, com blocos e campos prontos, sem escrever código.",
+    "body": "No-code é a categoria de ferramentas em que a automação é montada visualmente, sem escrever código, com blocos, campos e condicionais prontos. O termo ganhou força com Bubble, Zapier e o n8n. É a porta de entrada para PMEs que têm times de operação, mas não têm time de desenvolvimento, e resolve rápido os casos de integração entre SaaS. Exemplo prático: um analista comercial monta no n8n um fluxo que lê uma planilha do Google Sheets, cruza os dados com o CRM e dispara uma mensagem no WhatsApp, sem escrever uma linha de código. O limite aparece quando o processo exige lógica complexa, volume alto de dados ou parsing que a plataforma não cobre de forma confiável.",
+    "related": ["low-code", "n8n", "rpa"]
+  },
+  {
+    "term": "Low-code",
+    "slug": "low-code",
+    "short": "Plataformas visuais que permitem escrever código nos pontos de maior complexidade, mantendo o resto em blocos.",
+    "body": "Low-code é o meio-termo entre no-code e programação tradicional: uma plataforma visual em que se pode escrever código nos pontos de maior complexidade, mantendo o restante em blocos prontos. O termo descreve ferramentas como n8n, Power Automate e Mendix, que entregam a velocidade do no-code com a flexibilidade do código. É a escolha padrão para automações que precisam de lógica de negócio real, volume elevado ou performance previsível. Exemplo prático: um fluxo de conciliação bancária monta as etapas no visual, mas usa um nó de JavaScript para normalizar CNPJs com pontuação antes de compará-los com os lançamentos do ERP, algo que nenhuma configuração de arrastar e soltar resolve de forma confiável.",
+    "related": ["no-code", "n8n", "api"]
+  },
+  {
+    "term": "API",
+    "slug": "api",
+    "short": "Contrato que permite a dois sistemas trocarem dados e acionarem ações sem depender da interface visual.",
+    "body": "API é o contrato que permite que dois sistemas troquem dados e acionem ações um do outro sem depender da interface visual. A ideia vem da modularidade de software dos anos 1970 e evoluiu para REST com JSON, que virou o padrão de integração. Para projetos de IA, a API é o contrato de entrada e saída: como o agente obtém os dados e como entrega o resultado. Exemplo prático: em vez de o agente abrir o ERP e digitar lançamento por lançamento, ele chama a rota de consulta de pedido e recebe o JSON do registro em milissegundos, com menos fragilidade e mais velocidade do que automação por tela.",
+    "related": ["webhook", "mcp", "function-calling"]
+  },
+  {
+    "term": "Webhook",
+    "slug": "webhook",
+    "short": "Notificação em que um servidor chama a URL do outro sistema quando um evento acontece, sem consulta periódica.",
+    "body": "Webhook é um mecanismo de notificação em que um servidor chama a URL do outro sistema quando acontece um evento, em vez de o outro sistema precisar consultar o servidor repetidamente. A prática se popularizou com GitHub e Stripe nos anos 2010 e é a base das integrações em tempo real. É o oposto do polling, que gasta recursos verificando de tempos em tempos. Exemplo prático: quando o cliente paga uma fatura, o gateway envia um webhook para o n8n, que dispara a baixa automática, atualiza o CRM e avisa o vendedor no Slack em segundos, sem ninguém precisar conferir o sistema bancário de manhã.",
+    "related": ["api", "n8n", "workflow"]
+  },
+  {
+    "term": "MCP (Model Context Protocol)",
+    "slug": "mcp",
+    "short": "Padrão aberto que padroniza como aplicações expõem dados e ações para assistentes de IA.",
+    "body": "MCP é um padrão aberto, anunciado em novembro de 2024, que padroniza como uma aplicação expõe dados e ações a assistentes de IA. Ele funciona como uma camada de conectores: em vez de cada agente integrar com cada sistema por código próprio, a aplicação publica suas capacidades como servidores MCP, com ferramentas e recursos padronizados. A ideia é a mesma do USB para o hardware, um encaixe único para qualquer dispositivo. Exemplo prático: um servidor MCP do ERP expõe as funções consultar_nota_fiscal e emitir_boleto, e o mesmo agente usa essas funções em modelos diferentes, de fornecedores diferentes, sem reescrever a integração uma única vez.",
+    "related": ["api", "tool-use", "function-calling", "agente-de-ia"]
+  },
+  {
+    "term": "LangGraph",
+    "slug": "langgraph",
+    "short": "Framework para construir agentes como grafos de estados, com ciclos, ramificações e retomada após erros.",
+    "body": "LangGraph é um framework da LangChain, lançado em 2024, para construir agentes como grafos de estado explícitos, com ciclos, ramificações e recuperação de erros. Ele nasce de uma limitação observada nos agentes lineares: quando algo dá errado no meio do caminho, não existe caminho de volta a um estado anterior, e o processo recomeça do zero. LangGraph resolve isso tratando o fluxo como um grafo com checkpoints salvos. Exemplo prático: um agente de contrato revisa cláusulas em etapas definidas; se a política exigir intervenção humana, o grafo salva o estado, pausa o processo e retoma exatamente do ponto em que parou, sem reprocessar o documento inteiro.",
+    "related": ["langchain", "orquestracao", "agente-de-ia"]
+  },
+  {
+    "term": "CrewAI",
+    "slug": "crewai",
+    "short": "Framework para orquestrar equipes de agentes de IA, cada um com papel, objetivo e ferramentas próprias.",
+    "body": "CrewAI é um framework open source para orquestrar equipes de agentes de IA, cada um com papel, objetivo e ferramentas próprias, que cooperam em torno de uma tarefa. Lançado em 2023, se popularizou por abstrair a coordenação com papéis tipo pesquisador, redator e revisor, entregando contexto compartilhado entre eles. A proposta é simular uma squad, com tarefas em sequência ou em paralelo e um resultado final consolidado. Exemplo prático: um time de conteúdo usa um agente que pesquisa doctrines nos documentos internos, outro que escreve o texto e um terceiro que revisa conformidade antes da publicação, reduzindo o retrabalho de revisão jurídica que travava o calendário editorial.",
+    "related": ["orquestracao", "agente-de-ia", "langgraph"]
+  },
+  {
+    "term": "Memória do Agente",
+    "slug": "memoria-do-agente",
+    "short": "Mecanismo que faz o agente lembrar de conversas e fatos anteriores em vez de recomeçar a cada requisição.",
+    "body": "Memória do agente é o mecanismo que permite a um agente lembrar de conversas anteriores e de fatos aprendidos durante a execução, em vez de recomeçar do zero a cada requisição. O termo vem da IA de agentes, com paralelo direto à memória de trabalho humana. A implementação costuma separar três camadas: memória de curto prazo, que é o histórico da conversa e vive na janela de contexto; memória de longo prazo, com fatos persistidos em banco ou em vector database; e memória procedimental, que são as regras do prompt e do workflow. Exemplo prático: um agente de CRM lembra que o cliente já recusou a propuesta em abril, então prepara a abordagem seguinte com outro argumento, sem que ninguém precise colar o histórico na conversa.",
+    "related": ["janela-de-contexto", "vector-database", "agente-de-ia"]
+  },
+  {
+    "term": "Orquestração",
+    "slug": "orquestracao",
+    "short": "Camada que coordena modelos, ferramentas, subagentes, filas e retentativas para concluir o processo.",
+    "body": "Orquestração é a camada que coordena a execução de vários componentes, como modelos, ferramentas, subagentes, filas e retentativas, para que um processo de IA termine de forma confiável. O termo vem da orquestra: cada instrumento tem a sua parte e um maestro conduz o conjunto. Na prática, orquestração decide o que roda quando, em que ordem, qual política de repetição aplicar e o que fazer quando um passo falha. Exemplo prático: um sistema de emissão de contratos roda a extração de dados, a validação jurídica e a assinatura, com fila, retentativas automáticas e alerta ao time quando a segunda etapa estoura o tempo pactuado no SLA.",
+    "related": ["agente-de-ia", "workflow", "sla", "observabilidade"]
+  },
+  {
+    "term": "Avaliação de Agentes",
+    "slug": "avaliacao-de-agentes",
+    "short": "Testes e métricas que medem se um agente faz o que deveria, de forma reproduzível.",
+    "body": "Avaliação de agentes é o conjunto de testes e métricas que mede se um agente cumpre o que deveria, de forma reproduzível. O tema ganhou corpo quando os times passaram a ter centenas de chamadas por dia e nenhuma forma de saber se a última mudança no prompt piorou o resultado. A prática usa conjuntos de casos reais com resposta esperada, julgadores automatizados e métricas como taxa de acerto, custo por tarefa e número de passos até a conclusão. Exemplo prático: um time mantém 150 casos de suporte com a resposta aprovada pelo atendimento, roda a suíte a cada alteração de prompt e bloqueia o deploy se o acerto cair abaixo de 90% ou se o custo médio por ticket subir mais de 20%.",
+    "related": ["observabilidade", "prompt-engineering", "alucinacao"]
+  },
+  {
+    "term": "Observabilidade",
+    "slug": "observabilidade",
+    "short": "Capacidade de reconstruir, por traces e logs, o que um sistema de IA fez por dentro em cada execução.",
+    "body": "Observabilidade é a capacidade de entender o que um sistema de IA fez por dentro, reconstruindo o comportamento a partir de traces, logs e métricas. O termo migrou da engenharia de software, onde OpenTelemetry e Prometheus já eram padrão, e ganhou uma camada própria para IA: além de erro e latência, é preciso ver o prompt enviado, os tokens consumidos, as chamadas de ferramentas e as decisões do agente. Exemplo prático: um cliente relata resposta incorreta; a equipe abre o trace e descobre que o agente consultou o documento errado porque o índice vetorial estava desatualizado, corrigindo em minutos o que levaria horas se só existisse o log de erro padrão.",
+    "related": ["avaliacao-de-agentes", "orquestracao", "custo-por-token"]
+  },
+  {
+    "term": "Inference",
+    "slug": "inference",
+    "short": "Execução de um modelo treinado para gerar a resposta a partir de um prompt, o oposto do treinamento.",
+    "body": "Inference é a execução de um modelo já treinado para gerar uma resposta a partir de um prompt, o momento em que o LLM trabalha, em oposição ao treinamento. A palavra vem da estatística: inferir é deduzir algo a partir de dados e evidências. A distinção entre inference e treinamento é o que define o orçamento de um projeto de IA. Treinar exige horas de GPU, dados anotados e custo alto; inferir exige milissegundos por chamada e é cobrada por token, o que torna viável colocar um modelo no meio de um processo transacional. Exemplo prático: o ERP dispara inference para classificar cada nota fiscal recebida, e o relatório mensal mostra quanto foi gasto em inference no mês.",
+    "related": ["llm", "batch-processing", "custo-por-token"]
+  },
+  {
+    "term": "Batch Processing",
+    "slug": "batch-processing",
+    "short": "Processamento de muitos itens em bloco e fora do tempo real, mais barato que a chamada individual.",
+    "body": "Batch processing é o processamento de um grande volume de itens em blocos, sem interação em tempo real, ao contrário do processamento sob demanda. É uma prática herdada do processamento em lote dos mainframes e dos ETLs. Em IA, ela resolve o problema de custo: inferir um documento por vez sai caro, enquanto o mesmo volume enviado na API de batch costuma custar cerca da metade. A contrapartida é a latência, já que o resultado chega horas depois. Exemplo prático: uma empresa processa 50 mil contratos antigos em lote, gera embeddings e classifica cada um por tema e risco, obtendo um panorama que hoje só seria possível com equipe manual de leitura.",
+    "related": ["inference", "pipeline-de-dados", "custo-por-token"]
+  },
+  {
+    "term": "Structured Output",
+    "slug": "structured-output",
+    "short": "Resposta do modelo exigida em JSON ou schema validado, em vez de texto livre difícil de parsear.",
+    "body": "Structured output é a exigência de que o modelo responda em um formato estruturado, como JSON com schema definido, em vez de texto livre. A prática evoluiu com o modo JSON e com as saídas baseadas em schema das APIs de modelos, que validam o formato já na origem. A diferença é grande para automações: texto livre exige parsing frágil por regex, enquanto JSON validado pode ser rejeitado e devolvido ao modelo antes de chegar ao ERP. Exemplo prático: um agente que extrai dados de nota fiscal exige os campos fornecedor, cnpj, valor_total e data; se o CNPJ faltar ou vier com dígitos errados, a chamada é barrada e o documento entra na fila de revisão humana.",
+    "related": ["function-calling", "prompt", "guardrail"]
+  },
+  {
+    "term": "Temperatura do Modelo",
+    "slug": "temperatura-do-modelo",
+    "short": "Parâmetro que controla o quanto as respostas variam entre execuções, de determinístico a criativo.",
+    "body": "Temperatura do modelo é o parâmetro que controla o quanto as respostas variam entre execuções, indo de mais determinística a mais criativa. O nome vem da analogia com a distribuição estatística: em temperatura zero o modelo sempre escolhe a continuação mais provável, e em temperatura alta ele passa a explorar alternativas. Um erro comum é achar que temperatura alta produz resposta melhor. Ela não mede inteligência, e modelos diferentes com a mesma temperatura dão resultados diferentes. Exemplo prático: para extrair dados de documentos, a equipe usa temperatura zero, para reprodutibilidade; para redigir slogans, sobe para 0,8 e aceita a variabilidade como parte do processo criativo.",
+    "related": ["llm", "prompt-engineering", "inference"]
+  },
+  {
+    "term": "Custo por Token",
+    "slug": "custo-por-token",
+    "short": "Métrica que converte o uso de modelos em dinheiro, somando entrada, saída e cache.",
+    "body": "Custo por token é a métrica que converte o uso de modelos em dinheiro: preço por milhão de tokens de entrada e de saída, somados as leituras e escritas de cache quando o provedor as cobre. A prática virou o centro do orçamento de IA porque o preço varia por ordens de grandeza entre um modelo pequeno e um de fronteira, e porque um agente consome tokens em cascata, chamando o modelo várias vezes para uma única tarefa. Exemplo prático: uma empresa que processa 2 milhões de mensagens por mês num modelo intermediário gasta na faixa de R$ 400 a R$ 1.200, dependendo do tamanho médio do contexto e da taxa de acerto do cache.",
+    "related": ["token", "inference", "batch-processing", "sla"]
+  },
+  {
+    "term": "SLA (Service Level Agreement)",
+    "slug": "sla",
+    "short": "Acordo contratual com níveis mensuráveis de serviço e regras de compensação quando não são cumpridos.",
+    "body": "SLA é o acordo contratual que define níveis de serviço mensuráveis, como disponibilidade, tempo de resposta e prazo de resolução, além do que acontece quando esses números não são cumpridos. O termo vem da prática de telecomunicações e operações, e ganhou uma variante específica para IA: o acordo passa a prometer não só o uptime da plataforma, mas a taxa de acerto das respostas do agente e a latência percebida pelo usuário. Exemplo prático: o contrato com o cliente promete 99,5% de disponibilidade, primeira resposta do agente de atendimento em até 3 segundos e 95% de acerto na triagem, com crédito mensal proporcional em caso de descumprimento.",
+    "related": ["orquestracao", "observabilidade", "custo-por-token"]
+  },
+  {
+    "term": "Human-in-the-loop",
+    "slug": "human-in-the-loop",
+    "short": "Processo em que uma pessoa aprova, revisa ou corrige decisões do sistema em pontos críticos.",
+    "body": "Human-in-the-loop é o desenho de processos em que uma pessoa aprova, revisa ou corrige decisões tomadas pelo sistema, em pontos escolhidos por criticidade e não por padrão. A expressão vem da automação industrial, em que o operador humano validava a saída da máquina antes de seguir. Em projetos de agentes, é o principal mecanismo de controle de risco e também de aprendizado, porque cada correção vira caso de teste para a suíte de avaliação. Exemplo prático: o agente de transferências prepara a operação e envia para o financeiro aprovar tudo acima de R$ 20.000; toda aprovação vira exemplo de regressão e toda rejeição entra na fila de revisão de prompt.",
+    "related": ["guardrail", "orquestracao", "avaliacao-de-agentes"]
+  },
+  {
+    "term": "Pipeline de Dados",
+    "slug": "pipeline-de-dados",
+    "short": "Encadeamento de etapas que leva a informação da origem ao destino, transformando-a no caminho.",
+    "body": "Pipeline de dados é o encadeamento de etapas que leva uma informação da origem até o destino, transformando-a no caminho. O conceito vem da engenharia de dados e dos ETLs dos anos 1990 e, em IA, aparece como pipeline de dados de conhecimento: coletar, limpar, dividir em trechos, gerar embedding, indexar e reindexar o que mudou. É a peça que quase ninguém menciona e que mais causa dor quando falta, porque sem atualização o agente responde com informação vencida. Exemplo prático: um agente de RH responde sobre políticas internas porque o pipeline lê as páginas da intranet, divide os PDFs em trechos, gera embeddings toda madrugada e reindexa apenas o que foi alterado.",
+    "related": ["rag", "embedding", "batch-processing", "vector-database"]
+  }
+]

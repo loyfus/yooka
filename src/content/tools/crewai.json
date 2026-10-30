@@ -1,0 +1,43 @@
+{
+  "name": "CrewAI",
+  "slug": "crewai",
+  "category": "agentes-de-ia",
+  "tagline": "Equipes de agentes de IA com papéis e tarefas definidas",
+  "description": "Framework Python para orquestrar equipes de agentes de IA com papéis e tarefas explícitas, poucos exemplos de código e integração com vários modelos.",
+  "url": "https://www.crewai.com",
+  "affiliateUrl": "https://www.crewai.com/?via=yooka",
+  "price": "A partir de US$ 24/mês",
+  "priceNote": "A biblioteca CrewAI é open source e o plano Basic na nuvem é gratuito, com 50 execuções de workflow por mês; o plano Enterprise é sob consulta. Planos pagos intermediários a partir de US$ 24/mês são citados por fontes de terceiros e não aparecem na página oficial, então consulte o preço no site oficial. Preço verificado em outubro de 2026.",
+  "bestFor": "Prototipar e operar equipes de agentes com papel bem definido",
+  "rating": 4.2,
+  "ratingCount": 267,
+  "pros": [
+    "Modelo mental simples de agente, tarefa e resultado esperado, que o time de negócio entende",
+    "Poucas linhas de código para montar uma equipe completa com papéis e ferramentas",
+    "Funciona com modelos de vários provedores, então dá para trocar o modelo sem reescrever a crew",
+    "Tem modo de execução sequencial ou com hierarquia, o que serve para fluxos mais complexos"
+  ],
+  "cons": [
+    "Depende de um modelo de linguagem externo, e o custo por token é a maior parte da conta",
+    "Agentes mal delimitados gastam tokens repetindo trabalho até atingir o limite de iterações",
+    "Documentação mudou bastante nos últimos lançamentos e muitos exemplos públicos estão desatualizados",
+    "Não oferece observabilidade pronta como o LangSmith, e sem log fica difícil depurar agente"
+  ],
+  "features": [
+    { "name": "Agentes com papel", "detail": "Cada agente tem objetivo, contexto e lista de ferramentas próprias" },
+    { "name": "Tarefas encadeadas", "detail": "Define a sequência de trabalho e o formato esperado de cada entrega" },
+    { "name": "Processos flexíveis", "detail": "Execução sequencial ou hierárquica, com passagem de contexto entre agentes" },
+    { "name": "Ferramentas e MCP", "detail": "Conecta APIs, busca na web e sistemas internos por ferramentas prontas" },
+    { "name": "Deploy em nuvem", "detail": "Plataforma gerenciada com execuções agendadas, logs e observabilidade" }
+  ],
+  "useCases": [
+    "Crew de análise que cruza relatório de vendas, feedback de clientes e dados de mercado antes da reunião",
+    "Time de agentes que redige campanha, gera variações de anúncio e revisa o texto final",
+    "Rotina de pesquisa que produz um relatório setorial quinzenal com fontes e resumo executivo",
+    "Agentes que preenchem proposta comercial consultando o catálogo e as margens atualizadas"
+  ],
+  "bestForWho": "Time de engenharia ou de dados que quer prototipar multiagente rápido e depois evoluir para produção.",
+  "verdict": "CrewAI continua sendo o jeito mais curto de sair do zero até uma equipe de agentes rodando, porque o conceito de agente com papel e tarefa é imediato para quem não é programador. O que engana é achar que a crew pronta é o produto: na prática o trabalho está em definir bem a tarefa, o formato de saída e o limite de iterações, e sem isso o time de agentes entra em laço e queima token. Outro ponto é a ausência de observabilidade nativa, que obriga a plugar LangSmith ou tracing próprio. Para empresa pequena, use a biblioteca local em tarefas pontuais e pague só o que usar. Para empresa maior, a plataforma em nuvem paga vale pelo histórico de execuções e pelos papéis de acesso, mas exija logs legíveis antes de escalar.",
+  "alternatives": ["langchain", "dify", "relevance-ai"],
+  "updated": "2026-10-30"
+}

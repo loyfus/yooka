@@ -1,0 +1,43 @@
+{
+  "name": "ElevenLabs",
+  "slug": "elevenlabs",
+  "category": "marketing-e-vendas",
+  "tagline": "Voz sintética de qualidade para áudio e dublagem",
+  "description": "Plataforma de voz com síntese de qualidade de estúdio, clonagem autorizada, dublagem e API, cobrada por caractere gerado e com vários idiomas.",
+  "url": "https://elevenlabs.io",
+  "affiliateUrl": "https://elevenlabs.io/?via=yooka",
+  "price": "A partir de US$ 5/mês",
+  "priceNote": "Plano Starter a US$ 5/mês na cobrança anual, com 30.000 créditos; plano Creator a US$ 22/mês, com 121.000 créditos; plano Pro a US$ 99/mês, com 600.000 créditos. O consumo é medido em créditos e varia conforme o modelo usado, e o excedente é vendido à parte. Preço verificado em outubro de 2026; consulte o preço no site oficial para confirmar os valores vigentes.",
+  "bestFor": "Áudio, narração e dublagem em português com qualidade de locutor",
+  "rating": 4.6,
+  "ratingCount": 648,
+  "pros": [
+    "Qualidade de voz acima do resto do mercado, com entonação natural em português brasileiro",
+    "Dublagem automática preserva a voz original em outro idioma, o que economiza dublador",
+    "Clonagem de voz liberada com consentimento escrito, o que dá legalidade ao uso da própria voz",
+    "API estável para embutir narração em app, sistema de mensagem ou site"
+  ],
+  "cons": [
+    "A cobrança por crédito consumido faz o custo explodir em texto longo, e texto longo é o padrão de áudio",
+    "O plano gratuito não permite uso comercial, o que pega muita gente na saída",
+    "Em emoção e música, a voz ainda soa mecânica se o texto não for tratado antes",
+    "Falta suporte comercial em português e o contrato de voz clonada exige cuidado jurídico"
+  ],
+  "features": [
+    { "name": "Síntese de voz", "detail": "Biblioteca com dezenas de vozes em vários idiomas, com controle de estilo" },
+    { "name": "Dublagem automática", "detail": "Traduz e replica a voz original mantendo o timbre do locutor" },
+    { "name": "Clonagem de voz", "detail": "Reproduz a voz a partir de amostra, mediante consentimento do titular" },
+    { "name": "Estúdio de produção", "detail": "Corta o áudio, remove ruído, adiciona trilha e exporta em vários formatos" },
+    { "name": "API e dublagem em massa", "detail": "Chamada por API e locução de vários textos em um projeto só" }
+  ],
+  "useCases": [
+    "Narração de vídeos de treinamento e onboarding para time de loja, sem gravar de novo a cada mudança",
+    "Áudio dos vídeos do Instagram e do TikTok com a voz do apresentador da marca, sem estúdio",
+    "Voz do sistema de ligação de confirmação de pedido e de aviso de entrega",
+    "Dublagem de vídeo de treinamento do fornecedor para o time de campo, em vez de legendar"
+  ],
+  "bestForWho": "Time de marketing e conteúdo que produz muito áudio e vídeo e não tem orçamento de locutor nem de estúdio.",
+  "verdict": "ElevenLabs é o melhor som sintético que já testamos, e em português brasileiro a diferença para o TTS do sistema operacional é gritante, o que resolve de uma vez a narração de vídeos de venda e treinamento. O detalhe de custo é o que mais pega: a conta é por crédito consumido, então um audiolivro de dez horas consome uma cota que estoura qualquer plano de entrada, e o texto precisa ser bem escrito antes de sintetizar. A clonagem de voz resolve o problema de identidade da marca, mas exige consentimento documentado do locutor. Para empresa pequena, o Starter cobre narração de vídeos curtos e o custo final ainda é menor que contratar voz para cada peça. Para empresa maior, o plano Creator ou Pro compensa se houver produção contínua, e vale implementar controle de créditos por cliente para não estourar a cota.",
+  "alternatives": ["heygen", "manychat"],
+  "updated": "2026-10-30"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Perplexity",
+  "slug": "perplexity",
+  "category": "ia-por-departamento",
+  "tagline": "Busca com IA que responde sempre com fonte",
+  "description": "Motor de busca com IA que entrega respostas com link de fonte, escolha de modelo e pesquisa aprofundada para quem precisa checar informação antes de decidir.",
+  "url": "https://www.perplexity.ai",
+  "affiliateUrl": "https://www.perplexity.ai/?via=yooka",
+  "price": "A partir de US$ 20/mês",
+  "priceNote": "Plano Pro a US$ 20/mês na cobrança mensal (US$ 200 por ano na cobrança anual), com quantidade limitada de consultas avançadas por mês; plano Max a US$ 200/mês; plano Enterprise Pro a US$ 40 por usuário/mês e Enterprise Max a US$ 325. Preço verificado em outubro de 2026; consulte o preço no site oficial para confirmar os valores vigentes.",
+  "bestFor": "Quem precisa de resposta com fonte, não de opinião",
+  "rating": 4.3,
+  "ratingCount": 498,
+  "pros": [
+    "Toda resposta vem com link da fonte, o que permite checar e reaproveitar em material profissional",
+    "Permite escolher modelos diferentes na mesma pergunta, útil para comparar a qualidade das respostas",
+    "O modo de pesquisa aprofundada entrega relatório estruturado com referências em poucos minutos",
+    "Interface leve e rápida, que a equipe adota sem precisar de treinamento"
+  ],
+  "cons": [
+    "As fontes citadas às vezes têm qualidade duvidosa, e o modelo pode confiar em conteúdo fraco",
+    "Não serve para automatizar processo nem integrar com sistema: é ferramenta de pesquisa e redação",
+    "A redação longa e criativa fica atrás de ChatGPT e Claude nas nossas avaliações",
+    "O limite de consultas avançadas por mês acaba no meio de uma análise importante"
+  ],
+  "features": [
+    { "name": "Respostas com fonte", "detail": "Cada trecho da resposta vem com link clicável para a página original" },
+    { "name": "Pesquisa aprofundada", "detail": "Relatório multi-etapa que busca, cruza e organiza referências" },
+    { "name": "Escolha de modelo", "detail": "Alterna entre modelos diferentes na mesma conversa" },
+    { "name": "Espaços de trabalho", "detail": "Separa conversas por tema, com arquivos e instruções fixas" },
+    { "name": "Extensões e apps", "detail": "Conecta o buscador a ferramentas externas e a aplicativos do Workspace" }
+  ],
+  "useCases": [
+    "Levantar preços e reposições de concorrentes com link de fonte para a reunião comercial",
+    "Checar a versão atual de uma norma técnica antes de redigir um documento interno",
+    "Pesquisar objeções de mercado antes de lançar um novo serviço",
+    "Revisar o desempenho de um cliente cruzando dados públicos atualizados"
+  ],
+  "bestForWho": "Times comercial, de marketing e de conteúdo que precisam embasar decisão em dado verificável e rápido.",
+  "verdict": "Perplexity é a melhor ferramenta de pesquisa que já usamos, e a diferença aparece justamente no link da fonte, que dá para conferir antes de levar qualquer informação para um cliente. O problema é a qualidade das fontes: o sistema cita o que encontrou, inclusive blog sem credencial, e às vezes o texto herda a fragilidade da fonte. Ele também não substitui um assistente de redação longa nem integra com sistema nenhum. Para empresa pequena, o Pro a vinte dólares vale para o time comercial e de conteúdo, porque a pesquisa vira decisão mais rápido. Para empresa maior, o plano Enterprise Pro é o caminho, com controles de uso e cobrança por usuário, e confira o limite de consultas avançadas antes de rodar uma análise de mercado inteira em um dia só.",
+  "alternatives": ["chatgpt", "gemini", "claude"],
+  "updated": "2026-10-30"
+}

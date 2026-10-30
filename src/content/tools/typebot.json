@@ -1,0 +1,43 @@
+{
+  "name": "Typebot",
+  "slug": "typebot",
+  "category": "atendimento",
+  "tagline": "Chatbot em blocos, com cara de formulário, fácil de editar",
+  "description": "Construtor de chatbot em blocos que o usuário enxerga como formulário, com self-hosted possível, integração com WhatsApp e webhook para conectar qualquer IA.",
+  "url": "https://www.typebot.com",
+  "affiliateUrl": "https://www.typebot.com/?via=yooka",
+  "price": "A partir de US$ 39/mês",
+  "priceNote": "Plano Starter a US$ 39/mês e plano Pro a US$ 89/mês, com 5 usuários, 10.000 conversas por mês, integração com WhatsApp e domínio próprio; o plano gratuito permite 200 conversas por mês. A cobrança é mensal, sem desconto anual, e a versão self-hosted é gratuita. A API do WhatsApp é cobrada à parte pela Meta, por mensagem entregue. Preço verificado em outubro de 2026; consulte o preço no site oficial para confirmar os valores vigentes.",
+  "bestFor": "Atendimento com formulário guiado que não assusta o cliente",
+  "rating": 4.1,
+  "ratingCount": 168,
+  "pros": [
+    "O bot parece um formulário preenchido, o que reduz muito o abandono em vez de parecer robô",
+    "Editor visual por blocos, e o time comercial monta o fluxo sozinho em uma tarde",
+    "Self-hosted open source e gratuito, o que resolve a questão de dado e de custo",
+    "Webhook e API para ligar a IA que você quiser, sem ficar preso a um modelo só"
+  ],
+  "cons": [
+    "Self-hosted exige servidor, domínio, SSL e alguém que atualize a versão do Typebot",
+    "Não tem IA embutida: para responder com modelo de linguagem é preciso integrar por webhook",
+    "A API do WhatsApp da Meta é cobrada por mensagem entregue, e o custo vem fora da assinatura",
+    "Menos integrações prontas que ManyChat e Zapier, o que exige mais trabalho manual de conexão"
+  ],
+  "features": [
+    { "name": "Editor de blocos", "detail": "Encaixa cartões de pergunta, opção, arquivo e botão em sequência" },
+    { "name": "Embed no site", "detail": "Bot aparece como janela ou botão em qualquer página, sem SDK" },
+    { "name": "Webhooks e API", "detail": "Envia as respostas para a sua IA ou backend e devolve a resposta" },
+    { "name": "Canais conectados", "detail": "Site, Messenger, Slack, Discord e WhatsApp, este último nos planos pagos" },
+    { "name": "Self-hosted open source", "detail": "Roda com Docker na sua infra, sem mensalidade e com customização de marca" }
+  ],
+  "useCases": [
+    "Coleta de dados de Pós-venda e já abre o chamado no CRM com o resumo da conversa",
+    "Triagem de suporte no site antes de encaminhar o cliente para o time humano",
+    "Qualificação de lead com perguntas em etapas e envio para a planilha ou CRM",
+    "Pesquisa de satisfação em três perguntas depois do pedido, com nota registrada no sistema"
+  ],
+  "bestForWho": "Empresa que quer um chatbot de site com cara de formulário e prefere auto-hospedar para não depender de plataforma.",
+  "verdict": "Typebot resolve um problema que ManyChat não resolve: um bot que parece formulário, o que derruba o abandono em atendimento de site e agendamento. A edição por blocos é rápida e o time comercial consegue mexer sem pedir ao desenvolvedor, o que é raro nesse mercado. O que falta é inteligência pronta: para o bot entender pergunta em português, você liga um modelo por webhook, e aí a qualidade depende do que você constrói. Para empresa pequena, o self-hosted em Docker com domínio próprio resolve e custa quase nada, somando só a API do WhatsApp quando usar. Para empresa maior, a versão em nuvem poupa a operação, e vale comparar o custo por resposta com o Manychat antes de escolher.",
+  "alternatives": ["manychat", "chatgpt", "dify"],
+  "updated": "2026-10-30"
+}

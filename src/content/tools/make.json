@@ -1,0 +1,43 @@
+{
+  "name": "Make",
+  "slug": "make",
+  "category": "automacao",
+  "tagline": "Automação visual por crédito, para times não técnicos",
+  "description": "Plataforma de automação visual que conecta milhares de aplicativos em cenários de arrastar e soltar, cobrados por crédito consumido em cada operação.",
+  "url": "https://www.make.com",
+  "affiliateUrl": "https://www.make.com/?via=yooka",
+  "price": "A partir de US$ 9/mês",
+  "priceNote": "Plano Core a partir de US$ 9/mês na cobrança anual, com 10.000 créditos; Pro a US$ 16/mês e Teams a US$ 29/mês. Cada operação desconta créditos e apps pesados como CRM e e-mail consomem vários por ação. Preço verificado em outubro de 2026; consulte o preço no site oficial para confirmar o valor do seu ciclo de cobrança.",
+  "bestFor": "Times de operações e comercial que padronizam tarefas repetitivas sem programador",
+  "rating": 4.4,
+  "ratingCount": 356,
+  "pros": [
+    "O editor visual é mais simples que o do n8n e entrega resultado sem escribir uma linha de código",
+    "A cobrança por crédito deixa explícito quanto cada cenário custa, o que ajuda a defender o investimento",
+    "Ecossistema enorme de aplicativos com templates prontos e material circulando em português",
+    "Fila de execução com reprocessamento, histórico por etapa e ferramentas nativas para listas"
+  ],
+  "cons": [
+    "Cada operação em aplicativo pesado consome vários créditos e o consumo cresce rápido em volume",
+    "Processamento pesado é ponto fraco: a ferramenta orquestra, mas não substitui processamento de dados",
+    "Cenários com IA ou apps que chamam IA em loop podem estourar a cota em poucos dias",
+    "Não existe versão self-hosted: os dados e a operação ficam na infraestrutura da Make"
+  ],
+  "features": [
+    { "name": "Cenários visuais", "detail": "Módulos de apps encadeados, com filtros, roteadores e fórmulas" },
+    { "name": "Contas por crédito", "detail": "Cada operação desconta créditos e o saldo aparece no painel" },
+    { "name": "Mais de mil aplicativos", "detail": "Conectores para vendas, marketing, banco de dados e WhatsApp" },
+    { "name": "Loops e agregadores", "detail": "Iterações, tabelas e ferramentas nativas para manipular listas" },
+    { "name": "Relatório de execução", "detail": "Histórico por etapa, tempo gasto e detalhes de erro reprodutíveis" }
+  ],
+  "useCases": [
+    "Cadastrar o lead no CRM e avisar o vendedor no Slack quando o formulário do site é enviado",
+    "Dar entrada nas notas fiscais do ERP a partir dos PDFs baixados de um diretório de e-mail",
+    "Publicar o mesmo conteúdo em Instagram, LinkedIn e Facebook a partir de uma planilha editorial",
+    "Conferir pedidos do e-commerce com a planilha de estoque e sinalizar divergências"
+  ],
+  "bestForWho": "Pequenas e médias empresas com processos repetitivos e padronizáveis, sem programador disponível no time.",
+  "verdict": "Make é a opção mais fácil de colocar em produção quando ninguém na empresa sabe programar, e o visual de cenários é mais intuitivo que o do n8n. Em troca, o modelo de créditos é uma faca de dois gumes: um cenário que sincroniza o CRM com a planilha pode queimar metade da cota em uma semana sem que ninguém perceba. O maior risco não é o preço do plano, é o desenho do fluxo, porque uma etapa mal construída multiplica operações e vira fatura alta sem aviso. Para empresa pequena, o plano Core com 10.000 créditos cobre o essencial e permite monitorar o consumo cenário por cenário. Para empresa maior, avalie o plano Teams pelo controle de papéis, mas faça a conta de créditos antes de migrar qualquer processo crítico.",
+  "alternatives": ["n8n", "zapier", "relevance-ai", "dify"],
+  "updated": "2026-10-30"
+}

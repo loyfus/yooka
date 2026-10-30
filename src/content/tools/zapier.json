@@ -1,0 +1,43 @@
+{
+  "name": "Zapier",
+  "slug": "zapier",
+  "category": "automacao",
+  "tagline": "O maior catálogo de integrações prontas do mercado",
+  "description": "Liga milhares de aplicativos SaaS sem código, com ações de IA prontas e histórico de cada tarefa; a porta de entrada mais rápida para automação na PME.",
+  "url": "https://zapier.com",
+  "affiliateUrl": "https://zapier.com/?via=yooka",
+  "price": "A partir de US$ 19,99/mês",
+  "priceNote": "Plano Professional a US$ 19,99/mês na cobrança anual, com 750 tarefas por mês; plano Team a partir de US$ 69/mês e Enterprise sob consulta. Cada ação bem-sucedida conta como uma tarefa, e passos com IA consomem de 1 a 5 tarefas por execução. Preço verificado em outubro de 2026; consulte o preço no site oficial para confirmar os valores vigentes.",
+  "bestFor": "Quem precisa automatizar um processo SaaS em uma tarde, sem time técnico",
+  "rating": 4.2,
+  "ratingCount": 618,
+  "pros": [
+    "Catálogo com milhares de aplicativos e o melhor tempo até a primeira automação funcionando",
+    "Cada aplicativo já vem com ações, campos e autenticação resolvidos, sem chutar API",
+    "Agentes de IA da plataforma resumem e classificam dados dentro do próprio Zap",
+    "Histórico de execuções, repetição de tarefa e templates da comunidade prontos para adaptar"
+  ],
+  "cons": [
+    "A cobrança por tarefa fica cara rápido: automação com cinco passos vira cinco tarefas por rodada",
+    "Não existe versão self-hosted, o que elimina a opção de manter dados sensíveis na própria infra",
+    "Execuções com muitos passos ficam mais lentas que alternativas como n8n ou Make",
+    "Suporte e material de aprendizado são quase exclusivamente em inglês"
+  ],
+  "features": [
+    { "name": "Catálogo de aplicativos", "detail": "Conectores prontos para CRM, e-mail, planilhas, ERP e mídia social" },
+    { "name": "Ações de IA nativas", "detail": "Extrair, classificar e resumir texto dentro do fluxo, sem chamar API" },
+    { "name": "Zaps e tabelas", "detail": "Tabela intermediária para processar lotes de dados em cada execução" },
+    { "name": "Agentes supervisionados", "detail": "Agentes executam ações e pedem aprovação humana antes de enviar" },
+    { "name": "Monitor e histórico", "detail": "Painel de execuções, tarefas com erro e reprocessamento em lote" }
+  ],
+  "useCases": [
+    "Criar contato no CRM e publicar no Slack quando um lead preenche o formulário do site",
+    "Gerar um resumo executivo do relatório de vendas toda segunda-feira e enviar por e-mail",
+    "Avisar o time de suporte quando um cliente deixa uma avaliação ruim no Google",
+    "Sincronizar o estoque da loja virtual com a planilha do depósito sem digitar nada"
+  ],
+  "bestForWho": "Quem está começando a automatizar agora e precisa de um resultado funcionando em poucas horas, sem orçamento técnico e sem infraestrutura própria.",
+  "verdict": "Zapier entrega a automação mais rápida de colocar no ar, e isso vale mais do que parece quando ninguém na empresa sabe programar. O problema aparece na conta: cada passo do fluxo conta como uma tarefa, então um cenário de dez passos que roda mil vezes por mês esbarra no limite do plano Professional mais rápido do que se imagina. Outro ponto é a confiabilidade em escala, porque execuções longas ficam lentas e o plano pago resolve parte disso só no topo de linha. Para empresa pequena, o Professional com limite de tarefas basta se você monitorar o consumo e usar o replay de erros. Para empresa média ou grande, compare com Make e n8n antes de assinar, porque o custo por automação ativa quase sempre sai mais caro aqui.",
+  "alternatives": ["make", "n8n", "relevance-ai"],
+  "updated": "2026-10-30"
+}

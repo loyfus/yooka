@@ -1,0 +1,43 @@
+{
+  "name": "ManyChat",
+  "slug": "manychat",
+  "category": "atendimento",
+  "tagline": "Referência em automação para Instagram e WhatsApp",
+  "description": "Plataforma de automação para Instagram, WhatsApp e Messenger, com gatilho por comentário, fluxos visuais e ferramentas de venda que rodam dentro da direct.",
+  "url": "https://manychat.com",
+  "affiliateUrl": "https://manychat.com/?via=yooka",
+  "price": "A partir de US$ 14/mês",
+  "priceNote": "Plano Essential a US$ 14/mês na cobrança anual (US$ 17/mês na mensal), com 250 contatos ativos; plano Pro a US$ 29/mês, com 2.500 contatos ativos; plano Business a US$ 69/mês, com 7.500. O plano gratuito permite 25 contatos ativos. A cobrança é por contato ativo do mês e o excedente é cobrado por contato. Preço verificado em outubro de 2026; consulte o preço no site oficial para confirmar os valores vigentes.",
+  "bestFor": "Quem vende e atende pelo Instagram e pelo WhatsApp, com volume alto",
+  "rating": 4.3,
+  "ratingCount": 524,
+  "pros": [
+    "Gatilho por comentário no Instagram é o truque que transforma post em venda automática",
+    "Conecta direto ao WhatsApp Business API com conversa real, não disparo em massa",
+    "Fluxos visuais com botões, carrossel, formulário e menu, montados sem escrever código",
+    "Relatórios de abertura, resposta e clique, que ajudam a medir o retorno do fluxo"
+  ],
+  "cons": [
+    "Funciona só nos canais da Meta, e um número bloqueado ou restrito pela plataforma para tudo",
+    "A cobrança por contato cresce rápido e o preço escala com a base de contatos ativa",
+    "As políticas da Meta mudam com frequência e um fluxo pode quebrar sem aviso",
+    "Conecta bem com o Instagram, mas deixa a integração profunda com o ERP por sua conta"
+  ],
+  "features": [
+    { "name": "Gatilhos do Instagram", "detail": "Comentário, palavra-chave, menção e DM disparam o fluxo automaticamente" },
+    { "name": "WhatsApp nativo", "detail": "Conecta à API oficial e mantém a conversa dentro do WhatsApp Business" },
+    { "name": "Editor de fluxo visual", "detail": "Blocos de mensagem, botão, carrossel, menu e atraso, sem código" },
+    { "name": "Ferramentas de venda", "detail": "Catálogo, cupom, link de pagamento e recuperação de carrinho dentro do chat" },
+    { "name": "Teste A/B e relatórios", "detail": "Compara versões do fluxo e mostra abertura, resposta e conversão" }
+  ],
+  "useCases": [
+    "Responder comentário de post com link de cupom e conduzir a compra pelo WhatsApp",
+    "Recuperar cliente que abandonou o carrinho na loja online com mensagem automática",
+    "Confirmar agendamento de clínica e enviar lembrete com endereço e documentos",
+    "Segmentar base por tag e disparar sequência de nutrição para lead morno"
+  ],
+  "bestForWho": "Empresa com operação de marketing direto no Instagram e no WhatsApp, com time comercial respondendo conversa o dia todo.",
+  "verdict": "ManyChat continua sendo a ferramenta mais afiada para quem vende dentro do Instagram e do WhatsApp, e o gatilho por comentário continua sendo o mecanismo mais barato de venda que existe no mercado. O risco da plataforma não é o preço, é a dependência: quando a Meta muda regra de mensagem ou restringe conta, a operação para e o time comercial fica sem canal. Outro ponto é o modelo de cobrança por contato, que encarece à medida que a base cresce e costuma ser o item que mais surpreende na fatura. Para empresa pequena, o plano Pro com a base de contatos atual basta e o payback vem rápido. Para empresa maior, planeje a migração multicanal e não concentre toda a operação em uma única plataforma da Meta.",
+  "alternatives": ["typebot", "chatgpt", "heygen", "relevance-ai"],
+  "updated": "2026-10-30"
+}

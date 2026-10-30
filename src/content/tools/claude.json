@@ -1,0 +1,43 @@
+{
+  "name": "Claude",
+  "slug": "claude",
+  "category": "ia-por-departamento",
+  "tagline": "IA que segura documento longo e escreve código melhor",
+  "description": "Assistente da Anthropic para análise de documentos extensos, redação criteriosa e programação, com projetos, artefatos e plano por token para o time.",
+  "url": "https://claude.ai",
+  "affiliateUrl": "https://claude.ai/?via=yooka",
+  "price": "A partir de US$ 20/mês",
+  "priceNote": "Plano Pro a US$ 20/mês por usuário e plano Max a US$ 100/mês; plano Team com assento padrão a US$ 25 por usuário/mês e assento premium a US$ 125. A API é cobrada à parte, por token de entrada e saída. Preço verificado em outubro de 2026; consulte o preço no site oficial para confirmar os valores vigentes.",
+  "bestFor": "Análise de contrato, revisão de texto longo e desenvolvimento de software",
+  "rating": 4.6,
+  "ratingCount": 542,
+  "pros": [
+    "Melhor comportamento do mercado em documento longo, planilha e contrato, sem perder o fio",
+    "Escrita mais criteriosa e menos imposta, o que reduz a revisão humana em texto corporativo",
+    "Janela de contexto grande e forte para código, o que favorece uso técnico e análise de repositório",
+    "Projetos, artefatos e conectores MCP organizam o trabalho sem obrigar a montar ferramenta"
+  ],
+  "cons": [
+    "Não tem geração nativa de imagem nem busca no web tão madura quanto a de outras ferramentas",
+    "Plano Pro tem limite de uso dentro de janelas de cinco horas, o que trava trabalho intenso",
+    "API cobra por token e o custo de um agente longo com contexto grande escala rápido",
+    "Ecossistema de extensões é menor que o do ChatGPT, então falta conteúdo pronto"
+  ],
+  "features": [
+    { "name": "Contexto longo", "detail": "Analisa contratos, relatórios e repositórios inteiros na mesma conversa" },
+    { "name": "Projetos", "detail": "Agrupa conversas, arquivos e instruções específicas de cada cliente" },
+    { "name": "Artefatos", "detail": "Painel lateral com documento, código e gráfico gerado ao lado da conversa" },
+    { "name": "Claude Code", "detail": "Agente de terminal e IDE para editar e rodar código em repositório real" },
+    { "name": "Conectores MCP", "detail": "Conecta ferramentas internas por padrão aberto, com configuração simples" }
+  ],
+  "useCases": [
+    "Analisar contrato de fornecedor e levantar riscos, multas e cláusulas divergentes do padrão",
+    "Reescrever contratos padrão de fornecedor com a linguagem da empresa",
+    "Revisar Pull Request e escrever testes no repositório interno de desenvolvimento",
+    "Analisar o relatório financeiro consolidado do trimestre e listar as perguntas para o controller"
+  ],
+  "bestForWho": "Empresas com time de jurídico, conteúdo ou tecnologia que precisa ler e produzir documentos longos com rigor.",
+  "verdict": "Claude é o assistente que menos erra na escrita formal e o que melhor segura um documento inteiro, e isso já economiza horas de revisão em jurídico, financeiro e tecnologia. Em compensação, ele não faz busca no web com a profundidade do Gemini ou do Perplexity, e por isso muitas tarefas de pesquisa ainda saem melhor em outra ferramenta. O plano Pro também tem limite de uso em janelas curtas, o que pegou a gente no meio de uma análise de contrato longa. Para empresa pequena, o Pro por pessoa do time jurídico ou de conteúdo se paga no primeiro trimestre. Para empresa maior, o Team ou a API com governança própria fazem mais sentido, porque dá para controlar custo por token e registrar o que foi enviado.",
+  "alternatives": ["chatgpt", "gemini", "perplexity"],
+  "updated": "2026-10-30"
+}

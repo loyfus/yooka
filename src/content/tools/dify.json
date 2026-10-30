@@ -1,0 +1,43 @@
+{
+  "name": "Dify",
+  "slug": "dify",
+  "category": "agentes-de-ia",
+  "tagline": "Plataforma open source para montar apps de IA com RAG",
+  "description": "Plataforma open source para criar aplicações de IA prontas para uso, com builder visual de fluxo, base de conhecimento com citação e rastreio de execução.",
+  "url": "https://dify.ai",
+  "affiliateUrl": "https://dify.ai/?via=yooka",
+  "price": "A partir de US$ 59/mês",
+  "priceNote": "Plano Professional na nuvem a US$ 59 por workspace/mês na cobrança mensal (US$ 590 por ano) e plano Team a US$ 159 por workspace/mês; Enterprise sob consulta. O plano Sandbox é gratuito, com 200 créditos de mensagem, e a edição Community self-hosted é open source e sem mensalidade, mas não traz créditos de modelo. Preço verificado em outubro de 2026; consulte o preço no site oficial para confirmar os valores vigentes.",
+  "bestFor": "Times que precisam colocar um assistente com base de documentos no ar",
+  "rating": 4.4,
+  "ratingCount": 389,
+  "pros": [
+    "Base de conhecimento pronta: importa PDF, site e manual, e o agente responde citando a fonte",
+    "Open source, com self-hosted possível, o que dá controle de dado e custo previsível",
+    "Builder visual com nós de prompt, condição, código e HTTP, que resolve lógica sem virar programador",
+    "Publica o aplicativo como API ou como widget de chat pronto para embutir no site"
+  ],
+  "cons": [
+    "Self-hosted exige servidor, container e alguém que atualize a imagem e acompanhe segurança",
+    "O builder visual engasga em lógica complexa e aí o time acaba escrevendo código no nó de código",
+    "Os créditos de mensagem cobrem parte do consumo de modelo, e o que passa da cota exige a sua chave de API, cobrada por token",
+    "Documentação e comunidade ainda são majoritariamente em inglês, o que dificulta para o time local"
+  ],
+  "features": [
+    { "name": "Base de conhecimento", "detail": "Indexa PDF, site e texto e responde com o trecho de origem destacado" },
+    { "name": "Fluxo visual", "detail": "Nós de prompt, condição, lista, código e requisição HTTP encadeados" },
+    { "name": "Multi-modelo", "detail": "OpenAI, Anthropic, Google, modelos locais e Ollama na mesma interface" },
+    { "name": "Publicação e widget", "detail": "Entrega o aplicativo como API REST ou como chat embutido no site" },
+    { "name": "Marketplace de plugins", "detail": "Extensões prontas para ferramentas, modelos e provedores de dado" }
+  ],
+  "useCases": [
+    "Assistente interno que responde dúvidas sobre manual de produto, política e contrato de trabalho",
+    "Chatbot do site que responde pela base de documentação e escala para um humano quando necessário",
+    "Ferramenta de vendas que consulta o catálogo e a tabela de preços e monta a proposta",
+    "Classificador de documentos que extrai campos de nota fiscal e contrato antes do lançamento no ERP"
+  ],
+  "bestForWho": "Empresa que quer um assistente de IA sobre os próprios documentos, com opção de rodar tudo dentro da sua infraestrutura.",
+  "verdict": "Dify é o meio-termo mais bem posicionado entre código aberto e produto pronto, e a base de conhecimento com citação é o que faz ele ganhar das plataformas só conversacionais. Quando o fluxo é simples, entrega aplicativo publicado e funcionando em poucos dias, sem equipe de engenharia. A parede chega quando a lógica fica complexa: o visual aceita, mas aí você acaba usando o nó de código e volta a um desenvolvimento normal. Para empresa pequena, a edição Community em uma VPS resolve e a licença sai de graça, mas todo o consumo de modelo é por sua conta. Para empresa maior, o plano Professional na nuvem entrega SSO, ambientes e gestão de times, e ainda assim vale confirmar onde a infraestrutura fica antes de colocar dado de cliente dentro.",
+  "alternatives": ["flowise", "langchain", "n8n", "relevance-ai"],
+  "updated": "2026-10-30"
+}

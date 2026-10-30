@@ -1,0 +1,43 @@
+{
+  "name": "Relevance AI",
+  "slug": "relevance-ai",
+  "category": "marketing-e-vendas",
+  "tagline": "Equipe de agentes de IA sem escrever código",
+  "description": "Plataforma no code para montar uma equipe de agentes de IA que vendem, atendem e produzem conteúdo, com integrações prontas e cobrança por ação executada.",
+  "url": "https://relevanceai.com",
+  "affiliateUrl": "https://relevanceai.com/?via=yooka",
+  "price": "A partir de US$ 19/mês",
+  "priceNote": "Plano Pro a US$ 19/mês na cobrança anual (US$ 29/mês na mensal), com 2.500 ações por mês e US$ 20 em créditos de fornecedor; plano Team a US$ 234/mês na anual e Enterprise sob consulta. O plano gratuito foi descontinuado. A cobrança é por ação executada, e o excedente sai a US$ 80 por 1.000 ações. Preço verificado em outubro de 2026; consulte o preço no site oficial para confirmar os valores vigentes.",
+  "bestFor": "Times de marketing e vendas que querem agentes rodando sem time de engenharia",
+  "rating": 4.1,
+  "ratingCount": 176,
+  "pros": [
+    "Cria uma equipe de agentes com nome, função e ferramenta sem escrever código, em minutos",
+    "Biblioteca grande de integrações com CRM, e-mail, planilha e WhatsApp já configuradas",
+    "Agentes que operam ferramentas de verdade, não só respondem texto, e isso muda o resultado",
+    "Tem agent store com soluções prontas para não começar do zero em cada projeto"
+  ],
+  "cons": [
+    "O modelo de créditos é confuso, o consumo cresce rápido em lote e o plano gratuito foi descontinuado, o que tira a chance de testar antes de assinar",
+    "O resultado é menos previsível que um fluxo determinístico e exige supervisão humana",
+    "Documentação e material de aprendizado são limitados e boa parte está em inglês",
+    "Para processos críticos de faturamento ou contrato, a rastreabilidade é mais fraca que a de um ERP"
+  ],
+  "features": [
+    { "name": "Equipe de agentes", "detail": "Vários agentes com papel, ferramenta e instrução, trabalhando em conjunto" },
+    { "name": "Integrações prontas", "detail": "Conecta CRM, e-mail, planilha, agenda e WhatsApp sem desenvolvimento" },
+    { "name": "Loops e gatilhos", "detail": "Dispara por evento, webhook ou horário e encadeia a execução" },
+    { "name": "Loja de agentes", "detail": "Soluções prontas de agentes publicadas por terceiros" },
+    { "name": "Medição de uso", "detail": "Painel com créditos consumidos, custo por agente e histórico de tarefas" }
+  ],
+  "useCases": [
+    "Agente que lê os leads do dia, pesquisa a empresa na web e monta um resumo para o vendedor",
+    "Agente que responde as mensagens de WhatsApp de pós-venda usando o material do produto",
+    "Rotina diária que coleta métricas de redes e do CRM e publica um relatório no Slack",
+    "Agente que produz variações de texto de anúncio a partir do briefing de campanha"
+  ],
+  "bestForWho": "Time de marketing ou vendas que quer delegar tarefas recorrentes a agentes sem abrir chamado para o time de TI.",
+  "verdict": "Relevance AI é a ferramenta que mais impressiona quem quer resultado rápido sem programador, porque o agente de verdade executa ação em vez de só devolver texto. Em campanha de lançamento que testamos, o agente montou a lista de prospecção e o rascunho do e-mail em uma tarde, o que antes levava dois dias. O ponto fraco é o controle de custo e a previsibilidade: quando o agente entra em laço ou processa lote grande, os créditos queimam e a empresa se assusta. Para empresa pequena, o plano Pro é o piso de entrada, já que o gratuito foi descontinuado, e cobre experimentos e tarefas pequenas. Para empresa maior, monte a operação com teto de créditos, aprovação humana para envio e log de cada ação, porque sem isso o custo e o risco jurídico sobem rápido.",
+  "alternatives": ["n8n", "make", "crewai", "dify"],
+  "updated": "2026-10-30"
+}

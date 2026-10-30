@@ -1,0 +1,30 @@
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Build
+        run: npm run build:fast
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+
+      - name: Deploy na Vercel
+        run: npx vercel deploy --prod --yes --token "${{ secrets.VERCEL_TOKEN }}" --scope loyfus
+        env:
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
