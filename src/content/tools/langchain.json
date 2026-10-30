@@ -1,7 +1,7 @@
 {
   "name": "LangChain",
   "slug": "langchain",
-  "category": "agentes-de-ia",
+  "category": "automacao-e-ia",
   "tagline": "A biblioteca Python que virou padrão para montar agentes",
   "description": "Framework open source em Python para criar agentes, RAG e fluxos com LLMs, com observabilidade via LangSmith e integração com dezenas de provedores de modelo.",
   "url": "https://www.langchain.com",

@@ -3,7 +3,7 @@ title: "Make x Zapier: qual é mais barato para automatizar em 2026?"
 description: "Make ou Zapier em 2026: comparação de preço por operação, curva de aprendizado, integrações e suporte em português. Escolha a opção que cabe no seu orçamento."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "automacao"
+category: "automacao-e-ia"
 slug: "make-vs-zapier"
 winner: "Make"
 featured: false

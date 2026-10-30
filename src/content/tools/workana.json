@@ -1,0 +1,44 @@
+{
+  "name": "Workana",
+  "slug": "workana",
+  "category": "renda-e-negocio",
+  "tagline": "Marketplace de freelancer para primeira viagem de cliente",
+  "description": "Marketplace brasileiro de freelancers e projetos, com contratos, cobrança por projeto e perfis públicos para construir carteira de cliente sem indicação.",
+  "url": "https://www.workana.com",
+  "affiliateUrl": "https://www.workana.com/?via=yooka",
+  "price": "Grátis para se cadastrar + taxa por projeto ganho",
+  "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. O cadastro é gratuito e a taxa incide sobre o valor do projeto arrematado, com percentuais que variam conforme o tipo de trabalho e o valor da encomenda.",
+  "bestFor": "Quem está começando como freelancer e precisa do primeiro cliente sem indicação",
+  "rating": 3.9,
+  "ratingCount": 428,
+  "pros": [
+    "Cadastro gratuito e perfil público indexado, que serve como portfólio mesmo sem nenhum projeto",
+    "Projetos com orçamento visível, o que permite calcular a hora antes de se candidatar",
+    "Contrato e pagamento intermediados pela plataforma, com garantia para as duas pontas",
+    "Volume alto de propostas pequenas, útil para o primeiro cliente e para teste de preço"
+  ],
+  "cons": [
+    "A taxa sobre o projeto ganho é sempre cobrada, e em valor baixo de contrato ela come a margem",
+    "Concorrência é alta e o primeiro projeto exige muitas propostas sem retorno",
+    "O cliente pode cancelar ou atrasar o pagamento, mesmo com a plataforma de intermediação",
+    "Perfil sem proposta mostra pouco: sem histórico, o algoritmo de ranqueamento empurra o candidato para baixo"
+  ],
+  "features": [
+    { "name": "Projetos com orçamento", "detail": "Anúncios com valor, prazo e escopo definidos pelo cliente" },
+    { "name": "Perfil público", "detail": "Página indexada com portfólio, habilidades e avaliações dos clientes" },
+    { "name": "Candidatura", "detail": "Propostas com valor e prazo, liberadas para envio ao cliente" },
+    { "name": "Contrato intermediado", "detail": "Acordo, escopo e pagamento registrados dentro da plataforma" },
+    { "name": "Repasse do valor", "detail": "Dinheiro liberado ao freelancer conforme as etapas do contrato" },
+    { "name": "Avaliações", "detail": "Notas e comentários dos clientes que viram prova social do perfil" }
+  ],
+  "useCases": [
+    "Ganhar o primeiro projeto de design ou texto sem precisar de indicação de ninguém",
+    "Calcular o preço da hora antes de se candidatar, olhando o orçamento Fixo do anúncio",
+    "Montar portfólio público com os trabalhos que fiz, mesmo sem cliente no LinkedIn",
+    "Cobrar parte do valor adiantado antes de começar, com o contrato formalizado na plataforma"
+  ],
+  "bestForWho": "Freelancer iniciante que precisa do primeiro cliente e de portfólio documentado, e aceita pagar taxa por projeto.",
+  "verdict": "O Workana funciona como vitrine de entrada do freelancing brasileiro: o perfil indexado já serve de portfólio e os anúncios com orçamento definido evitam a conversa indigesta de precificar do zero. O problema é a economia por projeto: a taxa incide sobre o valor arrematado, e em contrato pequeno ela pesa demais, enquanto a concorrência por proposta é alta e o retorno demora. Existe ainda o risco clássico de cliente atrasar ou cancelar, mesmo com intermediação da plataforma. O uso estratégico que mais funciona é tratar a plataforma como vitrine, pegar dois ou três contratos para ter histórico e usar a indicação. Como fonte principal de renda, a taxa e a instabilidade cobram caro.",
+  "alternatives": ["rd-station", "hotmart", "kiwify"],
+  "updated": "2026-10-30"
+}

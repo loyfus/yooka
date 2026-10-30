@@ -1,0 +1,44 @@
+{
+  "name": "Hotmart",
+  "slug": "hotmart",
+  "category": "renda-e-negocio",
+  "tagline": "A vitrine de infoprodutos mais usada do Brasil",
+  "description": "Plataforma para vender curso, ebook e material digital com checkout próprio, pagamento por PIX ou cartão, split de repasse e controle de afiliados.",
+  "url": "https://hotmart.com",
+  "affiliateUrl": "https://hotmart.com/?via=yooka",
+  "price": "A partir de R$ 24/mês + taxa por venda",
+  "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. A assinatura mensal é a base do custo, e a taxa por venda incide sobre cada transação aprovada, com valores diferentes por plano e por forma de pagamento.",
+  "bestFor": "Quem vende produto digital e quer vitrine, checkout e pagamento no mesmo lugar",
+  "rating": 4.5,
+  "ratingCount": 843,
+  "pros": [
+    "Checkout hospedado, rápido e com tela de pagamento que converte bem no celular",
+    "PIX, boleto e cartão na mesma página, o que evita perder venda por falta de uma forma de pagamento",
+    "Split automático: o produtor recebe direto e o afiliado recebe a comissão, sem repasse manual",
+    "Trilha de afiliados com comissionamento por regra, e material de treinamento em português para quem é produtor"
+  ],
+  "cons": [
+    "A taxa por venda continua sendo cobrada mesmo nos planos pagos, e ela é o custo que mais incomoda",
+    "O plano mensal é cobrado por produtor, e não por venda: quem vende pouco paga por mês de qualquer forma",
+    "Planos mais caros existem, mas a diferença de taxa por venda costuma não compensar o aumento de assinatura",
+    "Plataforma grande e genérica: o catálogo de recursos é maior do que a maioria dos produtores usa"
+  ],
+  "features": [
+    { "name": "Checkout próprio", "detail": "Página de pagamento com PIX, boleto e cartão em um único fluxo" },
+    { "name": "Painel do produtor", "detail": "Produtos, vendas, taxa por venda e repasse em um só painel" },
+    { "name": "Split de pagamento", "detail": "Repasse automático para produtor e afiliado no mesmo dia da venda" },
+    { "name": "Trilha de afiliados", "detail": "Comissão por regra, rastreio de origem e material de divulgação" },
+    { "name": "Recuperação de venda", "detail": "Sequências de e-mail e WhatsApp para ressuscitar carrinho abandonado" },
+    { "name": "Boleto e cartão", "detail": "Cobrança recorrente e parcelamento com taxa por venda própria" }
+  ],
+  "useCases": [
+    "Publicar um curso online e receber por PIX, boleto ou cartão sem montar loja própria",
+    "Pagar comissão de afiliado por regra e receber o saldo direto noPix, sem repassar por fora",
+    "Cobrar uma mensalidade de comunidade ou de assinatura de conteúdo recorrente",
+    "Reemitir nota ou recibo de venda de produto digital com os dados do comprador preenchidos"
+  ],
+  "bestForWho": "Produtor de conteúdo digital que quer publicar e vender hoje, sem equipe técnica e sem pensar em checkout.",
+  "verdict": "A Hotmart é o padrão de facto do mercado brasileiro de infoproduto, e o motivo é concreto: o checkout funciona no celular e o produtor recebe rápido. O split com afiliado resolve um problema que muita gente tenta resolver por fora, na base do improviso, e é um diferencial real. O custo, porém, é sempre o mesmo: a taxa por venda, que continua existindo nos planos pagos e recai sobre o produto mais barato. O plano mensal também é cobrado de forma fixa, o que pune quem vende de forma irregular. Para produtor com catálogo pequeno e venda recorrente, a conta fecha. Para quem testa um produto novo e vende pouco, compensa começar na opção mais enxuta e subir de plano só com venda comprovada.",
+  "alternatives": ["kiwify", "monetizze", "shopify"],
+  "updated": "2026-10-30"
+}

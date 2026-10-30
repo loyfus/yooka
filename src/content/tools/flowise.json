@@ -1,7 +1,7 @@
 {
   "name": "Flowise",
   "slug": "flowise",
-  "category": "automacao",
+  "category": "automacao-e-ia",
   "tagline": "Ótimo construtor de fluxos de LLM, mas descontinuado em 2026",
   "description": "Construtor open source de fluxos com LLM, RAG e agentes que foi encerrado em agosto de 2026: o código segue no GitHub, mas sem manutenção nem nuvem oficial.",
   "url": "https://flowiseai.com",

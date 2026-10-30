@@ -1,7 +1,7 @@
 {
   "name": "Gemini",
   "slug": "gemini",
-  "category": "ia-por-departamento",
+  "category": "automacao-e-ia",
   "tagline": "IA do Google já colada no Gmail, Sheets e Drive",
   "description": "Assistente de IA do Google integrado ao Workspace, com janela de contexto enorme, busca no Google, pesquisa profunda e integração com o YouTube.",
   "url": "https://gemini.google.com",

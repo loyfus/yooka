@@ -1,0 +1,44 @@
+{
+  "name": "Omie",
+  "slug": "omie",
+  "category": "mei-e-nota-fiscal",
+  "tagline": "ERP completo para quem já passou do MEI",
+  "description": "ERP online com contabilidade, NFS-e, estoque e fluxo de vendas, para micro e pequena empresa que precisa de mais que emitir nota.",
+  "url": "https://www.omie.com.br",
+  "affiliateUrl": "https://www.omie.com.br/?via=yooka",
+  "price": "A partir de R$ 0/mês (plano Start)",
+  "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. O plano Start é gratuito para uma operação básica e os planos pagos são cobrados por usuário e porquantity de transações.",
+  "bestFor": "Pequena empresa que já tem NFS-e, estoque e vai precisar de financeiro de verdade",
+  "rating": 4.2,
+  "ratingCount": 396,
+  "pros": [
+    "ERP completo de verdade, com financeiro, estoque, vendas, NFS-e e módulos de fábrica em um só lugar",
+    "Contabilidade integrada, com movimentos contábeis gerados a partir das vendas, sem redigitação",
+    "App de vendas mobile com cadastro de cliente e emissão de pedido direto do celular",
+    "Ecossistema de parceiros e aplicativos que cobre desde CRM até o chão de fábrica"
+  ],
+  "cons": [
+    "Cobrança por usuário torna o sistema caro no primeiro ano de equipe com mais de duas pessoas",
+    "Interface carregada e cheia de menu: exige horas de configuração até o usuário master entender onde está tudo",
+    "Implantação e migração de dados exigem tempo e, muitas vezes, alguém do próprio Omie",
+    "Para MEI com receita baixa, o conjunto de módulos é peso morto e não compensa"
+  ],
+  "features": [
+    { "name": "Financeiro completo", "detail": "Fluxo de caixa, contas a pagar e a receber, CMV e margem por venda" },
+    { "name": "Estoque e produção", "detail": "Custo médio, sugestão de compra e controle de componentes ou insumos" },
+    { "name": "NFS-e e fiscal", "detail": "Emissão de nota de serviço e apuração dos impostos sobre a venda" },
+    { "name": "App de vendas", "detail": "Catálogo, pedido e carrinho em tablet ou celular, com baixa de estoque" },
+    { "name": "Contabilidade integrada", "detail": "Lançamentos contábeis automáticos a partir das operações do dia a dia" },
+    { "name": "Marketplaces e e-commerce", "detail": "Conector oficial para Shopify, Nuvemshop, WooCommerce e redes de loja" }
+  ],
+  "useCases": [
+    "Controlar custo, margem e caixa de uma loja de materiais de construção com dez produtos",
+    "Fechar o DRE do mês sem pedir relatório ao contador, porque os lançamentos já nascem da venda",
+    "Emitir NFS-e pelo celular na visita do cliente e dar baixa no estoque na hora",
+    "Sair da planilha de financeiro quando o CPF e o CNPJ passam a ser separados"
+  ],
+  "bestForWho": "Pequena empresa com equipe, estoque e faturamento em crescimento, que já passou da fase de emitir nota e agora precisa de ERP.",
+  "verdict": "O Omie é o degrau entre um sistema de nota e um ERP de verdade, e ele entrega os dois lados com consistência. O que mais impressiona na prática é o caminho do dinheiro: a venda gera lançamento contábil e baixa de estoque sem ninguém redigitar nada. Em contrapartida, o preço por usuário e o peso da interface cobram a conta logo no começo, e a curva de aprendizado é a mais íngreme da lista. Para empresa com time fixo e faturamento acima do MEI, o custo cabe e o ganho de tempo é concreto. Para MEI sozinho, emitindo nota e controlando caixa em planilha, é ferramenta demais e caro demais.",
+  "alternatives": ["tiny-erp", "contabilizei", "iugu"],
+  "updated": "2026-10-30"
+}

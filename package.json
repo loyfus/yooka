@@ -9,7 +9,9 @@
     "build:fast": "node build.js",
     "dev": "node build.js && npx --yes serve public -l 4321",
     "og": "node scripts/generate-og.js",
+    "check:links": "node scripts/check-links.js",
     "indexnow": "node scripts/indexnow.js",
+    "activate:domain": "node scripts/activate-domain.js",
     "sitemap": "cat public/sitemap.xml",
     "deploy": "vercel deploy --prod",
     "deploy:preview": "vercel deploy"

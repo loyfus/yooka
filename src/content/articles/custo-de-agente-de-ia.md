@@ -3,7 +3,7 @@ title: "Custo de um agente de IA em 2026: quanto custa por tarefa, em reais"
 description: "Quanto custa um agente de IA em 2026: custo por token, por execução e por tarefa em reais, tabela de planos, ponto de equilíbrio e ROI com exemplos reais."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "custos"
+category: "custos-e-planos"
 tags: ["custos", "agente-de-ia", "tokens", "roi", "precos"]
 keywords: ["custo de agente de IA", "quanto custa um agente de IA", "custo por token IA", "preço API IA em reais", "ROI automação IA"]
 featured: true
@@ -187,7 +187,7 @@ Com economia mensal líquido abaixo de R$ 400, o payback ultrapassa seis meses m
 - **Contexto grande demais.** Mandar o PDF inteiro de 200 páginas para extrair três campos dobra o custo sem melhorar a resposta. Recorte antes.
 - **Modelo caro em tarefas simples.** Classificar texto não justifica um modelo de raciocínio profundo.
 - **Fila sem backpressure.** Volume alto processado em rajada consome tokens e taxa de API sem retorno.
-- **Falta de observabilidade.** Sem log por tarefa, você não sabe onde os R$ 800 foram. Ver [preços](/precos/) e a [categoria de custos](/categorias/custos/) para o panorama completo.
+- **Falta de observabilidade.** Sem log por tarefa, você não sabe onde os R$ 800 foram. Ver [preços](/precos/) e a [categoria de custos](/categorias/custos-e-planos/) para o panorama completo.
 
 ## Perguntas frequentes sobre o custo de um agente de IA
 

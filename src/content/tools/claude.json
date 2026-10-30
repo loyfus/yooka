@@ -1,7 +1,7 @@
 {
   "name": "Claude",
   "slug": "claude",
-  "category": "ia-por-departamento",
+  "category": "automacao-e-ia",
   "tagline": "IA que segura documento longo e escreve código melhor",
   "description": "Assistente da Anthropic para análise de documentos extensos, redação criteriosa e programação, com projetos, artefatos e plano por token para o time.",
   "url": "https://claude.ai",

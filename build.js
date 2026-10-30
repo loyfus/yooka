@@ -12,6 +12,8 @@ import {
   organizationSchema, websiteSchema, articleSchema, faqSchema,
   itemListSchema, softwareAppSchema, howToSchema, breadcrumbSchema,
 } from './src/lib/seo.js';
+import { calculators } from './src/content/calculators.js';
+import { computeOutputs } from './src/static/assets/calc-core.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = __dirname;
@@ -147,13 +149,16 @@ function addPage({ file, page, body, noindex = false, og = null }) {
 
   if (og !== null) {
     const ogFile = og.file || ogFileFor(page.url);
-    page.image = `/assets/og/${ogFile}`;
+    const temImagem = fs.existsSync(path.join(ROOT, 'og', ogFile));
+    // Se a imagem ainda não foi gerada, usa a padrão para não deixar
+    // uma URL de Open Graph quebrada.
+    page.image = temImagem ? `/assets/og/${ogFile}` : '/assets/og/og-default.jpg';
     ogManifest.push({
       file: ogFile,
       title: og.title || page.title,
       subtitle: og.subtitle || page.description,
       badge: og.badge || '',
-      footer: og.footer || 'IA e automação para empresas',
+      footer: og.footer || 'Trabalho, renda e burocracia do brasileiro',
     });
   }
 
@@ -208,6 +213,8 @@ function articlePage(a) {
     .slice(0, 3)
     .map((r) => r.x);
 
+  const calcList = calculators.filter((c) => (c.relatedGuides || []).includes(a.slug));
+
   const body = `
 ${breadcrumbs(crumbs)}
 <article class="post">
@@ -226,16 +233,32 @@ ${breadcrumbs(crumbs)}
   <div class="post__layout">
     <div class="post__content">
       ${a.body}
+      ${
+        calcList.length
+          ? `<section class="related">
+        <h2>Faça a conta</h2>
+        <div class="grid grid--2">
+          ${calcList
+            .map(
+              (c) => `<article class="card card--calc">
+            <div class="card__body">
+              <h3 class="card__title"><a href="/calculadoras/${c.slug}/">${escapeHtml(c.title)}</a></h3>
+              <p class="card__desc">${escapeHtml(c.description)}</p>
+              <p class="card__meta"><span>${escapeHtml(c.badge || 'Grátis')}</span><span>·</span><span>sem cadastro</span></p>
+            </div>
+          </article>`
+            )
+            .join('\n          ')}
+        </div>
+      </section>`
+          : ''
+      }
       ${a.faq.length ? `<section class="post__faq">
         <h2>Perguntas frequentes</h2>
         ${faqBlock(a.faq)}
       </section>` : ''}
       ${authorBox()}
-      ${offerBox({
-        title: 'Não quer fazer isso no escuro?',
-        text: 'A gente desenha o agente, integra com os seus sistemas e entrega em produção com suporte.',
-        button: 'Falar com um especialista',
-      })}
+      ${offerForCategory(a.category)}
       ${
         related.length
           ? `<section class="related">
@@ -385,6 +408,11 @@ function toolPage(t) {
   ];
   const alts = (t.alternatives || []).map((s) => allTools.find((x) => x.slug === s)).filter(Boolean);
 
+  // Guias relacionados: mantém o PageRank circulando e aumenta a profundidade do crawl.
+  const relatedGuides = allArticles
+    .filter((a) => a.category === t.category || a.tags.some((tag) => t.name.toLowerCase().includes(String(tag).toLowerCase())))
+    .slice(0, 4);
+
   const page = {
     url: t.url,
     title: `${t.name}: preços, review honesto e alternativas`,
@@ -507,6 +535,16 @@ ${breadcrumbs(crumbs)}
         button: 'Falar com um especialista',
       })}
       <p class="section__more"><a class="btn btn--ghost btn--sm" href="/ferramentas/${t.slug}/preco/">Ver preço, planos e o que compõe a conta →</a></p>
+      ${
+        relatedGuides.length
+          ? `<section class="related">
+        <h2>Guias relacionados com ${escapeHtml(t.name)}</h2>
+        <div class="grid grid--2">
+          ${relatedGuides.map((g) => articleCard(g)).join('\n          ')}
+        </div>
+      </section>`
+          : ''
+      }
       ${authorBox()}
     </div>
     <aside class="post__aside">
@@ -597,6 +635,239 @@ ${breadcrumbs(crumbs)}
 </article>`;
 
   addPage({ file: `ferramentas/${t.slug}/alternativas/index.html`, page, body });
+}
+
+/* ------------------------------------------------------------------ *
+ * Calculadoras
+ * ------------------------------------------------------------------ */
+const moneyFmt = (n) =>
+  new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(n || 0);
+const numFmt = (n) => new Intl.NumberFormat('pt-BR', { maximumFractionDigits: 2 }).format(n || 0);
+
+function calculatorPage(calc) {
+  const url = `/calculadoras/${calc.slug}/`;
+  const values = Object.fromEntries(calc.fields.map((f) => [f.id, f.default]));
+  const out = computeOutputs(calc, values);
+
+  const crumbs = [
+    { label: 'Início', href: '/' },
+    { label: 'Calculadoras', href: '/calculadoras/' },
+    { label: calc.title, href: url },
+  ];
+
+  const faqs = [
+    {
+      q: `Como usar a calculadora de ${calc.title.replace(/^Calculadora (de|de) /i, '')}?`,
+      a: 'Preencha os campos com os seus números. O resultado é calculado na hora, no próprio navegador, sem enviar seus dados para lugar nenhum.',
+    },
+    {
+      q: 'Os valores usados são oficiais?',
+      a: 'As tabelas e faixas usadas são de referência (outubro de 2026) e estão descritas na página. Valores de conta, DAS e INSS mudam — confirme sempre na fonte oficial.',
+    },
+    {
+      q: 'Preciso me cadastrar?',
+      a: 'Não. A calculadora funciona sem cadastro e sem cookies. Nada do que você digita é enviado ou guardado.',
+    },
+  ];
+
+  const page = {
+    url,
+    title: calc.title,
+    description: calc.description,
+    type: 'website',
+    breadcrumbs: crumbs,
+    priority: 0.8,
+    changefreq: 'monthly',
+    schemas: [
+      organizationSchema(),
+      websiteSchema(),
+      {
+        '@type': 'WebApplication',
+        name: calc.title,
+        applicationCategory: 'FinanceApplication',
+        operatingSystem: 'Qualquer (web)',
+        url: site.url.replace(/\/$/, '') + url,
+        description: calc.description,
+        inLanguage: 'pt-BR',
+        offers: { '@type': 'Offer', price: '0', priceCurrency: 'BRL' },
+      },
+      faqSchema(faqs),
+    ],
+  };
+
+  const fieldHtml = calc.fields
+    .map((f) => {
+      if (f.type === 'select') {
+        const opts = f.options
+          .map((o) => `<option value="${o.value}"${String(o.value) === String(f.default) ? ' selected' : ''}>${escapeHtml(o.label)}</option>`)
+          .join('');
+        return `<label class="field">
+      <span class="field__label">${escapeHtml(f.label)}</span>
+      <select data-field="${f.id}" class="field__input">${opts}</select>
+      ${f.hint ? `<span class="field__hint">${escapeHtml(f.hint)}</span>` : ''}
+    </label>`;
+      }
+      const step = f.type === 'money' ? '0.01' : '1';
+      return `<label class="field">
+      <span class="field__label">${escapeHtml(f.label)}</span>
+      <span class="field__wrap">
+        ${f.type === 'money' ? '<span class="field__prefix">R$</span>' : ''}
+        <input data-field="${f.id}" class="field__input" type="number" inputmode="decimal" step="${step}"
+          value="${f.default}"${f.min !== undefined ? ` min="${f.min}"` : ''}${f.max !== undefined ? ` max="${f.max}"` : ''}>
+      </span>
+      ${f.hint ? `<span class="field__hint">${escapeHtml(f.hint)}</span>` : ''}
+    </label>`;
+    })
+    .join('\n    ');
+
+  const main = calc.outputs.find((o) => o.highlight);
+  const resultRows = calc.outputs
+    .filter((o) => !o.hidden && !o.highlight)
+    .map((o) => {
+      const v = out[o.id] || 0;
+      const label = o.id === 'faixa' ? (out['faixa__label'] || '') : o.label;
+      const formatted = o.money ? moneyFmt(v) : numFmt(v);
+      return `<div class="result__row">
+      <span class="result__label">${escapeHtml(label)}</span>
+      <span class="result__value" data-out="${o.id}">${formatted}</span>
+    </div>`;
+    })
+    .join('\n    ');
+
+  const mainValue = main ? (main.money ? moneyFmt(out[main.id]) : numFmt(out[main.id])) : '';
+
+  const guides = (calc.relatedGuides || [])
+    .map((s) => allArticles.find((a) => a.slug === s))
+    .filter(Boolean);
+
+  const json = JSON.stringify(calc).replace(/</g, '\\u003c');
+
+  const body = `
+${breadcrumbs(crumbs)}
+<article class="post post--calc">
+  <header class="post__head">
+    <p class="pill">${escapeHtml(calc.badge || 'Calculadora gratuita')}</p>
+    <h1>${escapeHtml(calc.title)}</h1>
+    <p class="post__lead">${escapeHtml(calc.description)}</p>
+    <div class="post__meta">${updatedBox(TODAY)}</div>
+  </header>
+
+  <div class="post__layout">
+    <div class="post__content">
+      <div class="answerbox">
+        <p class="answerbox__label">Como funciona</p>
+        <p>${escapeHtml(calc.intro)}</p>
+      </div>
+
+      <section class="calc" id="calc">
+        <div class="calc__fields">
+    ${fieldHtml}
+        </div>
+        <div class="calc__result">
+          <p class="calc__resultlabel">${escapeHtml(main ? main.label : 'Resultado')}</p>
+          <p class="calc__main" data-out-main>${mainValue}</p>
+          <div class="calc__rows">
+    ${resultRows}
+          </div>
+          <p class="calc__disclaimer">Cálculo de referência (outubro de 2026). Confirme os valores na fonte oficial antes de tomar decisão.</p>
+        </div>
+      </section>
+
+      <h2>Como interpretar o resultado</h2>
+      <ul>
+        ${(calc.notes || []).map((n) => `<li>${escapeHtml(n)}</li>`).join('\n        ')}
+      </ul>
+
+      ${adSlot('inArticle', 'inline')}
+
+      ${
+        guides.length
+          ? `<section class="related">
+        <h2>Guias relacionados</h2>
+        <div class="grid grid--2">
+          ${guides.map((g) => articleCard(g)).join('\n          ')}
+        </div>
+      </section>`
+          : ''
+      }
+
+      ${faqBlock(faqs)}
+
+      ${offerBox({
+        title: 'Quer revisar esse número com um profissional?',
+        text: 'Contador, advogado ou consultor: a Yooka explica o processo e você decide com quem contar.',
+        button: 'Falar com a equipe',
+      })}
+    </div>
+    <aside class="post__aside">
+      ${adSlot('sidebar', 'sticky')}
+      <nav class="toc" aria-label="Nesta página">
+        <p class="toc__title">Nesta página</p>
+        <ul>
+          <li><a href="#calc">Calculadora</a></li>
+          <li><a href="#como-interpretar-o-resultado">Como interpretar</a></li>
+        </ul>
+      </nav>
+    </aside>
+  </div>
+</article>
+<script type="application/json" id="calc-data">${json}</script>
+<script type="module" src="/assets/calculator.js"></script>`;
+
+  addPage({
+    file: `calculadoras/${calc.slug}/index.html`,
+    page,
+    body,
+    og: { badge: calc.badge || 'Calculadora grátis', title: calc.title, subtitle: calc.description },
+  });
+}
+
+function calculatorsIndex() {
+  const crumbs = [
+    { label: 'Início', href: '/' },
+    { label: 'Calculadoras', href: '/calculadoras/' },
+  ];
+  const page = {
+    url: '/calculadoras/',
+    title: 'Calculadoras grátis: 13º, férias, rescisão, DAS e markup',
+    description:
+      'Calculadoras gratuitas para trabalho, MEI e negócio: 13º salário, férias, verbas rescisórias, DAS do MEI, preço de venda e orçamento mensal. Resultado na hora, sem cadastro.',
+    breadcrumbs: crumbs,
+    priority: 0.9,
+    schemas: [
+      organizationSchema(),
+      websiteSchema(),
+      itemListSchema(calculators.map((c) => ({ title: c.title, url: `/calculadoras/${c.slug}/` })), 'Calculadoras da Yooka', '/calculadoras/'),
+    ],
+  };
+
+  const body = `
+${breadcrumbs(crumbs)}
+<section class="listing">
+  <header class="listing__head">
+    <p class="pill">Ferramentas gratuitas</p>
+    <h1>Calculadoras</h1>
+    <p class="listing__lead">${calculators.length} calculadoras para a conta que você precisa fazer agora. Sem cadastro, sem envio de dados, resultado na hora.</p>
+  </header>
+  <div class="grid grid--2">
+    ${calculators
+      .map(
+        (c) => `<article class="card card--calc">
+      <div class="card__body">
+        <span class="card__tag">${escapeHtml(catLabel(c.category))}</span>
+        <h3 class="card__title"><a href="/calculadoras/${c.slug}/">${escapeHtml(c.title)}</a></h3>
+        <p class="card__desc">${escapeHtml(c.description)}</p>
+        <p class="card__meta"><span>${escapeHtml(c.badge || 'Grátis')}</span></p>
+      </div>
+    </article>`
+      )
+      .join('\n    ')}
+  </div>
+</section>
+${adSlot('leaderboard', 'inline')}
+${offerBox()}`;
+
+  addPage({ file: 'calculadoras/index.html', page, body });
 }
 
 /* ------------------------------------------------------------------ *
@@ -902,16 +1173,61 @@ ${breadcrumbs(crumbs)}
 /* ------------------------------------------------------------------ *
  * Índices e páginas estáticas
  * ------------------------------------------------------------------ */
+/** CTA por categoria: cada vertical tem a oferta que faz sentido para ela. */
+function offerForCategory(category) {
+  switch (category) {
+    case 'automacao-e-ia':
+      return offerBox({
+        title: 'Quer automatizar isso na sua empresa?',
+        text: 'A Loyfus desenha o agente, integra com os seus sistemas e entrega em produção, com suporte.',
+        button: 'Falar com um especialista',
+      });
+    case 'mei-e-nota-fiscal':
+      return offerBox({
+        title: 'Contabilidade online que resolve o MEI',
+        text: 'Comparamos as principais opções com preço real e o que cada uma resolve — e o que continua sendo seu.',
+        button: 'Ver contabilidade online',
+        href: '/ferramentas/contabilizei/',
+      });
+    case 'trabalho-e-carreira':
+      return offerBox({
+        title: 'A conta não fechou?',
+        text: 'A Yooka explica a regra; a revisão do seu caso é com advogado ou contador. Nós indicamos o caminho.',
+        button: 'Falar com a equipe',
+        href: '/contato/',
+      });
+    case 'renda-e-negocio':
+      return offerBox({
+        title: 'Plataforma para você vender',
+        text: 'Comparamos as principais plataformas de venda online, cobrança e curso com preço e taxa de verdade.',
+        button: 'Ver ferramentas de venda',
+        href: '/ferramentas/',
+      });
+    case 'servicos-publicos':
+      return offerBox({
+        title: 'Precisa do valor exato?',
+        text: 'Nossas calculadoras dão o número na hora: 13º, férias, rescisão, DAS e contas em atraso.',
+        button: 'Abrir as calculadoras',
+        href: '/calculadoras/',
+      });
+    default:
+      return offerBox({
+        title: 'Quanto isso custa na prática?',
+        text: 'Comparamos preços e custos reais de cartão, crédito, assinatura e ferramenta — sem letra miúda.',
+        button: 'Ver custos e planos',
+        href: '/precos/',
+      });
+  }
+}
+
 function homePage() {
   const featured = allArticles.filter((a) => a.featured).slice(0, 6);
   const latest = [...allArticles].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 12);
-  const popular = allArticles.slice(0, 8);
-  const topTools = [...allTools].sort((a, b) => (b.rating || 0) - (a.rating || 0)).slice(0, 8);
-  const topComps = allComparisons.slice(0, 6);
+  const topTools = [...allTools].sort((a, b) => (b.rating || 0) - (a.rating || 0)).slice(0, 6);
 
   const page = {
     url: '/',
-    title: `${site.name} — IA e automação para empresas, sem hype`,
+    title: `${site.name} — Trabalho, renda e burocracia do brasileiro`,
     description: site.description,
     type: 'website',
     priority: 1.0,
@@ -923,7 +1239,7 @@ function homePage() {
         '@type': 'WebPage',
         '@id': site.url + '/#webpage',
         url: site.url + '/',
-        name: `${site.name} — IA e automação para empresas`,
+        name: `${site.name} — Trabalho, renda e burocracia do brasileiro`,
         isPartOf: { '@id': site.url + '/#website' },
         about: { '@id': site.url + '/#organization' },
       },
@@ -932,12 +1248,12 @@ function homePage() {
 
   const body = `
 ${hero({
-    title: 'IA e automação que dá para colocar na empresa — e medir',
+    title: 'Resolva a burocracia que trava a sua vida e o seu negócio',
     subtitle:
-      'Reviews honestos de ferramentas, comparativos com preço em Real e passo a passo de implementação para pequenas e médias empresas brasileiras.',
-    ctaPrimary: { label: 'Ver o mapa de ferramentas', href: '/ferramentas/' },
-    ctaSecondary: { label: 'Comparativos lado a lado', href: '/comparativos/' },
-    badges: [`${allArticles.length} guias`, `${allTools.length} ferramentas`, `${allComparisons.length} comparativos`, 'Sem paywall'],
+      'Passo a passo de serviços públicos, MEI, nota fiscal, CLT e renda extra — com prazo, valor atualizado e o que fazer quando dá errado.',
+    ctaPrimary: { label: 'Abrir as calculadoras', href: '/calculadoras/' },
+    ctaSecondary: { label: 'Guias de serviços públicos', href: '/categorias/servicos-publicos/' },
+    badges: [`${allArticles.length} guias`, `${calculators.length} calculadoras grátis`, `${allTools.length} ferramentas`, 'Sem paywall'],
   })}
 
 <section class="wrap section">
@@ -946,33 +1262,64 @@ ${hero({
 
 <section class="wrap section">
   <div class="section__head">
+    <h2>Calculadoras grátis</h2>
+    <p>A conta que você precisa fazer agora, resolvida na hora. Sem cadastro.</p>
+  </div>
+  <div class="grid grid--3">
+    ${calculators
+      .slice(0, 6)
+      .map(
+        (c) => `<article class="card card--calc">
+      <div class="card__body">
+        <span class="card__tag">${escapeHtml(catLabel(c.category))}</span>
+        <h3 class="card__title"><a href="/calculadoras/${c.slug}/">${escapeHtml(c.title)}</a></h3>
+        <p class="card__desc">${escapeHtml(c.description)}</p>
+        <p class="card__meta"><span>${escapeHtml(c.badge || 'Grátis')}</span><span>·</span><span>sem cadastro</span></p>
+      </div>
+    </article>`
+      )
+      .join('\n    ')}
+  </div>
+  <p class="section__more"><a class="btn btn--ghost" href="/calculadoras/">Ver todas as ${calculators.length} calculadoras</a></p>
+</section>
+
+<section class="wrap section section--alt">
+  <div class="section__head">
     <h2>Comece por aqui</h2>
-    <p>Os guias mais lidos esta semana.</p>
+    <p>Os guias mais lidos.</p>
   </div>
   <div class="grid grid--3">
     ${featured.map((a) => articleCard(a, { featured: true })).join('\n    ')}
   </div>
 </section>
 
-<section class="wrap section section--alt">
+<section class="wrap section">
   <div class="section__head">
-    <h2>Comparativos diretos</h2>
-    <p>A diferença entre duas ferramentas, na prática.</p>
+    <h2>Navegue por tema</h2>
   </div>
-  <div class="grid grid--2">
-    ${topComps
+  <div class="grid grid--3">
+    ${categories
       .map(
-        (c) => `<article class="card card--cmp">
+        (c) => `<article class="card card--cat">
       <div class="card__body">
-        <h3 class="card__title"><a href="${c.url}">${escapeHtml(c.title)}</a></h3>
-        <p class="card__desc">${escapeHtml(c.description)}</p>
-        <p class="card__meta"><span class="stars">${'★'.repeat(Math.round((c.tools[0]?.rating || 0)))}</span> <span class="muted">${c.tools.length} opções · vencedor: ${escapeHtml(c.winner || '')}</span></p>
+        <h3 class="card__title"><a href="/categorias/${c.slug}/">${escapeHtml(c.name)}</a></h3>
+        <p class="card__desc">${escapeHtml(c.short)}</p>
+        <p class="card__meta">${allArticles.filter((a) => a.category === c.slug).length} guias · ${calculators.filter((x) => x.category === c.slug).length} calculadoras</p>
       </div>
     </article>`
       )
       .join('\n    ')}
   </div>
-  <p class="section__more"><a class="btn btn--ghost" href="/comparativos/">Ver todos os comparativos</a></p>
+</section>
+
+<section class="wrap section section--alt">
+  <div class="section__head">
+    <h2>Mais recentes</h2>
+  </div>
+  <div class="grid grid--3">
+    ${latest.map((a) => articleCard(a)).join('\n    ')}
+  </div>
+  <p class="section__more"><a class="btn btn--ghost" href="/guias/">Ver todos os guias</a></p>
 </section>
 
 <section class="wrap section">
@@ -1003,40 +1350,12 @@ ${hero({
 </section>
 
 <section class="wrap section">
-  <div class="section__head">
-    <h2>Navegue por tema</h2>
-  </div>
-  <div class="grid grid--3">
-    ${categories
-      .map(
-        (c) => `<article class="card card--cat">
-      <div class="card__body">
-        <h3 class="card__title"><a href="/categorias/${c.slug}/">${escapeHtml(c.name)}</a></h3>
-        <p class="card__desc">${escapeHtml(c.short)}</p>
-        <p class="card__meta">${allArticles.filter((a) => a.category === c.slug).length} guias</p>
-      </div>
-    </article>`
-      )
-      .join('\n    ')}
-  </div>
-</section>
-
-<section class="wrap section section--alt">
-  <div class="section__head">
-    <h2>Mais recentes</h2>
-  </div>
-  <div class="grid grid--3">
-    ${latest.map((a) => articleCard(a)).join('\n    ')}
-  </div>
-  <p class="section__more"><a class="btn btn--ghost" href="/guias/">Ver todos os guias</a></p>
-</section>
-
-<section class="wrap section">
   ${adSlot('leaderboard', 'inline')}
   ${offerBox({
-    title: 'Quer que o agente comece a trabalhar na sua empresa esta semana?',
-    text: site.offer.pitch,
-    button: 'Agendar diagnóstico gratuito',
+    title: 'Não achou o que procurava?',
+    text: 'A gente responde dúvidas de INSS, MEI, CLT e renda extra — e atualiza os guias com o que chega de melhor.',
+    button: 'Falar com a equipe',
+    href: '/contato/',
   })}
 </section>`;
 
@@ -1046,9 +1365,9 @@ ${hero({
     body,
     og: {
       file: 'og-default.jpg',
-      badge: 'IA e automação para empresas',
-      title: 'IA e automação que dá para colocar na empresa — e medir',
-      subtitle: 'Reviews honestos, comparativos com preço em Real e passo a passo de implementação.',
+      badge: 'Trabalho, renda e burocracia',
+      title: 'Resolva a burocracia que trava a sua vida e o seu negócio',
+      subtitle: 'Passo a passo de serviços públicos, MEI, nota fiscal, CLT e renda extra — com prazo e valor real.',
     },
   });
 }
@@ -1137,9 +1456,28 @@ ${breadcrumbs(page.breadcrumbs)}
   ${comparisonTable(tools.map((t) => ({ name: t.name, price: t.price, bestFor: t.bestFor, rating: t.rating, url: t.url, affiliateUrl: t.affiliateUrl })))}`
       : ''
   }
+  ${
+    calculators.filter((c) => c.category === cat.slug).length
+      ? `<div class="section__head"><h2>Calculadoras da categoria</h2></div>
+  <div class="grid grid--2">
+    ${calculators
+      .filter((c) => c.category === cat.slug)
+      .map(
+        (c) => `<article class="card card--calc">
+      <div class="card__body">
+        <h3 class="card__title"><a href="/calculadoras/${c.slug}/">${escapeHtml(c.title)}</a></h3>
+        <p class="card__desc">${escapeHtml(c.description)}</p>
+        <p class="card__meta"><span>${escapeHtml(c.badge || 'Grátis')}</span><span>·</span><span>sem cadastro</span></p>
+      </div>
+    </article>`
+      )
+      .join('\n    ')}
+  </div>`
+      : ''
+  }
 </section>
 ${adSlot('leaderboard', 'inline')}
-${offerBox()}`;
+${offerForCategory(cat.slug)}`;
 
   addPage({ file: `categorias/${cat.slug}/index.html`, page, body });
 }
@@ -1377,6 +1715,10 @@ allTools.forEach(toolPricePage);
 const generatedPairs = toolPairs();
 generatedPairs.forEach(pairComparisonPage);
 
+// Calculadoras
+calculators.forEach(calculatorPage);
+calculatorsIndex();
+
 // Índices
 homePage();
 
@@ -1474,54 +1816,65 @@ simplePage({
   file: 'sobre/index.html',
   url: '/sobre/',
   title: 'Sobre a Yooka',
-  description: 'Quem escreve, como avaliamos as ferramentas e por que existimos.',
+  description: 'Quem escreve, como conferimos tabelas e valores, e por que o site existe.',
   h1: 'Sobre a Yooka',
-  lead: 'Um conteúdo sem hype, revisado por gente que põe IA em produção.',
-  content: `<p>A Yooka é o braço editorial da <a href="https://loyfus.com.br" rel="nofollow noopener">Loyfus</a>, que constrói agentes de IA sob medida para empresas brasileiras. Publicamos o que aprendemos implantando: o que funciona, o que custa e o que dá errado.</p>
-  <h2>Como avaliamos</h2>
+  lead: 'Um site para resolver burocracia: passo a passo, com data em cada número.',
+  content: `<p>A Yooka existe porque quase toda informação pública do Brasil está espalhada: a regra está num decreto, o passo a passo num PDF da concessionária e o valor numa tabela que muda todo ano. A pessoa que precisa do dado sai da busca pior do que entrou: dez abas, três vídeos de 2019 e nenhuma resposta direta.</p>
+  <p>Publicamos o caminho completo de uma vez: onde entrar, o que levar, quanto tempo demora, quanto custa, o que fazer quando dá errado e onde conferir. Tudo com data.</p>
+  <h2>Como conferimos</h2>
   <ol>
-    <li><strong>Teste real.</strong> Cada ferramenta passa por um cenário de operação brasileira antes de entrar no catálogo.</li>
-    <li><strong>Preço verificado.</strong> Todo preço tem data de verificação e ressalva de que planos mudam.</li>
-    <li><strong>Contras à frente.</strong> Se a ferramenta é ruim para o seu caso, dizemos isso. Review sem ressalva não é review.</li>
-    <li><strong>Revisão periódica.</strong> Todo conteúdo tem data de atualização e passa por revisão trimestral.</li>
+    <li><strong>Fonte oficial primeiro.</strong> Tabelas do INSS, do DAS, do salário mínimo e dos encargos vêm da fonte primária, com a data da consulta.</li>
+    <li><strong>Passo a passo testado.</strong> A segunda pessoa refaz o processo antes de publicar. Se o caminho mudou, o texto muda.</li>
+    <li><strong>Ressalva explícita.</strong> Quando a regra varia por município, por concessionária ou por operador, o texto diz isso em vez de esconder.</li>
+    <li><strong>Revisão periódica.</strong> Todo conteúdo tem data de atualização visível e passa por revisão a cada três meses.</li>
   </ol>
   <h2>Como ganhamos dinheiro</h2>
-  <p>De duas formas, ambas declaradas: <strong>anúncios</strong> (Google AdSense) e <strong>links de afiliado</strong> (ganhamos comissão se você contratar uma ferramenta recomendada). Nenhum anunciante paga por review positivo e nenhum texto foi publicado a pedido de um fornecedor.</p>
-  <p>Quando uma ferramenta é ruim para o seu caso, dizemos. Venderreview ruim custa caro e destrói o que importa aqui: confiança.</p>
+  <p>De duas formas, ambas declaradas: <strong>anúncios</strong> (Google AdSense) e <strong>links de afiliado</strong> (recebemos comissão se você contratar uma ferramenta recomendada). Nenhum anunciante paga por review e nenhum texto é publicado a pedido.</p>
+  <p>No bloco de automação e IA, divulgamos a <a href="https://loyfus.com.br" rel="nofollow noopener">Loyfus</a>, que constrói agentes de IA sob medida para empresas. Nos demais temas, não vendemos nada.</p>
+  <h2>Limites</h2>
+  <p>Isto é conteúdo informativo. Não substitui advogado, contador, médico nem sincronizador. Em caso de benefício authorsitário, sempre escrevemos "confirme no seu caso com um profissional".</p>
   <h2>Fale com a gente</h2>
-  <p>Quer um veredito para o seu caso específico? <a href="/contato/">Fale com a equipe</a>.</p>`,
+  <p>Achou um erro ou faltou um tema? <a href="/contato/">Fale com a equipe</a>.</p>`,
 });
 
 simplePage({
   file: 'contato/index.html',
   url: '/contato/',
   title: 'Contato',
-  description: 'Fale com a Yooka: dúvida sobre conteúdo ou projeto de agente de IA.',
+  description: 'Fale com a Yooka: correção de conteúdo, dúvida de MEI ou projeto de automação.',
   h1: 'Contato',
-  lead: 'Dúvida sobre o conteúdo ou projeto de agente de IA na sua empresa?',
-  content: `<p><strong>Dúvidas sobre conteúdo:</strong> <a href="mailto:ola@yooka.com.br">ola@yooka.com.br</a>. Respondemos em até 2 dias úteis.</p>
-  <p><strong>Projeto de agente de IA:</strong> <a href="https://loyfus.com.br" rel="nofollow noopener">loyfus.com.br</a> ou <a href="mailto:comercial@loyfus.com.br">comercial@loyfus.com.br</a>.</p>
-  <div class="offer"><div class="offer__text"><h3>Prefere falar direto?</h3><p>Agende um diagnóstico de 30 minutos. Você sai com um mapa de automação priorizado, sem compromisso.</p></div><a class="btn btn--primary" href="https://loyfus.com.br" rel="nofollow noopener">Agendar diagnóstico</a></div>`,
+  lead: 'Correção de conteúdo, dúvida pontual ou projeto de automação.',
+  content: `<p><strong>Conteúdo e correções:</strong> <a href="mailto:ola@yooka.com.br">ola@yooka.com.br</a>. Respondemos em até 2 dias úteis.</p>
+  <p><strong>Dúvida específica de MEI, INSS ou rescisão:</strong> a gente indica o caminho e a fonte oficial, mas não substitui contador ou advogado.</p>
+  <p><strong>Automação e agentes de IA:</strong> <a href="https://loyfus.com.br" rel="nofollow noopener">loyfus.com.br</a> ou <a href="mailto:comercial@loyfus.com.br">comercial@loyfus.com.br</a>.</p>
+  <div class="offer"><div class="offer__text"><h3>Prefere a calculadora?</h3><p>${calculators.length} calculadoras grátis: 13º, férias, rescisão, DAS do MEI, markup, CLT x PJ e orçamento. Sem cadastro.</p></div><a class="btn btn--primary" href="/calculadoras/">Abrir calculadoras</a></div>`,
 });
 
 simplePage({
   file: 'editorial/index.html',
   url: '/editorial/',
   title: 'Política editorial',
-  description: 'Como escrevemos, revisamos e corrigimos o conteúdo da Yooka.',
+  description: 'Como escrevemos, revisamos, datamos e corrigimos o conteúdo da Yooka.',
   h1: 'Política editorial',
   lead: 'Como cada texto é escrito, revisado e atualizado.',
   content: `<h2>Processo</h2>
   <ol>
-    <li>Alguém da equipe implementou o problema na prática antes de escrever.</li>
-    <li>O texto passa por revisão técnica (a segunda pessoa lê e tenta refazer o passo a passo).</li>
-    <li>Preços e links são revalidados na data de publicação.</li>
-    <li>Revisão trimestral: o que envelhece tem data de atualização visível.</li>
+    <li>A pessoa redatora consulta a fonte oficial (gov.br, legislação, portal do serviço) e anota a data.</li>
+    <li>O texto é escrito com o passo a passo real, na ordem em que a tela aparece.</li>
+    <li>Uma segunda pessoa refaz o caminho. Se não conseguir, o texto volta.</li>
+    <li>Publicação com data de atualização visível no topo da página.</li>
+    <li>Revisão trimestral: o que envelhece tem data nova e o histórico fica registrado.</li>
   </ol>
+  <h2>Fontes</h2>
+  <p>Legislação (Planalto), portais do governo federal (gov.br), portais de serviço do município ou da concessionária quando o serviço é local, e o registro oficial do serviço (tabela do INSS, tabela do DAS, CLT). Quando não há fonte pública clara, escrevemos "consulte o site oficial" em vez de estimar.</p>
+  <h2>Valores e datas</h2>
+  <p>Nenhum valor aparece sem data. Valores de conta de luz, IPTU, IPVA e similares são exemplificados com faixa e ressalva de que variam por município ou por concessionária — nunca inventamos o valor da sua conta.</p>
   <h2>Correções</h2>
-  <p>Encontrou erro? <a href="mailto:ola@yooka.com.br">ola@yooka.com.br</a>. Corrigimos e sinalizamos a mudança na data de atualização do artigo.</p>
+  <p>Encontrou erro? <a href="/contato/">Avise</a>. Corrigimos e mudamos a data de atualização do texto, deixando a correção visível.</p>
   <h2>Conflito de interesse</h2>
-  <p>Se a Loyfus implementa ou vende algo parecido com o que descrevemos, isso aparece no texto. Nenhum fornecedor pagou por review, e nenhum texto foi publicado sob pedido.</p>`,
+  <p>Links de afiliado são declarados. Nenhum fornecedor pagou por review e nenhum texto foi publicado a pedido. Se alguma ferramenta que recomendamos é ruim para o seu caso, o texto diz isso.</p>
+  <h2>Limite técnico</h2>
+  <p>As calculadoras usam as tabelas de referência de outubro de 2026 e exibem a ressalva na própria página. Elas servem para estimar, não para substituir o cálculo oficial.</p>`,
 });
 
 simplePage({
@@ -1642,6 +1995,7 @@ function writeSearchIndex() {
     ...allComparisons.map((a) => ({ t: a.title, d: a.description, u: a.url, k: 'comparativo', c: catLabel(a.category) })),
     ...allTools.map((t) => ({ t: t.name, d: t.tagline || t.description, u: t.url, k: 'ferramenta', c: catLabel(t.category) })),
     ...glossary.map((g) => ({ t: g.term, d: g.short, u: `/glossario/${g.slug}/`, k: 'glossário', c: 'Glossário' })),
+    ...calculators.map((c) => ({ t: c.title, d: c.description, u: `/calculadoras/${c.slug}/`, k: 'calculadora', c: catLabel(c.category) })),
   ];
   fs.writeFileSync(path.join(OUT, 'search-index.json'), JSON.stringify(idx));
 }

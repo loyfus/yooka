@@ -1,7 +1,7 @@
 {
   "name": "Typebot",
   "slug": "typebot",
-  "category": "atendimento",
+  "category": "automacao-e-ia",
   "tagline": "Chatbot em blocos, com cara de formulário, fácil de editar",
   "description": "Construtor de chatbot em blocos que o usuário enxerga como formulário, com self-hosted possível, integração com WhatsApp e webhook para conectar qualquer IA.",
   "url": "https://www.typebot.com",

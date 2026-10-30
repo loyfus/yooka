@@ -1,0 +1,43 @@
+{
+  "name": "Contabilizei",
+  "slug": "contabilizei",
+  "category": "mei-e-nota-fiscal",
+  "tagline": "Contabilidade online que resolve o MEI sem papel",
+  "description": "Contabilidade online para MEI e microempresa, com NFS-e emitida dentro do sistema, DAS calculado e atendimento por WhatsApp, em planos mensais.",
+  "url": "https://www.contabilizei.com.br",
+  "affiliateUrl": "https://www.contabilizei.com.br/?via=yooka",
+  "price": "A partir de R$ 39/mês",
+  "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. A mensalidade varia por porte e por quantidade de notas, e o DAS é cobrado à parte pelo contador.",
+  "bestFor": "MEI e microempresa que quer contabilidade e NFS-e sem planilha e sem papelada",
+  "rating": 4.3,
+  "ratingCount": 682,
+  "pros": [
+    "NFS-e emitida dentro da própria plataforma, com envio por link e download em lote",
+    "DAS calculado com link de pagamento pronto, que corta justamente a maior causa de atraso do MEI",
+    "Atendimento por WhatsApp e chat, mais rápido que e-mail para dúvida de nota e de receita",
+    "Mensalidade fixa por CNPJ, sem cobrança por nota emitida ou por documento baixado"
+  ],
+  "cons": [
+    "Contrato com fidelidade de 12 meses e multa rescisória para quem cancela antes do prazo",
+    "Um plano por CNPJ: quem tem duas empresas ou duas unidades paga duas mensalidades",
+    "MEI dentro da faixa de isenção do DAS ainda paga a contabilidade online separada do imposto",
+    "Migração de contabilidade anterior exige abrir mão do histórico e começar o ano do zero"
+  ],
+  "features": [
+    { "name": "NFS-e online", "detail": "Emissão, envio por e-mail e download em lote no padrão da prefeitura" },
+    { "name": "DAS calculado", "detail": "Valor, vencimento e link de pagamento do imposto dentro do painel" },
+    { "name": "Contador no WhatsApp", "detail": "Canal direto com a contabilidade, sem formulário e sem esperar e-mail" },
+    { "name": "Checklist de obrigações", "detail": "Lista do que fazer no mês, com prazos e links para cada tarefa do MEI" },
+    { "name": "Arquivos anuais", "detail": "Download dos livros e arquivos digitais para guardar e entregar ao contador" }
+  ],
+  "useCases": [
+    "Emitir NFS-e de um serviço de limpeza pelo celular e mandar o link ao cliente no mesmo dia",
+    "Conferir o DAS de três MEIs que o contador acompanha e pagar pelo link, sem erro de boleto",
+    "Baixar os arquivos mensais no fechamento do ano sem caçar e-mail perdido",
+    "Abrir um CNPJ novo e já deixar contabilidade e emissão de NFS-e rodando no mesmo dia"
+  ],
+  "bestForWho": "MEI e microempresa que quer fechar a contabilidade e emitir nota sem papel, sem planilha e sem depender de contador local.",
+  "verdict": "A Contabilizei resolve a parte que mais trava o MEI, que é emitir nota e pagar o DAS sem virar contador de si mesmo. O painel é simples de verdade: quem nunca emitiu NFS-e consegue emitir a primeira em poucos minutos pelo WhatsApp, e isso vale mais do que a quantidade de relatórios. O que incomoda é o contrato de fidelidade e a mensalidade por CNPJ, dois custos que passam despercebidos no primeiro mês e aparecem quando já se acostumou. Para quem é MEI com faturamento baixo e um só CNPJ, o custo-benefício fecha. Para quem tem duas empresas, microsafras ou faturamento instável, compare antes de assinar, porque a conta muda rápido.",
+  "alternatives": ["tiny-erp", "omie", "iugu"],
+  "updated": "2026-10-30"
+}

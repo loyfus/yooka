@@ -3,7 +3,7 @@ title: "Agente de IA: o que é, como funciona e quando vale a pena em 2026"
 description: "Entenda o que é um agente de IA, como ele decide o que fazer, a diferença para chatbot e automação, e em que casos reais a implantação se paga."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "agentes-de-ia"
+category: "automacao-e-ia"
 tags: ["agente de ia", "conceitos", "automacao", "llm"]
 keywords: ["o que e agente de ia", "agente de ia explicacao", "agente de ia vs chatbot", "agente de ia vs automacao", "para que serve agente de ia"]
 featured: true
@@ -141,4 +141,4 @@ Quatro decisões técnicas fazem mais diferença do que o modelo escolhido:
 
 ## Próximos passos
 
-Se você quer montar o primeiro, vá para [como criar um agente de IA](/guias/como-criar-agente-de-ia/). Se ainda está escolhendo o nome e a ferramenta, comece por [como escolher ferramenta de IA](/guias/como-escolher-ferramenta-de-ia/). Para consultar termos técnicos, o [glossário](/glossario/) e a [categoria agentes de IA](/categorias/agentes-de-ia/) mantêm a nomenclatura consistente entre os guias.
+Se você quer montar o primeiro, vá para [como criar um agente de IA](/guias/como-criar-agente-de-ia/). Se ainda está escolhendo o nome e a ferramenta, comece por [como escolher ferramenta de IA](/guias/como-escolher-ferramenta-de-ia/). Para consultar termos técnicos, o [glossário](/glossario/) e a [categoria agentes de IA](/categorias/automacao-e-ia/) mantêm a nomenclatura consistente entre os guias.

@@ -3,7 +3,7 @@ title: "Dify x Flowise: qual plataforma para criar agente de IA em 2026?"
 description: "Dify ou Flowise em 2026: o Flowise encerrou as operações em agosto de 2026. Compare custo, RAG, deploy, licença e suporte para escolher a plataforma do agente."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "agentes-de-ia"
+category: "automacao-e-ia"
 slug: "dify-vs-flowise"
 winner: "Dify"
 featured: false

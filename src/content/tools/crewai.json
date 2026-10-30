@@ -1,7 +1,7 @@
 {
   "name": "CrewAI",
   "slug": "crewai",
-  "category": "agentes-de-ia",
+  "category": "automacao-e-ia",
   "tagline": "Equipes de agentes de IA com papéis e tarefas definidas",
   "description": "Framework Python para orquestrar equipes de agentes de IA com papéis e tarefas explícitas, poucos exemplos de código e integração com vários modelos.",
   "url": "https://www.crewai.com",

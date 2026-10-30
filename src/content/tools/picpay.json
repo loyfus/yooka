@@ -1,0 +1,44 @@
+{
+  "name": "PicPay",
+  "slug": "picpay",
+  "category": "custos-e-planos",
+  "tagline": "Carteira digital simples para receber Pix no dia a dia",
+  "description": "Carteira digital com Pix, cartão de crédito, conta PJ e QR Code para receber no balcão, com recarga e saque pelo app.",
+  "url": "https://picpay.com",
+  "affiliateUrl": "https://picpay.com/?via=yooka",
+  "price": "Grátis para pessoa física; conta PJ com planos pagos",
+  "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. O app de pessoa física é gratuito; a Conta PJ tem planos mensais com valor e serviço corte, e taxas específicas para saque e cartão.",
+  "bestFor": "Quem quer receber Pix por QR Code e vender no caixa sem complicar a vida com banco",
+  "rating": 4.1,
+  "ratingCount": 655,
+  "pros": [
+    "Pix por QR Code na fachada do negócio é simples de gerar e de usar, sem precisar de maquininha",
+    "Conta PJ separada do pessoal, com cartão PJ e extrato para o contador",
+    "App leve, que abre rápido e serve bem em internet ruim do interior",
+    "Cartão de crédito com anuidade baixa e opções de pagamento por contato"
+  ],
+  "cons": [
+    "A Conta PJ tem planos pagos e cobrança por volume, o que encarece quem vende pouco",
+    "Saque da carteira para conta de outro banco tem tarifa e valor mínimo, parecido com os concorrentes",
+    "Rendimento do dinheiro guardado é baixo quando comparado com CDB de banco digital",
+    "Relatórios contábeis são mais limitados que os de um ERP, e a conciliação exige exportar"
+  ],
+  "features": [
+    { "name": "QR Code estático", "detail": "QR fixo para imprimir na mesa e receber Pix sem digitar chave" },
+    { "name": "Conta PJ", "detail": "Conta de empresa com cartão PJ, Pix e limites de saque próprios" },
+    { "name": "Cartão de crédito", "detail": "Cartão físico e virtual com anuidade reduzida e pagamento por aproximação" },
+    { "name": "Pagamento por contato", "detail": "Pagar e receber no app por número de telefone, sem QR por pessoa" },
+    { "name": "Recarga e saque", "detail": "Recarga por boleto ou cartão e saque com tarifa e valor mínimo" },
+    { "name": "Extrato e comprovante", "detail": "Extrato por período e comprovante de recebimento para a nota" }
+  ],
+  "useCases": [
+    "Colocar um QR Code na mesa do salão e receber Pix sem precisar de maquininha",
+    "Ter conta PJ separada do dinheiro pessoal, com cartão para as despesas do negócio",
+    "Fazer recarga rápida por boleto quando o caixa fica curto no fim de semana",
+    "Enviar comprovante de recebimento junto com a nota para o cliente do serviço"
+  ],
+  "bestForWho": "Comerciante ou prestador de serviço de bairro que precisa receber no Pix com simplicidade e separar o caixa do negócio.",
+  "verdict": "O PicPay faz uma coisa muito bem: ser o lugar mais simples de receber Pix no balcão, sem maquininha e sem contrato. Para o comércio de bairro, o QR Code estático resolve o dia a dia em segundos, e a Conta PJ separa o dinheiro do negócio do dinheiro de casa. O que atrapalha é a estrutura de cobrança da Conta PJ, com planos cobrados por volume e tarifas de saque que só aparecem quando você precisa do dinheiro. O rendimento do saldo guardado também não compete com CDB de banco digital, então o PicPay não substitui uma conta de investimento. Para operação de balcão, ele é a ferramenta certa. Para quem quer guardar reserva, o app sozinho não dá conta.",
+  "alternatives": ["nubank", "mercado-pago", "inter"],
+  "updated": "2026-10-30"
+}

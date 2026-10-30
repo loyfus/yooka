@@ -3,7 +3,7 @@ title: "Chatbot para WhatsApp: como montar um que resolve a maior parte do atend
 description: "Guia de chatbot para WhatsApp com a API oficial da Meta: janela de 24 horas, templates, opt-in, custo por atendimento e métricas de contenção."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "atendimento"
+category: "automacao-e-ia"
 tags: ["chatbot", "whatsapp", "atendimento", "meta", "automacao"]
 keywords: ["chatbot para whatsapp", "chatbot whatsapp business", "automacao de atendimento whatsapp", "api whatsapp business"]
 featured: true
@@ -173,4 +173,4 @@ Sim, e o consentimento precisa ser registrado. Guarde data, hora, origem e texto
 
 ## Próximos passos
 
-Para dimensionar o projeto antes de falar com fornecedor, compare os modelos e o custo por token em [como escolher ferramenta de IA](/guias/como-escolher-ferramenta-de-ia/) e em [custo de agente de IA](/guias/custo-de-agente-de-ia/). Se a operação ainda tem processos manuais ao redor do atendimento, o [guia de automação para pequenas empresas](/guias/automacao-para-pequenas-empresas/) mostra por onde começar, e a referência completa de categorias está em [atendimento](/categorias/atendimento/).
+Para dimensionar o projeto antes de falar com fornecedor, compare os modelos e o custo por token em [como escolher ferramenta de IA](/guias/como-escolher-ferramenta-de-ia/) e em [custo de agente de IA](/guias/custo-de-agente-de-ia/). Se a operação ainda tem processos manuais ao redor do atendimento, o [guia de automação para pequenas empresas](/guias/automacao-para-pequenas-empresas/) mostra por onde começar, e a referência completa de categorias está em [atendimento](/categorias/automacao-e-ia/).

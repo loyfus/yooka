@@ -3,7 +3,7 @@ title: "ManyChat x Typebot: qual chatbot para WhatsApp e Instagram em 2026?"
 description: "ManyChat ou Typebot em 2026: compare preço por contato, disparo em massa, fluxos conversacionais, integração com WhatsApp e suporte em português."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "atendimento"
+category: "automacao-e-ia"
 slug: "manychat-vs-typebot"
 winner: "ManyChat"
 featured: false

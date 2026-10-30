@@ -1,7 +1,7 @@
 {
   "name": "Perplexity",
   "slug": "perplexity",
-  "category": "ia-por-departamento",
+  "category": "automacao-e-ia",
   "tagline": "Busca com IA que responde sempre com fonte",
   "description": "Motor de busca com IA que entrega respostas com link de fonte, escolha de modelo e pesquisa aprofundada para quem precisa checar informação antes de decidir.",
   "url": "https://www.perplexity.ai",

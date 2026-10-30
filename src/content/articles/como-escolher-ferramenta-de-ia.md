@@ -3,7 +3,7 @@ title: "Como escolher ferramenta de IA em 2026: 9 critérios que importam"
 description: "Guia para escolher a ferramenta de IA certa: 9 critérios de avaliação, comparativo de custo em Real, perguntas para o fornecedor e erros caros de contrato."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "agentes-de-ia"
+category: "automacao-e-ia"
 tags: ["ferramentas de ia", "comparativo", "custo", "avaliacao"]
 keywords: ["como escolher ferramenta de ia", "qual ferramenta de ia usar", "comparativo ferramentas de ia", "n8n ou make", "plano de ia para empresas"]
 featured: false
@@ -175,7 +175,7 @@ Esta é a última decisão, e ela é rápida. O [comparativo ChatGPT vs Claude v
 
 **Devo usar uma ferramenta brasileira ou uma internacional?** Use a que tem o conector que você precisa e o suporte que responde. O dado da sua empresa pode estar em qualquer lugar desde que haja contrato de tratamento, região definida e controle de acesso. O que não compensa é escolher uma ferramenta que não integra com o seu ERP.
 
-**E se eu ainda não souber o que preciso automatizar?** Comece pelo volume de tarefas repetitivas com regra definida, não pela ferramenta. O [guia de automação para pequenas empresas](/guias/automacao-para-pequenas-empresas/) mostra como priorizar, e a [categoria custos](/categorias/custos/) traz os preços de referência.
+**E se eu ainda não souber o que preciso automatizar?** Comece pelo volume de tarefas repetitivas com regra definida, não pela ferramenta. O [guia de automação para pequenas empresas](/guias/automacao-para-pequenas-empresas/) mostra como priorizar, e a [categoria custos](/categorias/custos-e-planos/) traz os preços de referência.
 
 ## Próximos passos
 

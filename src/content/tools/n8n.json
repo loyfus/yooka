@@ -1,7 +1,7 @@
 {
   "name": "n8n",
   "slug": "n8n",
-  "category": "automacao",
+  "category": "automacao-e-ia",
   "tagline": "Automação com código e self-hosted para times técnicos",
   "description": "Plataforma de automação open source que combina 400+ integrações prontas com código JavaScript ou Python, rodando na nuvem ou no seu servidor.",
   "url": "https://n8n.io",

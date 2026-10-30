@@ -1,0 +1,44 @@
+{
+  "name": "Inter",
+  "slug": "inter",
+  "category": "custos-e-planos",
+  "tagline": "Superconta digital com CDB que resgata na hora",
+  "description": "Banco digital com superconta gratuita, Pix e cartão de crédito, CDB com rendimento alto e resgate imediato, e conta PJ para o negócio.",
+  "url": "https://www.inter.co",
+  "affiliateUrl": "https://www.inter.co/?via=yooka",
+  "price": "Grátis para superconta e conta PJ",
+  "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. A superconta e a conta PJ não têm tarifa de manutenção; existem produtos pagos, como CDB com menor rendimento, cartão Platinum e servicios de saque com limite maior.",
+  "bestFor": "Quem quer conta digital gratuita com CDB que rende mais e resgata na hora",
+  "rating": 4.5,
+  "ratingCount": 618,
+  "pros": [
+    "Superconta sem tarifa de manutenção e com Pix ilimitado e gratuito, o que acaba com a conta bancária caro",
+    "CDB resgatável no próprio app, com rendimento de 100 por cento do CDI para quem não usa a conta corrente",
+    "Cartão de crédito Platinum com bandwidth de mercado e Rewards em dinheiro de volta",
+    "Conta PJ com Pix, cartão e CDB da conta, para quem não quer misturar caixa pessoal e empresa"
+  ],
+  "cons": [
+    "O CDB tem rendimento menor que a concorrência do mercado no app, o que exige comparar antes de deixar dinheiro parado",
+    "Saque para outro banco tem limite diário, o que trava quem precisa mover valores grandes de uma vez",
+    "A documentação e o atendimento são menos amplos que os do Nubank, com menos material em português",
+    "Produto de cartão premium e seguro de viagem não são necessários para a maioria dos MEI"
+  ],
+  "features": [
+    { "name": "Superconta gratuita", "detail": "Conta corrente digital sem tarifa, com Pix, transferência e extrato" },
+    { "name": "CDB no app", "detail": "Rendimento próximo ao CDI com resgate imediato, sem carência" },
+    { "name": "Cartão de crédito", "detail": "Platinum com limite ajustável, compras nacionais e rewards em dinheiro de volta" },
+    { "name": "Conta PJ", "detail": "Conta de empresa com cartão PJ, Pix e CDB separado do dinheiro pessoal" },
+    { "name": "Investimentos", "detail": "Renda fixa, ações e fundos dentro do app, com resgate e portabilidade" },
+    { "name": "Atendimento", "detail": "Chat e telefone, com horário comercial e sem fila no aplicativo" }
+  ],
+  "useCases": [
+    "Trocar a conta que cobra R$ 30 de manutenção por uma superconta gratuita",
+    "Guardar a reserva do negócio em CDB e resgatar na hora do imprevisto, sem perder carência",
+    "Separar o caixa da empresa do dinheiro de casa em contas diferentes no mesmo app",
+    "Receber Pix de vários clientes e sacar sem pagar tarifa para conta de outro banco"
+  ],
+  "bestForWho": "Pessoa física ou MEI que quer conta digital sem tarifa, CDB de resgate imediato e cartão de crédito no mesmo aplicativo.",
+  "verdict": "O Inter é a resposta direta para quem reclama de taxa de manutenção e de CDB preso em banco. A superconta é gratuita de verdade e o CDB resgatável no app dá flexibilidade sem perder rendimento. A diferença para o Nubank está no desenho do CDB e no CDB de conta PJ, que rende bem, mas exige comparar a taxa do seu lado com o yield atualizado do dia, porque esse número muda. Outro ponto real é o limite de saque para fora, que incomoda quem precisa mover dinheiro de uma vez para pagar fornecedor. No uso normal de MEI, não aparece. Vale a troca.",
+  "alternatives": ["nubank", "c6-bank", "bright"],
+  "updated": "2026-10-30"
+}

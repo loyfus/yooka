@@ -1,0 +1,44 @@
+{
+  "name": "iugu",
+  "slug": "iugu",
+  "category": "mei-e-nota-fiscal",
+  "tagline": "Cobrança recorrente e NFS-e com API pronta",
+  "description": "Plataforma brasileira de cobrança online com recorrência, NFS-e, boleto, PIX e cartão, feita para quem precisa automatizar fatura e assinatura.",
+  "url": "https://www.iugu.com",
+  "affiliateUrl": "https://www.iugu.com/?via=yooka",
+  "price": "A partir de R$ 0/mês + taxa por transação",
+  "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. A cobrança principal é por transação (percentual sobre a venda somado a tarifa fixa), com planos mensais adicionais para recursos avançados.",
+  "bestFor": "Quem cobra mensalidade, assinatura ou boleto recorrente e quer emitir NFS-e junto",
+  "rating": 4.1,
+  "ratingCount": 287,
+  "pros": [
+    "Recorrência nativa: boleto, PIX e cartão em cobrança mensal automática, sem gateway de fora",
+    "NFS-e emitida pelo próprio sistema, com status de entrega e envio automático ao cliente",
+    "API e webhooks bem documentados, o que permite integrar com o site e com o sistema contábil",
+    "Ambiente de teste separado do de produção, o que permite homologar cobrança antes de cobrar de verdade"
+  ],
+  "cons": [
+    "Taxa por transação somada a tarifa fixa por boleto pesa em ticket baixo e venda de alta frequência",
+    "Meios de pagamento são menos diversos que os do Mercado Pago, e Pix depende de configuração do recebedor",
+    "Cancelamento da assinatura é pelo painel, mas a retenução do contrato é cobrada por período mínimo",
+    "Mudança de plano pode mexer em preço de recorrência já contratado com o cliente final"
+  ],
+  "features": [
+    { "name": "Cobrança recorrente", "detail": "Assinatura mensal com boleto, PIX ou cartão, com retry automático" },
+    { "name": "NFS-e integrada", "detail": "Emissão da nota de serviço junto com a cobrança e envio ao cliente" },
+    { "name": "Boleto e PIX", "detail": "Boleto registrado com arquivo de retorno e conciliação por pagamento" },
+    { "name": "Checkout e link de pagamento", "detail": "Página pronta ou link direto para cobrar por e-mail e WhatsApp" },
+    { "name": "API e webhooks", "detail": "Integração com site, ERP e automações, com eventos de status da cobrança" },
+    { "name": "Painel de inadimplência", "detail": "Cobrança de atraso, renegocição e suspensão automática por contrato" }
+  ],
+  "useCases": [
+    "Cobrar mensalidade de um serviço de limpeza com boleto e PIX automáticos e nota junto",
+    "Enviar link de pagamento pelo WhatsApp para cliente de orçamento fechado na hora",
+    "Cobrar plano anual de academia ou curso com desconto e emitir NFS-e do período",
+    "Conciliar o caixa do mês comparando o extrato do banco com o painel de cobranças"
+  ],
+  "bestForWho": "Prestador de serviço que vende contrato mensal, assinatura ou curso parcelado e quer emitir nota fiscal junto com a cobrança.",
+  "verdict": "A iugu acerta em cheio o nicho de quem precisa de recorrência com nota fiscal no mesmo lugar, e a API é o ponto mais forte: dá para montar o próprio checkout ou cobrar por link no WhatsApp sem depender de plugin. O custo está na estrutura da tarifa, que é percentual mais valor fixo e, portanto, doi em boleto de valor baixo ou em venda de alto volume. outro ponto de atenção é a flexibilidade: para quem só quer receber uma vez, uma plataforma mais simples sai bem mais barato. Se o seu negócio é recorrente de verdade, a iugu justifica o preço pela automação. Se não é, não vale pagar por um sistema que você usaria pela metade.",
+  "alternatives": ["mercado-pago", "tiny-erp", "omie"],
+  "updated": "2026-10-30"
+}

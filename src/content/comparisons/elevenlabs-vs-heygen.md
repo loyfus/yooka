@@ -3,7 +3,7 @@ title: "ElevenLabs x HeyGen: qual IA de voz e vídeo é mais barata em 2026?"
 description: "ElevenLabs ou HeyGen em 2026: compare custo por minuto, dublagem em português, avatares em vídeo, limite de uso e suporte para o time de marketing."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "marketing-e-vendas"
+category: "renda-e-negocio"
 slug: "elevenlabs-vs-heygen"
 winner: "ElevenLabs"
 featured: false

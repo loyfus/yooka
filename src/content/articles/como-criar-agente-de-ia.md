@@ -3,7 +3,7 @@ title: "Como criar um agente de IA em 2026: passo a passo em 8 etapas"
 description: "Aprenda como criar um agente de IA do zero: escopo, prompt de sistema, ferramentas, memória, testes e custo em Real. Passo a passo para empresas brasileiras."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "agentes-de-ia"
+category: "automacao-e-ia"
 tags: ["agente de ia", "automacao", "implementacao", "custo"]
 keywords: ["como criar um agente de ia", "criar agente de ia", "agente de ia na pratica", "passo a passo agente de ia", "implantar agente de ia"]
 featured: true
@@ -159,4 +159,4 @@ Revise esses números toda semana no primeiro mês. O ajuste fino vem do log de 
 
 ## Próximos passos
 
-Se você ainda está decidindo se a tarefa vale um agente, comece por [agente de IA: o que é](/guias/agente-de-ia-o-que-e/) e depois volte para o passo 1 deste guia. Para consultar a terminologia usada aqui, o [glossário](/glossario/) resolve dúvidas rápidas, e a [categoria agentes de IA](/categorias/agentes-de-ia/) reúne os guias relacionados.
+Se você ainda está decidindo se a tarefa vale um agente, comece por [agente de IA: o que é](/guias/agente-de-ia-o-que-e/) e depois volte para o passo 1 deste guia. Para consultar a terminologia usada aqui, o [glossário](/glossario/) resolve dúvidas rápidas, e a [categoria agentes de IA](/categorias/automacao-e-ia/) reúne os guias relacionados.

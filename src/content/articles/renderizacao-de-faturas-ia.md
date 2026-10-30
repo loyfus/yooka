@@ -3,7 +3,7 @@ title: "Renderização de faturas com IA: do PDF ao XML da NF-e em 2026"
 description: "Como automatizar a renderização de faturas com IA: leitura de PDF, extração de dados, emissão de NF-e e XML para SEFAZ, com custo e prazo de implantação."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "ia-por-departamento"
+category: "automacao-e-ia"
 tags: ["financeiro", "nota-fiscal", "ocr", "automacao"]
 keywords: ["renderizacao de faturas com ia", "automacao de nota fiscal", "ia para ler pdf", "nfe sefaz xml automacao"]
 featured: false
@@ -140,7 +140,7 @@ Este texto não substitui orientação contábil, fiscal ou jurídica. Definiç�
 
 A renderização de faturas com IA é um caso de uso de automação documental com resultado imediato e mensurável: o analista deixa de digitar e passa a revisar. O desenho que funciona é simples de entrada única, schema rigoroso, IA apenas no que é irregular, validação por regra e fila de exceção com conferência humana. Com esse desenho, a redução de 70% a 85% no tempo de processamento aparece já no terceiro mês.
 
-Para dimensionar a stack, veja [como escolher ferramenta de IA](/guias/como-escolher-ferramenta-de-ia/) e [custo de agente de IA](/guias/custo-de-agente-de-ia/). O caso de uso mais próximo no financeiro está em [IA para financeiro](/guias/ia-para-financeiro/), e os demais casos por departamento estão em [IA por departamento](/categorias/ia-por-departamento/).
+Para dimensionar a stack, veja [como escolher ferramenta de IA](/guias/como-escolher-ferramenta-de-ia/) e [custo de agente de IA](/guias/custo-de-agente-de-ia/). O caso de uso mais próximo no financeiro está em [IA para financeiro](/guias/ia-para-financeiro/), e os demais casos por departamento estão em [IA por departamento](/categorias/automacao-e-ia/).
 
 ## Perguntas frequentes
 

@@ -3,7 +3,7 @@ title: "IA para atendimento humano: quando usar a pessoa e quando usar o bot"
 description: "Como a IA apoia o atendimento humano: priorização de fila, resumo de histórico, roteiro sugerido e escalonamento, com números de tempo e custo."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "atendimento"
+category: "automacao-e-ia"
 tags: ["atendimento", "ia-por-departamento", "agentes-de-ia", "rh"]
 keywords: ["ia para atendimento humano", "copiloto de atendimento", "automacao de sac com ia", "priorizacao de fila de atendimento"]
 featured: false
@@ -146,4 +146,4 @@ Precisa de base legal clara, transparência e revisão de decisões unicamente a
 
 A IA no atendimento humano não substitui ninguém: ela devolve tempo. O ganho real está em reduzir de 25% a 40% o tempo de atendimento e liberar 1 a 3 atendentes por mês em uma operação de volume médio, sem mudar a relação com o cliente e sem criar risco regulatório novo. O projeto funciona quando o desenho é simples: resumo primeiro, sugestão depois, humano sempre no último mile e na revisão das métricas de qualidade.
 
-Para o próximo passo, veja [automação para pequenas empresas](/guias/automacao-para-pequenas-empresas/), o mapa completo de casos em [atendimento](/categorias/atendimento/) e a referência de opções em [ferramentas](/ferramentas/).
+Para o próximo passo, veja [automação para pequenas empresas](/guias/automacao-para-pequenas-empresas/), o mapa completo de casos em [atendimento](/categorias/automacao-e-ia/) e a referência de opções em [ferramentas](/ferramentas/).

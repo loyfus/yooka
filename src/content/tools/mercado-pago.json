@@ -1,0 +1,44 @@
+{
+  "name": "Mercado Pago",
+  "slug": "mercado-pago",
+  "category": "mei-e-nota-fiscal",
+  "tagline": "O gateway que começa grátis e escala com a venda",
+  "description": "Conta, carteira e gateway de pagamento para receber por PIX, boleto e cartão, emitir cobrança, recibir por link e ter conta PJ no Mercado Pago.",
+  "url": "https://www.mercadopago.com.br",
+  "affiliateUrl": "https://www.mercadopago.com.br/?via=yooka",
+  "price": "Grátis para começar + taxa por venda",
+  "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. A conta e o cadastro são gratuitos; o custo real está na taxa por venda cobrada sobre cada transação e no valor de saque, que varia conforme o meio de pagamento e o prazo.",
+  "bestFor": "MEI e pequeno negócio que quer receber por PIX e cartão sem custo fixo",
+  "rating": 4.4,
+  "ratingCount": 764,
+  "pros": [
+    "Cadastro gratuito, sem mensalidade e sem curva de aprendizado: quem tem CNPJ abre conta em minutos",
+    "PIX, boleto e cartão na mesma conta, com cobrança por link que dá para mandar no WhatsApp",
+    "Antecipação de recebíveis do cartão, útil para não esperar o repasse cair",
+    "Reputação de comprador forte: quem paga por Mercado Pago confia mais em quem cobra por Mercado Pago"
+  ],
+  "cons": [
+    "A taxa por venda de cartão é de um percentual que compete com a concorrência e encolhe a margem",
+    "Dinheiro só fica disponível depois do prazo de repasse, o que trava quem compra à vista",
+    "A conta PJ é limitada em funções: conciliação e gestão de fluxo exigem ferramenta extra",
+    "Saque para conta externa tem custo e taxa, e o valor mínimo impede resgatar pennies"
+  ],
+  "features": [
+    { "name": "Conta PJ gratuita", "detail": "CNPJ cadastrado e conta de recebimento sem taxa de manutenção" },
+    { "name": "Link de pagamento", "detail": "Cobrar por PIX ou boleto enviando um link pronto no WhatsApp ou e-mail" },
+    { "name": "Checkout e integração", "detail": "Botão de pagamento e SDK para colocar a marca na loja ou no site" },
+    { "name": "Antecipação de venda", "detail": "Receber antes do repasse com custo por antecipação informada na hora" },
+    { "name": "Split de pagamento", "detail": "Dividir o valor entre conta de marketplace e conta do vendedor" },
+    { "name": "Relatórios de venda", "detail": "Extrato por período e por meio de pagamento, exportável" }
+  ],
+  "useCases": [
+    "Receber por PIX de uma venda combinada no WhatsApp e emitir o recibo no mesmo dia",
+    "Cobrar um orçamento de R$ 800 por boleto e acompanhar o pagamento pelo painel",
+    "Receber por cartão parcelado e usar a antecipação para comprar insumo antes do repasse",
+    "Abrir conta PJ com CNPJ de MEI em poucos minutos, sem burocracia de banco"
+  ],
+  "bestForWho": "MEI ou prestador de serviço que precisa receber por PIX e cartão hoje, sem mensalidade e sem se complicated com banco.",
+  "verdict": "O Mercado Pago é a escolha mais óbvia para quem está começando a receber pela internet, e a vantagem não é só a taxa: é a reputação e a simplicidade de instalação. Para MEI, abrir conta e receber o primeiro PIX leva minutos, e o link de pagamento no WhatsApp resolve venda que antes não existia. Os dois pontos que costumam frustrar são o repasse atrasado e o custo de antecipar ou sacar, que precisa entrar na conta do preço do produto. A taxa por venda é competitiva para quem aceita cartão, mas encolhe se o ticket médio é baixo e o pagamento é sempre no Pix. Para operação enxuta, é o melhor ponto de partida. Para volume alto, vale comparar com um gateway com taxa menor, porque a diferença percentual pesa.",
+  "alternatives": ["iugu", "picpay", "nubank"],
+  "updated": "2026-10-30"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Shopify",
+  "slug": "shopify",
+  "category": "renda-e-negocio",
+  "tagline": "A loja virtual completa, com a curva de aprendizado paga",
+  "description": "Plataforma de e-commerce para criar loja, vender por PIX ou cartão, gerenciar catálogo, frete e Dropshipping, com o maior mercado de aplicativos.",
+  "url": "https://www.shopify.com/br",
+  "affiliateUrl": "https://www.shopify.com/br/?via=yooka",
+  "price": "A partir de R$ 149/mês",
+  "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. O plano Basic é o mais barato, com cobrança anual ou mensal; sobre a venda incidem ainda a taxa do plano e o custo do gateway de pagamento.",
+  "bestFor": "Quem vai vender catálogo com várias variações e precisa de loja de verdade, não só um checkout",
+  "rating": 4.2,
+  "ratingCount": 806,
+  "pros": [
+    "Catálogo, variantes, bundles e coleções que suportam loja de verdade, não só um produto",
+    "Maior ecossistema de aplicativos do mercado: frete, marketing, rastreio e feed de marketplaces",
+    "Checkout hospedado rápido e com personalização por template, sem precisar de programador",
+    "Canais de venda múltiplos: loja própria, Instagram e Google apontando para o mesmo estoque"
+  ],
+  "cons": [
+    "A taxa do plano incide sobre cada venda, o que pesa mais em ticket baixo",
+    "Assinatura anual cobrada de uma vez, que é uma despesa grande para quem está começando",
+    "Aplicativos de marketplace cobram taxa própria e vendem dados de venda para terceiros",
+    "Não emite nota fiscal brasileira: NFS-e exige integração com sistema fiscal externo"
+  ],
+  "features": [
+    { "name": "Loja e catálogo", "detail": "Produtos, variantes, coleções e temas prontos em português" },
+    { "name": "Checkout hospedado", "detail": "Página de pagamento rápida, com PIX, cartão e parcelamento" },
+    { "name": "Marketplaces", "detail": "Publica o catálogo em redes de marketplace e sincroniza estoque e preço" },
+    { "name": "Apps e extensões", "detail": "Milhões de aplicativos para frete, rastreio, marketing e fidelização" },
+    { "name": "Relatórios de venda", "detail": "Vendas, taxa por venda, tráfego e lucro por produto no painel" },
+    { "name": "Pedidos e fulfillment", "detail": "Separação de pedido, etiqueta de envio e integração com transportadora" }
+  ],
+  "useCases": [
+    "Abrir a loja própria depois de vender só pelo Instagram e no WhatsApp",
+    "Sincronizar estoque entre a loja, o marketplace e o ERP para não oversell",
+    "Montar uma página de produto com variantes, como tamanho e cor, sem programador",
+    "Receber por PIX e cartão no mesmo checkout e acompanhar a taxa efetiva por venda"
+  ],
+  "bestForWho": "Comércio com catálogo real, que precisa de loja completa, integração com marketplace e controle de estoque, e pode pagar por isso.",
+  "verdict": "O Shopify é o padrão mundial de e-commerce e entrega a robustez que o mercado brasileiro espera, principalmente na integração com marketplaces e no volume de aplicativos. A contrapartida é conhecida: assinatura anual paga de uma vez e taxa por venda, que em ticket baixo engole a margem e precisa entrar na conta de preço. O detalhe que mais incomoda aqui é fiscal: a plataforma não emite NFS-e brasileira, então o MEI que vende pela Shopify precisa de integração à parte para emitir nota. Se o seu negócio é catálogo com muitas variations e canal próprio, é a escolha certa. Se você vende três produtos, o Instagram já resolve e a assinatura é peso demais.",
+  "alternatives": ["hotmart", "kiwify", "mercado-pago"],
+  "updated": "2026-10-30"
+}

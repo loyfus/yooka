@@ -3,7 +3,7 @@ title: "n8n x Make: qual automação é mais barata em 2026?"
 description: "Compare n8n e Make em 2026: preço por execução, curva de aprendizado, integrações, suporte em português e limites. Qual é mais barato para a sua empresa."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "automacao"
+category: "automacao-e-ia"
 slug: "n8n-vs-make"
 winner: "n8n"
 featured: true

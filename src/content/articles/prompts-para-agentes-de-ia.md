@@ -3,7 +3,7 @@ title: "Prompts para agentes de IA: 12 modelos prontos para a sua empresa"
 description: "Banco com 12 prompts prontos para agentes de IA, a estrutura em 7 blocos que funciona em qualquer caso de uso e os erros que quebram um agente."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "agentes-de-ia"
+category: "automacao-e-ia"
 tags: ["prompts", "agente de ia", "prompt de sistema", "atendimento"]
 keywords: ["prompts para agentes de ia", "prompt de sistema", "modelos de prompt para agentes", "como escrever prompt de agente", "prompt para chatbot"]
 featured: false
@@ -176,7 +176,7 @@ Apresente a tabela com produto, quantidade por unidade e o que não cabe na capa
 
 ### Prompt 12: briefing criativo de campanha
 
-O volume de peças que um estúdio de design precisa produzir é o ponto de partida. Veja [IA para marketing e vendas](/categorias/marketing-e-vendas/).
+O volume de peças que um estúdio de design precisa produzir é o ponto de partida. Veja [IA para marketing e vendas](/categorias/renda-e-negocio/).
 
 ```
 Você transforma as informações de uma campanha em briefing para a equipe de design.

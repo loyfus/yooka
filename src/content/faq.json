@@ -1,50 +1,50 @@
 [
   {
     "q": "O que é a Yooka?",
-    "a": "A Yooka é uma consultoria de IA e automação que implementa agentes de IA e fluxos automatizados para empresas brasileiras. O trabalho começa pelo processo, não pela ferramenta: mapeamos onde o time perde tempo, escolhemos a stack mais barata que resolve e acompanhamos a implantação até a operação."
+    "a": "Explicamos, em português e sem enrolação, como resolver a burocracia do brasileiro: serviços públicos (INSS, FGTS, benefícios, certidões), MEI e nota fiscal, direitos trabalhistas, renda extra e custo de vida. Cada página traz o passo a passo, o prazo, o valor e o que fazer quando dá errado."
   },
   {
-    "q": "Quanto custa implementar um agente de IA?",
-    "a": "Um agente de IA para um processo específico costuma ficar entre R$ 8 mil e R$ 40 mil na implantação, dependendo dacomplexidade das integrações e do volume de dados. O custo recorrente é o consumo de tokens do modelo, que pode ficar na casa das centenas de reais por mês. Sistemas que exigem fine-tuning ou infraestrutura própria sobem de patamar."
+    "q": "Os valores estão atualizados?",
+    "a": "Sim. Cada conteúdo traz a data de verificação da tabela usada e a ressalva de que valores de INSS, DAS e salário mínimo mudam periodicamente. Quando a regra muda, atualizamos a página e mudamos a data."
   },
   {
-    "q": "Quanto tempo leva para colocar um agente de IA em produção?",
-    "a": "De 4 a 8 semanas para um caso de uso bem delimitado, como triagem de e-mails ou extração de dados de documentos. O prazo é dominado por integração e teste, não pela parte de IA. Processos que envolvem sistemas legados sem API ou muitas áreas envolvidas podem levar de 3 a 6 meses."
+    "q": "As calculadoras são gratuitas e precisam de cadastro?",
+    "a": "São gratuitas e não pedem cadastro, e-mail nem instalação. O cálculo acontece no seu navegador; o que você digita não é enviado nem guardado."
   },
   {
-    "q": "A IA substitui funcionários?",
-    "a": "Na prática, a IA substitui tarefas, não pessoas: o volume de trabalho repetitivo tende a cair, mas a demanda por revisão, exceção e decisão aumenta. Em projetos que conduzimos, o time costuma ser reescalado para atividades que a automação não cobre. Definimos juntos o que migrar e o que recompor antes de qualquer contrato."
+    "q": "Posso usar essas informações para o meu MEI?",
+    "a": "Pode usar como ponto de partida, mas confirme sempre na fonte oficial antes de tomar decisão: regras variam por município (NFS-e, alvará) e por empresa. Nada aqui substitui contador ou advogado."
   },
   {
-    "q": "Como a LGPD funciona na prática com IA?",
-    "a": "A IA não tem exemption: se o modelo processa dados pessoais, a empresa continua sendo a controladora e responde pela base legal, por transparência e por segurança. O que muda é o risco, porque alucinação e vazamento de dados entre requisições viraram incidentes recorrentes. Por isso trabalhamos com minimização de dados, guarda de prompts, rastreabilidade e revisão humana em decisões sensível."
+    "q": "Vocês prestam algum serviço?",
+    "a": "A Yooka é um projeto editorial. No cluster de automação e IA, divulgamos a Loyfus, que constrói agentes de IA sob medida para empresas. Nos demais temas, não vendemos nada."
   },
   {
-    "q": "Qual ferramenta escolher se eu não sei programar?",
-    "a": "Começamos pelo processo, não pelo produto. Se a automação envolve apenas sistemas SaaS e regras simples, n8n, Make ou Pipedream resolvem sem código; se há IA no meio, um provedor de modelo com API e um orquestrador visual costumam ser suficientes. Programação de verdade fica reservada aos casos de performance, volume ou lógica que o visual não comporta."
+    "q": "Como eu ganho dinheiro com o site?",
+    "a": "De duas formas, ambas declaradas: anúncios (Google AdSense) e links de afiliado — ganhamos comissão se você contratar uma ferramenta recomendada. Nenhum anunciante paga por review e nenhum texto é publicado a pedido."
   },
   {
-    "q": "A Yooka usa os dados da minha empresa em outros projetos?",
-    "a": "Não. Dados, documentos e prompts ficam no ambiente contratado, são usados apenas no escopo do seu projeto e nunca alimentam modelos públicos de terceiros. As regras de tratamento, retenção e descarte ficam formalizadas em contrato antes do início da execução."
+    "q": "Encontrei um erro. Como aviso?",
+    "a": "Escreva para o formulário de contato ou para o e-mail de atendimento. Corrigimos e mudamos a data de atualização do texto, deixando a correção visível."
   },
   {
-    "q": "Para quem é o conteúdo deste site?",
-    "a": "Para gestores e responsáveis técnicos de pequenas e médias empresas brasileiras que precisam decidir se vale a pena automatizar um processo com IA e como fazer sem errar. Publicamos custos em Real, prazos reais, comparativos de ferramentas e o que costuma dar errado. Se você só quer definições de buzzword, não é o seu lugar."
+    "q": "Os textos são gerados por IA?",
+    "a": "São redigidos por pessoas, com revisão técnica, e usam fontes oficiais (gov.br, legislação, portais de serviço). Nenhuma informação crítica sai sem conferência."
   },
   {
-    "q": "Como funciona a manutenção depois da entrega?",
-    "a": "Todo projeto sai com documentação do fluxo, prompts versionados e uma suíte de testes de regressão que roda a cada alteração. A Yooka oferece plano de acompanhamento com horas mensais para monitorar custos, ajustar o prompt e incluir novas integrações. O cliente também pode assumir a manutenção internamente, com a transferência de conhecimento feita na entrega."
+    "q": "Posso republicar o conteúdo?",
+    "a": "Pode citar com crédito e link. Reprodução integral precisa de autorização prévia."
   },
   {
-    "q": "Dá para integrar com ERP ou CRM legado, sem API?",
-    "a": "Sim, e é uma situação mais comum do que se imagina. Quando não existe API, avaliamos quatro caminhos em ordem: acesso direto ao banco de dados, leitura de arquivos exportados, automação de tela com RPA assistida por IA ou modernização do sistema legado. Cada opção tem custo e fragilidade diferentes, e apresentamos a comparação antes de recomendar."
+    "q": "O conteúdo serve para PJ e para empresa?",
+    "a": "Serve. As regras de CLT e MEI são diferentes de pessoa física para pessoa jurídica, e cada texto sinaliza quando a resposta muda conforme o caso."
   },
   {
-    "q": "Como funciona o suporte durante e depois do projeto?",
-    "a": "Durante a implantação há acompanhamento semanal com demonstração do que está rodando, não só relatório. Depois da entrega, o canal de suporte é o mesmo do restante da operação, com prazos de resposta definidos em contrato e SLA monitorado. A observabilidade do agente fica disponível para diagnóstico e a equipe do cliente aprende a fazer as primeiras correções sozinha."
+    "q": "Vocês vendem curso, assinatura ou ferramenta?",
+    "a": "Não. Não vendemos nada diretamente. Recomendamos ferramentas de terceiros com link de afiliado, e o conteúdo é independente."
   },
   {
-    "q": "Em quanto tempo o agente começa a gerar valor?",
-    "a": "Geralmente entre a terceira e a sexta semana, quando os primeiros casos reais passam a ser processados em produção. O valor costuma aparecer primeiro como redução de tempo de execução de uma tarefa repetitiva, não como aumento de receita direta. Métricas de acerto, custo por operação e tempo poupado são acompanhadas desde o início para sustentar o resultado."
+    "q": "Qual o número de páginas e o tamanho do site?",
+    "a": "Mais de 250 páginas, com guias, calculadoras, comparativos e fichas de ferramentas. Tudo está organizado por tema e com links internos que levam você à resposta."
   }
 ]

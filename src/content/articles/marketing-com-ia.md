@@ -3,7 +3,7 @@ title: "Marketing com IA em 2026: 8 aplicações que melhoram conversão e reduz
 description: "Marketing com IA no Brasil: segmentação, lead scoring, conteúdo, e-mail e WhatsApp. Como aplicar na prática, o que custa e o que a LGPD exige."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "marketing-e-vendas"
+category: "renda-e-negocio"
 tags: ["marketing", "ia", "segmentacao", "whatsapp", "e-mail", "lgpd"]
 keywords: ["marketing com ia", "ia para marketing digital", "lead scoring para marketing", "copy com ia", "segmentacao de clientes com ia"]
 featured: false

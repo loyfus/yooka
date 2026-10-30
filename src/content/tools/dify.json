@@ -1,7 +1,7 @@
 {
   "name": "Dify",
   "slug": "dify",
-  "category": "agentes-de-ia",
+  "category": "automacao-e-ia",
   "tagline": "Plataforma open source para montar apps de IA com RAG",
   "description": "Plataforma open source para criar aplicações de IA prontas para uso, com builder visual de fluxo, base de conhecimento com citação e rastreio de execução.",
   "url": "https://dify.ai",

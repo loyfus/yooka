@@ -3,7 +3,7 @@ title: "IA para vendas em 2026: 9 aplicações que aumentam conversão e reduzem
 description: "IA para vendas no Brasil: lead scoring, cadência, proposta e previsão de receita. Onde usar, quanto custa e o que dá errado na operação real."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "marketing-e-vendas"
+category: "renda-e-negocio"
 tags: ["ia", "vendas", "lead scoring", "crm", "automacao", "lgpd"]
 keywords: ["ia para vendas", "lead scoring com ia", "ia para vendas b2b", "automacao comercial", "previsao de receita com ia"]
 featured: true
@@ -171,4 +171,4 @@ Se você quer a base conceitual antes de montar o time, o [guia de prompts para 
 
 **É legal usar IA para prospectar e mandar mensagem no WhatsApp?** É legal com base legal definida, identificação do remetente e descadastro visível. Consentimento é uma das bases, não a única. Não é aceitável coletar contato sem base, comprar lista de origem opaca ou mandar em lote para quem não pediu. A IA escala o erro, então a governança vem antes do volume.
 
-**Quanto custa colocar IA para vendas em uma PME?** De R$ 800 a R$ 2.500 por mês para um piloto e de R$ 2.000 a R$ 6.000 para um agente integrado a CRM e WhatsApp, mais 40 a 80 horas de implantação. O custo cresce com o volume de mensagens. Compare opções em [ferramentas](/ferramentas/) e a categoria [marketing e vendas](/categorias/marketing-e-vendas/).
+**Quanto custa colocar IA para vendas em uma PME?** De R$ 800 a R$ 2.500 por mês para um piloto e de R$ 2.000 a R$ 6.000 para um agente integrado a CRM e WhatsApp, mais 40 a 80 horas de implantação. O custo cresce com o volume de mensagens. Compare opções em [ferramentas](/ferramentas/) e a categoria [marketing e vendas](/categorias/renda-e-negocio/).

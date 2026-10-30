@@ -3,7 +3,7 @@ title: "Guardrails para agentes de IA: as regras que evitam erros caros"
 description: "Guia de guardrails para agentes de IA: o que são, quais travas colocar no código, como definir limites de ação e quanto custa um erro sem proteção."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "agentes-de-ia"
+category: "automacao-e-ia"
 tags: ["guardrails", "seguranca", "agente de ia", "compliance"]
 keywords: ["guardrails para agentes de ia", "como proteger um agente de ia", "validacao de saida de ia", "limites de acao de agente", "erros de agente de ia"]
 featured: false
@@ -166,4 +166,4 @@ A métrica mais útil é a de falsos positivos. Se ela sobe, a trava está apert
 
 ## Próximos passos
 
-Os guardrails são a camada de segurança do agente. Para montar o agente antes deles, veja [como criar um agente de IA](/guias/como-criar-agente-de-ia/) e [prompts para agentes de IA](/guias/prompts-para-agentes-de-ia/). O controle de custos, que é o outro limite que precisa de regra, está em [custo de agente de IA](/guias/custo-de-agente-de-ia/). E a [categoria agentes de IA](/categorias/agentes-de-ia/) reúne os guias da série.
+Os guardrails são a camada de segurança do agente. Para montar o agente antes deles, veja [como criar um agente de IA](/guias/como-criar-agente-de-ia/) e [prompts para agentes de IA](/guias/prompts-para-agentes-de-ia/). O controle de custos, que é o outro limite que precisa de regra, está em [custo de agente de IA](/guias/custo-de-agente-de-ia/). E a [categoria agentes de IA](/categorias/automacao-e-ia/) reúne os guias da série.

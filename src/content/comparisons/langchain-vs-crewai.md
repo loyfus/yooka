@@ -3,7 +3,7 @@ title: "LangChain x CrewAI: qual framework para criar agente de IA em 2026?"
 description: "LangChain ou CrewAI em 2026: compare custo, curva de aprendizado, controle de fluxo, observabilidade e suporte em português para montar seu agente de IA."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "agentes-de-ia"
+category: "automacao-e-ia"
 slug: "langchain-vs-crewai"
 winner: "CrewAI"
 featured: false

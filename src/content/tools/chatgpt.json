@@ -1,7 +1,7 @@
 {
   "name": "ChatGPT",
   "slug": "chatgpt",
-  "category": "ia-por-departamento",
+  "category": "automacao-e-ia",
   "tagline": "O assistente de IA que virou padrão no trabalho",
   "description": "Assistente de IA da OpenAI para texto, voz e análise de arquivos, com busca no web, pesquisa profunda e milhares de GPTs prontos para cada área.",
   "url": "https://openai.com/chatgpt/",

@@ -3,7 +3,7 @@ title: "Automação para pequenas empresas: 7 processos que economizam 40 horas 
 description: "Automação para pequenas empresas: 7 processos para automatizar, custo real por tarefa em reais, prazo de implantação, ROI e os erros mais comuns."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "automacao"
+category: "automacao-e-ia"
 tags: ["automacao", "n8n", "pme", "roi", "processos"]
 keywords: ["automação para pequenas empresas", "automatizar processos", "custo de automação", "automação para PME"]
 featured: true
@@ -154,4 +154,4 @@ O ponto de equilíbrio é o mês em que a economia acumulada supera o investimen
 
 **Em quanto tempo a automação começa a pagar?** Quando as horas economizadas igualam o custo mensal. Com 25 horas por mês a R$ 45 por hora e R$ 132 de ferramenta, o payback cai no segundo ou terceiro mês.
 
-Para comparar ferramentas lado a lado, veja a seção de [comparativos](/comparativos/) e o catálogo de [ferramentas](/ferramentas/). Se você está começando do zero, o [guia de automação de processos](/guias/o-que-e-automacao-de-processos/) explica a estrutura antes das ferramentas, e a [categoria de automação](/categorias/automacao/) reúne os outros textos do tema.
+Para comparar ferramentas lado a lado, veja a seção de [comparativos](/comparativos/) e o catálogo de [ferramentas](/ferramentas/). Se você está começando do zero, o [guia de automação de processos](/guias/o-que-e-automacao-de-processos/) explica a estrutura antes das ferramentas, e a [categoria de automação](/categorias/automacao-e-ia/) reúne os outros textos do tema.

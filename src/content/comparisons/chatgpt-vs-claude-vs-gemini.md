@@ -3,7 +3,7 @@ title: "ChatGPT x Claude x Gemini: qual IA contratar para a empresa em 2026?"
 description: "ChatGPT, Claude ou Gemini em 2026: compare preço, limite de uso, documentos longos, português, integrações e suporte para escolher a IA da sua empresa."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "agentes-de-ia"
+category: "automacao-e-ia"
 slug: "chatgpt-vs-claude-vs-gemini"
 winner: "Claude"
 featured: true

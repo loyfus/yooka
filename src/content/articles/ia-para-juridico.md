@@ -3,7 +3,7 @@ title: "IA para jurídico: o que automatizar no escritório sem perder o prazo"
 description: "Guia de IA para o departamento jurídico brasileiro: triagem de documentos, minutas, contratos e tarefas repetitivas, com custo, prazo e limites de uso."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "ia-por-departamento"
+category: "automacao-e-ia"
 tags: ["juridico", "ia-por-departamento", "automacao", "contratos"]
 keywords: ["ia para juridico", "automacao de contratos", "triagem de documentos juridicos", "ia para departamentos juridicos"]
 featured: false
@@ -115,7 +115,7 @@ Este conteúdo é informativo e não substitui parecer jurídico nem revisão de
 
 O jurídico ganha tempo nas tarefas de volume: receber, classificar, extrair, conferir e formatar. A análise e a responsabilidade profissional continuam humanas, e é exatamente aí que o valor do departamento está. Uma implantação que separa essas duas camadas entrega redução de 50% a 70% no tempo de operação documental e mantém a assinatura de quem responde pelo parecer.
 
-Para dimensionar a operação, veja [como escolher ferramenta de IA](/guias/como-escolher-ferramenta-de-ia/), [custo de agente de IA](/guias/custo-de-agente-de-ia/) e as referências de [guardrails para agentes de IA](/guias/guardrails-agentes-de-ia/). Os demais casos por departamento estão em [IA por departamento](/categorias/ia-por-departamento/).
+Para dimensionar a operação, veja [como escolher ferramenta de IA](/guias/como-escolher-ferramenta-de-ia/), [custo de agente de IA](/guias/custo-de-agente-de-ia/) e as referências de [guardrails para agentes de IA](/guias/guardrails-agentes-de-ia/). Os demais casos por departamento estão em [IA por departamento](/categorias/automacao-e-ia/).
 
 ## Perguntas frequentes
 

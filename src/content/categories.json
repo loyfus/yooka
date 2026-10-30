@@ -1,50 +1,44 @@
 [
   {
-    "slug": "agentes-de-ia",
-    "name": "Agentes de IA",
-    "short": "O que é um agente, como ele decide o que fazer e como colocar um rodando na sua empresa.",
-    "description": "Guia completo sobre agentes de IA: o que são, quais frameworks usar, como criar o primeiro agente, como controlar custo e quais erros_evitar na operação.",
-    "hubs": ["agentes-de-ia", "prompts", "rag", "guardrails"],
+    "slug": "servicos-publicos",
+    "name": "Serviços públicos",
+    "short": "INSS, FGTS, benefícios, certidões e segunda via: como fazer, passo a passo, com os prazos reais.",
+    "description": "Guia completo dos serviços públicos do Brasil: INSS, FGTS, benefícios, pensões, auxílios, certidões e emissão de documentos. Passo a passo, prazos, valores e o que fazer quando dá errado.",
+    "icon": "gov"
+  },
+  {
+    "slug": "mei-e-nota-fiscal",
+    "name": "MEI e nota fiscal",
+    "short": "Abrir, manter e sobreviver ao MEI: DAS, NFS-e, Pix, obrigação e quando sai do MEI.",
+    "description": "MEI, CNPJ, nota fiscal, NFS-e e contabilidade online: o que é obrigatório, quanto custa, como emitir, como receber por Pix e o que muda quando o faturamento passa do limite.",
+    "icon": "receipt"
+  },
+  {
+    "slug": "trabalho-e-carreira",
+    "name": "Trabalho e carreira",
+    "short": "CLT, férias, 13º, demissão, PJ, freelancer e trabalho remoto: o que a lei garante e o que é conversa deervisor.",
+    "description": "Direitos trabalhistas, CLT versus PJ, férias, 13º salário, rescisão, aviso-prévio, seguro-desemprego, freelancer e trabalho remoto no Brasil, com valores atualizados.",
+    "icon": "briefcase"
+  },
+  {
+    "slug": "renda-e-negocio",
+    "name": "Renda e negócio",
+    "short": "Renda extra, vender online, precificar e vender mais: o que funciona para quem não tem estoque.",
+    "description": "Renda extra e negócio digital no Brasil: vender online sem estoque, precificação, marketing para pequeno negócio, MEI como base e o que dá dinheiro de verdade.",
+    "icon": "growth"
+  },
+  {
+    "slug": "automacao-e-ia",
+    "name": "Automação e IA",
+    "short": "Use IA e automação para resolver o que você resolvia na mão: emitir, responder, conciliar e vender.",
+    "description": "Guia de IA e automação para pequenas e médias empresas brasileiras: agentes, ferramentas, custo por tarefa, integração com sistemas e o que não vale a pena automatizar.",
     "icon": "robot"
   },
   {
-    "slug": "automacao",
-    "name": "Automação de processos",
-    "short": "Conecte os sistemas que a sua empresa já usa e eliminate o trabalho manual repetitivo.",
-    "description": "Automação de processos para pequenas e médias empresas: ferramentas no-code e com código, n8n, Make, Zapier, integração com ERP, CRM e WhatsApp.",
-    "hubs": ["automacao", "n8n", "integracoes"],
-    "icon": "flow"
-  },
-  {
-    "slug": "atendimento",
-    "name": "Atendimento e chatbots",
-    "short": "Responda mais rápido, sem perder a humanidade e sem violar a política da Meta.",
-    "description": "Chatbot, agentes de atendimento no WhatsApp e automação de SAC para empresas brasileiras: o que dá para automatizar, o que precisa de humano e quanto custa.",
-    "hubs": ["atendimento", "whatsapp", "sla"],
-    "icon": "chat"
-  },
-  {
-    "slug": "ia-por-departamento",
-    "name": "IA por departamento",
-    "short": "Financeiro, RH, jurídico, logística: onde a IA entrega resultado medível.",
-    "description": "Casos de uso de IA por departamento: financeiro, RH, jurídico, logística e operações. O que automatizar, o que não automatizar e o ganho real.",
-    "hubs": ["financeiro", "rh", "juridico", "logistica"],
-    "icon": "grid"
-  },
-  {
-    "slug": "marketing-e-vendas",
-    "name": "Marketing e vendas",
-    "short": "Mais leads qualificados, resposta mais rápida e proposta comercial em minutos.",
-    "description": "IA para marketing e vendas: qualificação de leads, CRM com IA, conteúdo, proposta comercial e prospecção com complied LGPD.",
-    "hubs": ["marketing", "vendas", "crm"],
-    "icon": "target"
-  },
-  {
-    "slug": "custos",
-    "name": "Preços e custos",
-    "short": "Quanto custa, de verdade, colocar um agente de IA para trabalhar.",
-    "description": "Custo real de agentes de IA: por token, por execução, por tarefa, planos de ferramentas, ROI e o ponto em que a automação se paga.",
-    "hubs": ["custos", "roi", "planos"],
+    "slug": "custos-e-planos",
+    "name": "Custos e planos",
+    "short": "Quanto custa, de verdade: cartão, crédito, assinatura, ferramenta e a conta que ninguém mostra.",
+    "description": "Custo real de tools, crédito, cartão e serviços: custo por token, por execução, por tarefa, ROI e o ponto em que a automação ou a assinatura se paga.",
     "icon": "coin"
   }
 ]

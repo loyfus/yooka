@@ -4,9 +4,9 @@
  */
 export const site = {
   name: 'Yooka',
-  tagline: 'IA e automação para empresas, sem hype',
+  tagline: 'Trabalho, renda e burocracia do brasileiro',
   description:
-    'Guia prático de agentes de IA, automação e ferramentas para empresas brasileiras. Reviews honestos, comparativos com preço e passo a passo de implementação.',
+    'Passo a passo para resolver serviços públicos, MEI, nota fiscal, CLT e renda extra no Brasil. Prazos reais, valores atualizados e nenhum enrolação.',
   // URL canônica. Troque pelo domínio final (yooka.com.br) quando ele estiver
   // apontando para a Vercel — e mantenha o valor idêntico na Vercel (env SITE_URL).
   url: process.env.SITE_URL || 'https://yooka.loyfus.com.br',
@@ -41,11 +41,12 @@ export const site = {
     tag: 'yooka', // sufixo de tracking, ex.: ?ref=yooka
   },
   nav: [
-    { label: 'Guides', href: '/guias/' },
-    { label: 'Comparativos', href: '/comparativos/' },
-    { label: 'Ferramentas', href: '/ferramentas/' },
-    { label: 'Preços e custos', href: '/precos/' },
-    { label: 'Glossário', href: '/glossario/' },
+    { label: 'Serviços públicos', href: '/categorias/servicos-publicos/' },
+    { label: 'MEI e NF', href: '/categorias/mei-e-nota-fiscal/' },
+    { label: 'Trabalho', href: '/categorias/trabalho-e-carreira/' },
+    { label: 'Renda extra', href: '/categorias/renda-e-negocio/' },
+    { label: 'Calculadoras', href: '/calculadoras/' },
+    { label: 'Guias', href: '/guias/' },
   ],
   social: [
     { label: 'LinkedIn', href: 'https://www.linkedin.com/company/loyfus' },
@@ -56,21 +57,22 @@ export const site = {
     {
       title: 'Conteúdo',
       links: [
-        { label: 'Guides', href: '/guias/' },
-        { label: 'Comparativos', href: '/comparativos/' },
-        { label: 'Ferramentas', href: '/ferramentas/' },
-        { label: 'Glossário', href: '/glossario/' },
-        { label: 'Perguntas frequentes', href: '/faq/' },
+        { label: 'Todos os guias', href: '/guias/' },
+        { label: 'Serviços públicos', href: '/categorias/servicos-publicos/' },
+        { label: 'MEI e nota fiscal', href: '/categorias/mei-e-nota-fiscal/' },
+        { label: 'Trabalho e carreira', href: '/categorias/trabalho-e-carreira/' },
+        { label: 'Renda e negócio', href: '/categorias/renda-e-negocio/' },
       ],
     },
     {
-      title: 'Categoria',
+      title: 'Mais acessados',
       links: [
-        { label: 'Agentes de IA', href: '/categorias/agentes-de-ia/' },
-        { label: 'Automação de processos', href: '/categorias/automacao/' },
-        { label: 'Atendimento e chatbots', href: '/categorias/atendimento/' },
-        { label: 'IA por departamento', href: '/categorias/ia-por-departamento/' },
-        { label: 'Marketing e vendas', href: '/categorias/marketing-e-vendas/' },
+        { label: 'Como emitir NFS-e', href: '/guias/como-emitir-nfse/' },
+        { label: 'Segunda via de certidão', href: '/guias/segunda-via-de-certidao/' },
+        { label: 'Benefícios do INSS', href: '/guias/beneficios-do-inss/' },
+        { label: 'CLT ou PJ', href: '/guias/clt-ou-pj/' },
+        { label: 'Renda extra com IA', href: '/guias/renda-extra-com-ia/' },
+        { label: 'Custo de um agente de IA', href: '/guias/custo-de-agente-de-ia/' },
       ],
     },
     {

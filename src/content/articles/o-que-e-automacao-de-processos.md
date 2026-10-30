@@ -3,7 +3,7 @@ title: "O que é automação de processos: tipos, custos e quando fazer na sua e
 description: "O que é automação de processos: níveis, tipos, custo real por projeto em reais, como mapear um processo passo a passo e quando não vale automatizar."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "automacao"
+category: "automacao-e-ia"
 tags: ["automacao", "processos", "rpa", "ia", "custos"]
 keywords: ["o que é automação de processos", "tipos de automação", "automatizar processos", "custo automação", "RPA versus IA"]
 featured: false
@@ -138,4 +138,4 @@ Meça o resultado em quatro marcos: na entrega, com 30 dias de uso, com 90 dias 
 
 **Existe ferramenta gratuita?** Sim: a edição self-hosted do n8n, o Activepieces e o Node-RED rodam em um VPS a partir de R$ 70 por mês, e há planos gratuitos em nuvem com limite de execuções.
 
-Para ir mais fundo, a [categoria de automação](/categorias/automacao/) reúne os guias práticos, o [catálogo de ferramentas](/ferramentas/) lista as opções por categoria e a seção de [comparativos](/comparativos/) detalha as diferenças de custo e de esforço. O [glossário](/glossario/) explica os termos técnicos e a [FAQ](/faq/) reúne as perguntas mais comuns.
+Para ir mais fundo, a [categoria de automação](/categorias/automacao-e-ia/) reúne os guias práticos, o [catálogo de ferramentas](/ferramentas/) lista as opções por categoria e a seção de [comparativos](/comparativos/) detalha as diferenças de custo e de esforço. O [glossário](/glossario/) explica os termos técnicos e a [FAQ](/faq/) reúne as perguntas mais comuns.

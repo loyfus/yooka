@@ -3,7 +3,7 @@ title: "IA para recrutamento: triagem de currículos com custo e limite definido
 description: "Como usar IA no recrutamento brasileiro: triagem de currículos, análise de vagas, respostas a candidatos, tempo economizado, custo e cuidados com vieses."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "ia-por-departamento"
+category: "automacao-e-ia"
 tags: ["recrutamento", "rh", "agentes-de-ia", "automacao"]
 keywords: ["ia para recrutamento", "triagem de curriculos com ia", "automacao de rh", "ia para selecao de candidatos"]
 featured: false
@@ -105,7 +105,7 @@ Os prazos acima são estimativas de campo, considerando um fornecedor que já co
 
 Se a empresa nunca usou automação em RH, a ordem correta é começar pelo chão: comunicação automatizada. Responder candidatos em minutos e agendar entrevista sozinho já devolve resultado no primeiro mês e é barato de implementar. A triagem com IA vem depois, quando há histórico de candidatos para o modelo aprender e processo definido.
 
-Comparações de stack e custo por token estão em [como escolher ferramenta de IA](/guias/como-escolher-ferramenta-de-ia/) e em [custo de agente de IA](/guias/custo-de-agente-de-ia/). Para o desenho de agentes que consultam sistemas internos, veja [como criar um agente de IA](/guias/como-criar-agente-de-ia/). A visão geral de casos por departamento está em [IA por departamento](/categorias/ia-por-departamento/), e o panorama de opções está em [ferramentas](/ferramentas/).
+Comparações de stack e custo por token estão em [como escolher ferramenta de IA](/guias/como-escolher-ferramenta-de-ia/) e em [custo de agente de IA](/guias/custo-de-agente-de-ia/). Para o desenho de agentes que consultam sistemas internos, veja [como criar um agente de IA](/guias/como-criar-agente-de-ia/). A visão geral de casos por departamento está em [IA por departamento](/categorias/automacao-e-ia/), e o panorama de opções está em [ferramentas](/ferramentas/).
 
 ## Conclusão
 

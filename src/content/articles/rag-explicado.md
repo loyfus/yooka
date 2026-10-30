@@ -3,7 +3,7 @@ title: "RAG explicado: como a IA usa os documentos da sua empresa"
 description: "Entenda o que é RAG, como os documentos da sua empresa viram respostas da IA, o que decide a qualidade do resultado e quanto custa manter isso rodando."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "agentes-de-ia"
+category: "automacao-e-ia"
 tags: ["rag", "base de conhecimento", "agente de ia", "dados"]
 keywords: ["rag explicado", "como funciona rag", "rag para empresas", "base de conhecimento com ia", "retrieval augmented generation"]
 featured: false

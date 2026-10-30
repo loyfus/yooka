@@ -3,7 +3,7 @@ title: "IA para financeiro em 2026: conciliação, cobrança e fechamento contá
 description: "IA para o financeiro brasileiro: conciliação de Pix e boleto, leitura de contrato, fechamento contábil e margem por SKU. Custos, prazos e limites de uso."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "ia-por-departamento"
+category: "automacao-e-ia"
 tags: ["ia", "financeiro", "contabil", "automacao", "pix"]
 keywords: ["ia para financeiro", "conciliação bancária com ia", "automação de cobrança de boleto", "fechamento contábil com ia", "leitura de contrato com ia"]
 featured: true

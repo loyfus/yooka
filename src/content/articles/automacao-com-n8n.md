@@ -3,7 +3,7 @@ title: "Automação com n8n: custo real, quando usar e o que dá errado"
 description: "Automação com n8n em 2026: preço dos planos em reais, custo por execução, self-hosted ou nuvem, primeira automação passo a passo e erros comuns."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "automacao"
+category: "automacao-e-ia"
 tags: ["automacao", "n8n", "ferramentas", "self-hosted", "precos"]
 keywords: ["automação com n8n", "n8n preço", "n8n self-hosted", "n8n vs make", "custo n8n"]
 featured: false
@@ -137,4 +137,4 @@ A escolha entre as plataformas está detalhada em [n8n vs Make](/comparativos/n8
 
 **É difícil aprender sem saber programar?** A interface visual resolve a maioria dos casos e a curva é de um fim de semana. Código entra só no pedaço específico que o visual não cobre.
 
-Para continuar, veja a [categoria de automação](/categorias/automacao/), o [comparativo entre plataformas](/comparativos/) e o [guia de automação para pequenas empresas](/guias/automacao-para-pequenas-empresas/), que traz o cálculo de ROI aplicado aos fluxos.
+Para continuar, veja a [categoria de automação](/categorias/automacao-e-ia/), o [comparativo entre plataformas](/comparativos/) e o [guia de automação para pequenas empresas](/guias/automacao-para-pequenas-empresas/), que traz o cálculo de ROI aplicado aos fluxos.

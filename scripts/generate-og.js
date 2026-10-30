@@ -3,6 +3,7 @@
  * O build grava public/og-manifest.json; este script lê o manifesto e renderiza.
  */
 import fs from 'node:fs';
+import os from 'node:os';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { execFileSync } from 'node:child_process';
@@ -95,6 +96,9 @@ for (const item of manifest) {
   const htmlPath = path.join(tmpDir, 'card.html');
   const pngPath = path.join(tmpDir, 'card.png');
   const finalPath = path.join(ogDir, item.file.replace(/\.png$/, '.jpg'));
+  // Perfil isolado por execução: sem isso, várias instâncias do Chrome disputam
+  // o mesmo diretório de perfil e travam.
+  const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'og-chrome-'));
   fs.writeFileSync(htmlPath, html(item));
   try {
     execFileSync(
@@ -103,13 +107,20 @@ for (const item of manifest) {
         '--headless=new',
         '--disable-gpu',
         '--no-sandbox',
+        '--disable-dev-shm-usage',
+        '--no-first-run',
+        '--no-default-browser-check',
+        '--disable-extensions',
+        '--disable-background-networking',
         '--hide-scrollbars',
         '--force-device-scale-factor=1',
+        '--virtual-time-budget=4000',
+        `--user-data-dir=${profile}`,
         '--window-size=1200,630',
         `--screenshot=${pngPath}`,
         `file://${htmlPath}`,
       ],
-      { stdio: 'pipe', timeout: 45000 }
+      { stdio: 'pipe', timeout: 40000 }
     );
     // Converte para JPEG com qualidade alta (imagens OG não precisam de transparência).
     execFileSync('python3', ['-c', JPEG_CONVERT, pngPath, finalPath], { stdio: 'pipe' });
@@ -117,6 +128,8 @@ for (const item of manifest) {
   } catch (e) {
     fail++;
     console.error(`  falhou: ${item.file}`);
+  } finally {
+    fs.rmSync(profile, { recursive: true, force: true });
   }
 }
 

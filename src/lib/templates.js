@@ -1,6 +1,7 @@
 import { site } from '../site.config.js';
 import { escapeHtml, ptBrDate, readingTime, urlPath, stripHtml } from './utils.js';
 import { head, organizationSchema, websiteSchema } from './seo.js';
+import { calculators } from '../content/calculators.js';
 
 const A = site.url.replace(/\/$/, '');
 
@@ -33,8 +34,8 @@ ${site.adsense.client ? adsenseScript() : ''}
 function announcementBar() {
   return `<div class="announce">
   <div class="wrap">
-    <span>🔎 <strong>Novidade:</strong> o mapa de 40 prompts prontos para agentes de IA em vendas</span>
-    <a class="announce__cta" href="/guias/prompts-para-agentes-de-ia/">Baixar grátis <span aria-hidden="true">→</span></a>
+    <span>🧮 <strong>Novo:</strong> ${calculators.length} calculadoras grátis — 13º, férias, rescisão, DAS do MEI e markup</span>
+    <a class="announce__cta" href="/calculadoras/">Abrir <span aria-hidden="true">→</span></a>
   </div>
 </div>`;
 }
@@ -302,7 +303,7 @@ export function hero({ title, subtitle, ctaPrimary, ctaSecondary, badges }) {
 export function searchBox() {
   return `<form class="searchbox" action="/busca/" method="get" role="search">
   <label class="sr-only" for="q">Buscar no site</label>
-  <input id="q" name="q" type="search" placeholder="Buscar: "n8n x make", "custo de agente de IA"…" autocomplete="off">
+  <input id="q" name="q" type="search" placeholder="Buscar: n8n x make, custo de agente de IA, chatbot WhatsApp…" autocomplete="off">
   <button class="btn btn--primary btn--sm" type="submit">Buscar</button>
 </form>`;
 }

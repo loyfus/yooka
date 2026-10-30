@@ -3,7 +3,7 @@ title: "CRM com IA para vendas: como qualificar lead e prever receita em 2026"
 description: "CRM com IA para vendas no Brasil: lead scoring, qualificação de lead, cadência automática e previsão de receita. O que a IA adiciona e quanto custa."
 date: "2026-10-30"
 updated: "2026-10-30"
-category: "marketing-e-vendas"
+category: "renda-e-negocio"
 tags: ["crm", "ia", "vendas", "lead scoring", "automacao"]
 keywords: ["crm com ia", "crm inteligencia artificial", "lead scoring no crm", "previsao de receita crm", "qualificacao de lead automatizada"]
 featured: false
