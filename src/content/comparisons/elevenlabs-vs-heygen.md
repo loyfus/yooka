@@ -13,7 +13,7 @@ tools:
     affiliateUrl: "https://elevenlabs.io/?via=yooka"
     price: "A partir de US$5/mês"
     bestFor: "Voz sintética, locução e dublagem de áudio"
-    rating: 4.7
+    rating: 4.6
     verdict: "O ElevenLabs entrega a voz mais natural do mercado, com controle de estilo, emoção e latência baixa que o HeyGen não alcança. Traz dublagem de vídeo com sincronismo labial, API, servidor MCP e plano gratuito útil. O ponto cego é o consumo de caracteres, que dispara quando o texto muda todo dia, e a clonagem de voz exige consentimento explícito."
     pros:
       - "Naturalidade de voz acima da média, com controle de estilo e emoção que o HeyGen não oferece"
@@ -26,14 +26,14 @@ tools:
       - "Clonagem de voz de terceiros exige consentimento explícito"
   - name: "HeyGen"
     url: "https://heygen.com"
-    affiliateUrl: "https://heygen.com/?via=yooka"
+    affiliateUrl: "https://www.heygen.com/?via=yooka"
     price: "A partir de US$29/mês"
     bestFor: "Vídeo com avatar para vendas e treinamento"
-    rating: 4.4
+    rating: 4.2
     verdict: "O HeyGen resolve o que o ElevenLabs não faz: colocar um apresentador na tela sem gravar, com avatar de catálogo, avatar personalizado, Photo Avatar e Video Translate. Em troca, o consumo de créditos em alta qualidade encarece, o custo por segundo varia muito e o avatar não substitui pessoa real em conteúdo de marca."
     pros:
       - "Melhor caminho para vídeo com apresentador sem gravar"
-      - "Video Translate dublar material existente em vários idiomas com sincronismo labial"
+      - "Video Translate dubla material existente em vários idiomas com sincronismo labial"
       - "Video API e integrações com ferramentas de vendas e automação"
       - "Treinamento de equipe e vídeo de vendas em escala, com avatares interativos no site"
     cons:
@@ -95,7 +95,7 @@ O ElevenLabs tem interface simples: colar o texto, escolher a voz, gerar. A difi
 
 ## Integrações
 
-Nenhuma das duas é um catálogo de milhares de aplicativos, e isso muda a forma de integrar. O ElevenLabs trabalha por API, Text to Speech via API, servidor MCP e uma camada de agentes conversacionais, o que a torna uma peça de automação e não um aplicativo isolado. O HeyGen oferece Video API, integrações com ferramentas de vendas e avatares interativos no site, o que resolve a vitrine sem produzir arquivo. Na prática, a voz entra em qualquer fluxo; o vídeo quase sempre pede player e edição posterior. Para o resto da stack de automação da empresa, veja [automação para pequenas empresas](/guias/automacao-para-pequenas-empresas/).
+Nenhuma das duas é um catálogo de milhares de aplicativos, e isso muda a forma de integrar. O ElevenLabs trabalha por API, Text to Speech via API, servidor MCP e uma camada de agentes conversacionais, o que a torna uma peça de automação e não um aplicativo isolado. O HeyGen oferece Video API, integrações com ferramentas de vendas e avatares interativos no site, o que resolve a vitrine sem produzir arquivo. Na prática, a voz entra em qualquer fluxo; o vídeo quase sempre pede reprodutor, hospedagem e edição posterior. Para o resto da stack de automação da empresa, veja [automação para pequenas empresas](/guias/automacao-para-pequenas-empresas/).
 
 | Critério | ElevenLabs | HeyGen |
 | --- | --- | --- |

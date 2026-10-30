@@ -189,11 +189,11 @@ Se o público-alvo não estiver informado, pergunte antes de seguir.
 
 Um prompt genérico funciona em demonstração e falha em produção, porque a empresa real tem vocabulário próprio, exceções que ninguém documentou e regras que estão na cabeça de uma pessoa.
 
-1. **Colete as expressões reais do time.** Peça para a pessoa que faz a tarefa hoje listar as 20 mensagens que mais recebe e as 10 respostas que mais dá. O vocabulário dela é o vocabulario correto.
+1. **Colete as expressões reais do time.** Peça para a pessoa que faz a tarefa hoje listar as 20 mensagens que mais recebe e as 10 respostas que mais dá. O vocabulário dela é o vocabulário correto.
 2. **Nomeie as ferramentas como elas existem.** Se o sistema se chama "Portal doCliente" e não "CRM", escreva "Portal doCliente" no prompt. A descrição da ferramenta precisa bater com o que o sistema realmente faz.
 3. **Transforme exceções conhecidas em regras explícitas.** "Quando o cliente pedir rastreio" só funciona se estiver escrito. Se não estiver, o agente trata igual a todo mundo.
 4. **Declare os limites em número.** "Desconto máximo de 8% sem aprovação" funciona. "Desconto somente quando for cliente antigo" não, porque "cliente antigo" não tem definição.
-5. **Inclua o formato de saída literal.** Cole no prompt um exemplo real da saída esperada, com os campos preenchidos. Modelos de saída reduzem em cerca de metade os casos que voltam para correção manual.
+5. **Inclua o formato de saída literal.** Cole no prompt um exemplo real da saída esperada, com os campos preenchidos. Modelos de saída bem construídos costumam reduzir pela metade as respostas que voltam para correção manual.
 
 ## Quatro erros que quebram um prompt de agente
 
@@ -204,7 +204,7 @@ Um prompt genérico funciona em demonstração e falha em produção, porque a e
 | Limite vago | O agente age além da autorização | Escreva limite numérico com valor e unidade |
 | Falta de "não sei" | O agente inventa resposta quando não tem o dado | Inclua a instrução explícita de declarar a ausência de informação |
 
-O último erro é o mais caro. Sem a instrução de declararignorância, o modelo completa a lacuna com o texto mais plausível, e em processo comercial isso significa cotação errada, prazo errado ou informação que o cliente leva a sério.
+O último erro é o mais caro. Sem a instrução de declarar ignorância, o modelo completa a lacuna com o texto mais plausível, e em processo comercial isso significa cotação errada, prazo errado ou informação que o cliente leva a sério.
 
 ## Como testar e evoluir um prompt sem quebrar o que já funciona
 
@@ -215,7 +215,7 @@ O método, em cinco passos:
 1. **Monte o conjunto.** Escolha 20 a 30 casos reais: os 10 mais frequentes, os 5 que mais deram erro e 5 que o agente nunca resolveu.
 2. **Defina o esperado.** Para cada caso, escreva o que o agente deveria responder ou fazer. Se você não consegue escrever o esperado, ainda não entendeu a tarefa.
 3. **Meça a taxa de acerto.** Um prompt só entra em produção com mais de 90% de acerto no conjunto.
-4. **Acompanhe a regressão.** Toda mudança no prompt roda o conjunto inteiro de novo. O prompt que melhorava a triagem quebrou a conciliação, e ninguém percebeu.
+4. **Acompanhe a regressão.** Toda mudança no prompt roda o conjunto inteiro de novo. O prompt que melhorou a triagem quebrou a conciliação, e ninguém percebeu.
 5. **Alimente o conjunto com os erros reais.** Toda semana, pegue os casos que o agente errou em produção e adicione ao conjunto.
 
 O [guia de guardrails para agentes de IA](/guias/guardrails-agentes-de-ia/) mostra como transformar as regras do prompt em travas no código, para que um erro do modelo não vire um erro de sistema.
@@ -226,7 +226,7 @@ O [guia de guardrails para agentes de IA](/guias/guardrails-agentes-de-ia/) most
 
 **Quantas instruções devo colocar no prompt de sistema?** Entre 40 e 80 linhas, no formato dos sete blocos. Acima disso, costuma haver instrução redundante ou conflitante, que piora o resultado em vez de melhorar.
 
-**Prompts longos melhoram a qualidade?** Nem sempre. Um prompt com 200 linhas de regras repetidas dá ao modelo mais material para contradizer a si mesmo. Prefira blocos curtos, um teste por regra e uma revisão a cada alteração.
+**Prompts longos melhoram a qualidade?** Nem sempre. Um prompt com 200 linhas de regras repetidas dá ao modelo mais material para se contradizer. Prefira blocos curtos, um teste por regra e uma revisão a cada alteração.
 
 **Preciso reescrever o prompt quando troco de modelo?** Em geral, sim, mas não totalmente. Modelos diferentes interpretam ênfase e ordem de instruções de maneiras diferentes. Depois da troca, rode o conjunto de teste e ajuste o que mudou de comportamento. A comparação entre modelos está em [ChatGPT vs Claude vs Gemini](/guias/chatgpt-vs-claude-vs-gemini/).
 

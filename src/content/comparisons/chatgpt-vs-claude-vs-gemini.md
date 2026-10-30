@@ -10,10 +10,10 @@ featured: true
 tools:
   - name: "ChatGPT"
     url: "https://chatgpt.com"
-    affiliateUrl: "https://chatgpt.com/?via=yooka"
+    affiliateUrl: "https://openai.com/chatgpt/?via=yooka"
     price: "US$20/mês (Plus)"
     bestFor: "Uso geral, multimodal e ecossistema de apps"
-    rating: 4.6
+    rating: 4.5
     verdict: "O ChatGPT é o mais completo em multimodal: texto, imagem, áudio e vídeo na mesma assinatura, com voz e catálogo de GPTs. Integra bem com o Microsoft 365 e tem o menor tempo de aprendizado. Em troca, o custo por token pesa em alguns recursos pagos, e a política de dados precisa ser lida pelo jurídico."
     pros:
       - "Multimodal mais completo: texto, imagem, áudio e vídeo, com voz"
@@ -29,7 +29,7 @@ tools:
     affiliateUrl: "https://claude.ai/?via=yooka"
     price: "US$20/mês (Pro)"
     bestFor: "Documentos longos, código e análise cuidadosa"
-    rating: 4.7
+    rating: 4.6
     verdict: "O Claude acerta onde o erro sai caro: documento longo, código e raciocínio extenso, com menos alucinação e resposta mais estável. É o mais previsível para montar agente de IA com regras rígidas e responde muito bem em português. Em troca, não tem catálogo de apps equivalente, integra menos com Microsoft e sofre mais com limite de taxa em pico."
     pros:
       - "Janela de 200 mil tokens nos planos pagos"
@@ -45,7 +45,7 @@ tools:
     affiliateUrl: "https://gemini.google.com/?via=yooka"
     price: "US$19,99/mês (Google AI Pro)"
     bestFor: "Empresas que já vivem no Google Workspace"
-    rating: 4.5
+    rating: 4.4
     verdict: "O Gemini é o caminho mais barato para empresa que já vive no Google Workspace: Gmail, Docs, Sheets, Drive e Calendar entram sem esforço, com janela de contexto enorme. O NotebookLM serve para estudar a documentação interna. Em troca, o raciocínio e a escrita longa ficam atrás de Claude e ChatGPT, e a separação entre app, API e Workspace confunde a cobrança."
     pros:
       - "Integração nativa com Gmail, Docs, Sheets e Drive"

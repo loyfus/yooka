@@ -13,11 +13,11 @@ tools:
     affiliateUrl: "https://manychat.com/?via=yooka"
     price: "A partir de US$15/mês"
     bestFor: "Marketing no Instagram, TikTok e WhatsApp em escala"
-    rating: 4.5
+    rating: 4.3
     verdict: "O ManyChat ganha porque é o único dos dois que dispara em massa e reage a comentário no Instagram, o canal de aquisição mais barato de loja e clínica brasileira, e porque a curva de aprendizado é baixa para o time comercial operar. O ponto cego é o custo: a assinatura sobe por volume de contatos e o BSP no WhatsApp domina a conta."
     pros:
       - "Disparo em massa com segmentação por etiquetas e gatilhos de comentário, story e DM"
-      - "Curva de aprendizado baixa, com gatilhos prontos e plantillas operáveis pelo time comercial"
+      - "Curva de aprendizado baixa, com gatilhos prontos e plantilhas operáveis pelo time comercial"
       - "Canais nativos de Instagram, WhatsApp, TikTok, Messenger e Facebook, com funis e retargeting"
       - "Documentação e atendimento comercial com materiais em português"
     cons:
@@ -26,10 +26,10 @@ tools:
       - "A automação de IA ainda exige revisão humana em venda complexa"
   - name: "Typebot"
     url: "https://typebot.io"
-    affiliateUrl: "https://typebot.io/?via=yooka"
+    affiliateUrl: "https://www.typebot.com/?via=yooka"
     price: "A partir de US$29/mês (nuvem)"
     bestFor: "Fluxos conversacionais e qualificação de lead no site"
-    rating: 4.4
+    rating: 4.1
     verdict: "O Typebot ganha na melhor experiência de formulário conversacional do mercado: o widget embutido no site, com blocos de arrastar e soltar e analytics de taxa de abandono, qualifica lead com custo previsível. O self-hosted é gratuito e sem limite de conversas. O ponto cego é o canal: não é plataforma de disparo em massa nem de segmentação, e a conexão com WhatsApp exige conta na API oficial e configuração do BSP."
     pros:
       - "Melhor experiência de formulário conversacional do mercado, com alta conversão na qualificação"
@@ -80,7 +80,7 @@ O ManyChat parte mais barato, mas a conta real do WhatsApp não está nele. A as
 
 ## Curva de aprendizado
 
-O ManyChat tem a curva mais baixa dos dois. O construtor trabalha com gatilhos prontos e há plantillas para as campanhas mais comuns, o que faz o primeiro fluxo sair em horas, e o vocabulário é de marketing, não de tecnologia. O Typebot também é um editor de blocos com arrastar e soltar, mas exige montar o bloco de IA, configurar webhook e decidir onde o chatbot será publicado. O ManyChat foi feito para o time comercial operar; o Typebot, para quem constrói a experiência do formulário.
+O ManyChat tem a curva mais baixa dos dois. O construtor trabalha com gatilhos prontos e há plantilhas para as campanhas mais comuns, o que faz o primeiro fluxo sair em horas, e o vocabulário é de marketing, não de tecnologia. O Typebot também é um editor de blocos com arrastar e soltar, mas exige montar o bloco de IA, configurar webhook e decidir onde o chatbot será publicado. O ManyChat foi feito para o time comercial operar; o Typebot, para quem constrói a experiência do formulário.
 
 | Critério | ManyChat | Typebot |
 | --- | --- | --- |
@@ -144,7 +144,7 @@ Escolha o ManyChat quando a origem do lead é o Instagram ou o TikTok, quando qu
 
 ## Quando escolher o Typebot
 
-Escolha o Typebot quando o lead entra pelo site, quando a empresa quer controlar o custo total do atendimento e quando existe alguém capaz de manter um servidor. Um e-commerce de moda, uma escola de cursos ou uma clínica com landing page e formulário precisa de um caminho entre a página e o time comercial, e o Typebot entrega isso com widget embutido em poucas linhas. O ganho concreto é a taxa de conclusão: formulário conversacional com botões e um campo por vez costuma render mais lead qualificado que formulário longo, e o analytics de taxa de abandono mostra onde o lead desiste. Com infraestrutura própria e volume alto, o self-hosted resolve sem limite de conversas.
+Escolha o Typebot quando o lead entra pelo site, quando a empresa quer controlar o custo total do atendimento e quando existe alguém capaz de manter um servidor. Um e-commerce de moda, uma escola de cursos ou uma clínica com landing page e formulário precisa de um caminho entre a página e o time comercial, e o Typebot entrega isso com widget embutido em poucas linhas. O ganho concreto é a taxa de conclusão: formulário conversacional com botões e um campo por vez costuma gerar mais lead qualificado que formulário longo, e o analytics de taxa de abandono mostra onde o lead desiste. Com infraestrutura própria e volume alto, o self-hosted resolve sem limite de conversas.
 
 ## Veredito
 

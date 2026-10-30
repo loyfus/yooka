@@ -7,7 +7,9 @@ export const site = {
   tagline: 'IA e automação para empresas, sem hype',
   description:
     'Guia prático de agentes de IA, automação e ferramentas para empresas brasileiras. Reviews honestos, comparativos com preço e passo a passo de implementação.',
-  url: process.env.SITE_URL || 'https://yooka.com.br',
+  // URL canônica. Troque pelo domínio final (yooka.com.br) quando ele estiver
+  // apontando para a Vercel — e mantenha o valor idêntico na Vercel (env SITE_URL).
+  url: process.env.SITE_URL || 'https://yooka.loyfus.com.br',
   locale: 'pt_BR',
   lang: 'pt-BR',
   themeColor: '#0b1020',

@@ -29,7 +29,7 @@ tools:
     affiliateUrl: "https://zapier.com/?via=yooka"
     price: "A partir de US$19,99/mês"
     bestFor: "Conectar dois apps em minutos, sem técnico"
-    rating: 4.3
+    rating: 4.2
     verdict: "O Zapier ganha em catálogo e em velocidade: milhares de apps e um editor que qualquer pessoa entende em minutos. É a escolha mais segura quando o objetivo é ligar dois sistemas e não existe ninguém técnico na equipe. Do outro lado, o modelo de tasks encarece rápido em fluxos de CRM com várias etapas."
     pros:
       - "Maior catálogo de integrações do mercado, com milhares de apps e cobertura de CRM, e-mail e e-commerce"
