@@ -24,30 +24,12 @@
     "O split de pagamento não vem no plano Essencial, e precisa ser contratado à parte"
   ],
   "features": [
-    {
-      "name": "Cobrança recorrente",
-      "detail": "Assinatura mensal com boleto, PIX ou cartão, com nova tentativa automática"
-    },
-    {
-      "name": "Nota a partir da cobrança",
-      "detail": "Emissão de nota fiscal eletrônica integrada, via emissores parceiros"
-    },
-    {
-      "name": "Boleto e PIX",
-      "detail": "Boleto com conciliação por pagamento e Pix com tarifa percentual própria"
-    },
-    {
-      "name": "Checkout e link de pagamento",
-      "detail": "Página pronta ou link direto para cobrar por e-mail e WhatsApp"
-    },
-    {
-      "name": "API e webhooks",
-      "detail": "Integração com site, ERP e automações, com eventos de status da cobrança"
-    },
-    {
-      "name": "Painel de inadimplência",
-      "detail": "Cobrança de atraso, renegociação e suspensão automática por contrato"
-    }
+    { "name": "Cobrança recorrente", "detail": "Assinatura mensal com boleto, PIX ou cartão, com nova tentativa automática" },
+    { "name": "Nota a partir da cobrança", "detail": "Emissão de nota fiscal eletrônica integrada, via emissores parceiros" },
+    { "name": "Boleto e PIX", "detail": "Boleto com conciliação por pagamento e Pix com tarifa percentual própria" },
+    { "name": "Checkout e link de pagamento", "detail": "Página pronta ou link direto para cobrar por e-mail e WhatsApp" },
+    { "name": "API e webhooks", "detail": "Integração com site, ERP e automações, com eventos de status da cobrança" },
+    { "name": "Painel de inadimplência", "detail": "Cobrança de atraso, renegociação e suspensão automática por contrato" }
   ],
   "useCases": [
     "Cobrar mensalidade de um serviço de limpeza com boleto e Pix automáticos e nota junto",

@@ -53,7 +53,7 @@ Os três pontos que mais geram dor:
 2. **Regularize os débitos.** quite o DAS em atraso, as parcelas de ISS não declaradas e qualquer multa. Enquanto houver dívida, o cancelamento do CNPJ é recusado.
 3. **Feche a apuração do ano.** Emite as NFS-e que faltam, recolhe o ISS do período, declara a receita do último ano e guarde os documentos. O número do ano em que você saiu aparece na apuração do ano seguinte.
 4. **Opte pelo Simples Normal no portal, se for esse o destino.** A opção é gratuita e feita no próprio Portal do Empreendedor (gov.br), por meio do serviço de opção pelo regime de tributação.
-5. **Contrate a contabilidade da transição.** É o ponto onde a maioria trava: o regime normal tem obligations que o MEI não tinha, como escrituração completa e, se houver employing, folha. O plano mensal muda de faixa de preço.
+5. **Contrate a contabilidade da transição.** É o ponto onde a maioria trava: o regime normal tem obrigações que o MEI não tinha, como escrituração completa e, se houver employing, folha. O plano mensal muda de faixa de preço.
 6. **Faça a alteração cadastral que a nova fase exige.** CNAE, código de ocupação, endereço,city e responsável técnico, quando a atividade exigir.
 7. **Baixe o CNPJ, se a empresa vai parar.** Com débitos quitados e sem pendências, solicite o cancelamento do CNPJ na Junta Comercial. A partir daí, a empresa deixa de existir e você não precisa mais cumprir obrigação de MEI.
 8. **Recomece, se for o caso, com o CNPJ certo.** MEI não tem cotas: não existe "venda de empresa" nem sucessão por quota. Se a atividade continua, o caminho é abrir um novo CNPJ, já no regime adequado.
@@ -102,6 +102,6 @@ Em números práticos: quem fatura até R$ 60.000 por ano costuma sentir a mudan
 
 **O que acontece com o DAS que ficou em atraso?** Ele continua sendo dívida do CNPJ. Sem quitação, a baixa do CNPJ é bloqueada e a dívida é transferida para o CPF, com efeitos de negativação. É o ponto que mais adia a saída de quem realmente quer encerrar.
 
-**Posso abrir um MEI de novo depois de sair?** Pode, se os requisitos forem atendidos. O novo CNPJ começa limpo, mas o histórico fiscal da pessoa permanece, e o desenquadramento anterior continua visível para clientes e bancos. Planeje a saída antes, para que a data de abertura do novo CNJP não coincida com pendências do antigo.
+**Posso abrir um MEI de novo depois de sair?** Pode, se os requisitos forem atendidos. O novo CNPJ começa limpo, mas o histórico fiscal da pessoa permanece, e o desenquadramento anterior continua visível para clientes e bancos. Planeje a saída antes, para que a data de abertura do novo CNPJ não coincida com pendências do antigo.
 
 **O MEI pode ter sócio ou vender a empresa?** Não. O MEI não tem cotas. Não existe venda de empresa, nem sucessão por quota. Quem sai por entrada de sócio, ou quem quer transferir o negócio, migra para uma empresa com CNPJ de outro tipo.

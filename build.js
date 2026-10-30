@@ -884,6 +884,227 @@ ${offerBox()}`;
 }
 
 /* ------------------------------------------------------------------ *
+ * Atalhos oficiais e modelos de documento
+ * ------------------------------------------------------------------ */
+const atalhos = readJSON(path.join(CONTENT, 'atalhos.json'));
+const modelos = readJSON(path.join(CONTENT, 'modelos.json'));
+
+function atalhosPage() {
+  const url = '/atalhos/';
+  const crumbs = [
+    { label: 'Início', href: '/' },
+    { label: 'Atalhos', href: url },
+  ];
+  const total = atalhos.groups.reduce((s, g) => s + g.links.length, 0);
+
+  const page = {
+    url,
+    title: 'Atalhos oficiais: os links do gov.br que você mais precisa',
+    description:
+      `Diretório com ${total} links oficiais do governo federal para INSS, FGTS, CTPS, MEI, DAS, NFS-e, certidões, Pix e Second. Todos verificados, sem propaganda.`,
+    breadcrumbs: crumbs,
+    priority: 0.8,
+    schemas: [
+      organizationSchema(),
+      websiteSchema(),
+      itemListSchema(
+        atalhos.groups.flatMap((g) => g.links.map((l) => ({ title: l.name, url: l.url }))),
+        'Atalhos oficiais do governo federal',
+        url
+      ),
+    ],
+  };
+
+  const body = `
+${breadcrumbs(crumbs)}
+<section class="listing">
+  <header class="listing__head">
+    <p class="pill">Diretório</p>
+    <h1>Atalhos oficiais</h1>
+    <p class="listing__lead">${total} links do gov.br, do Banco Central e dos órgãos oficiais, organizados pelo serviço que você precisa. Sem propaganda no meio.</p>
+  </header>
+  ${atalhos.groups
+    .map(
+      (g) => `<section class="atalhos__group">
+    <h2>${escapeHtml(g.name)}</h2>
+    <p class="muted">${escapeHtml(g.short)}</p>
+    <ul class="atalhos__list">
+      ${g.links
+        .map(
+          (l) => `<li class="atalhos__item">
+        <a href="${l.url}" rel="nofollow noopener external">${escapeHtml(l.name)}</a>
+        <p>${escapeHtml(l.desc)}</p>
+        <span class="atalhos__host">${escapeHtml(new URL(l.url).hostname)}</span>
+      </li>`
+        )
+        .join('\n      ')}
+    </ul>
+  </section>`
+    )
+    .join('\n')}
+
+  <section class="answerbox">
+    <p class="answerbox__label">Como usar</p>
+    <p>Salve esta página nos favoritos. Em qualquer serviço público, o primeiro passo é o portal oficial — e_LINK para intermediário aumenta o risco de cair em golpe.</p>
+  </section>
+</section>
+${adSlot('leaderboard', 'inline')}
+${offerBox()}`;
+
+  addPage({
+    file: 'atalhos/index.html',
+    page,
+    body,
+    og: {
+      badge: 'Diretório',
+      title: 'Atalhos oficiais: os links do gov.br que você mais precisa',
+      subtitle: `${total} links oficiais organized por serviço.`,
+    },
+  });
+}
+
+function modeloPage(m) {
+  const url = `/modelos/${m.slug}/`;
+  const crumbs = [
+    { label: 'Início', href: '/' },
+    { label: 'Modelos', href: '/modelos/' },
+    { label: m.title, href: url },
+  ];
+
+  const page = {
+    url,
+    title: `${m.title} (modelo pronto para copiar)`,
+    description: truncate(m.when, 158),
+    breadcrumbs: crumbs,
+    priority: 0.7,
+    schemas: [organizationSchema(), websiteSchema()],
+  };
+
+  const related = allArticles
+    .filter((a) => a.category === m.category)
+    .slice(0, 3);
+
+  const body = `
+${breadcrumbs(crumbs)}
+<article class="post post--modelo">
+  <header class="post__head">
+    <a class="pill" href="/modelos/">Modelo</a>
+    <h1>${escapeHtml(m.title)}</h1>
+    <p class="post__lead">${escapeHtml(m.when)}</p>
+    <div class="post__meta">${updatedBox(TODAY)}</div>
+  </header>
+
+  <div class="post__layout">
+    <div class="post__content">
+      <section class="answerbox">
+        <p class="answerbox__label">Quando usar</p>
+        <p>${escapeHtml(m.when)}</p>
+      </section>
+
+      <h2>Como usar</h2>
+      <ol>
+        ${m.steps.map((s) => `<li>${escapeHtml(s)}</li>`).join('\n        ')}
+      </ol>
+
+      <h2>O modelo</h2>
+      <div class="modelo">
+        <pre><code>${escapeHtml(m.text)}</code></pre>
+        <button type="button" class="btn btn--ghost btn--sm modelo__copy" data-copy-target="modelo-texto">Copiar texto</button>
+      </div>
+      <p class="muted tiny" id="modelo-texto" hidden></p>
+
+      <section class="answerbox answerbox--winner">
+        <p class="answerbox__label">Antes de enviar</p>
+        <p>Troque todos os campos entre colchetes pelos seus dados, revise o texto e guarde o protocolo. Em caso de valor relevante ou de邊 controvérsia jurídica, peça revisão de um advogado ou contador antes de enviar.</p>
+      </section>
+
+      ${adSlot('inArticle', 'inline')}
+
+      ${
+        related.length
+          ? `<section class="related">
+        <h2>Guias relacionados</h2>
+        <div class="grid grid--3">
+          ${related.map((g) => articleCard(g)).join('\n          ')}
+        </div>
+      </section>`
+          : ''
+      }
+    </div>
+    <aside class="post__aside">
+      ${adSlot('sidebar', 'sticky')}
+      <nav class="toc" aria-label="Nesta página">
+        <p class="toc__title">Nesta página</p>
+        <ul>
+          <li><a href="#como-usar">Como usar</a></li>
+          <li><a href="#o-modelo">O modelo</a></li>
+        </ul>
+      </nav>
+    </aside>
+  </div>
+</article>`;
+
+  addPage({
+    file: `modelos/${m.slug}/index.html`,
+    page,
+    body,
+    og: { badge: 'Modelo pronto', title: m.title, subtitle: m.when },
+  });
+}
+
+function modelosPage() {
+  const url = '/modelos/';
+  const crumbs = [
+    { label: 'Início', href: '/' },
+    { label: 'Modelos', href: url },
+  ];
+  const page = {
+    url,
+    title: 'Modelos de documento: escreva e copie',
+    description:
+      'Modelos prontos para copiar: contestar conta, requerer revisão de benefício do INSS, pedir segunda via e negociar parcelamento.',
+    breadcrumbs: crumbs,
+    priority: 0.8,
+    schemas: [
+      organizationSchema(),
+      websiteSchema(),
+      itemListSchema(modelos.templates.map((m) => ({ title: m.title, url: `/modelos/${m.slug}/` })), 'Modelos de documento', url),
+    ],
+  };
+
+  const body = `
+${breadcrumbs(crumbs)}
+<section class="listing">
+  <header class="listing__head">
+    <p class="pill">Copie e adapte</p>
+    <h1>Modelos de documento</h1>
+    <p class="listing__lead">${modelos.templates.length} modelos prontos para copiar, trocar os campos entre colchetes e enviar. São modelos genéricos: adapte ao seu caso.</p>
+  </header>
+  <div class="grid grid--2">
+    ${modelos.templates
+      .map(
+        (m) => `<article class="card card--modelo">
+      <div class="card__body">
+        <h3 class="card__title"><a href="/modelos/${m.slug}/">${escapeHtml(m.title)}</a></h3>
+        <p class="card__desc">${escapeHtml(m.when)}</p>
+      </div>
+    </article>`
+      )
+      .join('\n    ')}
+  </div>
+</section>
+${adSlot('leaderboard', 'inline')}
+${offerBox()}`;
+
+  addPage({
+    file: 'modelos/index.html',
+    page,
+    body,
+    og: { badge: 'Modelos', title: 'Modelos de documento: escreva e copie', subtitle: 'Prontos para copiar, adaptar e enviar.' },
+  });
+}
+
+/* ------------------------------------------------------------------ *
  * Páginas programáticas: pares de ferramentas e páginas de preço
  * ------------------------------------------------------------------ */
 
@@ -1731,6 +1952,11 @@ generatedPairs.forEach(pairComparisonPage);
 // Calculadoras
 calculators.forEach(calculatorPage);
 calculatorsIndex();
+
+// Atalhos e modelos
+atalhosPage();
+modelosPage();
+modelos.templates.forEach(modeloPage);
 
 // Índices
 homePage();

@@ -6,22 +6,22 @@
   "description": "Plataforma brasileira de automação de marketing com CRM, e-mail, landing page, publicação em redes e funil de vendas para o pequeno negócio.",
   "url": "https://www.rdstation.com",
   "affiliateUrl": "https://www.rdstation.com/?via=yooka",
-  "price": "A partir de R$ 0/mês (plano Free)",
-  "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. Existe plano gratuito com limites de contatos e de envios; os planos pagos são cobrados por mês e o custo cresce com o número de leads cadastrados.",
+  "price": "A partir de R$ 50/mês (promoção de 3 meses no Light)",
+  "priceNote": "RD Marketing não tem plano gratuito: existe teste de 10 dias sem cartão de crédito. Planos a partir de R$ 50/mês no Light (promoção de 3 meses para contas novas), R$ 309/mês no Basic, R$ 1.121/mês no Pro e R$ 1.699/mês no Advanced, com cobrança por lead ativo. Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. Pro e Advanced exigem implementação paga, de R$ 1.499 a R$ 1.999, e contrato mínimo de 12 meses.",
   "bestFor": "Quem precisa de e-mail, CRM e funil de vendas junto, em português e com suporte nacional",
   "rating": 4.3,
   "ratingCount": 723,
   "pros": [
     "Funil completo em uma assinatura: e-mail, CRM, landing page, automação e publicação em redes",
     "Interface, material e suporte em português, o que reduz muito o tempo de configuração",
-    "Integrações com WhatsApp, Google Ads e plataformas de ecommerce já prontas",
-    "Segmentação e automação de nutrição de lead que funcionam bem sem saber programar"
+    "Cobrança por lead ativo, e não por contato cadastrado, o que faz a conta crescer junto com a base real",
+    "Light e Basic canceláveis sem multa e com desconto de 3 meses para conta nova, ao contrário dos planos de topo"
   ],
   "cons": [
-    "O plano gratuito tem limite baixo de contatos e de envios, e o upgrade forçado aparece no segundo mês",
-    "A cobrança cresce por lead cadastrado, então uma lista que enche deixa de ser barata",
-    "Ferramenta de CRM genérica: o funil não substitui processo de vendas definido pela empresa",
-    "Repositório de templates é genérico e as peças prontas exigem ajuste para soar como a sua marca"
+    "Não existe plano gratuito de marketing, só teste de 10 dias, então o custo começa a correr no primeiro mês de uso",
+    "A cobrança é por lead ativo e cresce por faixa de contatos, então a lista enche e a fatura junto",
+    "Pro e Advanced exigem implementação paga, de R$ 1.499 a R$ 1.999, e contrato mínimo de 12 meses",
+    "Ferramenta de CRM genérica: o funil não substitui processo de vendas definido pela empresa"
   ],
   "features": [
     {
@@ -34,7 +34,7 @@
     },
     {
       "name": "Landing pages",
-      "detail": "Páginas de captura prontas, com teste de conversão e domínio próprio"
+      "detail": "Páginas de captura prontas em todos os planos, com teste de conversão e domínio próprio"
     },
     {
       "name": "Automação de funil",
@@ -56,7 +56,7 @@
     "Cruzar o e-mail com o WhatsApp para responder o cliente que demonstrou interesse"
   ],
   "bestForWho": "Pequeno negócio brasileiro que precisa de e-mail, CRM e funil de vendas no mesmo lugar, sem depender de equipe técnica.",
-  "verdict": "O RD Station é o padrão brasileiro de marketing e a maior parte do valor está no que já vem pronto: funil, e-mail, CRM e automação funcionando juntos, com documentação em português que qualquer pessoa sozinha consegue seguir. O ponto que mais incomoda é o modelo de cobrança por contato: o plano gratuito serve para começar, mas a lista cresce rápido e o preço sobe junto, o que costuma surpreender na primeira renovação. Outro cuidado é não tratar o CRM como processo: a ferramenta registra bem o que você configurar, mas quem define as etapas de venda continua sendo você. Para quem vende de forma recorrente e quer um funil organizado, é a escolha mais segura do mercado.",
+  "verdict": "O RD Station é o padrão brasileiro de marketing e a maior parte do valor está no que já vem pronto: funil, e-mail, CRM e automação funcionando juntos, com documentação em português que qualquer pessoa sozinha consegue seguir. O que mais incomoda é o modelo de cobrança por lead ativo: quanto maior a base, maior a conta, e isso costuma surpreender na primeira renovação quando a lista encheu rápido. O porte do contrato também pesa, porque Pro e Advanced exigem implementação paga e doze meses de fidelidade, algo desproporcional para quem está começando. E o detalhe que mais choca quem chega agora: não existe plano gratuito de marketing, só teste de dez dias, então o custo entra no primeiro mês de uso. Para quem vende de forma recorrente e quer um funil organizado, é a escolha mais segura do mercado.",
   "alternatives": [
     "workana",
     "hotmart",

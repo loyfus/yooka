@@ -1,0 +1,206 @@
+{
+  "groups": [
+    {
+      "id": "inss",
+      "name": "INSS e benefícios",
+      "short": "Pedir benefício, consultar dados e recorrer de decisão.",
+      "links": [
+        {
+          "name": "Meu INSS (portal do segurado)",
+          "url": "https://www.gov.br/inss/pt-br/canais_atendimento/meu-inss/meu-inss",
+          "desc": "Entrar com gov.br, pedir benefício, agendar atendimento e ver o extrato de pagamentos."
+        },
+        {
+          "name": "Meu INSS — canal de atendimento",
+          "url": "https://www.gov.br/inss/pt-br/canais_atendimento/meu-inss",
+          "desc": "Passos a passo, recuperação de senha e canais do Meu INSS."
+        },
+        {
+          "name": "Benefícios assistenciais (BPC)",
+          "url": "https://www.gov.br/inss/pt-br/direitos-e-deveres/beneficios-assistenciais",
+          "desc": "Benefício à pessoa idosa e à pessoa com deficiência: quem tem direito e como pedir."
+        },
+        {
+          "name": "Benefícios por incapacidade",
+          "url": "https://www.gov.br/inss/pt-br/direitos-e-deveres/beneficios-por-incapacidade",
+          "desc": "Auxílio por incapacidade temporária, permanente e pensão por acidente."
+        },
+        {
+          "name": "Auxílio por incapacidade temporária",
+          "url": "https://www.gov.br/inss/pt-br/direitos-e-deveres/beneficios-por-incapacidade/auxilio-por-incapacidade-temporaria",
+          "desc": "O antigo auxílio-doença: critérios, carência e duração do benefício."
+        },
+        {
+          "name": "Atendimento do INSS",
+          "url": "https://www.gov.br/inss/pt-br/canais_atendimento",
+          "desc": "Canais de atendimento e o telefone 135."
+        },
+        {
+          "name": "Mapas (processos em andamento)",
+          "url": "https://mapas.inss.gov.br",
+          "desc": "Acompanhar o andamento do benefício e o histórico de pagamentos."
+        }
+      ]
+    },
+    {
+      "id": "trabalho",
+      "name": "Trabalho, carteira e FGTS",
+      "short": "Carteira de trabalho, seguro-desemprego e cursos.",
+      "links": [
+        {
+          "name": "Carteira de Trabalho Digital",
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/trabalhador/carteira-de-trabalho",
+          "desc": "Emitir a carteira, recuperar senha e baixar o aplicativo."
+        },
+        {
+          "name": "CTPS online",
+          "url": "https://carteiradigital.trabalho.gov.br",
+          "desc": "Emissão da Carteira de Trabalho válida em todo o país."
+        },
+        {
+          "name": "Seguro-desemprego",
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/trabalhador/seguro-desemprego",
+          "desc": "Quem tem direito, como requerer e como é calculado o valor."
+        },
+        {
+          "name": "FGTS (serviços do trabalhador)",
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/trabalhador/fgts",
+          "desc": "Extrato, saldo, saque e uso do FGTS."
+        },
+        {
+          "name": "FGTS na Caixa",
+          "url": "https://www.caixa.gov.br/beneficios-trabalhador/fgts",
+          "desc": "Operações de saque, e e Extrato no site da Caixa."
+        },
+        {
+          "name": "Qualificação profissional",
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/trabalhador/qualificacao-profissional",
+          "desc": "Cursos gratuitos com certificado para o trabalhador."
+        },
+        {
+          "name": "Mais ações para o trabalhador",
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/trabalhador/mais-acoes",
+          "desc": "Vagas, recadastramento, PROGRAMA e outros serviços."
+        },
+        {
+          "name": "CNES (instituições e cursos)",
+          "url": "https://cnes.mec.gov.br",
+          "desc": "Cadastro de instituições de ensino e cursos."
+        }
+      ]
+    },
+    {
+      "id": "mei",
+      "name": "MEI, CNPJ e nota fiscal",
+      "short": "Abertura, DAS, NFS-e e obrigações.",
+      "links": [
+        {
+          "name": "Serviços para MEI",
+          "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei",
+          "desc": "DAS, declaração anual, NFS-e, benefícios e alterações cadastrais."
+        },
+        {
+          "name": "Quero ser MEI",
+          "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/quero-ser-mei",
+          "desc": "Passo a passo para abrir o MEI no Portal do Empreendedor."
+        },
+        {
+          "name": "Já sou MEI",
+          "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei",
+          "desc": "Acesso do MEI existente:emitir certidões, alterar e encerrar."
+        },
+        {
+          "name": "Declaração anual de faturamento",
+          "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/servicos-para-mei/declaracao-anual-de-faturamento",
+          "desc": "PGMEI: receita e despesas do ano, em maio."
+        },
+        {
+          "name": "Previdência para MEI",
+          "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor/previdencia-para-mei",
+          "desc": "Aposentadoria do MEI: contribuições edireitos."
+        },
+        {
+          "name": "Portal do Empreendedor",
+          "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor",
+          "desc": "Página-mãe do MEI no governo federal."
+        },
+        {
+          "name": "NFS-e nacional",
+          "url": "https://www.nfse.gov.br",
+          "desc": "Emitir nota fiscal de serviço eletrônica nacional."
+        },
+        {
+          "name": "Simples Nacional",
+          "url": "https://www8.receita.fazenda.gov.br/simplesnacional",
+          "desc": "Apuração e parcelas dos tributos do Simples."
+        },
+        {
+          "name": "Meu Imposto de Renda",
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-imposto-de-renda",
+          "desc": "Consulta e saque da restituição do IR."
+        }
+      ]
+    },
+    {
+      "id": "documentos",
+      "name": "Documentos e serviços",
+      "short": "O catálogo de serviços do governo federal.",
+      "links": [
+        {
+          "name": "Todos os serviços do gov.br",
+          "url": "https://www.gov.br/pt-br/servicos",
+          "desc": "Catálogo com certidões, CNH, identidade, títulos e autorização — filtrável por estado."
+        },
+        {
+          "name": "Assuntos do governo federal",
+          "url": "https://www.gov.br/pt-br/assuntos",
+          "desc": "O índice completo de temas do governo federal."
+        }
+      ]
+    },
+    {
+      "id": "financas",
+      "name": "Dinheiro, Pix e crédito",
+      "short": "Banco Central, tarifas bancárias e defesa do consumidor.",
+      "links": [
+        {
+          "name": "Banco Central — Pix",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix",
+          "desc": "Regras do Pix, reset do Pix e material de interesse."
+        },
+        {
+          "name": "Banco Central — Educa",
+          "url": "https://www.bcb.gov.br/estabilidadefinanceira/cidadaniafinanceira",
+          "desc": "Conteúdo de educação financeira do Banco Central."
+        },
+        {
+          "name": "Tarifas e taxas bancárias",
+          "url": "https://www.bcb.gov.br/cidadaniafinanceira/tarifas",
+          "desc": "Consultar tarifas e taxas de serviços bancários."
+        },
+        {
+          "name": "Consumidor.gov.br",
+          "url": "https://www.consumidor.gov.br",
+          "desc": "Reclamação formal de consumidor, com acompanhamento do caso."
+        }
+      ]
+    },
+    {
+      "id": "trabalho-renda",
+      "name": "Trabalho e direitos",
+      "short": "Porta de entrada do Ministério do Trabalho.",
+      "links": [
+        {
+          "name": "Trabalho e Emprego (gov.br)",
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br",
+          "desc": "Porta de entrada de vagas, projetos e direitos trabalhistas."
+        },
+        {
+          "name": "Serviços para o trabalhador",
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/trabalhador",
+          "desc": "Todos os serviços do trabalhador em um lugar."
+        }
+      ]
+    }
+  ]
+}

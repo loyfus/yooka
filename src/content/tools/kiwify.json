@@ -24,30 +24,12 @@
     "Menor ecossistema e menos integrações prontas que a Hotmart, o que exige mais trabalho manual"
   ],
   "features": [
-    {
-      "name": "Checkout de venda",
-      "detail": "Página de pagamento com PIX, boleto e cartão, otimizada para celular"
-    },
-    {
-      "name": "Upsell de um clique",
-      "detail": "Oferta complementar oferecida na própria tela de pagamento"
-    },
-    {
-      "name": "Central de afiliados",
-      "detail": "Comissão por regra, link de afiliado e painel de desempenho por parceiro"
-    },
-    {
-      "name": "Cobrança recorrente",
-      "detail": "Plano mensal e assinatura com cobrança automática e cancelamento online"
-    },
-    {
-      "name": "Área do produtor",
-      "detail": "Vendas, saldo a receber, taxa aplicada e repasse no mesmo painel"
-    },
-    {
-      "name": "Entrega de conteúdo",
-      "detail": "Curso e arquivo liberados após a aprovação do pagamento"
-    }
+    { "name": "Checkout de venda", "detail": "Página de pagamento com PIX, boleto e cartão, otimizada para celular" },
+    { "name": "Upsell de um clique", "detail": "Oferta complementar oferecida na própria tela de pagamento" },
+    { "name": "Central de afiliados", "detail": "Comissão por regra, link de afiliado e painel de desempenho por parceiro" },
+    { "name": "Cobrança recorrente", "detail": "Plano mensal e assinatura com cobrança automática e cancelamento online" },
+    { "name": "Área do produtor", "detail": "Vendas, saldo a receber, taxa aplicada e repasse no mesmo painel" },
+    { "name": "Entrega de conteúdo", "detail": "Curso e arquivo liberados após a aprovação do pagamento" }
   ],
   "useCases": [
     "Publicar a primeira oferta de um curso e pagar taxa só quando houver venda aprovada",

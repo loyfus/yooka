@@ -2,61 +2,43 @@
   "name": "Nubank",
   "slug": "nubank",
   "category": "custos-e-planos",
-  "tagline": "Conta digital grátis, cartão de crédito e CDB no mesmo app",
-  "description": "Banco digital com conta, Pix e cartão de crédito grátis, CDB com rendimento diário, cartão virtual para loja e conta PJ para receber das vendas.",
+  "tagline": "Conta PJ grátis, cartão sem anuidade e CDB no mesmo app",
+  "description": "Banco digital com conta PJ gratuita, Pix e TED sem custo, cartão de crédito sem anuidade, Caixinha com rendimento diário e resgate no mesmo dia.",
   "url": "https://nubank.com.br",
   "affiliateUrl": "https://nubank.com.br/?via=yooka",
-  "price": "Grátis para pessoa física e conta PJ",
-  "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. Conta, Pix e cartão de crédito são gratuitos; a cobrança aparece apenas nos serviços pagos, como CDB, seguro, cartão Metal e aumento de limite.",
-  "bestFor": "Quem quer trocar a conta com tarifa por uma conta digital gratuita e simples",
+  "price": "Conta PJ e Pix grátis; cartão a 3,99%",
+  "priceNote": "Conta PJ gratuita, com Pix, TED, boleto e emissão de cartão a R$ 0; aceita MEI com a CCMEI. Taxa de cartão no Link de Pagamento de 3,99% à vista e 5,99% em 2x; Tap to Pay com crédito a 3,09% e débito a 0,89%. Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. Saque em espécie custa R$ 6,50 por operação, sem cota gratuita.",
+  "bestFor": "MEI que quer conta PJ gratuita, cartão sem anuidade e Caixinha com resgate na hora",
   "rating": 4.6,
   "ratingCount": 892,
   "pros": [
-    "Conta, Pix e cartão de crédito sem anuidade, o que elimina a tarifa bancária do pacote básico",
-    "CDB com resgate diário e 100 por cento do CDI, o que rende melhor que poupança comum",
-    "App bem resolvido para o brasileiro: Pix por biometria, boleto no app e cartão virtual para loja online",
-    "Conta PJ separada da PF, com cartão PJ e Boleto automático, útil para não misturar dinheiro"
+    "Conta PJ gratuita, com Pix, TED, boleto e emissão de cartão a R$ 0, e cadastro de MEI pela CCMEI",
+    "Cartão Nu Empresas com anuidade R$ 0 e saque no cartão de crédito sem custo, só juros",
+    "Caixinha a 100% do CDI com aporte de R$ 1 e resgate na hora, e Turbo a 115% do CDI",
+    "TED e Pix para outro banco sem taxa, o que dá liberdade de mover o caixa sem esperar o saque"
   ],
   "cons": [
-    "Saque para conta de outro banco tem custo e valor mínimo, o que prende dinheiro no Nubank",
-    "CDB é papel do Nubank, com risco da instituição: se o banco quebrar, existe a cobertura do FGC até o limite legal",
-    "Limite de Pix e de cartão para conta PF pode travar recebimento grande sem aviso prévio",
-    "Cartões com cobertura internacional, como o Metal, custam bem mais e não são necessários para MEI"
+    "Saque em espécie custa R$ 6,50 por operação e não tem cota gratuita, então sacar toda semana pesa",
+    "O Link de Pagamento cobra 3,99% à vista e chega a 16,49% em 12x, o que encarece o parcelado",
+    "Caixinha é papel do Nubank, com risco da instituição, e a proteção do FGC vale até o limite legal por CPF ou CNPJ",
+    "Limite noturno de Pix de R$ 1.000 por transação para conta PF, o que exige dividir vendas grandes"
   ],
   "features": [
-    {
-      "name": "Conta e Pix grátis",
-      "detail": "Transferência, Pix e boleto sem tarifa, com pagamento por biometria"
-    },
-    {
-      "name": "Cartão de crédito",
-      "detail": "Cartão físico e virtual, com limite ajustável e sem anuidade"
-    },
-    {
-      "name": "Caixinho CDB",
-      "detail": "Reserva de emergência com rendimento diário, 100 por cento do CDI"
-    },
-    {
-      "name": "Conta PJ",
-      "detail": "Conta de empresa com cartão PJ, Pix e extrato separado do pessoal"
-    },
-    {
-      "name": "Boleto e limite",
-      "detail": "Boleto no app e ajuste de limite de Pix e cartão na hora"
-    },
-    {
-      "name": "Seguro e ofertas",
-      "detail": "Proteções do cartão e ofertas de crédito, sem custo quando não são usadas"
-    }
+    { "name": "Conta PJ gratuita", "detail": "Manutenção, Pix, TED, boleto e emissão de cartão a R$ 0, com MEI aceito" },
+    { "name": "Cartão sem anuidade", "detail": "Nu Empresas com anuidade R$ 0, cartão virtual e saque no crédito isento" },
+    { "name": "Caixinha", "detail": "100% do CDI com aporte mínimo de R$ 1, resgate D+0, e Turbo a 115% do CDI" },
+    { "name": "Link de Pagamento", "detail": "Receber no cartão pela própria conta: 3,99% à vista e 5,99% em 2x" },
+    { "name": "Tap to Pay", "detail": "Maquininha no celular com crédito a 3,09% e débito a 0,89%, sem adesão" },
+    { "name": "Controle pelo app", "detail": "Boleto no app, Pix por biometria e limite de transação ajustável na hora" }
   ],
   "useCases": [
-    "Receber o Pix da venda no celular, sem taxa, e ter o dinheiro disponível no mesmo dia",
-    "Separar a conta PJ da conta pessoal para não misturar o caixa do negócio com o de casa",
-    "Guardar a reserva de emergência em CDB com resgate diário, sem ir ao banco",
-    "Trocar a conta com tarifa por uma conta digital que não cobra manutenção"
+    "Abrir conta PJ de MEI com a CCMEI já emitida e começar a receber por Pix no mesmo dia",
+    "Receber de um cliente por TED sem pagar taxa e usar o caixa para comprar insumo",
+    "Guardar a reserva de emergência na Caixinha e resgatar na hora do imprevisto",
+    "Vender no cartão em 12x pelo Link de Pagamento e conferir a taxa de 16,49% antes de fechar o preço"
   ],
-  "bestForWho": "Brasileiro que quer conta digital gratuita para o dia a dia e, se tiver CNPJ, uma conta PJ separada para o negócio.",
-  "verdict": "O Nubank foi a virada de chave na relação do brasileiro com banco: conta, Pix e cartão sem tarifa eliminaram a conta com tarifa da vida de muita gente. Para MEI, a conta PJ resolve um problema real, que é misturar o caixa do negócio com o de casa. O CDB com 100 por cento do CDI é o outro lado bom, porque transforma o aplicativo em reserva de emergência com resgate no mesmo dia. Os pontos de atenção são honestos: sacar para fora tem custo e valor mínimo, o que prende saldo, e o CDB é papel do próprio banco, com a proteção do FGC até o limite legal. Nada disso atrapalha quem opera dentro do app; para quem faz Pix de valor alto e precisa mover dinheiro, compare antes.",
+  "bestForWho": "MEI e prestador de serviço que quer conta PJ gratuita, cartão sem anuidade e reserva rendendo no próprio aplicativo.",
+  "verdict": "O Nubank foi a virada de chave na relação do brasileiro com banco: conta, Pix e cartão sem tarifa eliminaram a conta com tarifa da vida de muita gente, e a versão PJ repete o movimento para o pequeno negócio. O que mais pesa a favor é TED e Pix para fora sem nenhum custo, o que dá liberdade real para mexer no caixa, e a Caixinha a 100% do CDI com resgate na hora, transformada em reserva de emergência. Os contras são honestos: o saque em espécie custa R$ 6,50 por operação sem cota, e o Link de Pagamento chega a 16,49% em 12x, o que torna o parcelado caro. A Caixinha é papel do próprio banco, com a cobertura do FGC até o limite legal. Nada disso atrapalha quem opera dentro do app.",
   "alternatives": [
     "inter",
     "c6-bank",

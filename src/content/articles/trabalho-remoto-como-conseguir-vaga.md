@@ -40,7 +40,7 @@ A distinção entre CLT e PJ continua sendo a mais importante. Em trabalho remot
 2. **Escolha uma ou duas plataformas e fique nelas.** As vagas remotas estão concentradas em portais com filtro de trabalho remoto, plataformas de freelancer e comunidades profissionais. Espalhar-se por dez canais produz cadastro sem resposta.
 3. **Monte o perfil como uma página de vendas.** Foto profissional, título com a sua especialidade, resumo de três linhas, lista de competências com ferramentas, o link do seu portfólio e o resultado mais relevante em destaque.
 4. **Prepare três peças de prova.** Um caso de projeto, uma apresentação curta de resultado e um texto técnico ou de processo. Empresas remotas pedem referência, e não apenas currículo.
-5. **Calcule o preço por hora antes de cotar.** Some custo de vida, custo operacional, tributos e a reserva de 13º e férias (1/12 de cada um por mês). Divida pelo número de horas que você pretende vender por mês.
+5. **Calcule o preço por hora antes de se candidatar.** Some custo de vida, custo operacional, tributos e a reserva de 13º e férias (1/12 de cada um por mês). Divida pelo número de horas que você pretende vender por mês.
 6. **Candidate-se de forma específica.** Cada candidatura precisa citar a empresa, o problema que você resolve e uma linha sobre como faria. Enviar o mesmo texto para 40 empresas é o erro mais comum.
 7. **Cuidado com a primeira semana.** No trabalho remoto, o teste real é a primeira entrega. Combine por escrito o escopo do período de experiência, o prazo e o critério de aprovação, para evitar ambiguidade sobre a continuação.
 
@@ -88,9 +88,9 @@ A entrevista por vídeo tem um formato previsível, e quem sabe o que vai ser pe
 
 **Estudo ou desafio (30 a 60 minutos).** Muitas empresas remotas pedem uma tarefa real, com prazo de um ou dois dias. A qualidade do que você entrega nesse teste vale mais do que qualquer apresentação verbal. Leia o enunciado antes de começar e confirme o escopo por escrito.
 
-**Perguntas sobre o modelo de trabalho.** Quantas horas por dia, como é a comunicação, o que a empresa espera de presença, se há compensate de fuso horário. Faça essas perguntas você também: a resposta muda se você aceita ou recusa.
+**Perguntas sobre o modelo de trabalho.** Quantas horas por dia, como é a comunicação, o que a empresa espera de presença e se há compensação de fuso horário. Faça essas perguntas você também: a resposta muda se você aceita ou recusa.
 
-**Fit com a equipe.** Como você resolve conflito, como organiza prazo apertado, se prefere autonomia ou acompanhamento. Responda com casos, não com adjetivos.
+**Aderência ao time.** Como você resolve conflito, como organiza prazo apertado, se prefere autonomia ou acompanhamento. Responda com casos, não com adjetivos.
 
 A parte que mais destoa em candidatura remota é o pedido de disponibilidade. Quem responde em duas linhas genéricas passa despercebido. Quem responde com horários reais, disponibilidade para videochamada em determinado fuso e um método de trabalho mostra que já opera de forma assíncrona.
 

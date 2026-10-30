@@ -21,7 +21,7 @@ faq:
 
 Freelancer começa com três decisões: qual regime você vai usar (MEI, CNPJ ou autônomo), qual serviço você vende e quanto custa entregá-lo. A parte burocrática é o MEI, com limite de faturamento de R$ 81.000,00 por ano (confirme o valor do ano). Este guia usa referência de outubro de 2026: confirme no seu caso antes de decidir.
 
-## As três formas de working como freelancer
+## As três formas de trabalhar como freelancer
 
 O termo "freelancer" não é uma figura jurídica. Ele descreve quem presta serviço por contrato, sem vínculo de subordinação. Isso aparece no sistema de três formas diferentes, e cada uma tem custos e obrigações próprias:
 
@@ -64,7 +64,7 @@ O MEI é uma porta de entrada de baixo custo, e vale entender onde ele para:
 O que você ganha:
 
 - CNPJ e endereço virtual gratuito, com possibilidade de endereço comercial em outro local.
-- Emissão de NFS-e para pessoa física ou jurídica, com código de-activity padronizado.
+- Emissão de NFS-e para pessoa física ou jurídica, com código de atividade padronizado.
 - DAS mensal único, que substitui a separação entre INSS, IRRF e outros tributos.
 - Isenção de IRRF para valores até o limite previsto em lei no ano, o que muda conforme a faixa.
 - Direito a benefícios da seguridade social como segurado especial, com direito a aposentadoria, pensão e auxílios.
@@ -73,7 +73,7 @@ O que o MEI não dá:
 
 - Limite de faturamento e de despesa com pessoal.
 - Lista restrita de atividades. Construção civil, advocacia, medicina, serviços de engenharia, entre outras, não são permitidas.
-- Protection contra o cliente trocar o fornecedor: o contrato de PJ não tem aviso-prévio, férias, 13º, FGTS nem multa rescisória.
+- Proteção contra o cliente trocar o fornecedor: o contrato de PJ não tem aviso-prévio, férias, 13º, FGTS nem multa rescisória.
 - Conta bancária separada obrigatória, o que ajuda a separar o dinheiro do MEI do seu dinheiro pessoal.
 
 Se você ultrapassar o teto de faturamento, não precisa fechar tudo: existe a possibilidade de ampliar o CNPJ para ME, com um plano de transição. O guia de [obrigações do MEI](/guias/obrigacoes-do-mei-lista/) lista as que você assume ao entrar e o que monitorar mês a mês.

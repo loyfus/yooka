@@ -71,9 +71,23 @@ antigo subdomínio apontando para o novo.
 1. **Google Search Console** — adicione a propriedade, valide com a tag HTML
    ou o arquivo de verificação, e envie `sitemap.xml`.
 2. **Bing Webmaster Tools** — importe do GSC (um clique) e use o IndexNow.
-3. **IndexNow** — `openssl rand -hex 16 > .indexnow-key`, cadastre a chave em
-   `bing.com/webmasters` e rode `npm run indexnow`. A Action `.github/workflows/indexnow.yml`
-   faz isso todo dia, desde que o repositório esteja com o workflow habilitado.
+3. **IndexNow** — a chave já foi gerada e publicada na raiz do site
+   (`/.indexnow-key` no repositório + `public/<chave>.txt` no build). Falta
+   **uma ação sua, no Bing**:
+
+   1. Entre em `bing.com/webmasters` e adicione o site
+      (`yooka.online`, ou `yooka.loyfus.com.br` enquanto o DNS não propaga).
+   2. Em **IndexNow → Gerenciar chaves**, cole a chave abaixo e salve:
+      ```
+      6a5236b8e3e73ccdc92d7a32b86b3ab7
+      ```
+   3. Pronto. A Action `.github/workflows/indexnow.yml` envia todas as URLs do
+      sitemap todo dia às 03:20 UTC.
+
+   Sem essa verificação o Bing responde `403 SiteVerificationNotCompleted` —
+   é o único passo que depende de conta externa. Para conferir o resultado:
+   `npm run indexnow` (a chave vem do arquivo `.indexnow-key`, que não vai para
+   o git).
 
 ## 6. Checklist antes de anunciar o site
 

@@ -56,7 +56,7 @@ Se o cadastro de prestador não existe na prefeitura, a emissão é recusada. É
 | Campo | O que colocar | Erro comum |
 |---|---|---|
 | Código de ocupação | Código municipal da sua atividade | Usar código de outra cidade e errar a alíquota |
-| Discriminação | Descrição do serviço, período e valor | Escrever "serviços various" ou o nome genérico da atividade |
+| Discriminação | Descrição do serviço, período e valor | Escrever "serviços diversos" ou o nome genérico da atividade |
 | Valor da nota | Total bruto do serviço | Confundir com o valor líquido, já descontadas as retenções |
 | Alíquota do ISS | Definida pelo código de ocupação no seu município | Aplicar a alíquota de outro município |
 | Retenções | INSS, PIS, Cofins e IRRF, quando o tomador retém | Não lançar retenção em cliente que retém de fato |

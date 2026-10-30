@@ -117,6 +117,30 @@
     'body.nav-open{overflow:hidden}}';
   document.head.appendChild(style);
 
+  /* --- Copiar modelo de documento ----------------------------------- */
+  var copyBtn = document.querySelector('[data-copy-target]');
+  if (copyBtn) {
+    copyBtn.addEventListener('click', function () {
+      var code = document.querySelector('.modelo pre code');
+      if (!code) return;
+      var text = code.textContent;
+      var done = function () {
+        copyBtn.textContent = 'Copiado';
+        setTimeout(function () { copyBtn.textContent = 'Copiar texto'; }, 2000);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(done);
+      } else {
+        var ta = document.createElement('textarea');
+        ta.value = text;
+        document.body.appendChild(ta);
+        ta.select();
+        try { document.execCommand('copy'); done(); } catch (e) {}
+        document.body.removeChild(ta);
+      }
+    });
+  }
+
   /* --- Newsletter / toast ------------------------------------------ */
   window.yookaToast = function (msg) {
     var t = document.querySelector('.toast');

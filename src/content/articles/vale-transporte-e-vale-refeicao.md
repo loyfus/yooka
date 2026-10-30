@@ -23,13 +23,13 @@ Vale-transporte é direito quando a empresa é do município do local de trabalh
 
 ## Vale-transporte: o que a lei obriga e o que é benefício
 
-O vale-transporte tem regrasrücktas na CLT (art. 7º, XVII) e na Lei 4.749/1965. As condições:
+O vale-transporte tem regras restritas na CLT (art. 7º, XVII) e na Lei 4.749/1965. As condições:
 
 - É obrigatório quando a empresa é do município do local de trabalho e o empregado reside ou trabalha a mais de 6 km do local de trabalho.
 - O desconto do empregado é de no máximo 6% do salário, limitado ao valor do benefício concedido.
 - Se o benefício for concedido e não utilizado, o desconto deve ser devolvido no mês seguinte.
-- A empresa que não fornecer o vale-transporte, quando devido, obriga-se a indicar um posto de venda outerminal de bilhetes para a compra dos bilhetes.
-- Se a empresa não for do município do local de trabalho, ela não é obrigada a fornecer o vale, a menos que a obrigações esteja estabelecida em convenção coletiva ou acordo.
+- A empresa que não fornecer o vale-transporte, quando devido, obriga-se a indicar um posto de venda ou um terminal de bilhetes para a compra dos bilhetes.
+- Se a empresa não for do município do local de trabalho, ela não é obrigada a fornecer o vale, a menos que a obrigação esteja estabelecida em convenção coletiva ou acordo.
 - O vale-transporte não é integrado ao salário, não entra em 13º, nem em férias com 1/3.
 
 O ponto de atenção mais comum: o desconto de 6% não é um impositivo sem limite. Se o empregado usa R$ 200,00 em ônibus e ganha R$ 250,00 de vale, só se desconta o menor valor, R$ 200,00. A diferença de R$ 50,00 é benefício e, se não for usada, precisa ser devolvida.
@@ -60,21 +60,21 @@ O ponto de atenção mais comum: o desconto de 6% não é um impositivo sem limi
 
 O Programa de Alimentação do Trabalhador (PAT) foi instituído pela Lei 14.887/2024, que revoga a Portaria do MTE nº 1.312/2017 e substitui o regulamento anterior. O que muda na prática:
 
-- O PAT passa a ter um regulamento único, com categorias de Establishment e faixa de desconto definidas por tipo de estabelecimento.
-- O benefício passa a ter umittade deelley de participação: o empregador define a faixa de desconto aplicável a cada tipo de estabelecimento, dentro das faixas do programa.
+- O PAT passa a ter um regulamento único, com categorias de estabelecimento e faixa de desconto definidas por tipo de estabelecimento.
+- O benefício passa a ter uma regra de participação: o empregador define a faixa de desconto aplicável a cada tipo de estabelecimento, dentro das faixas do programa.
 - O vale-refeição e o vale-alimentação passam a ter regras de uso uniforme, com pagamento por cartão ou aplicativo vinculado ao estabelecimento.
 - A fiscalização do programa passa a ter regras próprias, com cadastro obrigatório do empregador e possibilidade de cancelamento do registro.
-- Os benefícios de PAT continuam sendo facultativos: a obrigação é de quem concede, quando concede.
+- Os benefícios do PAT continuam sendo facultativos: a obrigação é de quem concede, quando concede.
 
 O ponto prático para o empregado: um vale-refeição com desconto de 30% em um estabelecimento do tipo "restaurante" segue as faixas definidas no regulamento do PAT, e não uma tabela livre escolhida pela empresa. Se o desconto estiver fora do que o programa permite, isso pode ser questionado.
 
 ## Vale-carnes, ticket e os outros benefícios que aparecem no holerite
 
-Além do vale-transporte e do vale-refeição, o holerite costuma bringing outros itens, e cada um tem regra própria de desconto e de natureza tributária. Confundir eles é a origem de boa parte das dúvidas sobre desconto.
+Além do vale-transporte e do vale-refeição, o holerite costuma trazer outros itens, e cada um tem regra própria de desconto e de natureza tributária. Confundir eles é a origem de boa parte das dúvidas sobre desconto.
 
 | Benefício | Como funciona | Desconto típico |
 |---|---|---|
-| Vale-transporte | Bilhões de ônibus ou metro, gerenciado por empresa de bilhetagem | Até 6% do salário |
+| Vale-transporte | Bilhetes de ônibus ou metrô, gerenciados por empresa de bilhetagem | Até 6% do salário |
 | Vale-refeição ou vale-alimentação | Crédito em cartão ou aplicativo, restrito a estabelecimentos da categoria definida | Definido pelo PAT e pelo contrato |
 | Vale-carnes | Crédito em cartão para mercearias e supermercados | Variável, com teto definido em contrato |
 | Vale-combustível | Abastecimento, quando a empresa oferece | Variável |

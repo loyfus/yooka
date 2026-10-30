@@ -363,6 +363,22 @@ h2:hover .anchor, h3:hover .anchor, .anchor:focus { opacity: 1; }
 .card--calc { background: #fff; }
 .card--calc .card__tag { background: var(--bg-alt); color: var(--ink-soft); }
 
+/* ---------------------------------------------------- Atalhos e modelos */
+.atalhos__group { margin-bottom: 2.2rem; }
+.atalhos__group h2 { margin-top: 0; }
+.atalhos__list { list-style: none; padding: 0; display: grid; gap: .8rem; }
+@media (min-width: 760px) { .atalhos__list { grid-template-columns: repeat(2, 1fr); } }
+.atalhos__item { border: 1px solid var(--line); border-radius: var(--radius-sm); padding: .9rem 1rem; background: #fff; }
+.atalhos__item a { font-weight: 700; font-size: 1rem; }
+.atalhos__item p { font-size: .89rem; color: var(--ink-soft); margin: .3rem 0 .35rem; }
+.atalhos__host { font-size: .76rem; color: var(--ink-faint); font-family: var(--mono); }
+
+.modelo { position: relative; }
+.modelo pre { background: #0b1020; color: #e7ecf5; border-radius: var(--radius); padding: 1.2rem 1.3rem; white-space: pre-wrap; word-break: break-word; font-size: .88rem; line-height: 1.6; }
+.modelo__copy { margin-top: .8rem; }
+
+.card--modelo { background: #fff; }
+
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }

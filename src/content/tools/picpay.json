@@ -2,61 +2,43 @@
   "name": "PicPay",
   "slug": "picpay",
   "category": "custos-e-planos",
-  "tagline": "Carteira digital simples para receber Pix no dia a dia",
-  "description": "Carteira digital com Pix, cartão de crédito, conta PJ e QR Code para receber no balcão, com recarga por boleto, saque no aplicativo e comprovante.",
+  "tagline": "Carteira digital simples para receber Pix no balcão",
+  "description": "Carteira digital com Pix gratuito, cartão de crédito, conta PJ sem mensalidade e QR Code para receber no balcão, com saque rápido pelo aplicativo.",
   "url": "https://picpay.com",
   "affiliateUrl": "https://picpay.com/?via=yooka",
-  "price": "Grátis para pessoa física; conta PJ com planos pagos",
-  "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. O app de pessoa física é gratuito; a Conta PJ tem planos mensais com valor e serviço corte, e taxas específicas para saque e cartão.",
-  "bestFor": "Quem quer receber Pix por QR Code e vender no balcão sem complicar a vida com banco",
+  "price": "Conta PJ e Pix sem mensalidade",
+  "priceNote": "Conta PJ é um produto único, sem planos e sem assinatura, com Pix gratuito e cartão básico sem anuidade; taxa de 4,29% por venda no link de pagamento e 0,99% no QR Code Pix. Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. O saldo rende 102% do CDI e o Pix Saque custa R$ 7,90 a partir da nona operação do mês.",
+  "bestFor": "Comerciante ou prestador de serviço que quer receber Pix no balcão e separar o caixa do negócio",
   "rating": 4.1,
   "ratingCount": 655,
   "pros": [
     "Pix por QR Code na fachada do negócio é simples de gerar e de usar, sem precisar de maquininha",
-    "Conta PJ separada do pessoal, com cartão PJ e extrato para o contador",
-    "App leve, que abre rápido e serve bem em internet ruim do interior",
-    "Cartão de crédito com anuidade baixa e opções de pagamento por contato"
+    "Conta PJ é produto único, sem mensalidade e sem assinatura, com Pix gratuito e cartão básico sem anuidade",
+    "Saldo rendendo 102% do CDI, com aporte a partir de R$ 1 na conta PJ, e cofrinhos que chegam a 120% do CDI",
+    "Conta PJ separada do pessoal, com cartão PJ e extrato para o contador"
   ],
   "cons": [
-    "A Conta PJ tem planos pagos e cobrança por volume, o que encarece quem vende pouco",
-    "Saque da carteira para conta de outro banco tem tarifa e valor mínimo, parecido com os concorrentes",
-    "Rendimento do dinheiro guardado é baixo quando comparado com CDB de banco digital",
-    "Relatórios contábeis são mais limitados que os de um ERP, e a conciliação exige exportar"
+    "O link de pagamento cobra 4,29% por venda, o que é pesado em quem vende por WhatsApp sem plano",
+    "A Conta PJ exige CNPJ ativo, uma conta por CNPJ, e quem ainda não tem empresa não consegue abrir",
+    "O Pix Saque e o Pix Troco custam R$ 7,90 a partir da nona operação do mês, sem cota menor",
+    "Cartões de crédito premium têm anuidade alta, de R$ 120 por ano no Gold a R$ 588 no Black"
   ],
   "features": [
-    {
-      "name": "QR Code estático",
-      "detail": "QR fixo para imprimir na mesa e receber Pix sem digitar chave"
-    },
-    {
-      "name": "Conta PJ",
-      "detail": "Conta de empresa com cartão PJ, Pix e limites de saque próprios"
-    },
-    {
-      "name": "Cartão de crédito",
-      "detail": "Cartão físico e virtual com anuidade reduzida e pagamento por aproximação"
-    },
-    {
-      "name": "Pagamento por contato",
-      "detail": "Pagar e receber no app por número de telefone, sem QR por pessoa"
-    },
-    {
-      "name": "Recarga e saque",
-      "detail": "Recarga por boleto ou cartão e saque com tarifa e valor mínimo"
-    },
-    {
-      "name": "Extrato e comprovante",
-      "detail": "Extrato por período e comprovante de recebimento para a nota"
-    }
+    { "name": "QR Code estático", "detail": "QR fixo para imprimir na mesa e receber Pix sem digitar chave" },
+    { "name": "Conta PJ", "detail": "Conta de empresa sem mensalidade, um CNPJ por conta, com cartão PJ" },
+    { "name": "Link de pagamento", "detail": "Cobrar por link com 4,29% por venda e Pix sem taxa" },
+    { "name": "Pix gratuito", "detail": "Transferência e recebimento de Pix isento na conta PF e na conta PJ" },
+    { "name": "Saldo e cofrinhos", "detail": "Saldo a 102% do CDI e cofrinhos com CDB garantido pelo FGC" },
+    { "name": "Pix Saque", "detail": "R$ 7,90 por operação a partir da nona do mês, com saque na rede credenciada" }
   ],
   "useCases": [
     "Colocar um QR Code na mesa do salão e receber Pix sem precisar de maquininha",
     "Ter conta PJ separada do dinheiro pessoal, com cartão para as despesas do negócio",
-    "Fazer recarga rápida por boleto quando o caixa fica curto no fim de semana",
-    "Enviar comprovante de recebimento junto com a nota para o cliente do serviço"
+    "Receber por link no WhatsApp e conferir a taxa de 4,29% antes de fechar o orçamento",
+    "Fazer recarga por boleto quando o caixa fica curto no fim de semana"
   ],
   "bestForWho": "Comerciante ou prestador de serviço de bairro que precisa receber no Pix com simplicidade e separar o caixa do negócio.",
-  "verdict": "O PicPay faz uma coisa muito bem: ser o lugar mais simples de receber Pix no balcão, sem maquininha e sem contrato. Para o comércio de bairro, o QR Code estático resolve o dia a dia em segundos, e a Conta PJ separa o dinheiro do negócio do dinheiro de casa. O que atrapalha é a estrutura de cobrança da Conta PJ, com planos cobrados por volume e tarifas de saque que só aparecem quando você precisa do dinheiro. O rendimento do saldo guardado também não compete com CDB de banco digital, então o PicPay não substitui uma conta de investimento. Para operação de balcão, ele é a ferramenta certa; para quem quer guardar reserva, o aplicativo sozinho não dá conta.",
+  "verdict": "O PicPay faz uma coisa muito bem: ser o lugar mais simples de receber Pix no balcão, sem maquininha e sem mensalidade, o que hoje é raro porque quase todo mundo passou a cobrar taxa por venda. O saldo rendendo 102% do CDI e o cofrinho com FGC resolvem a questão de onde deixar o dinheiro até o dia seguinte. Os contras são reais: o link de pagamento cobra 4,29% por venda, a Conta PJ exige CNPJ ativo e uma conta por CNPJ, e o Pix Saque passa a custar R$ 7,90 a partir da nona operação do mês. Os cartões premium também não são necessários para MEI e vão de R$ 120 a R$ 588 por ano de anuidade. Para operação de balcão, ele é a ferramenta certa; para quem quer guardar reserva, o aplicativo sozinho não dá conta.",
   "alternatives": [
     "nubank",
     "mercado-pago",

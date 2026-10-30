@@ -46,6 +46,7 @@ export const site = {
     { label: 'Trabalho', href: '/categorias/trabalho-e-carreira/' },
     { label: 'Renda extra', href: '/categorias/renda-e-negocio/' },
     { label: 'Calculadoras', href: '/calculadoras/' },
+    { label: 'Atalhos', href: '/atalhos/' },
     { label: 'Guias', href: '/guias/' },
   ],
   social: [
@@ -73,6 +74,8 @@ export const site = {
         { label: 'CLT ou PJ', href: '/guias/clt-ou-pj/' },
         { label: 'Renda extra com IA', href: '/guias/renda-extra-com-ia/' },
         { label: 'Custo de um agente de IA', href: '/guias/custo-de-agente-de-ia/' },
+        { label: 'Atalhos oficiais', href: '/atalhos/' },
+        { label: 'Modelos de documento', href: '/modelos/' },
       ],
     },
     {

@@ -2,43 +2,43 @@
   "name": "Mercado Pago",
   "slug": "mercado-pago",
   "category": "mei-e-nota-fiscal",
-  "tagline": "O gateway que começa grátis e escala com a venda",
-  "description": "Conta, carteira e gateway de pagamento para receber por PIX, boleto e cartão, com cobrança por link, split de pagamento e conta PJ no Mercado Pago.",
+  "tagline": "O gateway que começa grátis e repassa no mesmo dia",
+  "description": "Conta, carteira e gateway de pagamento para receber por Pix, boleto e cartão, com link de pagamento, maquininha Point e conta PJ que aceita MEI.",
   "url": "https://www.mercadopago.com.br",
   "affiliateUrl": "https://www.mercadopago.com.br/?via=yooka",
-  "price": "Grátis para começar + taxa por venda",
-  "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. A conta e o cadastro são gratuitos; o custo real está na taxa por venda cobrada sobre cada transação e no valor de saque, que varia conforme o meio de pagamento e o prazo.",
-  "bestFor": "MEI e pequeno negócio que quer receber por PIX e cartão sem custo fixo",
+  "price": "Conta grátis; cartão a 4,99% por venda",
+  "priceNote": "Conta Negócio (PJ) e Conta Digital (PF) sem taxa de abertura e sem mensalidade. Cartão online a 4,99% no repasse em D+0, 4,49% em D+14 e 3,99% em D+30; Pix recebido a 0,99% no checkout e 0,49% no QR Code do app; boleto a R$ 3,49; saque em espécie a R$ 5,90 por operação. Valores de referência em outubro de 2026; planos mudam, confirme no site oficial.",
+  "bestFor": "MEI e prestador de serviço que quer receber por Pix, boleto ou cartão hoje, sem mensalidade",
   "rating": 4.4,
   "ratingCount": 764,
   "pros": [
-    "Cadastro gratuito, sem mensalidade e sem curva de aprendizado: quem tem CNPJ abre conta em minutos",
-    "PIX, boleto e cartão na mesma conta, com cobrança por link que dá para mandar no WhatsApp",
-    "Antecipação de recebíveis do cartão, útil para não esperar o repasse cair",
-    "Reputação de comprador forte: quem paga por Mercado Pago confia mais em quem cobra por Mercado Pago"
+    "Conta PJ sem taxa de abertura e sem mensalidade, com cadastro por CPF ou CNPJ, então MEI entra nos mesmos termos",
+    "Repasse do Pix no mesmo dia e do cartão em D+0, D+14 ou D+30, conforme o prazo escolhido",
+    "Maquininha Point com Pix a 0,49% e débito a partir de 0,74%, o que ajuda quem vende no balcão",
+    "Link de pagamento pronto para mandar no WhatsApp, com Pix, boleto e cartão na mesma cobrança"
   ],
   "cons": [
-    "A taxa por venda de cartão é de um percentual que compete com a concorrência e encolhe a margem",
-    "Dinheiro só fica disponível depois do prazo de repasse, o que trava quem compra à vista",
-    "A conta PJ é limitada em funções: conciliação e gestão de fluxo exigem ferramenta extra",
-    "Saque para conta externa tem custo e taxa, e o valor mínimo impede resgatar valores pequenos"
+    "A taxa de cartão de 4,99% em D+0 é alta para quem vende pouco, e só cai para 3,99% se o repasse for em 30 dias",
+    "No parcelado sem acréscimo ao comprador o custo é absorvido: em 6x, MDR e parcela somam 12,91%",
+    "Saque em espécie custa R$ 5,90 por operação, e o saque no cartão de crédito custa R$ 9,90",
+    "O boleto só cai em D+3, e o TED para outro banco custa R$ 3,00 por transação"
   ],
   "features": [
-    { "name": "Conta PJ gratuita", "detail": "CNPJ cadastrado e conta de recebimento sem taxa de manutenção" },
-    { "name": "Link de pagamento", "detail": "Cobrar por PIX ou boleto enviando um link pronto no WhatsApp ou e-mail" },
-    { "name": "Checkout e integração", "detail": "Botão de pagamento e SDK para colocar a marca na loja ou no site" },
-    { "name": "Antecipação de venda", "detail": "Receber antes do repasse com custo por antecipação informada na hora" },
-    { "name": "Split de pagamento", "detail": "Dividir o valor entre conta de marketplace e conta do vendedor" },
-    { "name": "Relatórios de venda", "detail": "Extrato por período e por meio de pagamento, exportável" }
+    { "name": "Conta Negócio grátis", "detail": "Conta PJ e conta digital PF sem taxa de abertura e sem mensalidade" },
+    { "name": "Pix e boleto", "detail": "Pix a 0,99% no checkout, boleto a R$ 3,49 e repasse do Pix no mesmo dia" },
+    { "name": "Cartão com prazo escolhido", "detail": "D+0 a 4,99%, D+14 a 4,49% ou D+30 a 3,99%, conforme o repasse" },
+    { "name": "Link de pagamento", "detail": "Cobrar por link no WhatsApp ou e-mail, com Pix, boleto e cartão" },
+    { "name": "Maquininha Point", "detail": "Point e Tap to Pay com Pix a 0,49%, débito a partir de 0,74% e crédito de 3,09%" },
+    { "name": "Conta PJ aceita MEI", "detail": "Cadastro por CPF ou CNPJ, com MEI usando a CCMEI já emitida" }
   ],
   "useCases": [
-    "Receber por PIX de uma venda combinada no WhatsApp e emitir o recibo no mesmo dia",
+    "Receber por Pix de uma venda combinada no WhatsApp e liberar o valor no mesmo dia",
     "Cobrar um orçamento de R$ 800 por boleto e acompanhar o pagamento pelo painel",
-    "Receber por cartão parcelado e usar a antecipação para comprar insumo antes do repasse",
-    "Abrir conta PJ com CNPJ de MEI em poucos minutos, sem burocracia de banco"
+    "Vender no cartão em 6x e calcular o custo real do parcelamento antes de fechar o preço",
+    "Sacar o caixa da semana na rede Banco24Horas, sabendo que cada operação custa R$ 5,90"
   ],
-  "bestForWho": "MEI ou prestador de serviço que precisa receber por PIX e cartão hoje, sem mensalidade e sem se complicar com o banco.",
-  "verdict": "O Mercado Pago é a escolha mais óbvia para quem está começando a receber pela internet, e a vantagem não é só a taxa: é a reputação e a simplicidade de instalação. Para MEI, abrir conta e receber o primeiro Pix leva minutos, e o link de pagamento no WhatsApp resolve venda que antes não existia. Os dois pontos que costumam frustrar são o repasse atrasado e o custo de antecipar ou sacar, que precisa entrar na conta do preço do produto. A taxa por venda é competitiva para quem aceita cartão, mas encolhe se o ticket médio é baixo e o pagamento é sempre no Pix. Para operação enxuta, é o melhor ponto de partida; para volume alto, vale comparar com um gateway de taxa menor, porque a diferença percentual pesa.",
+  "bestForWho": "MEI e prestador de serviço que quer receber por Pix, boleto ou cartão hoje, sem mensalidade e com repasse rápido.",
+  "verdict": "O Mercado Pago é a escolha mais óbvia para quem está começando a receber pela internet, e a vantagem não é só a taxa: é a reputação, a facilidade do cadastro e o repasse no mesmo dia do Pix. A conta PJ não tem mensalidade nem taxa de abertura e aceita CNPJ de MEI, o que elimina a burocracia de abrir conta em banco tradicional. Os números reais ficam na ponta da corda: cartão a 4,99% no repasse em D+0, boleto a R$ 3,49 e saque a R$ 5,90 por operação. O parcelado é o ponto de atenção mais sério, porque sem acréscimo ao comprador a taxa chega a 12,91% em 6x, o que muda o preço do produto ou acaba no bolso do vendedor. Para operação enxuta, é o melhor ponto de partida; para volume alto, vale comparar com um gateway de taxa menor, porque a diferença percentual pesa.",
   "alternatives": [
     "iugu",
     "picpay",

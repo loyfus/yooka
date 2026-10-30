@@ -24,34 +24,16 @@
     "Perfil sem proposta mostra pouco: sem histórico, o algoritmo de ranqueamento empurra o candidato para baixo"
   ],
   "features": [
-    {
-      "name": "Projetos com orçamento",
-      "detail": "Anúncios com valor, prazo e escopo definidos pelo cliente"
-    },
-    {
-      "name": "Perfil público",
-      "detail": "Página indexada com portfólio, habilidades e avaliações dos clientes"
-    },
-    {
-      "name": "Candidatura",
-      "detail": "Propostas com valor e prazo, liberadas para envio ao cliente"
-    },
-    {
-      "name": "Contrato intermediado",
-      "detail": "Acordo, escopo e pagamento registrados dentro da plataforma"
-    },
-    {
-      "name": "Repasse do valor",
-      "detail": "Dinheiro liberado ao freelancer conforme as etapas do contrato"
-    },
-    {
-      "name": "Avaliações",
-      "detail": "Notas e comentários dos clientes que viram prova social do perfil"
-    }
+    { "name": "Projetos com orçamento", "detail": "Anúncios com valor, prazo e escopo definidos pelo cliente" },
+    { "name": "Perfil público", "detail": "Página indexada com portfólio, habilidades e avaliações dos clientes" },
+    { "name": "Candidatura", "detail": "Propostas com valor e prazo, liberadas para envio ao cliente" },
+    { "name": "Contrato intermediado", "detail": "Acordo, escopo e pagamento registrados dentro da plataforma" },
+    { "name": "Repasse do valor", "detail": "Dinheiro liberado ao freelancer conforme as etapas do contrato" },
+    { "name": "Avaliações", "detail": "Notas e comentários dos clientes que viram prova social do perfil" }
   ],
   "useCases": [
     "Ganhar o primeiro projeto de design ou texto sem precisar de indicação de ninguém",
-    "Calcular o preço da hora antes de se candidatar, olhando o orçamento Fixo do anúncio",
+    "Calcular o preço da hora antes de se candidatar, olhando o orçamento fixo do anúncio",
     "Montar portfólio público com os trabalhos que fiz, mesmo sem cliente no LinkedIn",
     "Cobrar parte do valor adiantado antes de começar, com o contrato formalizado na plataforma"
   ],

@@ -28,7 +28,7 @@ O 13º salário é o pagamento de um mês de remuneração garantido pela Lei 4.
 As regras principais:
 
 - Vale 1/12 da remuneração por cada mês de serviço no calendário do ano civil, de janeiro a dezembro.
-- É devido a empregados, aviados e temporários, e também a entrevistados, empregados domésticos, trabalhadores avulsos e Hempados com carteira de trabalho assinada.
+- É devido a empregados, aviados e temporários, e também a entrevistados, empregados domésticos, trabalhadores avulsos e empregados com carteira de trabalho assinada.
 - O pagamento é feito até o dia 20 de dezembro, ou até o dia 20 do mês anterior, se as férias tiverem começado em dezembro.
 - Na rescisão do contrato, é quitado junto com as demais verbas, em até 10 dias.
 - Não é objeto de acordo individual ou coletivo que reduza o valor: o mínimo é legal.
@@ -71,11 +71,11 @@ A confusão mais comum no mês de rescisão é somar 13º proporcional e férias
 | 13º proporcional | Salário ÷ 12 × meses trabalhados no ano | Janeiro a dezembro |
 | Férias proporcionais | Salário ÷ 12 × meses + terço de 1/3 | Período aquisitivo de 12 meses |
 | Saldo de salário | Dias trabalhados no último mês × salário diário | Mês da rescisão |
-| Aviso-prévio | Salário × (7 a 90 dias conforme tempo de serviço) | Tempo de serviço |
+| Aviso-prévio | Salário × 7 dias por ano de serviço, no máximo 60 dias | Tempo de serviço |
 | FGTS | 8% sobre todos os depósitos do ano | Período de vínculo |
 | Multa do FGTS | 40% sobre o saldo da conta vinculada | Rescisão sem justa causa |
 
-O aviso-prévio merece uma observação: o art. 487 da CLT limita a projeção do aviso-prévio a 60 dias (7 dias por ano de serviço, com o máximo de 60 no caso do art. 487, parágrafo único). Quem tem mais de 20 anos de serviço e mais de 60 anos de idade não é obrigado a cumprir o aviso-prévio, segundo a regra do art. 487, § 2º. Confirme no seu caso.
+O aviso-prévio merece uma observação: o art. 487 da CLT prevê 7 dias de aviso por ano de serviço, com o máximo de 60 dias (parágrafo único). Quem tem mais de 60 anos de idade ou mais de 20 anos de serviço não é obrigado a cumprir o aviso-prévio, conforme o art. 487, § 2º. Confirme no seu caso.
 
 ## Do que é feito o 13: as três etapas até o pagamento
 
@@ -89,7 +89,7 @@ O caminho do 13º tem três etapas, e vale conhecê-las porque é nelas que apar
 
 Uma observação útil para o planejamento: o 13º não é corrigido por índice. Não existe reajuste do 13º como existe para o salário mínimo. Se o salário não foi reajustado no ano, o 13º segue o salário do mês de dezembro, sem qualquer correção adicional.
 
-Para saber como esse valor se conecta com outros dois IMPORTANTES do ano, o guia de [férias](/guias/como-calcular-ferias/) mostra o cálculo das férias com 1/3, e o de [CLT ou PJ](/guias/clt-ou-pj/) compara o peso dessas verbas na escolha do modelo de trabalho.
+Para saber como esse valor se conecta com outros dois itens importantes do ano, o guia de [férias](/guias/como-calcular-ferias/) mostra o cálculo das férias com 1/3, e o de [CLT ou PJ](/guias/clt-ou-pj/) compara o peso dessas verbas na escolha do modelo de trabalho.
 
 
 ## O que o empregador é obrigado a fazer e o que é opcional

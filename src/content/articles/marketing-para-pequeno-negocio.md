@@ -35,7 +35,7 @@ Definir o canal principal evita a dispersão que consome o tempo de quem opera s
 
 ## Passo a passo: plano de marketing de 90 dias para pequeno negócio
 
-1. **Semana 1: defina o perfil de cliente e a oferta principal.** Quem é, qual problema você resolve, qual oighbourhood você atende e por que ele escolhe você. Escreva em uma frase e cole na parede.
+1. **Semana 1: defina o perfil de cliente e a oferta principal.** Quem é, qual problema você resolve, qual o bairro que você atende e por que ele escolhe você. Escreva em uma frase e cole na parede.
 2. **Semana 1 e 2: monte o Google Meu Negócio por completo.** Cadastro verificado, endereço, telefone com WhatsApp, horário real, categorias, dez fotos próprias, descrição de até 750 caracteres e três primeiras avaliações. Peça avaliação a todo cliente satisfeito, com o link pronto no WhatsApp.
 3. **Semana 2 e 3: configure o WhatsApp Business.** Catálogo com o que você vende, mensagem de ausência que combine pedido de retorno, respostas rápidas para as cinco dúvidas mais comuns e etiquetação de origem ("indicação", "Google", "Instagram").
 4. **Semana 3 e 4: publique no ritmo que você aguenta.** Três posts por semana é melhor que sete na primeira semana e zero depois. Alternar produto, bastidores e prova social. Fotografe com luz natural, janela aberta.

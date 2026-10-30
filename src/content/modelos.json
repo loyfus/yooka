@@ -1,0 +1,56 @@
+{
+  "templates": [
+    {
+      "slug": "contestar-valor-de-conta",
+      "title": "Modelo de e-mail para contestar o valor de uma conta",
+      "category": "servicos-publicos",
+      "when": "A conta de luz, água ou outra tem um valor que parece errado e o atendimento não resolveu.",
+      "steps": [
+        "Copie o modelo abaixo para um e-mail ou para o campo de mensagem do aplicativo da concessionária.",
+        "Troque os campos entre colchetes pelos seus dados.",
+        "Anexe a foto da conta e, se tiver, o print da comparação com a média dos seus próprios consumos anteriores.",
+        "Peça resposta por escrito e um prazo: em geral a concessionária tem até 5 dias para responder revisão de fatura."
+      ],
+      "text": "Assunto: Contestação de valor de fatura — unidade [SEU NÚMERO DE CONTRATO / UC], referência [MÊS/ANO]\n\nÀ [NOME DA CONCESSIONÁRIA],\n\nEu, [NOME COMPLETO], titular da unidade [NÚMERO DA UNIDADE/UC] ou do contrato [NÚMERO], CPF [CPF], contesto o valor da fatura de [MÊS/ANO], no montante de [VALOR] — REFERENCE [VALOR ESPERADO OU MÉDIA DOS ÚLTIMOS MESES].\n\nA diferença de [VALOR DA DIFERENÇA] não corresponde ao meu consumo, que se encontra dentro do padrão registrado nas faturas anteriores (em anexo).\n\nSolicito: (1) a memória de cálculo da fatura; (2) o detalhamento da medição e da leitura; (3) a correção do valor, se houver erro; e (4) resposta formal por escrito em até 5 dias úteis, com número de protocolo.\n\nInformo que continuo pagando as parcelas incontroversas para evitar suspensão do serviço, e que reservo o direito de recorrer à reembolso e aos órgãos de defesa do consumidor caso não haja resposta.\n\nAtenciosamente,\n[NOME COMPLETO]\n[CPF]\n[TELEFONE]\n[DATA]"
+    },
+    {
+      "slug": "requerer-revisao-de-beneficio",
+      "title": "Modelo de requerimento de revisão de benefício do INSS",
+      "category": "servicos-publicos",
+      "when": "Seu benefício foi negado ou revisto e você quer pedir reconsideração ou recurso.",
+      "steps": [
+        "Acesse o Meu INSS com seu gov.br e abra o benefício em questão.",
+        "Escolha a opção de recurso/reconsideração e descreva o motivo com base no modelo abaixo.",
+        "Junte os documentos que sustentam cada ponto (laudo, exame, recibo de medicine, histórico de atendimento).",
+        "Protocole e guarde o número do requerimento — o prazo de resposta do INSS é de 45 dias para o pedido de reconsideração e de 60 dias para o recurso."
+      ],
+      "text": "Requerimento de revisão de benefício\n\nBenefício: [TIPO E NÚMERO DO BENEFÍCIO] — NB [NÚMERO]\nCPF: [CPF] — Nome: [NOME COMPLETO]\n\nVenho, por meio do presente, requerer a revisão do benefício acima, decidido em [DATA DA DECISÃO], com o seguinte fundamento:\n\n1) [DESCREVER O MOTIVO EM ATÉ 5 LINHAS: qual foi a conclusão, por quê está errada e qual documento prova isso]\n\n2) O documento [NOME DO DOCUMENTO], de [DATA], mostra [O QUE MOSTRA]. Ele não foi considerado na análise ou foi interpretado de forma diversa.\n\n3) documents anexados, [LISTAR OS DOCUMENTOS COM DATA E O QUE CADA UM PROVA].\n\nRequeiro, portanto, a reconsideração do benefício e, se mantida a decisão, o encaminhamento àarkers da produção de prova (exame, avaliação, auditoria), com o envio do prazo legal para resposta.\n\nLocal e data: [LOCAL], [DATA].\n[NOME COMPLETO]\n[CPF]"
+    },
+    {
+      "slug": "solicitar-segunda-via",
+      "title": "Modelo de e-mail para solicitar segunda via de um documento",
+      "category": "servicos-publicos",
+      "when": "Perdeu um documento (certidão, carteira, título) e não sabe qualvia emitir.",
+      "steps": [
+        "Identifique o órgão emissor (cartório, Detran, Tribunal,órgão federal) — cada um tem seu próprio canal.",
+        "Use o modelo abaixo trocando os campos entre colchetes.",
+        "Se a via digital estiver disponível no portal do órgão, prefira emitir por lá: é imediato e gratuito.",
+        "Guarde o protocolo do pedido."
+      ],
+      "text": "Assunto: Solicitação de segunda via — [TIPO DO DOCUMENTO]\n\nÀ [ÓRGÃO EMISSOR],\n\nEu, [NOME COMPLETO], CPF [CPF], [DATA DE NASCIMENTO], portador(a) do documento [TIPO DO DOCUMENTO] de número [NÚMERO], registro [NÚMERO DO REGISTRO/INSCRIÇÃO], solicito a emissão de segunda via do documento, que [FOI EXTRAVIADO / PERDI / ROUBADO / ESTÁ COM O DOCUMENTO EM DESATUALIZADO].\n\n[SE HOUVER OCORRÊNCIA: Em [DATA], [RELATE O OCORRÊNCIA]. Caso seja furto, o boletim de ocorrência é o número [B.O.] e está anexado.]\n\nColoco-me à disposição para os documentos e a taxa necessários à emissão.\n\nAtenciosamente,\n[NOME COMPLETO]\n[CPF] — [TELEFONE] — [E-MAIL]\n[DATA]"
+    },
+    {
+      "slug": "negociar-parcelamento",
+      "title": "Modelo de mensagem para negociar parcelamento de dívida",
+      "category": "custos-e-planos",
+      "when": "A conta de energia, água ou cartão está em atraso e o valor total já não cabe no orçamento.",
+      "steps": [
+        "Antes de escrever, descubra quanto você consegue pagar por mês sem comprometer o básico — essa é a sua proposta.",
+        "Use o modelo abaixo trocando os campos entre colchetes.",
+        "Seja específico sobre o valor da parcela e a data de início.",
+        "Peça por escrito a confirmação do acordo e guarde o protocolo."
+      ],
+      "text": "Assunto: Proposta de parcelamento do débito de [TIPO DE DÉBITO] — [NÚMERO DA CONTA/CONTRATO]\n\nÀ [CREDORA/CONCESSIONÁRIA],\n\nEu, [NOME COMPLETO], CPF [CPF], titular da unidade [NÚMERO], estou inadimplente com o débito de [VALOR TOTAL], referente a [PERÍODO].\n\nConsigo pagar [VALOR DA PARCELA] por mês, a partir de [DATA], em [NÚMERO] parcelas. Esse valor é o que consigo assumir sem comprometer o meu orçamento e as condições de Myers da minha família.\n\nSolicito: (1) a formalização dessa proposta; (2) a suspensão dos juros e da multa sobre o valor parcelado; (3) a confirmação por escrito, com o novo valor total e a data de vencimento das parcelas; e (4) a suspensão de medidas de cobrança enquanto o acordo estiver em dia.\n\nComprometo-me a pagar as parcelas nas datas acordadas.\n\nAtenciosamente,\n[NOME COMPLETO]\n[CPF] — [TELEFONE]\n[DATA]"
+    }
+  ]
+}

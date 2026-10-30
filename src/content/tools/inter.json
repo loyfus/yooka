@@ -2,61 +2,43 @@
   "name": "Inter",
   "slug": "inter",
   "category": "custos-e-planos",
-  "tagline": "Superconta digital com CDB que resgata na hora",
-  "description": "Banco digital com superconta gratuita, Pix e cartão de crédito, CDB com rendimento elevado e resgate imediato, além de conta PJ para o negócio.",
+  "tagline": "Superconta digital com Pix sem taxa e maquininha grátis",
+  "description": "Banco digital com conta PJ e MEI gratuitas, Pix sem tarifa, cartão de crédito sem anuidade, maquininha no celular e CDB com resgate no dia seguinte.",
   "url": "https://www.inter.co",
   "affiliateUrl": "https://www.inter.co/?via=yooka",
-  "price": "Grátis para superconta e conta PJ",
-  "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. A superconta e a conta PJ não têm tarifa de manutenção; existem produtos pagos, como CDB com menor rendimento, cartão Platinum e serviços de saque com limite maior.",
-  "bestFor": "Quem quer conta digital gratuita com CDB que rende mais e resgata na hora",
+  "price": "Grátis para conta PJ e MEI",
+  "priceNote": "Conta PJ e Conta MEI sem mensalidade e sem taxa de abertura, e Pix isento para envio e recebimento. Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. Saque em espécie custa R$ 6,40 por operação para PJ e MEI, sem cota gratuita; no Inter Pag, crédito à vista a partir de 1,35% e Pix QR Code com taxa zero.",
+  "bestFor": "MEI e microempresa que quer conta PJ gratuita, Pix sem taxa e maquininha no celular sem custo de adesão",
   "rating": 4.5,
   "ratingCount": 618,
   "pros": [
-    "Superconta sem tarifa de manutenção e com Pix ilimitado e gratuito, o que acaba com a conta bancária cara",
-    "CDB resgatável no próprio app, com rendimento de 100 por cento do CDI para quem não usa a conta corrente",
-    "Cartão de crédito Platinum com limite ajustado e rewards em dinheiro de volta",
-    "Conta PJ com Pix, cartão e CDB da conta, para quem não quer misturar caixa pessoal e empresa"
+    "Conta PJ e Conta MEI gratuitas, sem mensalidade e sem taxa de abertura, com Pix isento para enviar e receber",
+    "Cartão de crédito com anuidade gratuita em PF e PJ, e maquininha no celular liberada sem custo de adesão",
+    "Inter Pag com crédito à vista a partir de 1,35% e Pix QR Code com taxa zero, o que derruba o custo da venda",
+    "Porquinho PJ gratuito e CDB com aporte a partir de R$ 1,00 e resgate no dia seguinte"
   ],
   "cons": [
-    "O CDB tem rendimento menor que a concorrência do mercado no app, o que exige comparar antes de deixar dinheiro parado",
-    "Saque para outro banco tem limite diário, o que trava quem precisa mover valores grandes de uma vez",
-    "A documentação e o atendimento são menos amplos que os do Nubank, com menos material em português",
-    "Produto de cartão premium e seguro de viagem não são necessários para a maioria dos MEI"
+    "Saque em espécie custa R$ 6,40 por operação para PJ e MEI, sem cota gratuita, o que pesa em quem saca todo dia",
+    "O CDB Mais Limite rende 80% do CDI, e os 100% do CDI ficam só no Porquinho por Objetivo",
+    "A abertura da conta PJ exige CNPJ ativo, comprovante de endereço e previsão de faturamento, o que trava quem está abrindo CNPJ",
+    "Planos Pro e Advanced exigem implementação paga e contrato mínimo de 12 meses"
   ],
   "features": [
-    {
-      "name": "Superconta gratuita",
-      "detail": "Conta corrente digital sem tarifa, com Pix, transferência e extrato"
-    },
-    {
-      "name": "CDB no app",
-      "detail": "Rendimento próximo ao CDI com resgate imediato, sem carência"
-    },
-    {
-      "name": "Cartão de crédito",
-      "detail": "Platinum com limite ajustável, compras nacionais e rewards em dinheiro de volta"
-    },
-    {
-      "name": "Conta PJ",
-      "detail": "Conta de empresa com cartão PJ, Pix e CDB separado do dinheiro pessoal"
-    },
-    {
-      "name": "Investimentos",
-      "detail": "Renda fixa, ações e fundos dentro do app, com resgate e portabilidade"
-    },
-    {
-      "name": "Atendimento",
-      "detail": "Chat e telefone, com horário comercial e sem fila no aplicativo"
-    }
+    { "name": "Conta PJ e MEI", "detail": "Conta de empresa e conta MEI gratuitas, sem mensalidade nem taxa de abertura" },
+    { "name": "Pix isento", "detail": "Envio e recebimento de Pix sem tarifa em PF e PJ, com Pix Automático integrado" },
+    { "name": "Inter Pag", "detail": "Maquininha, Tap to Pay e link de pagamento: crédito a partir de 1,35%, Pix QR Code zerado" },
+    { "name": "Porquinho e CDB", "detail": "Porquinho PJ e CDB Mais Limite com aporte a partir de R$ 1,00 e resgate D+1" },
+    { "name": "Cartão PJ sem anuidade", "detail": "Crédito e débito empresarial com anuidade gratuita e cartão virtual sem custo" },
+    { "name": "Antecipação de recebíveis", "detail": "Adiantar o valor da maquininha com custo por prazo, de Pix grátis a 12 vezes bem mais caro" }
   ],
   "useCases": [
-    "Trocar a conta que cobra R$ 30 de manutenção por uma superconta gratuita",
-    "Guardar a reserva do negócio em CDB e resgatar na hora do imprevisto, sem perder carência",
-    "Separar o caixa da empresa do dinheiro de casa em contas diferentes no mesmo app",
-    "Receber Pix de vários clientes e sacar sem pagar tarifa para conta de outro banco"
+    "Receber Pix no balcão do MEI sem pagar taxa por venda nem tarifa de saque",
+    "Emitir boleto de mensalidade e usar Pix Automático para receber sem tarifa",
+    "Vender no cartão com a maquininha do celular e acompanhar o custo de 1,35% na ponta",
+    "Guardar a reserva da empresa no Porquinho PJ e resgatar no dia seguinte"
   ],
-  "bestForWho": "Pessoa física ou MEI que quer conta digital sem tarifa, CDB de resgate imediato e cartão de crédito no mesmo aplicativo.",
-  "verdict": "O Inter é a resposta direta para quem reclama de taxa de manutenção e de CDB preso em banco. A superconta é gratuita de verdade e o CDB resgatável no aplicativo dá flexibilidade sem perder rendimento. A diferença para o Nubank está no desenho do CDB e no CDB da conta PJ, que rende bem, mas exige comparar o rendimento atualizado do dia, porque esse número muda. Outro ponto real é o limite de saque para fora, que incomoda quem precisa mover dinheiro de uma vez para pagar fornecedor. No uso normal de MEI, esse limite não aparece, e a troca costuma valer.",
+  "bestForWho": "MEI e microempresa que quer conta PJ gratuita, Pix sem taxa e maquininha no celular sem custo de adesão.",
+  "verdict": "O Inter é uma das contas mais vantajosas para MEI porque junta três coisas que raramente vêm no mesmo lugar: conta de empresa gratuita, Pix sem tarifa e maquininha sem taxa de adesão. O Inter Pag, com crédito à vista a partir de 1,35% e Pix QR Code zerado, muda a conta de quem vende no balcão, porque o custo deixa de ser o problema central. Os contras são pontuais, mas reais: o saque em espécie custa R$ 6,40 por operação para PJ e MEI, sem cota gratuita, e o CDB Mais Limite rende 80% do CDI, com 100% do CDI só no Porquinho por Objetivo. A abertura da conta PJ exige CNPJ ativo, comprovante de endereço e previsão de faturamento, o que trava quem está na fase de abrir a empresa. Para MEI já aberto, o custo fixo praticamente desaparece e o Pix deixa de ser royalties.",
   "alternatives": [
     "nubank",
     "c6-bank",

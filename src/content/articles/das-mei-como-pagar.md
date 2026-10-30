@@ -1,6 +1,6 @@
 ---
 title: "DAS MEI: como pagar, prazos, valores de referência e o que acontece se atrasar"
-description: "DAS MEI em 2026: como pagar no Portal do Empreendedor, faixas de alíquota de 5% a 15%, prazos, reorganization em janeiro e o que risco traz o atraso."
+description: "DAS MEI em 2026: como pagar no Portal do Empreendedor, faixas de alíquota de 5% a 15%, prazos, reorganização em janeiro e o que o atraso traz."
 date: "2026-10-30"
 updated: "2026-10-30"
 category: "mei-e-nota-fiscal"
@@ -14,7 +14,7 @@ faq:
   - q: "O que acontece se eu não pagar o DAS?"
     a: "O atraso gera multa de 2% por mês, mais juros de 1% ao mês e atualização pelo Índice Nacional de Preços ao Consumidor. A inscrição no Estado de São Paulo pode ser cancelada automaticamente, e o acúmulo de débitos leva ao desenquadramento."
   - q: "Preciso pagar DAS se não faturei nada no mês?"
-    a: "Sim. O MEI paga por mês de atividade, não por mês com receita. Só existe suspensão formal do formality quando o MEI fica sem atividade por mais de 6 meses, mediante solicitação."
+    a: "Sim. O MEI paga por mês de atividade, não por mês com receita. Só existe suspensão formal da formalidade quando o MEI fica sem atividade por mais de 6 meses, mediante solicitação."
   - q: "O ISS está incluído no DAS?"
     a: "Depende da cidade. Em municípios que já aderiram ao recolhimento conjunto do Simples Nacional, o ISS é recolhido junto com o DAS. Nos demais, o ISS é declarado e pago separadamente à prefeitura."
 ---
@@ -25,9 +25,9 @@ Para pagar o DAS do MEI você gera o boleto no Portal do Empreendedor (gov.br), 
 
 O DAS é o Documento de Arrecadação do Simples Nacional. Para o MEI, ele é um único boleto mensal que junta três parcelas: o INSS, o ISS (quando a cidade aderiu ao recolhimento conjunto) e outros tributos que incidem sobre o faturamento proporcional.
 
-A lógica do MEI é simples: o DAS é proporcional ao que você facturou no mês. A ferramenta que aplica essa proporção é o PGDAS-D, o programa gerador do DAS que o próprio portal usa para montar o boleto. O sistema lê o faturamento que você declarou no ano anterior, aplica a alíquota da faixa correspondente e mostra o valor due.
+A lógica do MEI é simples: o DAS é proporcional ao que você facturou no mês. A ferramenta que aplica essa proporção é o PGDAS-D, o programa gerador do DAS que o próprio portal usa para montar o boleto. O sistema lê o faturamento que você declarou no ano anterior, aplica a alíquota da faixa correspondente e mostra o valor devido.
 
-Para quem é enquadrado como MEI com limite fixo, o valor é o mesmo todo mês. Para quem é enquadrado com renda variável, o DAS muda de valor conforme o faturamento, e é aí que a planilha de controle passa a ter importance.
+Para quem é enquadrado como MEI com limite fixo, o valor é o mesmo todo mês. Para quem é enquadrado com renda variável, o DAS muda de valor conforme o faturamento, e é aí que a planilha de controle passa a ter importância.
 
 O limite de faturamento é de R$ 81.000 por ano, proporcional aos meses de atividade. Passou de R$ 81.000, o DAS do ano seguinte muda de faixa e o acúmulo de alguns anos pode levar ao desenquadramento — veja [quando sair do MEI](/guias/quando-sair-do-mei/).
 
@@ -59,7 +59,7 @@ Acima de R$ 5.000 por mês, a faixa aplicável é a última da tabela do PGDAS-D
 
 3. **Atualize o faturamento do mês.** Se o seu DAS é proporcional, o portal usa o valor declarado no ano anterior como base. Confira se a base está correta e ajuste, quando o caso, pelo próprio portal antes de gerar. Um faturamento não atualizado é a causa mais comum de boleto errado.
 
-4. **Gere o boleto (PGDAS-D).** Clique em gerar. O sistema calcula a parcela do INSS, aplica a alíquota da faixa, soma o ISS quando due e produz o DAS com código de barras e linha digitável. Você pode baixar o PDF ou copiar o código para pagar por app de banco, internet banking ou lotérica.
+4. **Gere o boleto (PGDAS-D).** Clique em gerar. O sistema calcula a parcela do INSS, aplica a alíquota da faixa, soma o ISS quando devido e produz o DAS com código de barras e linha digitável. Você pode baixar o PDF ou copiar o código para pagar por app de banco, internet banking ou lotérica.
 
 5. **Pague até o dia 20.** O vencimento padrão do DAS do MEI é o dia 20 do mês corrente. Boleto emitido em cima da hora ainda pode ser pago no dia seguinte em alguns bancos, mas não conte com isso: perder o dia 20 é cair em atraso.
 

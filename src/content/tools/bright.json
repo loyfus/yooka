@@ -24,30 +24,12 @@
     "Contrato anual com fidelidade, e a multa de cancelamento aparece na hora de sair"
   ],
   "features": [
-    {
-      "name": "Conta PJ",
-      "detail": "Conta de empresa com Pix, extrato e limite de transação controlado"
-    },
-    {
-      "name": "Cartão PJ",
-      "detail": "Crédito para a empresa, com limiteIED e compras nacionais"
-    },
-    {
-      "name": "Contabilidade MEI",
-      "detail": "DAS, obrigação mensal e contabilidade online dentro do app"
-    },
-    {
-      "name": "NFS-e",
-      "detail": "Emissão de nota de serviço com envio ao cliente e status de entrega"
-    },
-    {
-      "name": "CDB e reserva",
-      "detail": "Rendimento do dinheiro da empresa dentro do aplicativo"
-    },
-    {
-      "name": "Cartão digital",
-      "detail": "Cartão virtual para assinatura de ferramenta e compra online"
-    }
+    { "name": "Conta PJ", "detail": "Conta de empresa com Pix, extrato e limite de transação controlado" },
+    { "name": "Cartão PJ", "detail": "Crédito para a empresa, com limite ajustado e compras nacionais" },
+    { "name": "Contabilidade MEI", "detail": "DAS, obrigação mensal e contabilidade online dentro do app" },
+    { "name": "NFS-e", "detail": "Emissão de nota de serviço com envio ao cliente e status de entrega" },
+    { "name": "CDB e reserva", "detail": "Rendimento do dinheiro da empresa dentro do aplicativo" },
+    { "name": "Cartão digital", "detail": "Cartão virtual para assinatura de ferramenta e compra online" }
   ],
   "useCases": [
     "Abrir conta PJ de MEI e emitir a primeira NFS-e sem sair do aplicativo",

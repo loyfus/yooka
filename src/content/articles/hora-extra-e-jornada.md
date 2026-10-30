@@ -109,6 +109,18 @@ Opcional ou dependente de negociação:
 - Adicional de sobreaviso e prontidão, se pactuado.
 - PLR vinculada a metas de produtividade, isenta de INSS e de IRRF até R$ 7.350,00 por ano (teto).
 
+## Como conferir se o pagamento da hora extra está certo
+
+A hora extra quase nunca é questionada no holerite, porque aparece como uma linha genérica e o empregado não sabe o valor esperado. O procedimento de conferência é curto e leva menos de dez minutos.
+
+1. **Some as horas do mês.** Use o controle de jornada, o relógio de ponto ou o formulário próprio. Some apenas as horas que ficaram fora da jornada padrão, e confira se o sistema da empresa registra o mesmo número.
+2. **Recalcule a hora normal.** Divida o salário do mês pelo divisor adotado na empresa (176 ou 220 horas) e multiplique pelo total de horas extras. Compare com o valor pago.
+3. **Verifique o adicional de 60%.** Some 60% ao valor da hora normal e confira se o holerite aplica esse percentual.
+4. **Confira o DSR de 1/6.** Some um sexto do valor da hora extra. Se o valor pago não tiver DSR, há diferença a discussão.
+5. **Compare com a base do 13º e das férias.** As horas extras habituais entram na base de cálculo do 13º e das férias com 1/3. Compare o que foi pago em dezembro com a média das horas extras dos últimos meses.
+
+O erro mais comum no acerto é o divisor. Enquanto a empresa usa 220 horas, o empregado calcula com 176 e conclui que o valor pago está errado. Os dois números são usados no mercado: 176 corresponde à jornada de 44 horas, e 220 corresponde a 40 horas semanais ou ao divisor legal de 220 horas mensais. A divergência é de cerca de 25% no valor da hora, e não de 25% no total.
+
 ## Onde conferir o resultado
 
 O valor da hora extra é a base de cálculo de outros direitos: férias com 1/3, 13º e verbas rescisórias. O guia de [13º salário](/guias/13-salario-como-calcular/) mostra como as horas extras habituais entram na base do 13º, e o de [férias](/guias/como-calcular-ferias/) mostra o mesmo para as férias proporcionais. Se a questão é o fim do contrato, [verbas rescisórias](/guias/verbas-rescisorias/) detalha como a média de horas extras das últimas semanas pode alterar o acerto. E se a dúvida é sobre os benefícios que acompanham a jornada, [vale-transporte e vale-refeição](/guias/vale-transporte-e-vale-refeicao/) detalha as regras de desconto.

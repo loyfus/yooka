@@ -14,7 +14,7 @@ faq:
   - q: "Qual é a fórmula do terço de férias?"
     a: "É 1/3 (33,33%) sobre o valor bruto das férias, e o resultado é somado ao pagamento. Exemplo: férias de R$ 3.000,00 geram terço de R$ 1.000,00, e o total bruto a receber é de R$ 4.000,00."
   - q: "Férias proporcionais existem mesmo?"
-    a: "Sim. Quem é demitido ou encerra o contrato antes do fim do período aquisitivo recebe férias proporcionais, calculadas por 1/12 por mês incompleto no ano em que as férias incompletas vigem, mais o terço."
+    a: "Sim. Quem é demitido ou encerra o contrato antes do fim do período aquisitivo recebe férias proporcionais, calculadas por 1/12 do salário para cada mês de serviço no período, mais o terço de 1/3 sobre a fração."
   - q: "Posso vender férias?"
     a: "Não. Férias são direito constitucional e não podem ser renunciadas nem convertidas em dinheiro em hipótese alguma. Se a empresa oferece pagamento em vez de férias, isso não afasta o direito do empregado."
 ---
@@ -44,7 +44,7 @@ Quem tem menos de 18 anos, mais de 60 anos ou é pessoa com deficiência tem dir
 4. **Calcule o terço.** Multiplique o valor bruto por 0,3333. Fórmulas: terço = férias brutas ÷ 3. Para R$ 6.000,00: R$ 2.000,00.
 5. **Some o total bruto.** Total = férias brutas + terço. Para R$ 6.000,00, o total bruto é de R$ 8.000,00, ou dois salários, o que é o resultado esperado para quem pegou 12 meses.
 6. **Desconte os impostos.** Sobre o valor bruto incidem INSS, IRRF e, quando houver, outros descontos da folha. INSS e IRRF são calculados sobre a base de férias, que pode ser o piso ou o teto do INSS conforme a regra vigente. Peça o demonstrativo a quem calcula a folha.
-7. **Conferir o pagamento e o registro.** As férias devem ser pagas até uma hora antes do início do período, e o tempo de férias deve constar no registro no eSocial. O calendário de férias da empresa precisa estar publicado internamente.
+7. **Confira o pagamento e o registro.** As férias devem ser pagas até uma hora antes do início do período, e o tempo de férias deve constar no registro no eSocial. O calendário de férias da empresa precisa estar publicado internamente.
 
 ## Tabela de valores com exemplo (referência de outubro de 2026)
 

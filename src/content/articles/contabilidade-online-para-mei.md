@@ -64,7 +64,7 @@ Vale a pena contratar contabilidade quando você tem ao menos um destes cenário
 - ISS por declarar, porque sua cidade não aderiu ao recolhimento conjunto pelo DAS.
 - Mais de 20 NFS-e por mês, o que torna o volume uma variável de trabalho real.
 - Faturamento acima de R$ 40.000 por ano, com DAS proporcional e base que precisa de conferência.
-- Employee registered, ou pretensão de contratar dentro do limite.
+- Empregado registrado, ou pretensão de contratar dentro do limite.
 - Mais de uma cidade de atuação, com cadastro e alíquota diferentes.
 - Quer se aposentar como segurado e precisa de histórico de contribuições organizado.
 
