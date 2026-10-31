@@ -4,12 +4,12 @@ Três fontes, em ordem de potencial por visita:
 
 | Fonte | RPM estimado (PT-BR) | Quando começa | Escala |
 |---|---|---|---|
-| **Produto próprio (Loyfus)** | R$ 40–400 por lead qualificado | já | cresce com o tráfego |
+| **Produto próprio (a Yooka)** | R$ 40–400 por lead qualificado | já | cresce com o tráfego |
 | **Afiliado de software** | R$ 8–60 por clique qualificado | já | cresce com o tráfego |
 | **AdSense (display)** | R$ 3–18 por mil views | após aprovação | depende de volume de pagesviews |
 
 O AdSense paga pouco por visita. O que paga é o **lead**. Por isso cada página
-tem uma caixa de oferta para a Loyfus no fim do artigo e no meio da página —
+tem uma caixa de oferta para a a Yooka no fim do artigo e no meio da página —
 sem isso, o tráfego vira pageviews e não vira receita.
 
 ## 1. Oferta por vertical
@@ -23,13 +23,13 @@ agente de IA. A função `offerForCategory()` em `build.js` define:
 | `mei-e-nota-fiscal` | contabilidade online | `/ferramentas/contabilizei/` |
 | `trabalho-e-carreira` | a equipe da Yooka | `/contato/` |
 | `renda-e-negocio` | plataformas de venda | `/ferramentas/` |
-| `automacao-e-ia` | a Loyfus (agentes de IA) | `loyfus.com.br` |
+| `automacao-e-ia` | as ferramentas de automação | `/ferramentas/` |
 | `custos-e-planos` | custos e planos | `/precos/` |
 
 Cada clique de afiliado vai com `rel="nofollow noopener"`. O `?via=yooka` de
 rastreio fica em `site.affiliate.tag`.
 
-**Para medir:** crie um destino por canal (ex.: `https://loyfus.com.br/yooka`),
+**Para medir:** crie um destino por canal (ex.: `https://yooka.online/yooka`),
 ou use UTM em cada link da distribuição (`docs/DISTRIBUICAO.md`).
 
 **Para melhorar a conversão:** troque o texto padrão por um que cite o caso da

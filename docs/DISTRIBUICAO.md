@@ -1,6 +1,6 @@
 # Plano de distribuição — as primeiras 72 horas
 
-O site está no ar em **https://yooka.loyfus.com.br** (vira `https://yooka.online`
+O site está no ar em **https://yooka.yooka.online** (vira `https://yooka.online`
 assim que o DNS propagar). SEO é lento: os primeiros dias de tráfego orgânico
 real vêm de **distribuição manual**, não de ranking.
 

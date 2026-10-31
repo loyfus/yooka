@@ -29,7 +29,7 @@
 ### 1. Google Search Console
 
 1. `search.google.com/search-console` → **Adicionar propriedade** →
-   `Domínio` → `yooka.online` (ou `yooka.loyfus.com.br` enquanto o DNS não
+   `Domínio` → `yooka.online` (ou `yooka.yooka.online` enquanto o DNS não
    propaga).
 2. Verificação por **DNS**: o GSC gera um registro `TXT` para a zona. No
    Cloudflare: DNS → Records → Add → Type `TXT`, Name `@`, valor `_google-site-verification=...`.

@@ -28,13 +28,14 @@ export const site = {
       sidebar: '3456789012',
     },
   },
-  // Oferta principal (monetização de maior EPC): a Loyfus.
+  // Monetização principal: anúncios (AdSense) e links de afiliado.
+  // A Yooka é um projeto editorial independente — não vende serviço próprio.
   offer: {
-    name: 'Loyfus',
-    url: 'https://loyfus.com.br',
-    cta: 'Falar com um especialista',
+    name: 'Yooka',
+    url: '/calculadoras/',
+    cta: 'Ver as calculadoras',
     pitch:
-      'Agentes de IA sob medida para a sua empresa — com diagnóstico, implantação e suporte. Sem mensalidade surpresa.',
+      'Mais de 20 calculadoras grátis de INSS, MEI, CLT e custos — sem cadastro e sem paywall.',
   },
   // Domínios de affiliate (programas externos para links de saída)
   affiliate: {
@@ -49,11 +50,7 @@ export const site = {
     { label: 'Atalhos', href: '/atalhos/' },
     { label: 'Guias', href: '/guias/' },
   ],
-  social: [
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/company/loyfus' },
-    { label: 'YouTube', href: 'https://www.youtube.com/@loyfus' },
-    { label: 'Instagram', href: 'https://www.instagram.com/loyfus' },
-  ],
+  social: [],
   footer: [
     {
       title: 'Conteúdo',

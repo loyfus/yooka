@@ -3,7 +3,7 @@
 Serviços públicos, MEI, nota fiscal, direitos trabalhistas, renda extra e
 custos — explicados em português, com passo a passo, prazo e valor.
 
-**No ar:** https://yooka.online (enquanto o DNS propaga, https://yooka.loyfus.com.br)
+**No ar:** https://yooka.online (enquanto o DNS propaga, https://yooka.yooka.online)
 
 ## O que tem lá dentro
 

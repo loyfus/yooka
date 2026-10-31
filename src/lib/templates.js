@@ -96,9 +96,7 @@ function footer() {
         <span class="brand__name">${escapeHtml(site.name)}</span>
       </a>
       <p>${escapeHtml(site.description)}</p>
-      <div class="footer__social">
-          ${social}
-      </div>
+      ${social ? `<div class="footer__social">${social}</div>` : ''}
     </div>
     ${cols}
   </div>
@@ -165,7 +163,7 @@ export function articleCard(a, { featured = false } = {}) {
 </article>`;
 }
 
-/** Caixa de conversão para a oferta principal (Loyfus). */
+/** Caixa de conversão para a oferta do contexto da página. */
 export function offerBox({ title, text, button, href, compact = false } = {}) {
   const t = title || 'Quer automatizar isso na sua empresa?';
   const x = text || site.offer.pitch;

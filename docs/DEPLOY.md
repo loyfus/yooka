@@ -36,20 +36,20 @@ vercel git connect https://github.com/loyfus/yooka
 ## 3. Domínio
 
 O domínio ideal é `yooka.com.br`. O registro é da `.com.br` (registro.br, ~R$ 40/ano)
-e a zone está no Cloudflare (mesma zone da `loyfus.com.br`).
+e a zone está no Cloudflare (mesma zone da `/ferramentas/`).
 
 Opções, da mais rápida para a mais correta:
 
 | Opção | URL | Tempo |
 |---|---|---|
 | Subdomínio Vercel | `yooka.vercel.app` (ou `yooka-*.vercel.app`) | imediato |
-| Subdomínio próprio | `yooka.loyfus.com.br` | ~10 min |
+| Subdomínio próprio | `yooka.yooka.online` | ~10 min |
 | Domínio próprio | `yooka.com.br` | ~1 dia (registro + DNS) |
 
 **Subdomínio próprio (recomendado enquanto o domínio não sai):**
 
-1. Na Vercel: `vercel domains add yooka.loyfus.com.br loyfus` (ou pelo dashboard).
-2. No Cloudflare (zone `loyfus.com.br`), adicione o registro que a Vercel mostrar
+1. Na Vercel: `vercel domains add yooka.yooka.online loyfus` (ou pelo dashboard).
+2. No Cloudflare (zone `/ferramentas/`), adicione o registro que a Vercel mostrar
    (normalmente `CNAME yooka → cname.vercel-dns.com`).
 3. O certificado HTTPS é emitido automaticamente pela Vercel.
 
@@ -76,7 +76,7 @@ antigo subdomínio apontando para o novo.
    **uma ação sua, no Bing**:
 
    1. Entre em `bing.com/webmasters` e adicione o site
-      (`yooka.online`, ou `yooka.loyfus.com.br` enquanto o DNS não propaga).
+      (`yooka.online`, ou `yooka.yooka.online` enquanto o DNS não propaga).
    2. Em **IndexNow → Gerenciar chaves**, cole a chave abaixo e salve:
       ```
       6a5236b8e3e73ccdc92d7a32b86b3ab7

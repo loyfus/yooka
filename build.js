@@ -1200,7 +1200,7 @@ function pairComparisonPage({ a, b, slug, sameCat }) {
         },
         {
           q: `Qual dessas ferramentas tem melhor suporte em português?`,
-          a: `As duas têm documentação em inglês. Para suporte em português, o caminho mais rápido é uma equipe local que implemente — é o que a Loyfus faz.`,
+          a: `As duas têm documentação em inglês. Para suporte em português, procure um parceiro ou um profissional que implemente para você — a Yooka indica as ferramentas, mas não presta esse serviço.`,
         },
       ]),
     ],
@@ -1429,9 +1429,10 @@ function offerForCategory(category) {
   switch (category) {
     case 'automacao-e-ia':
       return offerBox({
-        title: 'Quer automatizar isso na sua empresa?',
-        text: 'A Loyfus desenha o agente, integra com os seus sistemas e entrega em produção, com suporte.',
-        button: 'Falar com um especialista',
+        title: 'Ferramentas que resolvem isso na prática',
+        text: 'Comparamos as principais plataformas de automação com preço real, taxa e o que cada uma resolve.',
+        button: 'Ver as ferramentas',
+        href: '/ferramentas/',
       });
     case 'mei-e-nota-fiscal':
       return offerBox({
@@ -2086,7 +2087,7 @@ simplePage({
   </ol>
   <h2>Como ganhamos dinheiro</h2>
   <p>De duas formas, ambas declaradas: <strong>anúncios</strong> (Google AdSense) e <strong>links de afiliado</strong> (recebemos comissão se você contratar uma ferramenta recomendada). Nenhum anunciante paga por review e nenhum texto é publicado a pedido.</p>
-  <p>No bloco de automação e IA, divulgamos a <a href="https://loyfus.com.br" rel="nofollow noopener">Loyfus</a>, que constrói agentes de IA sob medida para empresas. Nos demais temas, não vendemos nada.</p>
+  <p>A Yooka não vende serviço próprio nem faz publicidade disfarçada de conteúdo. Nos temas de automação e IA, comparamos ferramentas de terceiros com link de afiliado declarado.</p>
   <h2>Limites</h2>
   <p>Isto é conteúdo informativo. Não substitui advogado, contador, médico nem sincronizador. Em caso de benefício authorsitário, sempre escrevemos "confirme no seu caso com um profissional".</p>
   <h2>Fale com a gente</h2>
@@ -2102,7 +2103,7 @@ simplePage({
   lead: 'Correção de conteúdo, dúvida pontual ou projeto de automação.',
   content: `<p><strong>Conteúdo e correções:</strong> <a href="mailto:ola@yooka.com.br">ola@yooka.com.br</a>. Respondemos em até 2 dias úteis.</p>
   <p><strong>Dúvida específica de MEI, INSS ou rescisão:</strong> a gente indica o caminho e a fonte oficial, mas não substitui contador ou advogado.</p>
-  <p><strong>Automação e agentes de IA:</strong> <a href="https://loyfus.com.br" rel="nofollow noopener">loyfus.com.br</a> ou <a href="mailto:comercial@loyfus.com.br">comercial@loyfus.com.br</a>.</p>
+  <p><strong>Automação e IA:</strong> mande sua dúvida pelo e-mail — respondemos com a ferramenta mais adequada para o caso, sem compromisso de contratação.</p>
   <div class="offer"><div class="offer__text"><h3>Prefere a calculadora?</h3><p>${calculators.length} calculadoras grátis: 13º, férias, rescisão, DAS do MEI, markup, CLT x PJ e orçamento. Sem cadastro.</p></div><a class="btn btn--primary" href="/calculadoras/">Abrir calculadoras</a></div>`,
 });
 
