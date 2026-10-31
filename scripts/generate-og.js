@@ -91,11 +91,19 @@ im.save(dst, 'JPEG', quality=86, optimize=True, progressive=True)
 
 let ok = 0;
 let fail = 0;
+let skipped = 0;
 
 for (const item of manifest) {
   const htmlPath = path.join(tmpDir, 'card.html');
   const pngPath = path.join(tmpDir, 'card.png');
   const finalPath = path.join(ogDir, item.file.replace(/\.png$/, '.jpg'));
+
+  // Já existe? Só refaz com FORCE=1 (o HTML é determinístico).
+  if (fs.existsSync(finalPath) && !process.env.FORCE) {
+    skipped++;
+    continue;
+  }
+
   // Perfil isolado por execução: sem isso, várias instâncias do Chrome disputam
   // o mesmo diretório de perfil e travam.
   const profile = fs.mkdtempSync(path.join(os.tmpdir(), 'og-chrome-'));
@@ -139,4 +147,4 @@ if (fail) {
   const keep = manifest.filter((m) => fs.existsSync(path.join(ogDir, m.file)));
   fs.writeFileSync(manifestPath, JSON.stringify(keep, null, 2));
 }
-console.log(`  OG: ${ok} imagens geradas${fail ? `, ${fail} falhas` : ''}`);
+console.log(`  OG: ${ok} geradas, ${skipped} já existiam${fail ? `, ${fail} falhas` : ''}`);

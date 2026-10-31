@@ -2,13 +2,13 @@
   "name": "Workana",
   "slug": "workana",
   "category": "renda-e-negocio",
-  "tagline": "Marketplace de freelancer para primeira viagem de cliente",
-  "description": "Marketplace brasileiro de freelancers e projetos, com contratos, cobrança por projeto e perfis públicos para construir carteira de cliente sem indicação.",
+  "tagline": "Marketplace de freelancer para a primeira viagem de cliente",
+  "description": "Marketplace brasileiro de freelancers e projetos, com contrato registrado, comissão escalonada por cliente e perfis públicos para construir carteira de cliente.",
   "url": "https://www.workana.com",
   "affiliateUrl": "https://www.workana.com/?via=yooka",
-  "price": "Grátis para se cadastrar + taxa por projeto ganho",
-  "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. O cadastro é gratuito e a taxa incide sobre o valor do projeto arrematado, com percentuais que variam conforme o tipo de trabalho e o valor da encomenda.",
-  "bestFor": "Quem está começando como freelancer e precisa do primeiro cliente sem indicação",
+  "price": "Grátis para se cadastrar; comissão de 20% por projeto",
+  "priceNote": "O cadastro é gratuito e a comissão do freelancer é de 20% no início do relacionamento, caindo para 10% depois que o mesmo cliente paga mais de US$ 300 e chegando a 5% em relação de longo prazo. O cliente paga 4,5% de taxa de serviço por contrato, com mínimo de US$ 2. Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. Repasse e conversão de moeda somam de 4% a 10% por operação.",
+  "bestFor": "Freelancer iniciante que precisa do primeiro cliente e de portfólio documentado, e aceita pagar comissão",
   "rating": 3.9,
   "ratingCount": 428,
   "pros": [
@@ -18,18 +18,18 @@
     "Volume alto de propostas de baixo valor, útil para o primeiro cliente e para teste de preço"
   ],
   "cons": [
-    "A taxa sobre o projeto ganho é sempre cobrada, e em valor baixo de contrato ela come a margem",
-    "Concorrência é alta e o primeiro projeto exige muitas propostas sem retorno",
-    "O cliente pode cancelar ou atrasar o pagamento, mesmo com a plataforma de intermediação",
-    "Perfil sem proposta mostra pouco: sem histórico, o algoritmo de ranqueamento empurra o candidato para baixo"
+    "A comissão do freelancer começa em 20% do valor do projeto, o que come a margem em contrato pequeno",
+    "Só depois que o mesmo cliente paga mais de US$ 300 a comissão cai para 10%, e chega a 5% no longo prazo",
+    "O repasse repassa o custo do provedor de pagamento e da conversão de dólar, de 4% a 10% por operação",
+    "Concorrência é alta e o primeiro projeto exige muitas propostas sem retorno"
   ],
   "features": [
     { "name": "Projetos com orçamento", "detail": "Anúncios com valor, prazo e escopo definidos pelo cliente" },
     { "name": "Perfil público", "detail": "Página indexada com portfólio, habilidades e avaliações dos clientes" },
     { "name": "Candidatura", "detail": "Propostas com valor e prazo, liberadas para envio ao cliente" },
     { "name": "Contrato intermediado", "detail": "Acordo, escopo e pagamento registrados dentro da plataforma" },
-    { "name": "Repasse do valor", "detail": "Dinheiro liberado ao freelancer conforme as etapas do contrato" },
-    { "name": "Avaliações", "detail": "Notas e comentários dos clientes que viram prova social do perfil" }
+    { "name": "Comissão por cliente", "detail": "20% no início, 10% acima de US$ 300 do mesmo cliente e até 5% no longo prazo" },
+    { "name": "Repasse com conversão", "detail": "Valor repassado com custo de provedor de pagamento e de conversão de moeda" }
   ],
   "useCases": [
     "Ganhar o primeiro projeto de design ou texto sem precisar de indicação de ninguém",
@@ -37,8 +37,8 @@
     "Montar portfólio público com os trabalhos que fiz, mesmo sem cliente no LinkedIn",
     "Cobrar parte do valor adiantado antes de começar, com o contrato formalizado na plataforma"
   ],
-  "bestForWho": "Freelancer iniciante que precisa do primeiro cliente e de portfólio documentado, e aceita pagar taxa por projeto.",
-  "verdict": "O Workana funciona como vitrine de entrada do freelancing brasileiro: o perfil indexado já serve de portfólio e os anúncios com orçamento definido evitam a conversa indigesta de precificar do zero. O problema é a economia por projeto: a taxa incide sobre o valor arrematado, e em contrato pequeno ela pesa demais, enquanto a concorrência por proposta é alta e o retorno demora. Existe ainda o risco clássico de cliente atrasar ou cancelar, mesmo com intermediação da plataforma. O uso estratégico que mais funciona é tratar a plataforma como vitrine, pegar dois ou três contratos para ter histórico e usar a indicação. Como fonte principal de renda, a taxa e a instabilidade cobram caro.",
+  "bestForWho": "Freelancer iniciante que precisa do primeiro cliente e de portfólio documentado, e aceita pagar comissão por projeto.",
+  "verdict": "O Workana funciona como vitrine de entrada do freelancing brasileiro: o perfil indexado já serve de portfólio e os anúncios com orçamento definido evitam a conversa indigesta de precificar do zero. O problema é a economia por projeto, porque a comissão do freelancer começa em 20% do valor e só cai para 10% depois que o mesmo cliente passa de US$ 300, chegando a 5% em relação consolidada. Some-se a isso o custo de repasse e de conversão de moeda, de 4% a 10% por operação, e o total sai bem acima dos 20% na primeira venda. A concorrência por proposta é alta e o primeiro contrato exige muitas propostas sem retorno, o que torna a plataforma cara como fonte principal de renda. O uso estratégico que mais funciona é tratar como vitrine, fechar dois ou três contratos para ter histórico e usar a indicação daí.",
   "alternatives": [
     "rd-station",
     "hotmart",

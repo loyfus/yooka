@@ -2,43 +2,43 @@
   "name": "C6 Bank",
   "slug": "c6-bank",
   "category": "custos-e-planos",
-  "tagline": "CDB que rende acima do CDI e conta sem tarifa",
-  "description": "Banco digital com CDB de rendimento acima do CDI, conta e Pix gratuitos, cartão de crédito com benefícios e investimentos dentro do aplicativo.",
+  "tagline": "CDB acima do CDI e conta sem tarifa",
+  "description": "Banco digital com CDB de liquidez diária acima do CDI, conta e Pix gratuitos, cartão de crédito com benefícios e ações dentro do aplicativo.",
   "url": "https://www.c6bank.com.br",
   "affiliateUrl": "https://www.c6bank.com.br/?via=yooka",
-  "price": "Grátis para conta e CDB a partir de R$ 1",
-  "priceNote": "Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. A conta e o Pix são gratuitos; o CDB exige depósito mínimo pequeno, com rendimento variável e limites de resgate por dia.",
-  "bestFor": "Quem quer guardar dinheiro rendendo acima do CDI sem sair do aplicativo",
+  "price": "Conta e Pix grátis; CDB a 102% do CDI",
+  "priceNote": "Conta, Pix e transferência sem tarifa de manutenção. O CDB de Liquidez Diária rende cerca de 102% do CDI e o CDB Limite Garantido 101,5% do CDI; o CDB pós-fixado de 3 anos paga 104,5% do CDI no vencimento, com aporte mínimo de R$ 100. Valores de referência em outubro de 2026; planos mudam, confirme no site oficial. O rendimento é variável, acompanha o CDI, e o resgate tem limite diário.",
+  "bestFor": "Pessoa que quer reserva de emergência rendendo acima do CDI e conta digital gratuita",
   "rating": 4.2,
   "ratingCount": 574,
   "pros": [
-    "CDB com rendimento acima do CDI, um dos melhores da categoria para reserva de emergência",
+    "CDB de Liquidez Diária em torno de 102% do CDI, com resgate por solicitação, acima da poupança e de boa parte dos CDB de banco grande",
     "Conta, Pix e transferência sem tarifa de manutenção, o que substitui a conta bancária cara",
     "Cartão de crédito com benefícios reais, como seguro e assistências, em custo baixo",
-    "Áreas de investimento e ações dentro do app, com opção de começar por valores pequenos"
+    "Ações e renda fixa dentro do app, com aporte baixo para começar e CDB de 3 anos a 104,5% do CDI"
   ],
   "cons": [
-    "Resgate do CDB tem valor mínimo e limite diário, o que prende quem precisa do dinheiro com urgência",
-    "O rendimento do CDB é variável e muda com o CDI, então a promessa de ganho não é garantida",
-    "Atendimento mais lento que o dos concorrentes, com fila em chat e prazo maior para resolver a demanda",
-    "Recursos de conta PJ são mais limitados que os de Nubank e Inter para quem vende"
+    "O CDB rende pouco acima do CDI, cerca de 102%, e a diferença real fica no título pós-fixado de 3 anos",
+    "Resgate por solicitação, com rotina de pedidos e limite diário, o que prende quem precisa do dinheiro na hora",
+    "O rendimento é variável e acompanha o CDI, então ninguém pode prometer número fechado",
+    "Atendimento mais lento que o dos concorrentes, com fila em chat e prazo maior para resolver a demanda"
   ],
   "features": [
-    { "name": "CDB com rendimento elevado", "detail": "Rendimento acima do CDI, com resgate a partir de valor pequeno" },
-    { "name": "Conta e Pix grátis", "detail": "Sem tarifa de manutenção, com Pix, transferência e extrato no app" },
+    { "name": "CDB de Liquidez Diária", "detail": "Rendimento próximo de 102% do CDI, com resgate por solicitação e aporte baixo" },
+    { "name": "CDB pós-fixado", "detail": "Título de 3 anos a 104,5% do CDI, com aporte de R$ 100 e resgate no vencimento" },
+    { "name": "Conta e Pix grátis", "detail": "Sem tarifa de manutenção, com Pix, transferência e extrato no aplicativo" },
     { "name": "Cartão de crédito", "detail": "Cartões com rewards, seguro e benefícios de viagem e mercado" },
-    { "name": "Investimentos", "detail": "Renda fixa, ações e fundos com aporte mínimo baixo" },
-    { "name": "Limite de resgate", "detail": "Resgate de CDB com valor e quantidade diária definidos no app" },
-    { "name": "Atendimento", "detail": "Chat e telefone, com prazo de resposta maior que o dos grandes bancos digitais" }
+    { "name": "Ações e renda fixa", "detail": "Renda fixa, ações e fundos dentro do app, com aporte mínimo baixo" },
+    { "name": "Limite de resgate", "detail": "Resgate com valor e quantidade diária definidos, o que prende o dinheiro na aplicação" }
   ],
   "useCases": [
-    "Guardar a reserva de emergência rendendo mais que a poupança, sem ir ao banco",
-    "Manter o caixa da empresa em CDB e resgatar só o que precisa no mês",
+    "Guardar a reserva de emergência rendendo acima da poupança, sem sair do aplicativo",
+    "Comparar o CDB de liquidez diária com o de 3 anos e escolher conforme o prazo do dinheiro",
     "Receber Pix de clientes sem tarifa e sem abrir conta em banco tradicional",
     "Começar a investir em ações com valor pequeno, dentro do mesmo aplicativo"
   ],
-  "bestForWho": "Pessoa que quer reserva de emergência rendendo bem, conta digital gratuita e cartão com benefícios, sem depender de banco tradicional.",
-  "verdict": "O C6 Bank se sustenta num nicho claro: o CDB com rendimento acima do CDI, que é o melhor atrativo da casa. Para quem tem reserva de emergência guardada em poupança ou CDB de banco grande, a troca costuma render mais no mesmo tempo, sem custo de entrada relevante. Os contras são reais, porque o resgate tem mínimo e limite diário, o que incomoda quem precisa do dinheiro em cima da hora, e o rendimento é variável, então ninguém pode prometer número fechado. O suporte é mais demorado que o dos concorrentes, o que aparece justamente quando há problema. Fora do CDB, a conta é competente e sem surpresa, e é uma boa escolha para reserva, não para giro.",
+  "bestForWho": "Pessoa que quer reserva de emergência rendendo acima do CDI, conta digital gratuita e cartão com benefícios, sem depender de banco tradicional.",
+  "verdict": "O C6 Bank se sustenta num nicho claro: o CDB de Liquidez Diária em torno de 102% do CDI, acima da poupança e de boa parte dos CDB de banco grande. Para quem tem reserva de emergência parada em poupança, a troca costuma render mais no mesmo tempo e sem custo de entrada relevante. Os contras são reais: o rendimento é variável e acompanha o CDI, e o resgate é por solicitação, com limite diário, o que incomoda quem precisa do dinheiro em cima da hora. Um detalhe que quase ninguém cita: o CDB que paga bem, o pós-fixado de 3 anos a 104,5% do CDI, só resgata no vencimento e exige aporte de R$ 100, o que prende o dinheiro por três anos. O suporte é mais demorado que o dos concorrentes, o que aparece justamente quando há problema; fora do CDB, a conta é competente e sem surpresa.",
   "alternatives": [
     "nubank",
     "inter",

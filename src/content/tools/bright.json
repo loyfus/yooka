@@ -7,21 +7,21 @@
   "url": "https://www.bright.com.br",
   "affiliateUrl": "https://www.bright.com.br/?via=yooka",
   "price": "Conta PJ com opção gratuita",
-  "priceNote": "A conta PJ tem opção gratuita com limites de transação, e os planos pagos liberam mais volume, cartão e serviços de contabilidade. Valores de referência em outubro de 2026; planos mudam, confirme no site oficial.",
-  "bestFor": "MEI que quer conta PJ, cartão e contabilidade online no mesmo aplicativo",
+  "priceNote": "A conta PJ tem opção gratuita com limites de transação, e os planos pagos liberam mais volume, cartão e serviços de contabilidade. Valores de referência em outubro de 2026; planos mudam, confirme no site oficial, porque o preço final depende de quais serviços ficam habilitados no plano.",
+  "bestFor": "MEI que quer conta PJ, cartão de crédito e contabilidade online em um único aplicativo",
   "rating": 4.0,
   "ratingCount": 341,
   "pros": [
-    "Conta PJ, cartão de crédito, Pix e CDB no mesmo app, sem precisar de abrir conta em dois lugares",
+    "Conta PJ, cartão de crédito, Pix e CDB no mesmo app, sem precisar abrir conta em dois lugares",
     "Contabilidade online do MEI integrada à conta, com emissão de NFS-e e DAS no mesmo painel",
-    "Cartão PJ com limite ajustado e pagamento por aproximação, útil para compra de insumo",
+    "Cartão PJ para as despesas do negócio, com pagamento por aproximação e compra de insumo",
     "Emissão de NFS-e direto na plataforma, o que resolve a obrigação mais apagada do MEI"
   ],
   "cons": [
-    "Planos cobram por volume de serviços e por quantidade de NFS-e, o que encarece quem fatura pouco",
-    "O plano gratuito tem limites de transação e de emissão, e a cobrança aparece rápido",
+    "A opção gratuita tem limites de transação e de emissão, então quem vende rápido bate no teto logo no começo",
+    "O preço do plano depende dos serviços habilitados e muda conforme a Bright atualiza a tabela, o que exige simular antes de assinar",
     "Ecossistema menor que o dos bancos grandes: menos integração e menos rendimento em CDB",
-    "Contrato anual com fidelidade, e a multa de cancelamento aparece na hora de sair"
+    "Juntar banco e contabilidade é prático, mas amarra a sua contabilidade a esse fornecedor"
   ],
   "features": [
     { "name": "Conta PJ", "detail": "Conta de empresa com Pix, extrato e limite de transação controlado" },
@@ -38,7 +38,7 @@
     "Separar o caixa da empresa do dinheiro pessoal em um só lugar, com cartão separado"
   ],
   "bestForWho": "MEI que junta banco digital, cartão de crédito e contabilidade online em um único aplicativo.",
-  "verdict": "O Bright faz uma proposta rara no mercado brasileiro: banco PJ e contabilidade de MEI no mesmo aplicativo, o que elimina a conta separada e a mensalidade do contador. Em uso real, o ganho maior é operacional: emitir nota e pagar o DAS acontecem dentro do mesmo login, sem alternar entre quatro telas. O custo aparece no desenho dos planos, que cobra por volume de serviços e por NFS-e emitida, e na fidelidade contratual. Para MEI que fatura pouco, a conta com contabilidade separada costuma sair mais barata no total. Para quem fatura de forma constante e quer tudo num lugar só, a conta fecha e a dor de mudar de ferramenta quase some.",
+  "verdict": "O Bright faz uma proposta rara no mercado brasileiro: banco PJ e contabilidade de MEI no mesmo aplicativo, o que elimina a conta separada e a mensalidade do contador. Em uso real, o ganho maior é operacional: emitir nota e pagar o DAS acontecem dentro do mesmo login, sem alternar entre quatro telas. O custo aparece no desenho dos planos, cujo preço muda conforme o volume de serviços e as NFS-e emitidas, e a opção gratuita bate no teto de transações assim que o negócio acelera. Um risco que ninguém fala em voz alta é o amarração: juntar banco e contabilidade é prático, mas prende o MEI a esse fornecedor na hora de trocar. Para MEI que fatura pouco, a conta com contabilidade separada costuma sair mais barata no total; para quem fatura de forma constante e quer tudo num lugar só, a conta fecha e a dor de mudar de ferramenta quase some.",
   "alternatives": [
     "inter",
     "nubank",

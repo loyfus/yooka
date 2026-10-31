@@ -32,32 +32,50 @@ export function irrf(base, deducao = 528) {
   );
 }
 
-/** Faixas do DAS do MEI (referência: outubro de 2026). */
+/**
+ * Faixas do DAS do MEI (referência: outubro de 2026).
+ * O DAS oficial é um VALOR FIXO por faixa de receita bruta anual — não é
+ * uma alíquota sobre o faturamento. Errar isso muda o número por um fator
+ * de 20, então a tabela é usada na íntegra.
+ */
 export const DAS_FAIXAS = [
-  { min: 0, max: 18000, rate: 0.05, ded: 828.4, label: 'Até R$ 18.000/ano' },
-  { min: 18000, max: 29850, rate: 0.04, ded: 1087.8, label: 'De R$ 18.001 a R$ 29.850/ano' },
-  { min: 29850, max: 41850, rate: 0.03, ded: 1113.9, label: 'De R$ 29.851 a R$ 41.850/ano' },
-  { min: 41850, max: 53850, rate: 0.02, ded: 900.0, label: 'De R$ 41.851 a R$ 53.850/ano' },
-  { min: 53850, max: 66000, rate: 0.015, ded: 777.6, label: 'De R$ 53.851 a R$ 66.000/ano' },
-  { min: 66000, max: 78000, rate: 0.01, ded: 532.2, label: 'De R$ 66.001 a R$ 78.000/ano' },
-  { min: 78000, max: 81000, rate: 0.006, ded: 232.8, label: 'De R$ 78.001 a R$ 81.000/ano' },
+  { min: 0, max: 18000, mensal: 71.6, label: 'Até R$ 18.000/ano' },
+  { min: 18000, max: 29850, mensal: 106.2, label: 'De R$ 18.001 a R$ 29.850/ano' },
+  { min: 29850, max: 41850, mensal: 141.6, label: 'De R$ 29.851 a R$ 41.850/ano' },
+  { min: 41850, max: 53850, mensal: 177.0, label: 'De R$ 41.851 a R$ 53.850/ano' },
+  { min: 53850, max: 66000, mensal: 212.4, label: 'De R$ 53.851 a R$ 66.000/ano' },
+  { min: 66000, max: 78000, mensal: 247.8, label: 'De R$ 66.001 a R$ 78.000/ano' },
+  { min: 78000, max: 81000, mensal: 253.2, label: 'De R$ 78.001 a R$ 81.000/ano' },
 ];
 
-export function dasAnual(faturamento) {
-  const f = Math.max(0, Number(faturamento) || 0);
-  const faixa = DAS_FAIXAS.find((x) => f <= x.max) || DAS_FAIXAS[DAS_FAIXAS.length - 1];
-  const valor = Math.max(71.6, f * faixa.rate - faixa.ded);
-  return { mensal: valor / 12, anual: valor, faixa };
+/**
+ * Calcula o DAS a partir do faturamento e dos meses de atividade.
+ * A faixa é definida pela receita anual projetada; o valor do mês é o fixo
+ * da faixa, proporcional aos meses declarados.
+ */
+export function dasInfo(faturamento, meses = 12) {
+  const m = Math.max(1, Math.min(12, Number(meses) || 12));
+  const receita = Math.max(0, Number(faturamento) || 0);
+  const projetado = receita * (12 / m);
+  const faixa = DAS_FAIXAS.find((x) => projetado <= x.max) || DAS_FAIXAS[DAS_FAIXAS.length - 1];
+  return {
+    faixa,
+    projetado,
+    cheio: faixa.mensal,
+    proporcional: faixa.mensal * (m / 12),
+    anual: faixa.mensal * 12,
+  };
 }
 
 export function dasMensalProporcional(faturamento, meses) {
-  const { mensal } = dasAnual(faturamento);
-  return (mensal * Math.max(1, Math.min(12, Number(meses) || 12))) / 12;
+  return dasInfo(faturamento, meses).proporcional;
 }
 
 export function percentualDas(faturamento, meses) {
-  const f = Math.max(1, Number(faturamento) || 1);
-  return (dasMensalProporcional(f, meses) * 12 * f) / f / f;
+  const info = dasInfo(faturamento, meses);
+  const base = Math.max(1, info.projetado);
+  // (DAS do ano ÷ receita anual projetada) × 100
+  return ((info.cheio * 12) / base) * 100;
 }
 
 /** Calcula todos os outputs de uma calculadora para um conjunto de valores. */
@@ -77,19 +95,21 @@ export function computeOutputs(calc, values) {
         value = irrf(evalExpr(o.base, v), Number(v.deducaoIrpf) || 528);
         break;
       case 'das':
-        value = dasAnual(v[o.field]).mensal;
+        value = dasInfo(v[o.field], v.meses).cheio;
+        break;
+      case 'dasAnual':
+        value = dasInfo(v[o.field], v.meses).anual;
         break;
       case 'dasProporcional':
-        value = dasMensalProporcional(v[o.field], v.meses);
+        value = dasInfo(v[o.field], v.meses).proporcional;
         break;
       case 'percentualDas':
-        value = (dasMensalProporcional(v[o.field], v.meses) / Math.max(1, v[o.field])) * 100;
+        value = percentualDas(v[o.field], v.meses);
         break;
       case 'faixa': {
-        const f = Number(v[o.field]) || 0;
-        const row = (o.rows || []).find((r) => f <= r.max) || o.rows[o.rows.length - 1];
-        value = row ? row.value : 0;
-        out[`${o.id}__label`] = row ? row.label : '';
+        const info = dasInfo(v[o.field], v.meses);
+        value = info.cheio;
+        out[`${o.id}__label`] = `${info.faixa.label} — projetado R$ ${Math.round(info.projetado).toLocaleString('pt-BR')}/ano`;
         break;
       }
       case 'final': {
