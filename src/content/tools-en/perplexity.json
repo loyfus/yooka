@@ -1,0 +1,43 @@
+{
+  "name": "Perplexity",
+  "slug": "perplexity",
+  "category": "ai-tools",
+  "tagline": "AI search that always answers with a source",
+  "description": "AI search engine that delivers answers with source links, model selection and deep research for anyone who needs to verify facts before deciding.",
+  "url": "https://www.perplexity.ai",
+  "affiliateUrl": "https://www.perplexity.ai/?via=yooka",
+  "price": "From US$ 20/month",
+  "priceNote": "Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Anyone who needs an answer with a source, not an opinion",
+  "rating": 4.3,
+  "ratingCount": 498,
+  "pros": [
+    "Every answer comes with a source link, so you can check it and reuse it in professional material",
+    "You can pick different models for the same question, which is useful for comparing answer quality",
+    "Deep research mode delivers a structured report with references in minutes",
+    "Light and fast interface, which the team adopts without any training"
+  ],
+  "cons": [
+    "Cited sources sometimes have questionable quality, and the model can trust weak content",
+    "It does not automate processes or integrate with systems: it is a research and writing tool",
+    "Long, creative writing still lags behind ChatGPT and Claude in our evaluations",
+    "The monthly limit on advanced queries runs out in the middle of an important analysis"
+  ],
+  "features": [
+    { "name": "Cited answers", "detail": "Every passage links back to the original page" },
+    { "name": "Deep research", "detail": "Multi-step report that searches, cross-checks and organizes references" },
+    { "name": "Model selection", "detail": "Switch between different models in the same conversation" },
+    { "name": "Workspaces", "detail": "Separates conversations by topic, with files and fixed instructions" },
+    { "name": "Extensions and apps", "detail": "Connects the search engine to external tools and Workspace apps" }
+  ],
+  "useCases": [
+    "Collect competitor pricing and replenishment times with source links for the sales meeting",
+    "Check the current version of a technical standard before drafting an internal document",
+    "Research market objections before launching a new service",
+    "Review client performance by cross-checking updated public data"
+  ],
+  "bestForWho": "Sales, marketing and content teams that need decisions backed by verifiable data, fast.",
+  "verdict": "Perplexity is the best research tool we have used, and the difference shows exactly in the source link, which lets you verify before taking any information to a client. The problem is source quality: the system cites what it found, including blogs with no credentials, and the text sometimes inherits the weakness of the source. It also does not replace a long-form writing assistant and does not integrate with any system. For a small company, the Pro plan at twenty dollars pays off for the sales and content team, because research turns into decisions faster. For a larger company, the Enterprise Pro plan is the way, with usage controls and per-user billing, and check the advanced query limit before you run an entire market analysis in a single day.",
+  "alternatives": ["chatgpt", "gemini", "claude"],
+  "updated": "2026-10-30"
+}

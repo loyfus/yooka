@@ -1,0 +1,43 @@
+{
+  "name": "ManyChat",
+  "slug": "manychat",
+  "category": "marketing",
+  "tagline": "The reference for Instagram and WhatsApp automation",
+  "description": "Automation platform for Instagram, WhatsApp and Messenger, with comment triggers, visual flows and sales tools that run inside the DM.",
+  "url": "https://manychat.com",
+  "affiliateUrl": "https://manychat.com/?via=yooka",
+  "price": "From US$ 14/month",
+  "priceNote": "Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Anyone selling and supporting on Instagram and WhatsApp, at high volume",
+  "rating": 4.3,
+  "ratingCount": 524,
+  "pros": [
+    "The Instagram comment trigger is the trick that turns a post into an automatic sale",
+    "Connects straight to the WhatsApp Business API with a real conversation, not a mass broadcast",
+    "Visual flows with buttons, carousels, forms and menus, built without writing code",
+    "Open, reply and click reports that help measure what the flow returns"
+  ],
+  "cons": [
+    "Works only on Meta's channels, and a number blocked or restricted by the platform takes everything down",
+    "Per-contact billing grows fast and the price scales with the size of the active contact base",
+    "Meta's policies change often and a flow can break without warning",
+    "Integrates well with Instagram, but deep ERP integration is left to you"
+  ],
+  "features": [
+    { "name": "Instagram triggers", "detail": "Comments, keywords, mentions and DMs launch the flow automatically" },
+    { "name": "Native WhatsApp", "detail": "Connects to the official API and keeps the conversation inside WhatsApp Business" },
+    { "name": "Visual flow editor", "detail": "Message, button, carousel, menu and delay blocks, with no code" },
+    { "name": "Sales tools", "detail": "Catalog, coupon, payment link and cart recovery inside the chat" },
+    { "name": "A/B testing and reports", "detail": "Compares flow versions and shows opens, replies and conversions" }
+  ],
+  "useCases": [
+    "Reply to a post comment with a coupon link and close the sale over WhatsApp",
+    "Recover a customer who abandoned the cart in the online store with an automatic message",
+    "Confirm a clinic appointment and send a reminder with address and documents",
+    "Segment the base by tag and trigger a nurture sequence for a warm lead"
+  ],
+  "bestForWho": "Companies running direct marketing on Instagram and WhatsApp, with a sales team answering conversations all day.",
+  "verdict": "ManyChat remains the sharpest tool for anyone selling inside Instagram and WhatsApp, and the comment trigger is still the cheapest sales mechanism on the market. The platform's risk is not price, it is dependency: when Meta changes a messaging rule or restricts an account, the operation stops and the sales team is left without a channel. The other point is the per-contact billing model, which gets more expensive as the base grows and is usually the item that surprises people most on the invoice. For a small company, the Pro plan with your current contact base is enough and the payback comes fast. For a larger company, plan a multichannel migration and do not put the whole operation on a single Meta platform.",
+  "alternatives": ["typebot", "chatgpt", "heygen", "relevance-ai"],
+  "updated": "2026-10-30"
+}

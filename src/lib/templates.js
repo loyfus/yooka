@@ -19,7 +19,7 @@ export function layout(page, body, opts = {}) {
 </head>
 <body>
 ${announcementBar()}
-<a class="skip" href="#conteudo">Pular para o conteúdo</a>
+<a class="skip" href="#conteudo">Skip to content</a>
 ${header(page)}
 <main id="conteudo">
 ${body}
@@ -34,7 +34,7 @@ ${site.adsense.client ? adsenseScript() : ''}
 function announcementBar() {
   return `<div class="announce">
   <div class="wrap">
-    <span>🧮 <strong>Novo:</strong> ${calculators.length} calculadoras grátis — 13º, férias, rescisão, DAS do MEI e markup</span>
+    <span>🧮 <strong>New:</strong> ${calculators.length} free calculators — net salary, VAT, markup, break-even and freelance rates</span>
     <a class="announce__cta" href="/calculadoras/">Abrir <span aria-hidden="true">→</span></a>
   </div>
 </div>`;
@@ -54,10 +54,10 @@ function header(page) {
       <img src="/assets/logo.svg" alt="" width="34" height="34" aria-hidden="true">
       <span class="brand__name">${escapeHtml(site.name)}</span>
     </a>
-    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mainnav" aria-label="Abrir menu">
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mainnav" aria-label="Open menu">
       <span></span><span></span><span></span>
     </button>
-    <nav class="site-nav" id="mainnav" aria-label="Navegação principal">
+    <nav class="site-nav" id="mainnav" aria-label="Main navigation">
       <ul>
         ${nav}
       </ul>
@@ -102,7 +102,7 @@ function footer() {
   </div>
   <div class="wrap footer__bottom">
     <p>© ${new Date().getUTCFullYear()} ${escapeHtml(site.name)}. Conteúdo revisado por especialistas. Alguns links são de afiliados — isso não muda o que escrevemos.</p>
-    <p>Feito no Brasil 🇧🇷</p>
+    <p>Built for small teams</p>
   </div>
 </footer>`;
 }
@@ -120,12 +120,12 @@ export function adSlot(name, variant = 'inline') {
   const slot = site.adsense.slots[name] || site.adsense.slots.inArticle;
   if (!site.adsense.client) {
     return `<aside class="ad ad--${variant} ad--placeholder" aria-label="Espaço publicitário">
-  <span class="ad__label">Publicidade</span>
-  <div class="ad__box"><p>Slot AdSense <code>${escapeHtml(name)}</code></p><p class="muted">Ative o <code>ADSENSE_CLIENT</code> no build para exibir aqui.</p></div>
+  <span class="ad__label">Advertisement</span>
+  <div class="ad__box"><p>AdSense slot <code>${escapeHtml(name)}</code></p><p class="muted">Set <code>ADSENSE_CLIENT</code> at build time to show ads here.</p></div>
 </aside>`;
   }
   return `<aside class="ad ad--${variant}" aria-label="Publicidade">
-  <span class="ad__label">Publicidade</span>
+  <span class="ad__label">Advertisement</span>
   <ins class="adsbygoogle" style="display:block" data-ad-client="${site.adsense.client}" data-ad-slot="${slot}" data-ad-format="auto" data-full-width-responsive="true"></ins>
   <script>(adsbygoogle=window.adsbygoogle||[]).push({});</script>
 </aside>`;
@@ -141,7 +141,7 @@ export function breadcrumbs(crumbs) {
         : `<li><a href="${c.href}">${escapeHtml(c.label)}</a></li>`;
     })
     .join('\n        ');
-  return `<nav class="crumbs" aria-label="Você está aqui"><ol>
+  return `<nav class="crumbs" aria-label="Breadcrumb"><ol>
         ${items}
       </ol></nav>`;
 }
@@ -243,7 +243,7 @@ export function toc(headings) {
     .map((h) => `<li><a href="#${h.id}">${escapeHtml(h.text)}</a></li>`)
     .join('\n          ');
   return `<nav class="toc" aria-label="Sumário">
-  <p class="toc__title">Nesta página</p>
+  <p class="toc__title">On this page</p>
   <ul>
           ${items}
   </ul>
@@ -255,25 +255,25 @@ export function authorBox() {
   return `<aside class="authorbox">
   <div class="authorbox__avatar" aria-hidden="true">YK</div>
   <div>
-    <p class="authorbox__label">Sobre o autor</p>
-    <p><strong>Equipe editorial Yooka</strong></p>
-    <p>Analisamos ferramentas de IA e automação todos os dias e documentamos o que funciona em operação real no mercado brasileiro — incluindo o custo, o prazo e o que dá errado.</p>
-    <p><a href="/editorial/">Como avaliamos e revisamos →</a></p>
+    <p class="authorbox__label">About the author</p>
+    <p><strong>The Yooka editorial team</strong></p>
+    <p>We test AI and automation tools every day and document what works in real operations — including the cost, the time it takes and what breaks.</p>
+    <p><a href="/editorial/">How we review and update content →</a></p>
   </div>
 </aside>`;
 }
 
 /** Bloco "atualizado" — sinaliza frescor para o Google e para o leitor. */
 export function updatedBox(date) {
-  return `<p class="updated">Atualizado em <time datetime="${new Date(date).toISOString().slice(0, 10)}">${ptBrDate(date)}</time></p>`;
+  return `<p class="updated">Updated on <time datetime="${new Date(date).toISOString().slice(0, 10)}">${ptBrDate(date)}</time></p>`;
 }
 
 /** Badges de confiança no topo do artigo. */
 export function trustBar(items = []) {
   const defaults = [
-    'Testado em operação real',
-    'Preços verificados',
-    'Sem paywall',
+    'Tested in real operations',
+    'Pricing verified',
+    'No paywall',
   ];
   const list = items.length ? items : defaults;
   return `<ul class="trustbar">
@@ -327,8 +327,8 @@ export function shareBar({ url, title, text, extra = '' }) {
 
 export function searchBox() {
   return `<form class="searchbox" action="/busca/" method="get" role="search">
-  <label class="sr-only" for="q">Buscar no site</label>
-  <input id="q" name="q" type="search" placeholder="Buscar: n8n x make, custo de agente de IA, chatbot WhatsApp…" autocomplete="off">
+  <label class="sr-only" for="q">Search the site</label>
+  <input id="q" name="q" type="search" placeholder="Search: n8n vs make, agent cost, invoice checklist…" autocomplete="off">
   <button class="btn btn--primary btn--sm" type="submit">Buscar</button>
 </form>`;
 }

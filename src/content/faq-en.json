@@ -1,0 +1,50 @@
+[
+  {
+    "q": "What is Yooka?",
+    "a": "Yooka publishes practical guides, honest tool reviews and free calculators for AI and automation — written for small teams that need results, not hype. Every calculator runs in your browser, no signup required."
+  },
+  {
+    "q": "Are the prices and limits up to date?",
+    "a": "Each page shows the date the numbers were verified and a note that vendor plans change often. Where a limit or tax table moves, we update the page and change the date."
+  },
+  {
+    "q": "Do I need to create an account to use the calculators?",
+    "a": "No. The calculators are static pages: the maths runs in your browser, nothing is sent to a server and no email is required."
+  },
+  {
+    "q": "How do you make money?",
+    "a": "Two ways, both disclosed: display ads (Google AdSense) and affiliate links — we may earn a commission if you subscribe to a tool we recommend. No advertiser has ever paid for a review, and we publish the cons."
+  },
+  {
+    "q": "Do you sell a service?",
+    "a": "No. Yooka is an independent editorial project. We compare third-party tools and link to them; we do not implement or resell anything."
+  },
+  {
+    "q": "Can I republish your content?",
+    "a": "You can quote it with credit and a link. Full republication needs written permission."
+  },
+  {
+    "q": "I found an error. How do I report it?",
+    "a": "Use the contact page. We fix it and change the updated-on date so the correction is visible."
+  },
+  {
+    "q": "Are the articles written by AI?",
+    "a": "They are written by people and reviewed against primary sources (vendor docs, tax tables, official guidance). Nothing critical goes out unchecked."
+  },
+  {
+    "q": "How do you pick which tools to review?",
+    "a": "Tools that a two or five person team actually uses, plus anything people ask about repeatedly in our traffic. We drop tools that stop being maintained."
+  },
+  {
+    "q": "Do you cover tools for larger companies?",
+    "a": "Mostly small teams. Some enterprise comparisons appear because small teams get sold enterprise pricing."
+  },
+  {
+    "q": "Can my team use the calculators commercially?",
+    "a": "Yes. Use them in your own pricing, payroll or unit-economics work."
+  },
+  {
+    "q": "How often is the site updated?",
+    "a": "Every page carries an updated-on date, and the whole catalogue is reviewed on a quarterly cycle."
+  }
+]

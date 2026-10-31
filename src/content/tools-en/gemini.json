@@ -1,0 +1,43 @@
+{
+  "name": "Gemini",
+  "slug": "gemini",
+  "category": "ai-tools",
+  "tagline": "Google's AI already plugged into Gmail, Sheets and Drive",
+  "description": "Google's AI assistant built into Workspace, with a huge context window, Google Search, deep research and YouTube integration.",
+  "url": "https://gemini.google.com",
+  "affiliateUrl": "https://gemini.google.com/?via=yooka",
+  "price": "From US$ 4.99/month",
+  "priceNote": "Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Companies already on Google Workspace that want AI inside email and spreadsheets",
+  "rating": 4.4,
+  "ratingCount": 733,
+  "pros": [
+    "Reads Gmail, Drive, Docs and Sheets directly, which removes the copy and paste",
+    "Huge context window for anyone working with databases and long reports",
+    "Deep research and Google Search integration deliver current data for analysis",
+    "Aggressively competitive API pricing, which helps teams embedding a model inside their product"
+  ],
+  "cons": [
+    "Answer quality fluctuates more than competitors, requiring human review on critical tasks",
+    "The feature list varies by region depending on the Google One or Workspace plan you have",
+    "The Ultra plan, from US$ 99.99/month, is too expensive for most small businesses and hard to justify",
+    "The Workspace integration only pays off if you already use Google; otherwise it is just another app"
+  ],
+  "features": [
+    { "name": "Workspace reading", "detail": "Opens Google email, documents and spreadsheets without copying and pasting" },
+    { "name": "Huge context", "detail": "Processes documents and data volumes well above competitors' limits" },
+    { "name": "Deep research", "detail": "Multi-stage report with Google Search and a research plan" },
+    { "name": "Media generation", "detail": "Image, video and audio generated inside the same plan" },
+    { "name": "Gemini API", "detail": "Low cost per token for embedding the model in your own product" }
+  ],
+  "useCases": [
+    "Summarize the Gmail inbox and list the messages that need a customer reply",
+    "Cross the sales team's data with the shared Sheets file and produce the commission report",
+    "Research competitors and build a price comparison with source links",
+    "Extract data from scanned contracts and organize it into a shared spreadsheet"
+  ],
+  "bestForWho": "Companies that already live in Google Workspace and want to turn email and spreadsheets into the starting point for AI.",
+  "verdict": "Gemini makes sense when the company already runs on Gmail, Sheets and Drive, because AI reads the material where the work actually happens, with no export step. Outside that scenario, the same money in ChatGPT or Claude goes further, because their answers tend to be more consistent for text work. Quality fluctuates more than competitors, so any flow that depends on a precise answer needs validation. For a small company, AI Pro under twenty dollars delivers the best return per dollar if the team is already on Google. For a larger company, look at the API instead of the subscription, because the price per token is among the lowest and lets you put an agent inside your product without spending a fortune.",
+  "alternatives": ["chatgpt", "claude", "perplexity"],
+  "updated": "2026-10-30"
+}

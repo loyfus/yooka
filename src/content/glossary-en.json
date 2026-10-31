@@ -1,0 +1,317 @@
+[
+  {
+    "term": "AI agent",
+    "slug": "ai-agent",
+    "short": "A program that can take steps on its own — calling tools, reading files, sending emails — instead of only answering a question.",
+    "body": "Agents differ from chatbots in one thing: they act. A chatbot drafts an email; an agent can open your CRM, find the deal, write the email and log the result. That autonomy is why they need guardrails.",
+    "related": []
+  },
+  {
+    "term": "LLM",
+    "slug": "llm",
+    "short": "A large language model: a model trained on massive amounts of text that predicts the next token.",
+    "body": "The same architecture behind ChatGPT, Claude and Gemini. What changed recently is not the basic idea but the tool use, context length and reliability around it.",
+    "related": []
+  },
+  {
+    "term": "Token",
+    "slug": "token",
+    "short": "The unit a model reads and writes — roughly three quarters of an English word.",
+    "body": "Pricing is quoted per token, so a 3,000-word document is roughly 4,000 input tokens. Output usually costs more than input.",
+    "related": []
+  },
+  {
+    "term": "Context window",
+    "slug": "context-window",
+    "short": "How much a model can hold in mind at once — the prompt, files and conversation.",
+    "body": "When a task needs more than the window, you must summarise or retrieve. This is the single most common cause of agents forgetting instructions.",
+    "related": []
+  },
+  {
+    "term": "RAG",
+    "slug": "rag",
+    "short": "Retrieval-augmented generation: fetch relevant documents, then let the model answer using them.",
+    "body": "It is how you make an answer cite your own documents instead of the model's training data. It reduces hallucinations but does not remove them.",
+    "related": []
+  },
+  {
+    "term": "Embedding",
+    "slug": "embedding",
+    "short": "A list of numbers that represents the meaning of a piece of text.",
+    "body": "Embeddings let you search by meaning rather than keywords — the basis of vector search and semantic retrieval.",
+    "related": []
+  },
+  {
+    "term": "Vector database",
+    "slug": "vector-database",
+    "short": "Storage optimised for searching embeddings.",
+    "body": "It answers \"which of my 50,000 chunks is closest to this question?\" quickly. For small collections, a plain database with an index is often enough.",
+    "related": []
+  },
+  {
+    "term": "Guardrail",
+    "slug": "guardrail",
+    "short": "A rule that blocks or redirects an unsafe or off-target action.",
+    "body": "Guardrails are checks around the model: validate the input, constrain the tools it can call, and validate the output before it reaches a customer.",
+    "related": []
+  },
+  {
+    "term": "Tool use",
+    "slug": "tool-use",
+    "short": "Letting a model call an external function — a search, a calculator, an API.",
+    "body": "It is the difference between an assistant that describes and one that acts. The cost is that errors become actions, so tool calls need validation.",
+    "related": []
+  },
+  {
+    "term": "Function calling",
+    "slug": "function-calling",
+    "short": "The protocol that lets a model request a specific function with structured arguments.",
+    "body": "The model does not run the function; it asks your application to, then reads the result back. You are always in control of execution.",
+    "related": []
+  },
+  {
+    "term": "MCP",
+    "slug": "mcp",
+    "short": "Model Context Protocol: an open standard for connecting models to tools and data sources.",
+    "body": "Adopting it means a tool written once works across many AI applications instead of being re-implemented per vendor.",
+    "related": []
+  },
+  {
+    "term": "Prompt engineering",
+    "slug": "prompt-engineering",
+    "short": "Designing instructions so a model produces the output you need, reliably.",
+    "body": "Most of the gain comes from clarity, examples and explicit output formats. Prompt stuffing and clever tricks age badly.",
+    "related": []
+  },
+  {
+    "term": "Structured output",
+    "slug": "structured-output",
+    "short": "Getting the model to return data in a fixed shape, such as JSON.",
+    "body": "It removes most parsing work. The cost is the model occasionally breaking the schema, so validate before you trust it.",
+    "related": []
+  },
+  {
+    "term": "Hallucination",
+    "slug": "hallucination",
+    "short": "A confident, fluent answer that is not supported by the facts.",
+    "body": "It happens because the model predicts plausible text, not verified truth. Retrieval, citations and validation reduce it; nothing eliminates it.",
+    "related": []
+  },
+  {
+    "term": "Fine-tuning",
+    "slug": "fine-tuning",
+    "short": "Training an existing model further on your own examples.",
+    "body": "Worth it when the format is stable and you have hundreds of good examples. For most teams, better retrieval and a better prompt are cheaper and faster.",
+    "related": []
+  },
+  {
+    "term": "Agent orchestration",
+    "slug": "agent-orchestration",
+    "short": "The layer that decides which agent or tool runs, and in what order.",
+    "body": "It is the difference between a demo and a system. Orchestration owns retries, timeouts, budgets and what happens when a step fails.",
+    "related": []
+  },
+  {
+    "term": "Workflow automation",
+    "slug": "workflow-automation",
+    "short": "Moving data between apps without a human touching it.",
+    "body": "Tools like n8n, Make and Zapier are workflow engines: they trigger on an event, run steps and move data. They are not the same thing as an agent.",
+    "related": []
+  },
+  {
+    "term": "n8n",
+    "slug": "n8n",
+    "short": "An open-source workflow automation tool you can self-host.",
+    "body": "You write the steps in nodes, and you can drop into JavaScript when a node is not enough. That is why it survives contact with real data.",
+    "related": []
+  },
+  {
+    "term": "Make",
+    "slug": "make",
+    "short": "A visual automation platform with a generous free tier.",
+    "body": "Good for teams without developers. The trade-off is that complex scenarios become large visual scenarios.",
+    "related": []
+  },
+  {
+    "term": "Zapier",
+    "slug": "zapier",
+    "short": "The oldest and largest Zap-hub automation service.",
+    "body": "Its app catalogue is unmatched, and so is its pricing on heavy usage. If a task is unusual, expect a step that is slower than the alternatives.",
+    "related": []
+  },
+  {
+    "term": "AI agent framework",
+    "slug": "ai-agent-framework",
+    "short": "A library that handles the loop of model, tools, memory and retries.",
+    "body": "LangChain, CrewAI and LangGraph are the common choices. Frameworks speed up the prototype and slow down the odd case — know when to drop to plain code.",
+    "related": []
+  },
+  {
+    "term": "Human in the loop",
+    "slug": "human-in-the-loop",
+    "short": "A step where a person approves before the system acts.",
+    "body": "The cheapest insurance for anything that touches money, customers or legal commitments. High-value, low-frequency tasks should always have one.",
+    "related": []
+  },
+  {
+    "term": "Observability",
+    "slug": "observability",
+    "short": "Seeing what the system actually did — traces, costs, retries, failures.",
+    "body": "Without traces, an agent failure is a story. With them, it is a line in a log: which prompt, which tool, which argument.",
+    "related": []
+  },
+  {
+    "term": "Unit economics",
+    "slug": "unit-economics",
+    "short": "What one unit of work costs and earns.",
+    "body": "For a tool with per-seat pricing, revenue per customer divided by service cost per customer tells you whether growth is worth funding.",
+    "related": []
+  },
+  {
+    "term": "CAC",
+    "slug": "cac",
+    "short": "Customer acquisition cost: what you spend to win one customer.",
+    "body": "Divide total sales and marketing spend by new customers in the period. Compare it to gross margin, not to revenue.",
+    "related": []
+  },
+  {
+    "term": "LTV",
+    "slug": "ltv",
+    "short": "Lifetime value: the gross profit a customer generates before they leave.",
+    "body": "A rough version is average monthly gross profit times average lifetime in months. A LTV:CAC below 3x usually means growth is buying losses.",
+    "related": []
+  },
+  {
+    "term": "Markup",
+    "slug": "markup",
+    "short": "The multiplier you apply to cost to get a price.",
+    "body": "Cost 10, sell 30 is a 3x markup and a 66% margin. Confusing the two is the most common pricing mistake.",
+    "related": []
+  },
+  {
+    "term": "Margin",
+    "slug": "margin",
+    "short": "Profit as a percentage of the selling price.",
+    "body": "It is the number that survives contact with tax, fees and shipping. Compute margin after costs, never before.",
+    "related": []
+  },
+  {
+    "term": "Break-even",
+    "slug": "break-even",
+    "short": "The revenue where costs equal income.",
+    "body": "Fixed costs divided by contribution margin gives the sales volume you need before the business stops losing money.",
+    "related": []
+  },
+  {
+    "term": "VAT",
+    "slug": "vat",
+    "short": "Value added tax charged on consumption in most of the EU and many other countries.",
+    "body": "Rates, thresholds and registration rules differ per country, so a \"global\" VAT rate does not exist. Check your local rules before quoting a customer.",
+    "related": []
+  },
+  {
+    "term": "GST",
+    "slug": "gst",
+    "short": "Goods and services tax, used in Australia, New Zealand, Canada and Singapore.",
+    "body": "It is the VAT equivalent in those markets, with the same practical question: who is registered, and what happens below the threshold.",
+    "related": []
+  },
+  {
+    "term": "Net salary",
+    "slug": "net-salary",
+    "short": "The amount that lands in your account after tax and social security.",
+    "body": "Gross pay minus income tax and national insurance or FICA. It is the number that matters for every budget decision.",
+    "related": []
+  },
+  {
+    "term": "Freelance rate",
+    "slug": "freelance-rate",
+    "short": "The hourly rate that makes your freelancing sustainable.",
+    "body": "Divide your annual target by billable hours, then add 25–40% for the cost of being your own employer. Most people underprice by half.",
+    "related": []
+  },
+  {
+    "term": "SaaS",
+    "slug": "saas",
+    "short": "Software delivered over the internet on a subscription.",
+    "body": "The pricing model is the risk: per-seat costs scale with headcount, and per-usage costs scale with the very growth you want.",
+    "related": []
+  },
+  {
+    "term": "Churn",
+    "slug": "churn",
+    "short": "The rate at which customers stop paying.",
+    "body": "For a small team, five customers leaving can erase a quarter of revenue. Churn is the first number to watch, not new sales.",
+    "related": []
+  },
+  {
+    "term": "B2B vs B2C",
+    "slug": "b2b-vs-b2c",
+    "short": "Selling to businesses versus to individuals.",
+    "body": "B2B has longer cycles, higher contract values and a real need for a human relationship. B2C has volume and almost no tolerance for friction.",
+    "related": []
+  },
+  {
+    "term": "CRM",
+    "slug": "crm",
+    "short": "The system where a company tracks prospects and customers.",
+    "body": "A CRM is only useful if someone owns the data quality. Automating a dirty CRM just automates the mess.",
+    "related": []
+  },
+  {
+    "term": "Lead scoring",
+    "slug": "lead-scoring",
+    "short": "Ranking prospects by how likely they are to buy.",
+    "body": "Score on fit and behaviour, not just company size. A scoring model nobody trusts gets ignored, and then it is worthless.",
+    "related": []
+  },
+  {
+    "term": "Webhook",
+    "slug": "webhook",
+    "short": "An HTTP callback fired when something happens in another system.",
+    "body": "Webhooks are how tools talk in real time. Polling works but wastes requests and adds latency.",
+    "related": []
+  },
+  {
+    "term": "API",
+    "slug": "api",
+    "short": "A programmatic interface a product exposes to other software.",
+    "body": "APIs are how you automate anything a product does not offer in its own UI. Check rate limits and error handling before you depend on one.",
+    "related": []
+  },
+  {
+    "term": "Rate limit",
+    "slug": "rate-limit",
+    "short": "The cap on how many requests an API accepts in a period.",
+    "body": "Rate limits shape architecture: batch requests, cache aggressively, and make the workflow resumable rather than retrying blindly.",
+    "related": []
+  },
+  {
+    "term": "Idempotency",
+    "slug": "idempotency",
+    "short": "The property that repeating an operation does not duplicate its effect.",
+    "body": "It matters whenever a workflow can be retried — charges, emails, record creation. Pass an idempotency key and the second attempt becomes a no-op.",
+    "related": []
+  },
+  {
+    "term": "SSO",
+    "slug": "sso",
+    "short": "Single sign-on that lets staff log in with one identity.",
+    "body": "It removes password resets and offboarding leaks. It also adds setup work and, for small teams, a vendor that sells it as a feature.",
+    "related": []
+  },
+  {
+    "term": "SOC 2",
+    "slug": "soc-2",
+    "short": "An independent security attestation for a SaaS provider.",
+    "body": "It is what enterprise buyers ask for first. It is also expensive and slow, so for a small team, hosting choices often matter more.",
+    "related": []
+  },
+  {
+    "term": "Privacy by design",
+    "slug": "privacy-by-design",
+    "short": "Building data minimisation into the product, not bolting it on.",
+    "body": "Decide what you do not need to collect. Data you never store cannot leak, cannot be subpoenaed and does not need to be deleted.",
+    "related": []
+  }
+]

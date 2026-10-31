@@ -1,0 +1,43 @@
+{
+  "name": "LangChain",
+  "slug": "langchain",
+  "category": "automation",
+  "tagline": "The Python library that became the standard for building agents",
+  "description": "Open source Python framework for building agents, RAG and LLM flows, with LangSmith observability and integrations with dozens of model providers.",
+  "url": "https://www.langchain.com",
+  "affiliateUrl": "https://www.langchain.com/?via=yooka",
+  "price": "From US$ 39/month",
+  "priceNote": "Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Developers who need to control every detail of the agent",
+  "rating": 4.5,
+  "ratingCount": 384,
+  "pros": [
+    "Full control over prompt, tools, memory and logic, which solves cases no no-code tool handles",
+    "Mature ecosystem with LangGraph, LangSmith and official integrations with dozens of model providers",
+    "Real observability, with traces, cost per token and evaluation, which most in-house solutions lack",
+    "Open code and an active community, with ready examples and above-average documentation"
+  ],
+  "cons": [
+    "Steep learning curve and APIs that change often, which creates rework in production",
+    "It is not a finished product: it requires a developer, project structure, tests and a deploy pipeline",
+    "Model API cost is separate and dominates the bill for agents with a large context",
+    "The observability dashboard needs setup before it is worth anything"
+  ],
+  "features": [
+    { "name": "Ready components", "detail": "Prompts, models, memory, structured output and tools in one package" },
+    { "name": "LangGraph", "detail": "Graph-based agent orchestration with state, cycles and flow control" },
+    { "name": "LangSmith", "detail": "Traces, evaluation and a playground to debug and measure every run" },
+    { "name": "Multiple providers", "detail": "Switch between OpenAI, Anthropic, Google and local models without rewriting everything" },
+    { "name": "Ship as an API", "detail": "Exposes the agent as an endpoint with LangServe and manages deploy and scale" }
+  ],
+  "useCases": [
+    "Agent that queries the ERP, checks stock and answers the customer from internal rules",
+    "RAG pipeline over manuals, contracts and internal company policies",
+    "Automatic classification of tickets and messages, with structured output validated by schema",
+    "Sales assistant that reads the customer history and prepares the meeting brief"
+  ],
+  "bestForWho": "Technology studios or engineering teams that will maintain the solution and need control, tests and observability.",
+  "verdict": "LangChain is what we recommend when someone on the team will maintain the code for months, because it gives control over prompt, tool and memory that no visual tool offers. The real cost is not the license, which is low or free, but the engineering time it takes to make the agent reliable in production. APIs change fast, and an example from six months ago may not run the same way today. For a small company, it does not pay to start here: use CrewAI, Relevance AI or a flow in n8n and migrate only when the case demands it. For a larger company, the LangChain plus LangSmith pair is the market standard, and the traces dashboard usually pays for the license within weeks, because it shows exactly where the agent burns tokens and where it errs.",
+  "alternatives": ["crewai", "dify", "flowise", "n8n"],
+  "updated": "2026-10-30"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Dify",
+  "slug": "dify",
+  "category": "automation",
+  "tagline": "Open source platform for building AI apps with RAG",
+  "description": "Open source platform for building production-ready AI applications, with a visual flow builder, a knowledge base that cites sources and execution tracing.",
+  "url": "https://dify.ai",
+  "affiliateUrl": "https://dify.ai/?via=yooka",
+  "price": "From US$ 59/month",
+  "priceNote": "Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Teams that need to put an assistant grounded in their documents live",
+  "rating": 4.4,
+  "ratingCount": 389,
+  "pros": [
+    "Ready knowledge base: import PDFs, sites and manuals, and the agent answers citing the source",
+    "Open source, with self-hosting possible, which gives control over data and predictable cost",
+    "Visual builder with prompt, condition, code and HTTP nodes, so logic does not require a developer",
+    "Publishes the app as an API or as a ready chat widget to embed on your site"
+  ],
+  "cons": [
+    "Self-hosting requires a server, containers and someone who updates the image and watches security",
+    "The visual builder struggles with complex logic, and then the team ends up writing code in the code node",
+    "Message credits cover part of the model usage, and anything above the quota runs on your API key, billed per token",
+    "Documentation and community are still mostly in English, which is hard for local teams"
+  ],
+  "features": [
+    { "name": "Knowledge base", "detail": "Indexes PDFs, sites and text and answers with the highlighted source passage" },
+    { "name": "Visual flow", "detail": "Prompt, condition, list, code and HTTP request nodes chained together" },
+    { "name": "Multi-model", "detail": "OpenAI, Anthropic, Google, local models and Ollama in the same interface" },
+    { "name": "Publishing and widget", "detail": "Delivers the app as a REST API or as an embedded chat on your site" },
+    { "name": "Plugin marketplace", "detail": "Ready extensions for tools, models and data providers" }
+  ],
+  "useCases": [
+    "Internal assistant that answers questions about product manuals, policy and employment contracts",
+    "Website chatbot that answers from the documentation base and escalates to a human when needed",
+    "Sales tool that queries the catalog and the price sheet and builds the proposal",
+    "Document classifier that extracts invoice and contract fields before they enter the ERP"
+  ],
+  "bestForWho": "Companies that want an AI assistant grounded in their own documents, with the option to run everything inside their own infrastructure.",
+  "verdict": "Dify is the best-positioned middle ground between open code and a finished product, and the knowledge base with citations is what makes it beat conversational-only platforms. When the flow is simple, it ships a live, working application in days with no engineering team. The wall arrives when the logic gets complex: the visual builder accepts it, but then you are using the code node and back to normal development. For a small company, the Community edition on a VPS works and the license is free, but all model consumption is on your account. For a larger company, the cloud Professional plan delivers SSO, environments and team management, and it is still worth confirming where the infrastructure sits before you put client data inside it.",
+  "alternatives": ["flowise", "langchain", "n8n", "relevance-ai"],
+  "updated": "2026-10-30"
+}

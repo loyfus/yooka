@@ -1,0 +1,51 @@
+[
+  {
+    "slug": "ai-tools",
+    "name": "AI tools",
+    "short": "What each AI tool is actually good at, what it costs, and where it breaks.",
+    "description": "Honest reviews of AI tools for small teams: model comparison, pricing, limits, real workflows and the cases where a cheaper tool wins.",
+    "icon": "robot"
+  },
+  {
+    "slug": "automation",
+    "name": "Automation",
+    "short": "Wire up the tools you already pay for and delete the manual work.",
+    "description": "Automation guides for small businesses: workflow builders, AI agents in production, error handling, monitoring and the automations that pay for themselves.",
+    "icon": "flow"
+  },
+  {
+    "slug": "marketing",
+    "name": "Marketing & sales",
+    "short": "More qualified leads, faster follow-up, proposals in minutes.",
+    "description": "AI and automation for marketing and sales teams: lead qualification, CRM workflows, content production, outbound with consent and pipeline you can measure.",
+    "icon": "target"
+  },
+  {
+    "slug": "productivity",
+    "name": "Productivity",
+    "short": "Systems, checklists and software that a two-person team can actually run.",
+    "description": "Productivity guides for small teams: project setup, documentation, time tracking, planning systems and the tools that pay for themselves in hours saved.",
+    "icon": "grid"
+  },
+  {
+    "slug": "finance",
+    "name": "Finance & pricing",
+    "short": "Net pay, VAT, markup, break-even — the numbers behind the decision.",
+    "description": "Money guides for small businesses and freelancers: net salary calculators, VAT and GST, pricing and markup, break-even, invoicing and the cost of tools.",
+    "icon": "coin"
+  },
+  {
+    "slug": "design",
+    "name": "Design & media",
+    "short": "Content, images and video without a full production team.",
+    "description": "AI-assisted design, video and audio workflows for small teams: the tools, the realistic time saved and where quality still needs a human.",
+    "icon": "growth"
+  },
+  {
+    "slug": "hr",
+    "name": "People & hiring",
+    "short": "Hiring, contracts and operations without drowning in admin.",
+    "description": "AI and automation for people operations: screening, onboarding, contracts, payroll workflows and the compliance rules you cannot skip.",
+    "icon": "briefcase"
+  }
+]

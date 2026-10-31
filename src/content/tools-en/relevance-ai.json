@@ -1,0 +1,43 @@
+{
+  "name": "Relevance AI",
+  "slug": "relevance-ai",
+  "category": "ai-tools",
+  "tagline": "A team of AI agents without writing code",
+  "description": "No-code platform to assemble a team of AI agents that sell, support and produce content, with ready integrations and billing per executed action.",
+  "url": "https://relevanceai.com",
+  "affiliateUrl": "https://relevanceai.com/?via=yooka",
+  "price": "From US$ 19/month",
+  "priceNote": "Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Marketing and sales teams that want agents running without an engineering team",
+  "rating": 4.1,
+  "ratingCount": 176,
+  "pros": [
+    "Creates a team of agents with name, role and tool in minutes, without writing code",
+    "Large integration library with CRM, email, spreadsheet and WhatsApp already configured",
+    "Agents that operate real tools instead of only returning text, and that changes the outcome",
+    "Has an agent store with ready-made solutions so you do not start from scratch on every project"
+  ],
+  "cons": [
+    "The credit model is confusing, consumption grows fast in bulk and the free plan was discontinued, which removes the chance to test before subscribing",
+    "The output is less predictable than a deterministic flow and requires human supervision",
+    "Documentation and learning material are limited and much of it is in English",
+    "For critical billing or contract processes, traceability is weaker than an ERP's"
+  ],
+  "features": [
+    { "name": "Agent team", "detail": "Several agents with role, tool and instruction, working together" },
+    { "name": "Ready integrations", "detail": "Connects CRM, email, spreadsheet, calendar and WhatsApp with no development" },
+    { "name": "Loops and triggers", "detail": "Fires on an event, webhook or schedule and chains the execution" },
+    { "name": "Agent store", "detail": "Ready-made agent solutions published by third parties" },
+    { "name": "Usage measurement", "detail": "Dashboard with credits consumed, cost per agent and task history" }
+  ],
+  "useCases": [
+    "Agent that reads the day's leads, researches the company online and builds a summary for the rep",
+    "Agent that answers post-sale WhatsApp messages using the product material",
+    "Daily routine that collects social and CRM metrics and posts a report in Slack",
+    "Agent that produces ad copy variations from the campaign brief"
+  ],
+  "bestForWho": "Marketing or sales teams that want to hand recurring tasks to agents without filing a ticket with IT.",
+  "verdict": "Relevance AI is the tool that impresses people the most who want quick results without a developer, because the agent actually executes actions instead of only returning text. In a product launch campaign we tested, the agent built the prospecting list and the first email draft in an afternoon, which used to take two days. The weak point is cost control and predictability: when the agent loops or processes a large batch, the credits burn and the company gets a nasty surprise. For a small company, the Pro plan is the entry floor now that the free plan is gone, and it covers experiments and small tasks. For a larger company, build the operation with a credit ceiling, human approval before sending and a log of every action, because without those, cost and legal risk climb fast.",
+  "alternatives": ["n8n", "make", "crewai", "dify"],
+  "updated": "2026-10-30"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "HeyGen",
+  "slug": "heygen",
+  "category": "design",
+  "tagline": "Video avatars for training and sales video",
+  "description": "Generates video with a human avatar, translation and automatic dubbing in dozens of languages, useful for training, content and sales video at scale.",
+  "url": "https://www.heygen.com",
+  "affiliateUrl": "https://www.heygen.com/?via=yooka",
+  "price": "From US$ 29/month",
+  "priceNote": "Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Training video and content in several languages without filming",
+  "rating": 4.2,
+  "ratingCount": 397,
+  "pros": [
+    "Avatar with natural expression and gestures, which lands well in internal training video",
+    "Translation and automatic dubbing deliver the same video in dozens of languages",
+    "Produces the video in minutes, which lets you publish daily content without a production team",
+    "API available to build video generation into a support or onboarding flow"
+  ],
+  "cons": [
+    "Credit billing, 20 to 48 per minute depending on the avatar, gets expensive fast on a series for social media",
+    "In close-up the avatar betrays that it is artificial and mishandles hands and pronunciation",
+    "Control of gestures and framing is limited, so you cannot produce cinema-grade work",
+    "For high-ticket sales video, a real presenter still converts better"
+  ],
+  "features": [
+    { "name": "Realistic avatars", "detail": "Library of presenters with natural expressions and gestures" },
+    { "name": "Text to video", "detail": "Write the script and generate the video with an avatar narrating" },
+    { "name": "Translation and dubbing", "detail": "Translates the video and replicates the voice with lip sync" },
+    { "name": "Voice clone", "detail": "Builds a voice from a sample so the brand presenter can speak" },
+    { "name": "Templates and API", "detail": "Ready templates per format and an API to generate video inside a flow" }
+  ],
+  "useCases": [
+    "Sales training module with the same script in English and Spanish",
+    "Welcome video for a new customer, with the company name and the proposal",
+    "Daily content for social media where only the script text changes",
+    "Product tutorial sent inside the platform, with no screen or voice recording"
+  ],
+  "bestForWho": "Companies with a sales or training team spread across several countries that need video at scale.",
+  "verdict": "HeyGen solves a very specific and very useful case: keeping the same training content in several languages without hiring a localization team, and the dubbing with lip sync is the highlight. Where the tool still does not replace a real presenter is sales video, because audiences notice the avatar in close-up and conversion drops. Cost deserves attention too: billing is per credit, and two minutes of video per week across several languages overruns the entry plan quota within a few months. For a small company, use it at most for internal training and short videos, and the Creator plan covers that well. For a larger company, the Business plan with the API pays off when video production becomes part of other tools' flows and needs automation.",
+  "alternatives": ["elevenlabs", "manychat"],
+  "updated": "2026-10-30"
+}

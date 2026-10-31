@@ -1,0 +1,43 @@
+{
+  "name": "Make",
+  "slug": "make",
+  "category": "automation",
+  "tagline": "Visual automation priced by credit, for non-technical teams",
+  "description": "Visual automation platform that connects thousands of apps in drag-and-drop scenarios, billed by the credit each operation consumes.",
+  "url": "https://www.make.com",
+  "affiliateUrl": "https://www.make.com/?via=yooka",
+  "price": "From US$ 9/month",
+  "priceNote": "Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Operations and sales teams that standardize repetitive tasks without a developer",
+  "rating": 4.4,
+  "ratingCount": 356,
+  "pros": [
+    "The visual editor is simpler than n8n's and delivers results without writing a single line of code",
+    "Credit-based billing makes it explicit what each scenario costs, which helps you defend the investment",
+    "Huge app ecosystem with ready-made templates and plenty of learning material circulating in every language",
+    "Execution queue with reprocessing, step-by-step history and native tools for handling lists"
+  ],
+  "cons": [
+    "Every operation on a heavy app burns several credits and consumption grows fast at volume",
+    "Heavy processing is a weak point: the tool orchestrates, it does not replace data processing",
+    "Scenarios with AI, or apps that call AI in a loop, can burn through the quota in a few days",
+    "There is no self-hosted version: the data and the operation live on Make's infrastructure"
+  ],
+  "features": [
+    { "name": "Visual scenarios", "detail": "Chained app modules with filters, routers and formulas" },
+    { "name": "Credit-based plans", "detail": "Each operation deducts credits and the balance is visible in the dashboard" },
+    { "name": "Thousands of apps", "detail": "Connectors for sales, marketing, databases and WhatsApp" },
+    { "name": "Loops and aggregators", "detail": "Iterations, tables and native tools for manipulating lists" },
+    { "name": "Run report", "detail": "Step-by-step history, time spent and reproducible error details" }
+  ],
+  "useCases": [
+    "Register the lead in the CRM and notify the rep in Slack when the website form is submitted",
+    "Post ERP invoices taken from the PDFs downloaded to an email folder",
+    "Publish the same content to Instagram, LinkedIn and Facebook from an editorial spreadsheet",
+    "Cross-check e-commerce orders against the stock sheet and flag mismatches"
+  ],
+  "bestForWho": "Small and mid-sized companies with repetitive, standardizable processes and no developer on the team.",
+  "verdict": "Make is the easiest option to put into production when nobody in the company can code, and the scenario canvas is more intuitive than n8n's. The trade-off is the credit model, which cuts both ways: a scenario that syncs the CRM with a spreadsheet can burn half the quota in a week without anyone noticing. The biggest risk is not the plan price, it is the flow design, because a badly built step multiplies operations and turns into a high bill with no warning. For a small company, the Core plan with 10,000 credits covers the essentials and lets you monitor consumption scenario by scenario. For a larger company, weigh the Teams plan for its role-based access controls, but do the credit math before you migrate any critical process.",
+  "alternatives": ["n8n", "zapier", "relevance-ai", "dify"],
+  "updated": "2026-10-30"
+}

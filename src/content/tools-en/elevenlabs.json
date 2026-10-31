@@ -1,0 +1,43 @@
+{
+  "name": "ElevenLabs",
+  "slug": "elevenlabs",
+  "category": "design",
+  "tagline": "Studio-quality synthetic voice for audio and dubbing",
+  "description": "Voice platform with studio-quality synthesis, authorized cloning, dubbing and an API, billed by generated character and available in many languages.",
+  "url": "https://elevenlabs.io",
+  "affiliateUrl": "https://elevenlabs.io/?via=yooka",
+  "price": "From US$ 5/month",
+  "priceNote": "Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Audio, narration and dubbing with broadcast-quality voice",
+  "rating": 4.6,
+  "ratingCount": 648,
+  "pros": [
+    "Voice quality above the rest of the market, with natural intonation across languages",
+    "Automatic dubbing preserves the original voice in another language, which saves a voice actor",
+    "Voice cloning released with written consent, which makes using your own voice legally clean",
+    "Stable API for embedding narration in an app, a messaging system or a website"
+  ],
+  "cons": [
+    "Billing by consumed credit makes the cost explode on long text, and long text is the norm for audio",
+    "The free plan does not allow commercial use, which catches a lot of people out",
+    "On emotion and music the voice still sounds mechanical if the text is not prepared first",
+    "Commercial support is thin outside English and cloned-voice contracts need legal care"
+  ],
+  "features": [
+    { "name": "Voice synthesis", "detail": "Library with dozens of voices in many languages, with style control" },
+    { "name": "Automatic dubbing", "detail": "Translates and replicates the original voice, keeping the speaker's timbre" },
+    { "name": "Voice cloning", "detail": "Reproduces a voice from a sample, with the rights holder's consent" },
+    { "name": "Production studio", "detail": "Cuts the audio, removes noise, adds a soundtrack and exports in several formats" },
+    { "name": "API and batch dubbing", "detail": "API calls and voice-over for many texts in a single project" }
+  ],
+  "useCases": [
+    "Narrate training and onboarding videos for the store team without re-recording after every change",
+    "Audio for Instagram and TikTok videos in the brand presenter's voice, with no studio",
+    "The voice for the order confirmation and delivery notification call system",
+    "Dub supplier training videos for the field team instead of shipping subtitles"
+  ],
+  "bestForWho": "Marketing and content teams that produce a lot of audio and video and have no budget for voice actors or a studio.",
+  "verdict": "ElevenLabs is the best synthetic sound we have tested, and against the operating system TTS the difference is stark, which solves narration for sales and training videos in one move. The cost detail is what bites hardest: the bill is based on credit consumed, so a ten-hour audiobook burns a quota that overruns any entry plan, and the text needs to be well written before synthesis. Voice cloning solves the brand identity problem but requires documented consent from the voice owner. For a small company, the Starter plan covers short video narration and the final cost is still lower than hiring a voice for every asset. For a larger company, the Creator or Pro plan pays off with continuous production, and it is worth implementing per-client credit control so you do not overrun the quota.",
+  "alternatives": ["heygen", "manychat"],
+  "updated": "2026-10-30"
+}

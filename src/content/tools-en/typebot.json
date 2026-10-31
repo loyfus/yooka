@@ -1,0 +1,43 @@
+{
+  "name": "Typebot",
+  "slug": "typebot",
+  "category": "marketing",
+  "tagline": "Block-based chatbot that looks like a form and is easy to edit",
+  "description": "Block-based chatbot builder that users see as a form, with self-hosting possible, WhatsApp integration and a webhook to connect any AI.",
+  "url": "https://www.typebot.com",
+  "affiliateUrl": "https://www.typebot.com/?via=yooka",
+  "price": "From US$ 39/month",
+  "priceNote": "Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Support with a guided form that does not scare the customer away",
+  "rating": 4.1,
+  "ratingCount": 168,
+  "pros": [
+    "The bot looks like a filled-in form, which sharply reduces drop-off compared with feeling like a robot",
+    "Visual block editor, and the sales team builds the flow alone in an afternoon",
+    "Self-hosted open source and free, which solves both the data and the cost question",
+    "Webhook and API to plug in whichever AI you want, without being locked to one model"
+  ],
+  "cons": [
+    "Self-hosting requires a server, a domain, SSL and someone who upgrades the Typebot version",
+    "No built-in AI: to answer with a language model you have to integrate one through a webhook",
+    "Meta's WhatsApp API is billed per delivered message, and that cost sits outside the subscription",
+    "Fewer ready integrations than ManyChat and Zapier, which means more manual connection work"
+  ],
+  "features": [
+    { "name": "Block editor", "detail": "Snaps question, option, file and button cards into a sequence" },
+    { "name": "Website embed", "detail": "Bot appears as a window or button on any page, with no SDK" },
+    { "name": "Webhooks and API", "detail": "Sends the answers to your AI or backend and returns the response" },
+    { "name": "Connected channels", "detail": "Website, Messenger, Slack, Discord and WhatsApp, the last one on paid plans" },
+    { "name": "Self-hosted open source", "detail": "Runs with Docker on your infrastructure, with no monthly fee and full brand customization" }
+  ],
+  "useCases": [
+    "Post-sale data collection that opens the ticket in the CRM with a summary of the conversation",
+    "Support triage on the website before handing the customer to a human team",
+    "Lead qualification with staged questions and delivery to a spreadsheet or CRM",
+    "Satisfaction survey in three questions after the order, with the score recorded in your system"
+  ],
+  "bestForWho": "Companies that want a website chatbot that looks like a form and prefer to self-host instead of depending on a platform.",
+  "verdict": "Typebot solves a problem ManyChat does not: a bot that looks like a form, which cuts drop-off on website support and booking flows. The block editor is fast, and the sales team can change it without asking a developer, which is rare in this market. What it lacks is ready-made intelligence: to understand a question in natural language you connect a model through a webhook, and then quality depends on what you build. For a small company, self-hosting with Docker on your own domain works and costs almost nothing, adding only the WhatsApp API when you use it. For a larger company, the cloud version saves you the operations, and it is worth comparing cost per conversation with ManyChat before you decide.",
+  "alternatives": ["manychat", "chatgpt", "dify"],
+  "updated": "2026-10-30"
+}

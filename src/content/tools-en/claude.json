@@ -1,0 +1,43 @@
+{
+  "name": "Claude",
+  "slug": "claude",
+  "category": "ai-tools",
+  "tagline": "AI that holds long documents and writes better code",
+  "description": "Anthropic's assistant for long-document analysis, careful writing and programming, with projects, artifacts and a per-token plan for the team.",
+  "url": "https://claude.ai",
+  "affiliateUrl": "https://claude.ai/?via=yooka",
+  "price": "From US$ 20/month",
+  "priceNote": "Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Contract analysis, long-form review and software development",
+  "rating": 4.6,
+  "ratingCount": 542,
+  "pros": [
+    "The best behavior on the market for long documents, spreadsheets and contracts, without losing the thread",
+    "More measured and less pushy writing, which cuts human review time on corporate text",
+    "Large context window and strong coding performance, which favors technical work and repository analysis",
+    "Projects, artifacts and MCP connectors organize the work without forcing you to assemble tooling"
+  ],
+  "cons": [
+    "No native image generation and web search that is as mature as some competitors",
+    "The Pro plan caps usage in five-hour windows, which blocks intense work",
+    "The API bills per token and the cost of a long agent with a big context scales fast",
+    "The extension ecosystem is smaller than ChatGPT's, so ready-made content is scarcer"
+  ],
+  "features": [
+    { "name": "Long context", "detail": "Analyzes whole contracts, reports and repositories in the same conversation" },
+    { "name": "Projects", "detail": "Groups conversations, files and instructions per client" },
+    { "name": "Artifacts", "detail": "Side panel with the generated document, code and chart next to the conversation" },
+    { "name": "Claude Code", "detail": "Terminal and IDE agent to edit and run code in a real repository" },
+    { "name": "MCP connectors", "detail": "Connects internal tools through an open standard, with simple configuration" }
+  ],
+  "useCases": [
+    "Analyze a supplier contract and flag risks, penalties and clauses that deviate from the standard",
+    "Rewrite standard supplier contracts in the language of the company",
+    "Review pull requests and write tests in the internal development repository",
+    "Analyze the consolidated quarterly financial report and list the questions for the controller"
+  ],
+  "bestForWho": "Companies with a legal, content or technology team that needs to read and produce long documents with rigor.",
+  "verdict": "Claude is the assistant that makes the fewest mistakes in formal writing and the one that holds an entire document best, and that alone saves hours of review in legal, finance and technology. In return, it does not search the web with the depth of Gemini or Perplexity, so many research tasks still come out better in another tool. The Pro plan also caps usage in short windows, which caught us in the middle of a long contract analysis. For a small company, the Pro plan for each legal or content team member pays back within the first quarter. For a larger company, the Team plan or the API with your own governance makes more sense, because it gives you control over cost per token and a record of what was sent.",
+  "alternatives": ["chatgpt", "gemini", "perplexity"],
+  "updated": "2026-10-30"
+}

@@ -86,3 +86,102 @@ export function portFromProfile(profileDir) {
   const port = parseInt(fs.readFileSync(f, 'utf8').split('\n')[0], 10);
   return Number.isFinite(port) ? port : null;
 }
+
+/** Clique real (evento de mouse) no centro do elemento — funciona em React. */
+Session.prototype.clickSelector = async function (selector) {
+  const box = await this.evaluate(`(() => {
+    const el = document.querySelector(${JSON.stringify(selector)});
+    if (!el) return null;
+    el.scrollIntoView({ block: 'center' });
+    const r = el.getBoundingClientRect();
+    return { x: r.x + r.width / 2, y: r.y + r.height / 2 };
+  })()`);
+  if (!box) return false;
+  await this.send('Input.dispatchMouseEvent', { type: 'mouseMoved', x: box.x, y: box.y });
+  await this.send('Input.dispatchMouseEvent', { type: 'mousePressed', x: box.x, y: box.y, button: 'left', clickCount: 1 });
+  await this.send('Input.dispatchMouseEvent', { type: 'mouseReleased', x: box.x, y: box.y, button: 'left', clickCount: 1 });
+  return true;
+};
+
+/** Clique real no elemento cujo texto casa com o padrão. */
+Session.prototype.clickText = async function (re, opts = {}) {
+  const box = await this.evaluate(`(() => {
+    const re = ${re.toString()};
+    const els = [...document.querySelectorAll(${JSON.stringify(opts.selector || 'button,a,[role="menuitem"],[role="option"],div')})];
+    const el = els.find(e => e.offsetParent !== null && re.test((e.innerText || '').trim()) && (e.innerText || '').trim().length < 60);
+    if (!el) return null;
+    el.scrollIntoView({ block: 'center' });
+    const r = el.getBoundingClientRect();
+    return { x: r.x + r.width / 2, y: r.y + r.height / 2 };
+  })()`);
+  if (!box) return false;
+  await this.send('Input.dispatchMouseEvent', { type: 'mouseMoved', x: box.x, y: box.y });
+  await this.send('Input.dispatchMouseEvent', { type: 'mousePressed', x: box.x, y: box.y, button: 'left', clickCount: 1 });
+  await this.send('Input.dispatchMouseEvent', { type: 'mouseReleased', x: box.x, y: box.y, button: 'left', clickCount: 1 });
+  return true;
+};
+
+/** Escreve em um input e dispara os eventos que o React espera. */
+Session.prototype.type = async function (selector, value) {
+  const ok = await this.evaluate(`(() => {
+    const el = document.querySelector(${JSON.stringify(selector)});
+    if (!el) return false;
+    el.focus();
+    const proto = el.tagName === 'TEXTAREA' ? window.HTMLTextAreaElement.prototype : window.HTMLInputElement.prototype;
+    const setter = Object.getOwnPropertyDescriptor(proto, 'value').set;
+    setter.call(el, ${JSON.stringify(value)});
+    el.dispatchEvent(new Event('input', { bubbles: true }));
+    el.dispatchEvent(new Event('change', { bubbles: true }));
+    return true;
+  })()`);
+  return ok;
+};
+
+/** Envia um arquivo para um input[type=file]. */
+Session.prototype.setFile = async function (selector, files) {
+  await this.send('DOM.enable').catch(() => {});
+  const doc = await this.send('DOM.getDocument', { depth: -1 });
+  const { nodeId } = await this.send('DOM.querySelector', { nodeId: doc.root.nodeId, selector });
+  if (!nodeId) return false;
+  await this.send('DOM.setFileInputFiles', { files, nodeId });
+  return true;
+};
+
+/** Digitação real: foca o campo (clique) e insere texto pelo teclado. */
+Session.prototype.fillReal = async function (selector, value) {
+  const box = await this.evaluate(`(() => {
+    const el = document.querySelector(${JSON.stringify(selector)});
+    if (!el) return null;
+    el.scrollIntoView({ block: 'center' });
+    const r = el.getBoundingClientRect();
+    return { x: r.x + r.width / 2, y: r.y + r.height / 2 };
+  })()`);
+  if (!box) return false;
+  await this.send('Input.dispatchMouseEvent', { type: 'mousePressed', x: box.x, y: box.y, button: 'left', clickCount: 1 });
+  await this.send('Input.dispatchMouseEvent', { type: 'mouseReleased', x: box.x, y: box.y, button: 'left', clickCount: 1 });
+  await sleep(250);
+  await this.send('Input.insertText', { text: String(value) });
+  await sleep(250);
+  // Tab dispara a validação do campo
+  await this.send('Input.dispatchKeyEvent', { type: 'rawKeyDown', windowsVirtualKeyCode: 9, key: 'Tab', code: 'Tab' });
+  await this.send('Input.dispatchKeyEvent', { type: 'keyUp', windowsVirtualKeyCode: 9, key: 'Tab', code: 'Tab' });
+  await sleep(350);
+  return true;
+};
+
+/** Seleciona a primeira opção que casa com o texto. */
+Session.prototype.pickOption = async function (re) {
+  const box = await this.evaluate(`(() => {
+    const re = ${re.toString()};
+    const els = [...document.querySelectorAll('[role="option"],[role="radio"],li,button,div')];
+    const el = els.find(e => e.offsetParent !== null && re.test((e.innerText || '').trim()) && (e.innerText || '').trim().length < 50);
+    if (!el) return null;
+    el.scrollIntoView({ block: 'center' });
+    const r = el.getBoundingClientRect();
+    return { x: r.x + r.width / 2, y: r.y + r.height / 2 };
+  })()`);
+  if (!box) return false;
+  await this.send('Input.dispatchMouseEvent', { type: 'mousePressed', x: box.x, y: box.y, button: 'left', clickCount: 1 });
+  await this.send('Input.dispatchMouseEvent', { type: 'mouseReleased', x: box.x, y: box.y, button: 'left', clickCount: 1 });
+  return true;
+};

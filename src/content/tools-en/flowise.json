@@ -1,0 +1,43 @@
+{
+  "name": "Flowise",
+  "slug": "flowise",
+  "category": "automation",
+  "tagline": "Great LLM flow builder, but discontinued in 2026",
+  "description": "Open source builder for LLM, RAG and agent flows that was shut down in August 2026: the code is still on GitHub, but without maintenance or official cloud.",
+  "url": "https://flowiseai.com",
+  "affiliateUrl": "https://flowiseai.com/?via=yooka",
+  "price": "From US$ 0/month",
+  "priceNote": "Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Anyone already running a Flowise project who needs to know what to do now",
+  "rating": 3.4,
+  "ratingCount": 231,
+  "pros": [
+    "Drag and connect prompt, tool, RAG and memory blocks, and the flow becomes an API endpoint",
+    "Was open source and free to self-host, which removed the subscription while volume was low",
+    "Worked with the major model providers and with local models through Ollama",
+    "Had a no-code Assistant mode for people who did not want to touch a flow graph"
+  ],
+  "cons": [
+    "The project was shut down: code frozen in July 2026, repository archived and support ended on August 31, 2026",
+    "The official cloud went offline and the pricing page was removed, leaving only a historical cost reference",
+    "Without upstream maintenance the fork is on you: every dependency and security update is your job",
+    "Vector base and data processing fell behind compared with what Dify delivered"
+  ],
+  "features": [
+    { "name": "Block-based flows", "detail": "Chatflow, chain and agentflow built by drag and drop" },
+    { "name": "Deploy as an API", "detail": "Each flow became a REST endpoint ready to consume from your system" },
+    { "name": "Vector base", "detail": "Loaded documents and retrieved passages by similarity without an external database" },
+    { "name": "Embedded chat", "detail": "Chat widget that went on your site with a single script line" },
+    { "name": "Multi-model and local", "detail": "OpenAI, Anthropic, Google, Mistral, Ollama and open models" }
+  ],
+  "useCases": [
+    "Auto-summary endpoint for the tickets arriving in the support system",
+    "Assistant that answers questions about the product manual with a citation of the original passage",
+    "Email classifier that routes the incoming queue and pulls data from the CRM",
+    "Sales agent prototype the commercial team tests before going live"
+  ],
+  "bestForWho": "Anyone with a live Flowise flow who needs to plan a migration, because for a new project the recommendation is a different tool.",
+  "verdict": "Flowise was the simplest AI flow builder to install, and it was the right choice for anyone who wanted self-hosting without depending on a third-party cloud. The problem is that the project was shut down in August 2026, with the repository archived on GitHub, the cloud offline and no security fixes ahead. That changes the recommendation: do not start a new project on it, because every dependency you need to update becomes your problem. For a small company, the best path is to migrate to Dify, which is open source with an active community and a more mature knowledge base. For a larger company, plan the migration now, porting the chains to Dify or LangGraph without rewriting business logic, and if you are still running it, take the critical pieces down and do not invest in new extensions.",
+  "alternatives": ["dify", "n8n", "langchain"],
+  "updated": "2026-10-30"
+}

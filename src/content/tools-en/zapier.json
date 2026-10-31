@@ -1,0 +1,43 @@
+{
+  "name": "Zapier",
+  "slug": "zapier",
+  "category": "automation",
+  "tagline": "The largest catalog of ready-made integrations on the market",
+  "description": "Connects thousands of SaaS apps with no code, with built-in AI actions and a history of every task; the fastest on-ramp to automation for small teams.",
+  "url": "https://zapier.com",
+  "affiliateUrl": "https://zapier.com/?via=yooka",
+  "price": "From US$ 19.99/month",
+  "priceNote": "Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Anyone who needs to automate a SaaS process in an afternoon, with no technical team",
+  "rating": 4.2,
+  "ratingCount": 618,
+  "pros": [
+    "Catalog with thousands of apps and the shortest time to a first working automation",
+    "Each app ships with actions, fields and authentication already solved, so you never guess at an API",
+    "The platform's AI agents summarize and classify data inside the Zap itself",
+    "Run history, task replay and community templates ready to adapt"
+  ],
+  "cons": [
+    "Task billing gets expensive fast: a five-step automation is five tasks per round",
+    "There is no self-hosted version, which rules out keeping sensitive data on your own infrastructure",
+    "Runs with many steps are slower than alternatives such as n8n or Make",
+    "Support and learning material are almost entirely in English"
+  ],
+  "features": [
+    { "name": "App catalog", "detail": "Ready connectors for CRM, email, spreadsheets, ERP and social media" },
+    { "name": "Native AI actions", "detail": "Extract, classify and summarize text inside the flow, without calling an API" },
+    { "name": "Zaps and tables", "detail": "Intermediate table to process batches of data on each run" },
+    { "name": "Supervised agents", "detail": "Agents take actions and request human approval before sending" },
+    { "name": "Monitor and history", "detail": "Run dashboard, failed tasks and batch reprocessing" }
+  ],
+  "useCases": [
+    "Create the CRM contact and post to Slack when a lead fills in the website form",
+    "Generate an executive summary of the sales report every Monday and send it by email",
+    "Alert the support team when a customer leaves a bad Google review",
+    "Sync the online store inventory with the warehouse sheet without typing anything"
+  ],
+  "bestForWho": "Teams starting to automate now that need a working result within a few hours, with no technical budget and no infrastructure of their own.",
+  "verdict": "Zapier delivers the fastest automation to get live, and that matters more than it looks when nobody in the company can code. The problem shows up on the invoice: every step of the flow counts as a task, so a ten-step scenario running a thousand times a month hits the Professional limit faster than you would expect. Reliability at scale is the other point, because long runs get slow and the paid plan only solves part of that at the top tier. For a small company, the Professional plan with its task limit is enough if you monitor consumption and use error replay. For a mid-sized or large company, compare with Make and n8n before signing, because the cost per active automation almost always ends up higher here.",
+  "alternatives": ["make", "n8n", "relevance-ai"],
+  "updated": "2026-10-30"
+}

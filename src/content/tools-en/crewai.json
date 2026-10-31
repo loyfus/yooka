@@ -1,0 +1,43 @@
+{
+  "name": "CrewAI",
+  "slug": "crewai",
+  "category": "automation",
+  "tagline": "Teams of AI agents with defined roles and tasks",
+  "description": "Python framework for orchestrating teams of AI agents with explicit roles and tasks, minimal boilerplate and integration with several models.",
+  "url": "https://www.crewai.com",
+  "affiliateUrl": "https://www.crewai.com/?via=yooka",
+  "price": "From US$ 24/month",
+  "priceNote": "Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Prototyping and running agent teams with a well-defined role",
+  "rating": 4.2,
+  "ratingCount": 267,
+  "pros": [
+    "Simple mental model of agent, task and expected output, which the business side understands",
+    "A few lines of code to assemble a complete team with roles and tools",
+    "Works with models from several providers, so you can swap models without rewriting the crew",
+    "Supports sequential or hierarchical execution, which suits more complex flows"
+  ],
+  "cons": [
+    "Depends on an external language model, and cost per token is the largest share of the bill",
+    "Poorly scoped agents burn tokens repeating work until they hit the iteration limit",
+    "Documentation changed a lot in recent releases and many public examples are out of date",
+    "No ready-made observability like LangSmith, and without logs debugging an agent is hard"
+  ],
+  "features": [
+    { "name": "Agents with a role", "detail": "Each agent has its own goal, context and tool list" },
+    { "name": "Chained tasks", "detail": "You define the work sequence and the expected format of each deliverable" },
+    { "name": "Flexible processes", "detail": "Sequential or hierarchical execution, with context passed between agents" },
+    { "name": "Tools and MCP", "detail": "Connects APIs, web search and internal systems through ready-made tools" },
+    { "name": "Cloud deployment", "detail": "Managed platform with scheduled runs, logs and observability" }
+  ],
+  "useCases": [
+    "Research crew that cross-checks the sales report, customer feedback and market data before the meeting",
+    "Agent team that drafts the campaign, generates ad variations and reviews the final copy",
+    "Research routine that produces a biweekly industry report with sources and an executive summary",
+    "Agents that fill in a commercial proposal by querying the catalog and current margins"
+  ],
+  "bestForWho": "Engineering or data teams that want to prototype a multi-agent system fast and then evolve to production.",
+  "verdict": "CrewAI is still the shortest path from zero to a running team of agents, because the concept of an agent with a role and a task is immediate even for people who do not code. What misleads people is assuming the ready-made crew is the product: in practice the work lies in defining the task, the output format and the iteration limit, and without those the agent team loops and burns tokens. The other point is the absence of native observability, which forces you to plug in LangSmith or your own tracing. For a small company, use the local library for specific tasks and pay only for what you consume. For a larger company, the paid cloud platform earns its keep through run history and access roles, but require readable logs before you scale.",
+  "alternatives": ["langchain", "dify", "relevance-ai"],
+  "updated": "2026-10-30"
+}

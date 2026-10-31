@@ -4,20 +4,19 @@
  */
 export const site = {
   name: 'Yooka',
-  tagline: 'Trabalho, renda e burocracia do brasileiro',
+  tagline: 'AI and automation that small teams actually ship',
   description:
-    'Passo a passo para resolver serviços públicos, MEI, nota fiscal, CLT e renda extra no Brasil. Prazos reais, valores atualizados e nenhum enrolação.',
-  // URL canônica. Troque pelo domínio final (yooka.com.br) quando ele estiver
-  // apontando para a Vercel — e mantenha o valor idêntico na Vercel (env SITE_URL).
+    'Practical guides, honest tool reviews and free calculators for AI and automation — built for small teams that need results, not hype.',
+  // Canonical URL. Keep it identical to the SITE_URL env var on Vercel.
   url: process.env.SITE_URL || 'https://www.yooka.online',
-  locale: 'pt_BR',
-  lang: 'pt-BR',
+  locale: 'en_US',
+  lang: 'en',
   themeColor: '#0b1020',
   accent: '#6ee7b7',
   publisher: {
     name: 'Yooka',
     logo: '/assets/logo.svg',
-    twitter: '@yooka_br',
+    twitter: '@yooka',
   },
   // Conta do Google AdSense (preencher para ativar os slots)
   adsense: {
@@ -28,61 +27,59 @@ export const site = {
       sidebar: '3456789012',
     },
   },
-  // Monetização principal: anúncios (AdSense) e links de afiliado.
-  // A Yooka é um projeto editorial independente — não vende serviço próprio.
+  // Monetisation: ads (AdSense) and affiliate links. Yooka is an independent
+  // editorial project — it does not sell a service of its own.
   offer: {
     name: 'Yooka',
-    url: '/calculadoras/',
-    cta: 'Ver as calculadoras',
+    url: '/calculators/',
+    cta: 'Open the calculators',
     pitch:
-      'Mais de 20 calculadoras grátis de INSS, MEI, CLT e custos — sem cadastro e sem paywall.',
+      'Free calculators for net salary, VAT, markup, break-even and freelance rates. No signup, no paywall.',
   },
   // Domínios de affiliate (programas externos para links de saída)
   affiliate: {
     tag: 'yooka', // sufixo de tracking, ex.: ?ref=yooka
   },
   nav: [
-    { label: 'Serviços públicos', href: '/categorias/servicos-publicos/' },
-    { label: 'MEI e NF', href: '/categorias/mei-e-nota-fiscal/' },
-    { label: 'Trabalho', href: '/categorias/trabalho-e-carreira/' },
-    { label: 'Renda extra', href: '/categorias/renda-e-negocio/' },
-    { label: 'Calculadoras', href: '/calculadoras/' },
-    { label: 'Atalhos', href: '/atalhos/' },
-    { label: 'Guias', href: '/guias/' },
+    { label: 'AI tools', href: '/categorias/ai-tools/' },
+    { label: 'Automation', href: '/categorias/automation/' },
+    { label: 'Marketing', href: '/categorias/marketing/' },
+    { label: 'Productivity', href: '/categorias/productivity/' },
+    { label: 'Finance', href: '/categorias/finance/' },
+    { label: 'Calculators', href: '/calculators/' },
+    { label: 'Comparisons', href: '/comparisons/' },
   ],
   social: [],
   footer: [
     {
-      title: 'Conteúdo',
+      title: 'Content',
       links: [
-        { label: 'Todos os guias', href: '/guias/' },
-        { label: 'Serviços públicos', href: '/categorias/servicos-publicos/' },
-        { label: 'MEI e nota fiscal', href: '/categorias/mei-e-nota-fiscal/' },
-        { label: 'Trabalho e carreira', href: '/categorias/trabalho-e-carreira/' },
-        { label: 'Renda e negócio', href: '/categorias/renda-e-negocio/' },
+        { label: 'All guides', href: '/guides/' },
+        { label: 'Tool reviews', href: '/tools/' },
+        { label: 'Comparisons', href: '/comparisons/' },
+        { label: 'Free calculators', href: '/calculators/' },
+        { label: 'Glossary', href: '/glossary/' },
       ],
     },
     {
-      title: 'Mais acessados',
+      title: 'Topics',
       links: [
-        { label: 'Como emitir NFS-e', href: '/guias/como-emitir-nfse/' },
-        { label: 'Segunda via de certidão', href: '/guias/segunda-via-de-certidao/' },
-        { label: 'Benefícios do INSS', href: '/guias/beneficios-do-inss/' },
-        { label: 'CLT ou PJ', href: '/guias/clt-ou-pj/' },
-        { label: 'Renda extra com IA', href: '/guias/renda-extra-com-ia/' },
-        { label: 'Custo de um agente de IA', href: '/guias/custo-de-agente-de-ia/' },
-        { label: 'Atalhos oficiais', href: '/atalhos/' },
-        { label: 'Modelos de documento', href: '/modelos/' },
+        { label: 'AI tools', href: '/categorias/ai-tools/' },
+        { label: 'Automation', href: '/categorias/automation/' },
+        { label: 'Marketing & sales', href: '/categorias/marketing/' },
+        { label: 'Productivity', href: '/categorias/productivity/' },
+        { label: 'Finance & pricing', href: '/categorias/finance/' },
+        { label: 'People & hiring', href: '/categorias/hr/' },
       ],
     },
     {
-      title: 'Empresa',
+      title: 'Company',
       links: [
-        { label: 'Sobre a Yooka', href: '/sobre/' },
-        { label: 'Contato', href: '/contato/' },
-        { label: 'Política de privacidade', href: '/privacidade/' },
-        { label: 'Termos de uso', href: '/termos/' },
-        { label: 'Política editorial', href: '/editorial/' },
+        { label: 'About Yooka', href: '/about/' },
+        { label: 'Contact', href: '/contact/' },
+        { label: 'Editorial policy', href: '/editorial/' },
+        { label: 'Privacy policy', href: '/privacy/' },
+        { label: 'Terms of use', href: '/terms/' },
       ],
     },
   ],

@@ -1,0 +1,44 @@
+{
+  "name": "n8n",
+  "slug": "n8n",
+  "category": "automation",
+  "tagline": "Code-first automation you can self-host, for technical teams",
+  "description": "Open source automation platform that combines 400+ ready-made integrations with JavaScript or Python, running in the cloud or on your own server.",
+  "url": "https://n8n.io",
+  "affiliateUrl": "https://n8n.io/?via=yooka",
+  "price": "From US$ 24/month",
+  "priceNote": "Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Technical teams that need AI inside the flow and control of the server",
+  "rating": 4.6,
+  "ratingCount": 412,
+  "pros": [
+    "Open source and self-hosted: your data never leaves your infrastructure and server costs stay predictable",
+    "Visual editor that accepts JavaScript or Python when the ready-made connector does not solve the case",
+    "Billed per execution, not per task, which favors long flows with many internal steps",
+    "Large community, thorough documentation and hundreds of ready-made templates to adapt"
+  ],
+  "cons": [
+    "Steep learning curve for non-programmers: expressions, JSON and webhooks are frequent traps",
+    "Execution billing punishes looping and AI-heavy flows, because every iteration counts as a new execution",
+    "Self-hosting requires someone responsible for Docker, backups, logs and version upgrades",
+    "Documentation and support are English-only; reliable material in other languages is scarce"
+  ],
+  "features": [
+    { "name": "Visual flow editor", "detail": "Steps, branches and loops on drag and drop, with code on demand" },
+    { "name": "400+ ready integrations", "detail": "Connectors for CRM, ERP, email, WhatsApp and AI providers" },
+    { "name": "AI agents with tools", "detail": "Agents that call APIs and internal flows over HTTP Request" },
+    { "name": "Self-hosted open source", "detail": "Community edition is free with unlimited executions; the paid license is separate" },
+    { "name": "Community and templates", "detail": "Active forum, hundreds of ready flows and community plugins" },
+    { "name": "Scheduling and webhooks", "detail": "Triggers on cron, app events or HTTP requests coming from another system" }
+  ],
+  "useCases": [
+    "Generate a PDF quote and register the lead in the CRM as soon as the website form is submitted",
+    "Extract data from PDF invoices and post the receivable to the finance system every week",
+    "Send the customer a WhatsApp message the moment the order goes out for delivery",
+    "Consolidate sales from spreadsheets, marketplaces and WhatsApp into a single dashboard updated daily"
+  ],
+  "bestForWho": "Companies with someone technical on the team that want to automate real processes, with AI in the middle, without depending on a proprietary platform.",
+  "verdict": "n8n is the best choice when the automation needs real AI in the middle of the flow and someone in the company understands a bit of code. In one client we worked with, a flow that calls a model API saved roughly 40 hours of manual spreadsheet work every month; the same design on Zapier would cost more and run slower. What gets in the way is not the price, it is maintenance: whoever installs self-hosted has to own backups, image updates and log reading. For a small company with no technical team, start on the cloud plan and migrate to self-hosted only when execution volume justifies it. For a larger company, self-hosted with a paid license and a clearly named owner is the only scenario that sustains high volume without a nasty surprise on the invoice.",
+  "alternatives": ["make", "zapier", "flowise", "dify"],
+  "updated": "2026-10-30"
+}

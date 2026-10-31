@@ -1,0 +1,43 @@
+{
+  "name": "ChatGPT",
+  "slug": "chatgpt",
+  "category": "ai-tools",
+  "tagline": "The AI assistant that became the default at work",
+  "description": "OpenAI's AI assistant for text, voice and file analysis, with web search, deep research and thousands of ready-made GPTs for every area.",
+  "url": "https://openai.com/chatgpt/",
+  "affiliateUrl": "https://openai.com/chatgpt/?via=yooka",
+  "price": "From US$ 8/month",
+  "priceNote": "Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Whole teams using AI every day, from drafting to research",
+  "rating": 4.5,
+  "ratingCount": 874,
+  "pros": [
+    "The most battle-tested model on the market, with consistent answers across languages",
+    "File, spreadsheet, voice, image and deep research features that cover the whole operation",
+    "GPTs and apps that connect to Drive, SharePoint and Dropbox, which lifts usage without extra work",
+    "Almost zero learning curve: any non-technical person uses it without training"
+  ],
+  "cons": [
+    "Usage limits at peak times, especially on the Plus plan, break workflows",
+    "It is not an automation tool: it depends on copy and paste between systems, with no native ERP integration",
+    "The free version is far too limited for professional use and leads people to think it can do the job",
+    "Privacy policy and data retention need checking before you upload a client document"
+  ],
+  "features": [
+    { "name": "Deep research", "detail": "Multi-step report with sources, useful for benchmarking and market analysis" },
+    { "name": "File reading", "detail": "Analyzes PDF, spreadsheet, image and text document in a single upload" },
+    { "name": "Voice and video mode", "detail": "Voice conversation and video analysis inside the app" },
+    { "name": "GPTs and apps", "detail": "Custom assistants and connectors for Google Drive, Dropbox and SharePoint" },
+    { "name": "Projects and instructions", "detail": "Dedicated space per project, with history and fixed instructions" }
+  ],
+  "useCases": [
+    "Draft and review sales email replies while keeping the brand tone",
+    "Extract the key points from a PDF contract and build an internal legal summary",
+    "Turn the monthly performance report into a board-ready presentation",
+    "Create canned responses for the most common customer questions, reviewed by the team"
+  ],
+  "bestForWho": "Companies that want to give every person an AI assistant, from sales to admin, without building a system.",
+  "verdict": "ChatGPT is the safest choice for scaled adoption, because almost everyone already knows how to use it and the use cases show up on their own in daily work. The blind spot is integration: it answers very well, but it does not connect natively to your ERP, and the copy and paste comes back every hour. For processes that depend on system data, automation does the heavy lifting, not the chat. For a small company, the Plus plan for the sales and admin team is the best value for money. For a larger company, evaluate the Business plan for its workspace controls and the guarantee that company data is not used for training, and confirm the plan limits before you put a critical commercial process on top, because that changes as traffic grows.",
+  "alternatives": ["claude", "gemini", "perplexity"],
+  "updated": "2026-10-30"
+}

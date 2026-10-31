@@ -12,11 +12,10 @@ import {
   organizationSchema, websiteSchema, articleSchema, faqSchema,
   itemListSchema, softwareAppSchema, howToSchema, breadcrumbSchema,
 } from './src/lib/seo.js';
-import { calculators as calculatorsBase } from './src/content/calculators.js';
-import { calculatorsExtra } from './src/content/calculators-extra.js';
+import { calculatorsEn } from './src/content/calculators-en.js';
 import { computeOutputs } from './src/static/assets/calc-core.js';
 
-const calculators = [...calculatorsBase, ...calculatorsExtra];
+const calculators = calculatorsEn || [];
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = __dirname;
@@ -50,7 +49,7 @@ function listFiles(dir, ext) {
 }
 
 function loadArticles() {
-  return listFiles('articles', '.md')
+  return listFiles('articles-en', '.md')
     .map((f) => {
       const { data, content } = readMarkdown(f);
       const slug = data.slug || path.basename(f, '.md');
@@ -79,7 +78,7 @@ function loadArticles() {
 }
 
 function loadComparisons() {
-  return listFiles('comparisons', '.md')
+  return listFiles('comparisons-en', '.md')
     .map((f) => {
       const { data, content } = readMarkdown(f);
       const slug = data.slug || path.basename(f, '.md');
@@ -114,7 +113,7 @@ function loadComparisons() {
 }
 
 function loadTools() {
-  return listFiles('tools', '.json')
+  return listFiles('tools-en', '.json')
     .map((f) => {
       try {
         const t = readJSON(f);
@@ -135,9 +134,9 @@ function loadTools() {
     }));
 }
 
-const categories = readJSON(path.join(CONTENT, 'categories.json'));
-const glossary = readJSON(path.join(CONTENT, 'glossary.json'), []);
-const globalFaq = readJSON(path.join(CONTENT, 'faq.json'), []);
+const categories = readJSON(path.join(CONTENT, 'categories-en.json'));
+const glossary = readJSON(path.join(CONTENT, 'glossary-en.json'), []);
+const globalFaq = readJSON(path.join(CONTENT, 'faq-en.json'), []);
 
 /* ------------------------------------------------------------------ *
  * Utilidades de página
@@ -184,7 +183,7 @@ function addPage({ file, page, body, noindex = false, og = null }) {
 function articlePage(a) {
   const crumbs = [
     { label: 'Início', href: '/' },
-    { label: 'Guias', href: '/guias/' },
+    { label: 'Guides', href: '/guides/' },
     { label: a.title, href: a.url },
   ];
 
@@ -249,7 +248,7 @@ ${breadcrumbs(crumbs)}
       ${
         calcList.length
           ? `<section class="related">
-        <h2>Faça a conta</h2>
+        <h2>Run the numbers</h2>
         <div class="grid grid--2">
           ${calcList
             .map(
@@ -257,7 +256,7 @@ ${breadcrumbs(crumbs)}
             <div class="card__body">
               <h3 class="card__title"><a href="/calculadoras/${c.slug}/">${escapeHtml(c.title)}</a></h3>
               <p class="card__desc">${escapeHtml(c.description)}</p>
-              <p class="card__meta"><span>${escapeHtml(c.badge || 'Grátis')}</span><span>·</span><span>sem cadastro</span></p>
+              <p class="card__meta"><span>${escapeHtml(c.badge || 'Free')}</span><span>·</span><span>no signup</span></p>
             </div>
           </article>`
             )
@@ -267,7 +266,7 @@ ${breadcrumbs(crumbs)}
           : ''
       }
       ${a.faq.length ? `<section class="post__faq">
-        <h2>Perguntas frequentes</h2>
+        <h2>Frequently asked questions</h2>
         ${faqBlock(a.faq)}
       </section>` : ''}
       ${shareBar({
@@ -280,7 +279,7 @@ ${breadcrumbs(crumbs)}
       ${
         related.length
           ? `<section class="related">
-        <h2>Continue lendo</h2>
+        <h2>Keep reading</h2>
         <div class="grid grid--3">
           ${related.map((r) => articleCard(r)).join('\n          ')}
         </div>
@@ -297,7 +296,7 @@ ${breadcrumbs(crumbs)}
 </article>`;
 
   addPage({
-    file: `guias/${a.slug}/index.html`,
+    file: `guides/${a.slug}/index.html`,
     page,
     body,
     og: { badge: catLabel(a.category), title: a.title, subtitle: a.description },
@@ -307,7 +306,7 @@ ${breadcrumbs(crumbs)}
 function comparisonPage(c) {
   const crumbs = [
     { label: 'Início', href: '/' },
-    { label: 'Comparativos', href: '/comparativos/' },
+    { label: 'Comparativos', href: '/comparisons/' },
     { label: c.title, href: c.url },
   ];
 
@@ -388,10 +387,10 @@ ${breadcrumbs(crumbs)}
 
       ${c.body}
 
-      ${c.faq.length ? `<section class="post__faq"><h2>Perguntas frequentes</h2>${faqBlock(c.faq)}</section>` : ''}
+      ${c.faq.length ? `<section class="post__faq"><h2>Frequently asked questions</h2>${faqBlock(c.faq)}</section>` : ''}
 
       <section class="verdict">
-        <h2>Veredito</h2>
+        <h2>Verdict</h2>
         <p><strong>Escolha ${escapeHtml(winner.name)}</strong> se ${escapeHtml(winner.bestFor || 'você busca a opção mais simples')}. É a melhor escolha para ${escapeHtml(catBySlug[c.category]?.short?.toLowerCase() || 'o caso descrito acima')}.</p>
         <p class="muted">Preços e recursos verificados em ${ptBrDate(c.updated)}. Planos mudam com frequência — confirme no site oficial antes de fechar.</p>
       </section>
@@ -411,7 +410,7 @@ ${breadcrumbs(crumbs)}
 </article>`;
 
   addPage({
-    file: `comparativos/${c.slug}/index.html`,
+    file: `comparisons/${c.slug}/index.html`,
     page,
     body,
     og: { badge: `Comparativo · ${catLabel(c.category)}`, title: c.title, subtitle: c.description },
@@ -421,7 +420,7 @@ ${breadcrumbs(crumbs)}
 function toolPage(t) {
   const crumbs = [
     { label: 'Início', href: '/' },
-    { label: 'Ferramentas', href: '/ferramentas/' },
+    { label: 'Tools', href: '/tools/' },
     { label: t.name, href: t.url },
   ];
   const alts = (t.alternatives || []).map((s) => allTools.find((x) => x.slug === s)).filter(Boolean);
@@ -473,15 +472,15 @@ ${breadcrumbs(crumbs)}
     <div class="post__content">
       <section class="buybox">
         <div class="buybox__main">
-          <p class="buybox__label">Preço</p>
+          <p class="buybox__label">Pricing</p>
           <p class="buybox__price">${escapeHtml(t.price || 'Consulte')}</p>
           <p class="muted">${escapeHtml(t.priceNote || '')}</p>
         </div>
         <div class="buybox__side">
-          <p class="buybox__label">Melhor para</p>
+          <p class="buybox__label">Best for</p>
           <p>${escapeHtml(t.bestFor || '')}</p>
-          <a class="btn btn--primary" href="${t.affiliateUrl || t.url}" rel="nofollow noopener">Ver preço no site oficial</a>
-          <p class="muted tiny">Link de afiliado. A Yooka não é patrocinada pelo fornecedor.</p>
+          <a class="btn btn--primary" href="${t.affiliateUrl || t.url}" rel="nofollow noopener">See official pricing</a>
+          <p class="muted tiny">Affiliate link. Yooka is not sponsored by the vendor.</p>
         </div>
       </section>
 
@@ -490,19 +489,19 @@ ${breadcrumbs(crumbs)}
       <h2>Para quem serve</h2>
       <p>${escapeHtml(t.bestForWho || '')}</p>
 
-      <h2>Prós e contras</h2>
+      <h2>Pros and cons</h2>
       <div class="twocol">
         <div class="pro">
-          <h3>Prós</h3>
+          <h3>Pros</h3>
           <ul class="tick">${(t.pros || []).map((p) => `<li>${escapeHtml(p)}</li>`).join('')}</ul>
         </div>
         <div class="con">
-          <h3>Contras</h3>
+          <h3>Cons</h3>
           <ul class="cross">${(t.cons || []).map((p) => `<li>${escapeHtml(p)}</li>`).join('')}</ul>
         </div>
       </div>
 
-      <h2>Recursos principais</h2>
+      <h2>Key features</h2>
       <div class="table-wrap">
         <table class="cmp">
           <caption>Recursos de ${escapeHtml(t.name)}</caption>
@@ -513,7 +512,7 @@ ${breadcrumbs(crumbs)}
         </table>
       </div>
 
-      <h2>Casos de uso em empresas brasileiras</h2>
+      <h2>Real-world use cases</h2>
       <ul class="usecases">
         ${(t.useCases || []).map((u) => `<li>${escapeHtml(u)}</li>`).join('\n        ')}
       </ul>
@@ -521,7 +520,7 @@ ${breadcrumbs(crumbs)}
       ${adSlot('inArticle', 'inline')}
 
       <section class="verdict">
-        <h2>Veredito</h2>
+        <h2>Verdict</h2>
         <p>${escapeHtml(t.verdict || '')}</p>
       </section>
 
@@ -542,7 +541,7 @@ ${breadcrumbs(crumbs)}
             )
             .join('\n          ')}
         </div>
-        <p><a class="btn btn--ghost btn--sm" href="/ferramentas/${t.slug}/alternativas/">Ver todas as alternativas a ${escapeHtml(t.name)}</a></p>
+        <p><a class="btn btn--ghost btn--sm" href="/ferramentas/${t.slug}/alternativas/">See all alternatives to ${escapeHtml(t.name)}</a></p>
       </section>`
           : ''
       }
@@ -552,7 +551,7 @@ ${breadcrumbs(crumbs)}
         text: 'A gente instala, integra e monitora. Você entra no com o time focado no negócio.',
         button: 'Falar com um especialista',
       })}
-      <p class="section__more"><a class="btn btn--ghost btn--sm" href="/ferramentas/${t.slug}/preco/">Ver preço, planos e o que compõe a conta →</a></p>
+      <p class="section__more"><a class="btn btn--ghost btn--sm" href="/ferramentas/${t.slug}/preco/">See pricing, plans and what lands on the bill →</a></p>
       ${shareBar({
         url: site.url.replace(/\/$/, '') + t.url,
         title: `${t.name}: review, preço e alternativas`,
@@ -561,7 +560,7 @@ ${breadcrumbs(crumbs)}
       ${
         relatedGuides.length
           ? `<section class="related">
-        <h2>Guias relacionados com ${escapeHtml(t.name)}</h2>
+        <h2>Guides related to ${escapeHtml(t.name)}</h2>
         <div class="grid grid--2">
           ${relatedGuides.map((g) => articleCard(g)).join('\n          ')}
         </div>
@@ -577,7 +576,7 @@ ${breadcrumbs(crumbs)}
         <ul>
           <li><a href="#prós-e-contras">Prós e contras</a></li>
           <li><a href="#recursos-principais">Recursos principais</a></li>
-          <li><a href="#veredito">Veredito</a></li>
+          <li><a href="#veredito">Verdict</a></li>
         </ul>
       </nav>
     </aside>
@@ -585,7 +584,7 @@ ${breadcrumbs(crumbs)}
 </article>`;
 
   addPage({
-    file: `ferramentas/${t.slug}/index.html`,
+    file: `tools/${t.slug}/index.html`,
     page,
     body,
     og: { badge: `Ferramenta · ${catLabel(t.category)}`, title: t.name, subtitle: t.tagline || t.description },
@@ -595,7 +594,7 @@ ${breadcrumbs(crumbs)}
 function toolAlternativesPage(t) {
   const crumbs = [
     { label: 'Início', href: '/' },
-    { label: 'Ferramentas', href: '/ferramentas/' },
+    { label: 'Tools', href: '/tools/' },
     { label: t.name, href: t.url },
     { label: 'Alternativas', href: `${t.url}alternativas/` },
   ];
@@ -636,8 +635,8 @@ ${breadcrumbs(crumbs)}
       <h2>${escapeHtml(a.name)}</h2>
       <p class="altblock__tag">${escapeHtml(a.tagline || '')}</p>
       <div class="twocol">
-        <div class="pro"><h3>Prós</h3><ul class="tick">${(a.pros || []).map((p) => `<li>${escapeHtml(p)}</li>`).join('')}</ul></div>
-        <div class="con"><h3>Contras</h3><ul class="cross">${(a.cons || []).map((p) => `<li>${escapeHtml(p)}</li>`).join('')}</ul></div>
+        <div class="pro"><h3>Pros</h3><ul class="tick">${(a.pros || []).map((p) => `<li>${escapeHtml(p)}</li>`).join('')}</ul></div>
+        <div class="con"><h3>Cons</h3><ul class="cross">${(a.cons || []).map((p) => `<li>${escapeHtml(p)}</li>`).join('')}</ul></div>
       </div>
       <p class="altblock__best"><strong>Melhor para:</strong> ${escapeHtml(a.bestFor || '')}</p>
       <a class="btn btn--ghost btn--sm" href="${a.affiliateUrl || a.url}" rel="nofollow noopener">Ver ${escapeHtml(a.name)}</a>
@@ -657,7 +656,7 @@ ${breadcrumbs(crumbs)}
   </div>
 </article>`;
 
-  addPage({ file: `ferramentas/${t.slug}/alternativas/index.html`, page, body });
+  addPage({ file: `tools/${t.slug}/alternatives/index.html`, page, body });
 }
 
 /* ------------------------------------------------------------------ *
@@ -674,7 +673,7 @@ function calculatorPage(calc) {
 
   const crumbs = [
     { label: 'Início', href: '/' },
-    { label: 'Calculadoras', href: '/calculadoras/' },
+    { label: 'Calculadoras', href: '/calculators/' },
     { label: calc.title, href: url },
   ];
 
@@ -689,7 +688,7 @@ function calculatorPage(calc) {
     },
     {
       q: 'Preciso me cadastrar?',
-      a: 'Não. A calculadora funciona sem cadastro e sem cookies. Nada do que você digita é enviado ou guardado.',
+      a: 'Não. A calculadora funciona no signup e sem cookies. Nada do que você digita é enviado ou guardado.',
     },
   ];
 
@@ -803,7 +802,7 @@ ${breadcrumbs(crumbs)}
         text: calc.description,
       })}
 
-      <h2>Como interpretar o resultado</h2>
+      <h2>How to read the result</h2>
       <ul>
         ${(calc.notes || []).map((n) => `<li>${escapeHtml(n)}</li>`).join('\n        ')}
       </ul>
@@ -813,7 +812,7 @@ ${breadcrumbs(crumbs)}
       ${
         guides.length
           ? `<section class="related">
-        <h2>Guias relacionados</h2>
+        <h2>Related guides</h2>
         <div class="grid grid--2">
           ${guides.map((g) => articleCard(g)).join('\n          ')}
         </div>
@@ -826,7 +825,7 @@ ${breadcrumbs(crumbs)}
       ${offerBox({
         title: 'Quer revisar esse número com um profissional?',
         text: 'Contador, advogado ou consultor: a Yooka explica o processo e você decide com quem contar.',
-        button: 'Falar com a equipe',
+        button: 'Talk to the team',
       })}
     </div>
     <aside class="post__aside">
@@ -845,7 +844,7 @@ ${breadcrumbs(crumbs)}
 <script type="module" src="/assets/calculator.js"></script>`;
 
   addPage({
-    file: `calculadoras/${calc.slug}/index.html`,
+    file: `calculators/${calc.slug}/index.html`,
     page,
     body,
     og: { badge: calc.badge || 'Calculadora grátis', title: calc.title, subtitle: calc.description },
@@ -855,19 +854,19 @@ ${breadcrumbs(crumbs)}
 function calculatorsIndex() {
   const crumbs = [
     { label: 'Início', href: '/' },
-    { label: 'Calculadoras', href: '/calculadoras/' },
+    { label: 'Calculadoras', href: '/calculators/' },
   ];
   const page = {
-    url: '/calculadoras/',
-    title: 'Calculadoras grátis: 13º, férias, rescisão, DAS e markup',
+    url: '/calculators/',
+    title: 'Free calculators: net salary, VAT, markup, break-even and freelance rates',
     description:
-      'Calculadoras gratuitas para trabalho, MEI e negócio: 13º salário, férias, verbas rescisórias, DAS do MEI, preço de venda e orçamento mensal. Resultado na hora, sem cadastro.',
+      'Calculadoras gratuitas para trabalho, MEI e negócio: 13º salário, férias, verbas rescisórias, DAS do MEI, preço de venda e orçamento mensal. Resultado na hora, no signup.',
     breadcrumbs: crumbs,
     priority: 0.9,
     schemas: [
       organizationSchema(),
       websiteSchema(),
-      itemListSchema(calculators.map((c) => ({ title: c.title, url: `/calculadoras/${c.slug}/` })), 'Calculadoras da Yooka', '/calculadoras/'),
+      itemListSchema(calculators.map((c) => ({ title: c.title, url: `/calculadoras/${c.slug}/` })), 'Calculadoras da Yooka', '/calculators/'),
     ],
   };
 
@@ -875,9 +874,9 @@ function calculatorsIndex() {
 ${breadcrumbs(crumbs)}
 <section class="listing">
   <header class="listing__head">
-    <p class="pill">Ferramentas gratuitas</p>
-    <h1>Calculadoras</h1>
-    <p class="listing__lead">${calculators.length} calculadoras para a conta que você precisa fazer agora. Sem cadastro, sem envio de dados, resultado na hora.</p>
+    <p class="pill">Free tools</p>
+    <h1>Calculators</h1>
+    <p class="listing__lead">${calculators.length} calculators for the numbers you need right now. No signup, no data sent anywhere, instant results.</p>
   </header>
   <div class="grid grid--2">
     ${calculators
@@ -897,14 +896,13 @@ ${breadcrumbs(crumbs)}
 ${adSlot('leaderboard', 'inline')}
 ${offerBox()}`;
 
-  addPage({ file: 'calculadoras/index.html', page, body });
+  addPage({ file: 'calculators/index.html', page, body });
 }
 
 /* ------------------------------------------------------------------ *
  * Atalhos oficiais e modelos de documento
  * ------------------------------------------------------------------ */
-const atalhos = readJSON(path.join(CONTENT, 'atalhos.json'));
-const modelos = readJSON(path.join(CONTENT, 'modelos.json'));
+
 
 function atalhosPage() {
   const url = '/atalhos/';
@@ -936,7 +934,7 @@ function atalhosPage() {
 ${breadcrumbs(crumbs)}
 <section class="listing">
   <header class="listing__head">
-    <p class="pill">Diretório</p>
+    <p class="pill">Directory</p>
     <h1>Atalhos oficiais</h1>
     <p class="listing__lead">${total} links do gov.br, do Banco Central e dos órgãos oficiais, organizados pelo serviço que você precisa. Sem propaganda no meio.</p>
   </header>
@@ -1040,7 +1038,7 @@ ${breadcrumbs(crumbs)}
       ${
         related.length
           ? `<section class="related">
-        <h2>Guias relacionados</h2>
+        <h2>Related guides</h2>
         <div class="grid grid--3">
           ${related.map((g) => articleCard(g)).join('\n          ')}
         </div>
@@ -1160,7 +1158,7 @@ function pairComparisonPage({ a, b, slug, sameCat }) {
   const url = `/comparativos/${slug}/`;
   const crumbs = [
     { label: 'Início', href: '/' },
-    { label: 'Comparativos', href: '/comparativos/' },
+    { label: 'Comparativos', href: '/comparisons/' },
     { label: `${a.name} x ${b.name}`, href: url },
   ];
 
@@ -1217,7 +1215,7 @@ ${breadcrumbs(crumbs)}
       ${updatedBox(TODAY)}
       <span>${escapeHtml(catLabel(a.category))}</span>
     </div>
-    ${trustBar(['Critérios objetivos', 'Preços verificados', 'Veredito em 1 minuto'])}
+    ${trustBar(['Critérios objetivos', 'Preços verificados', 'Verdict em 1 minuto'])}
   </header>
 
   <div class="post__layout">
@@ -1269,7 +1267,7 @@ ${breadcrumbs(crumbs)}
       ${adSlot('inArticle', 'inline')}
 
       <section class="verdict">
-        <h2>Veredito</h2>
+        <h2>Verdict</h2>
         <p><strong>${escapeHtml(winner.name)}</strong> é a escolha para ${escapeHtml((winner.bestFor || 'a maioria dos casos').toLowerCase())}. ${escapeHtml(winner.verdict || '')}</p>
         <p><strong>${escapeHtml(loser.name)}</strong> continua valendo quando ${escapeHtml((loser.bestFor || 'o time não tem perfil técnico').toLowerCase())}. Não é derrota: é encaixe.</p>
       </section>
@@ -1288,7 +1286,7 @@ ${breadcrumbs(crumbs)}
         <ul>
           <li><a href="#resposta-curta">Resposta curta</a></li>
           <li><a href="#preco-o-que-muda-no-total">Preço</a></li>
-          <li><a href="#veredito">Veredito</a></li>
+          <li><a href="#veredito">Verdict</a></li>
         </ul>
       </nav>
     </aside>
@@ -1296,7 +1294,7 @@ ${breadcrumbs(crumbs)}
 </article>`;
 
   addPage({
-    file: `comparativos/${slug}/index.html`,
+    file: `comparisons/${slug}/index.html`,
     page,
     body,
     og: { badge: 'Comparativo', title, subtitle: description },
@@ -1309,7 +1307,7 @@ function toolPricePage(t) {
   const description = `Preço do ${t.name}: planos disponíveis, custo por execução e o que muda no total da conta. Valores verificados em ${ptBrDate(TODAY)}.`;
   const crumbs = [
     { label: 'Início', href: '/' },
-    { label: 'Ferramentas', href: '/ferramentas/' },
+    { label: 'Tools', href: '/tools/' },
     { label: t.name, href: t.url },
     { label: 'Preço', href: url },
   ];
@@ -1357,14 +1355,14 @@ ${breadcrumbs(crumbs)}
     <div class="post__content">
       <section class="buybox">
         <div class="buybox__main">
-          <p class="buybox__label">Preço atual</p>
+          <p class="buybox__label">Current pricing</p>
           <p class="buybox__price">${escapeHtml(t.price || 'Consulte')}</p>
           <p class="muted">${escapeHtml(t.priceNote || '')}</p>
         </div>
         <div class="buybox__side">
-          <p class="buybox__label">Melhor para</p>
+          <p class="buybox__label">Best for</p>
           <p>${escapeHtml(t.bestFor || '')}</p>
-          <a class="btn btn--primary" href="${t.affiliateUrl || t.url}" rel="nofollow noopener">Ver preço no site oficial</a>
+          <a class="btn btn--primary" href="${t.affiliateUrl || t.url}" rel="nofollow noopener">See official pricing</a>
         </div>
       </section>
 
@@ -1414,7 +1412,7 @@ ${breadcrumbs(crumbs)}
 </article>`;
 
   addPage({
-    file: `ferramentas/${t.slug}/preco/index.html`,
+    file: `tools/${t.slug}/price/index.html`,
     page,
     body,
     og: { badge: `Preço · ${t.name}`, title, subtitle: description },
@@ -1429,45 +1427,45 @@ function offerForCategory(category) {
   switch (category) {
     case 'automacao-e-ia':
       return offerBox({
-        title: 'Ferramentas que resolvem isso na prática',
-        text: 'Comparamos as principais plataformas de automação com preço real, taxa e o que cada uma resolve.',
-        button: 'Ver as ferramentas',
-        href: '/ferramentas/',
+        title: 'Tools that solve this in practice',
+        text: 'We compare the main platforms on real pricing, fees and what each one actually solves.',
+        button: 'See the tools',
+        href: '/tools/',
       });
     case 'mei-e-nota-fiscal':
       return offerBox({
         title: 'Contabilidade online que resolve o MEI',
         text: 'Comparamos as principais opções com preço real e o que cada uma resolve — e o que continua sendo seu.',
         button: 'Ver contabilidade online',
-        href: '/ferramentas/contabilizei/',
+        href: '/tools/contabilizei/',
       });
     case 'trabalho-e-carreira':
       return offerBox({
         title: 'A conta não fechou?',
         text: 'A Yooka explica a regra; a revisão do seu caso é com advogado ou contador. Nós indicamos o caminho.',
-        button: 'Falar com a equipe',
-        href: '/contato/',
+        button: 'Talk to the team',
+        href: '/contact/',
       });
     case 'renda-e-negocio':
       return offerBox({
         title: 'Plataforma para você vender',
         text: 'Comparamos as principais plataformas de venda online, cobrança e curso com preço e taxa de verdade.',
         button: 'Ver ferramentas de venda',
-        href: '/ferramentas/',
+        href: '/tools/',
       });
     case 'servicos-publicos':
       return offerBox({
         title: 'Precisa do valor exato?',
         text: 'Nossas calculadoras dão o número na hora: 13º, férias, rescisão, DAS e contas em atraso.',
-        button: 'Abrir as calculadoras',
-        href: '/calculadoras/',
+        button: 'Open the calculators',
+        href: '/calculators/',
       });
     default:
       return offerBox({
         title: 'Quanto isso custa na prática?',
         text: 'Comparamos preços e custos reais de cartão, crédito, assinatura e ferramenta — sem letra miúda.',
         button: 'Ver custos e planos',
-        href: '/precos/',
+        href: '/pricing/',
       });
   }
 }
@@ -1503,8 +1501,8 @@ ${hero({
     title: 'Resolva a burocracia que trava a sua vida e o seu negócio',
     subtitle:
       'Passo a passo de serviços públicos, MEI, nota fiscal, CLT e renda extra — com prazo, valor atualizado e o que fazer quando dá errado.',
-    ctaPrimary: { label: 'Abrir as calculadoras', href: '/calculadoras/' },
-    ctaSecondary: { label: 'Guias de serviços públicos', href: '/categorias/servicos-publicos/' },
+    ctaPrimary: { label: 'Open the calculators', href: '/calculators/' },
+    ctaSecondary: { label: 'AI tools guides', href: '/categorias/servicos-publicos/' },
     badges: [`${allArticles.length} guias`, `${calculators.length} calculadoras grátis`, `${allTools.length} ferramentas`, 'Sem paywall'],
   })}
 
@@ -1514,8 +1512,8 @@ ${hero({
 
 <section class="wrap section">
   <div class="section__head">
-    <h2>Calculadoras grátis</h2>
-    <p>A conta que você precisa fazer agora, resolvida na hora. Sem cadastro.</p>
+    <h2>Free calculators</h2>
+    <p>The number you need right now, solved on the spot. No signup.</p>
   </div>
   <div class="grid grid--3">
     ${calculators
@@ -1526,7 +1524,7 @@ ${hero({
         <span class="card__tag">${escapeHtml(catLabel(c.category))}</span>
         <h3 class="card__title"><a href="/calculadoras/${c.slug}/">${escapeHtml(c.title)}</a></h3>
         <p class="card__desc">${escapeHtml(c.description)}</p>
-        <p class="card__meta"><span>${escapeHtml(c.badge || 'Grátis')}</span><span>·</span><span>sem cadastro</span></p>
+        <p class="card__meta"><span>${escapeHtml(c.badge || 'Free')}</span><span>·</span><span>no signup</span></p>
       </div>
     </article>`
       )
@@ -1537,8 +1535,8 @@ ${hero({
 
 <section class="wrap section section--alt">
   <div class="section__head">
-    <h2>Comece por aqui</h2>
-    <p>Os guias mais lidos.</p>
+    <h2>Start here</h2>
+    <p>The guides people read most.</p>
   </div>
   <div class="grid grid--3">
     ${featured.map((a) => articleCard(a, { featured: true })).join('\n    ')}
@@ -1547,7 +1545,7 @@ ${hero({
 
 <section class="wrap section">
   <div class="section__head">
-    <h2>Navegue por tema</h2>
+    <h2>Browse by topic</h2>
   </div>
   <div class="grid grid--3">
     ${categories
@@ -1566,18 +1564,18 @@ ${hero({
 
 <section class="wrap section section--alt">
   <div class="section__head">
-    <h2>Mais recentes</h2>
+    <h2>Latest</h2>
   </div>
   <div class="grid grid--3">
     ${latest.map((a) => articleCard(a)).join('\n    ')}
   </div>
-  <p class="section__more"><a class="btn btn--ghost" href="/guias/">Ver todos os guias</a></p>
+  <p class="section__more"><a class="btn btn--ghost" href="/guides/">See all guides</a></p>
 </section>
 
 <section class="wrap section">
   <div class="section__head">
-    <h2>Ferramentas avaliadas</h2>
-    <p>Preço, prós, contras e para quem cada uma serve.</p>
+    <h2>Tool reviews</h2>
+    <p>Price, pros, cons and who each one fits.</p>
   </div>
   <div class="grid grid--3">
     ${topTools
@@ -1598,16 +1596,16 @@ ${hero({
       )
       .join('\n    ')}
   </div>
-  <p class="section__more"><a class="btn btn--ghost" href="/ferramentas/">Ver todas as ferramentas</a></p>
+  <p class="section__more"><a class="btn btn--ghost" href="/tools/">See all tools</a></p>
 </section>
 
 <section class="wrap section">
   ${adSlot('leaderboard', 'inline')}
   ${offerBox({
-    title: 'Não achou o que procurava?',
+    title: "Can't find what you were looking for?",
     text: 'A gente responde dúvidas de INSS, MEI, CLT e renda extra — e atualiza os guias com o que chega de melhor.',
-    button: 'Falar com a equipe',
-    href: '/contato/',
+    button: 'Talk to the team',
+    href: '/contact/',
   })}
 </section>`;
 
@@ -1696,7 +1694,7 @@ ${breadcrumbs(page.breadcrumbs)}
   }
   ${
     comps.length
-      ? `<div class="section__head"><h2>Comparativos</h2></div>
+      ? `<div class="section__head"><h2>Comparisons</h2></div>
   <div class="grid grid--2">
     ${comps.map((c) => articleCard(c)).join('\n    ')}
   </div>`
@@ -1704,13 +1702,13 @@ ${breadcrumbs(page.breadcrumbs)}
   }
   ${
     tools.length
-      ? `<div class="section__head"><h2>Ferramentas da categoria</h2></div>
+      ? `<div class="section__head"><h2>Tools in this topic</h2></div>
   ${comparisonTable(tools.map((t) => ({ name: t.name, price: t.price, bestFor: t.bestFor, rating: t.rating, url: t.url, affiliateUrl: t.affiliateUrl })))}`
       : ''
   }
   ${
     calculators.filter((c) => c.category === cat.slug).length
-      ? `<div class="section__head"><h2>Calculadoras da categoria</h2></div>
+      ? `<div class="section__head"><h2>Calculators in this topic</h2></div>
   <div class="grid grid--2">
     ${calculators
       .filter((c) => c.category === cat.slug)
@@ -1719,7 +1717,7 @@ ${breadcrumbs(page.breadcrumbs)}
       <div class="card__body">
         <h3 class="card__title"><a href="/calculadoras/${c.slug}/">${escapeHtml(c.title)}</a></h3>
         <p class="card__desc">${escapeHtml(c.description)}</p>
-        <p class="card__meta"><span>${escapeHtml(c.badge || 'Grátis')}</span><span>·</span><span>sem cadastro</span></p>
+        <p class="card__meta"><span>${escapeHtml(c.badge || 'Free')}</span><span>·</span><span>no signup</span></p>
       </div>
     </article>`
       )
@@ -1748,7 +1746,7 @@ function categoriesIndex() {
 ${breadcrumbs(page.breadcrumbs)}
 <section class="listing">
   <header class="listing__head">
-    <h1>Todos os temas</h1>
+    <h1>All topics</h1>
     <p class="listing__lead">Seis frentes de conteúdo. Cada uma com guias práticos, comparativos e as ferramentas que fazem sentido.</p>
   </header>
   <div class="grid grid--3">
@@ -1771,23 +1769,23 @@ ${offerBox()}`;
 
 function glossaryPage() {
   const page = {
-    url: '/glossario/',
+    url: '/glossary/',
     title: 'Glossário de IA e automação: 40 termos explicados',
     description:
       'Glossário com 40 termos de IA, agentes e automação explicados em português simples: LLM, RAG, guardrail, token, workflow, webhook, MCP e mais.',
-    breadcrumbs: [{ label: 'Início', href: '/' }, { label: 'Glossário', href: '/glossario/' }],
+    breadcrumbs: [{ label: 'Início', href: '/' }, { label: 'Glossário', href: '/glossary/' }],
     priority: 0.7,
     schemas: [
       organizationSchema(),
       websiteSchema(),
-      itemListSchema(glossary.map((g) => ({ title: g.term, url: `/glossario/${g.slug}/` })), 'Glossário de IA e automação', '/glossario/'),
+      itemListSchema(glossary.map((g) => ({ title: g.term, url: `/glossario/${g.slug}/` })), 'Glossário de IA e automação', '/glossary/'),
     ],
   };
   const body = `
 ${breadcrumbs(page.breadcrumbs)}
 <section class="listing">
   <header class="listing__head">
-    <h1>Glossário de IA e automação</h1>
+    <h1>AI and automation glossary</h1>
     <p class="listing__lead">${glossary.length} termos do dia a dia de quem implementa IA na empresa, explicados sem jargão.</p>
     ${searchBox()}
   </header>
@@ -1804,7 +1802,7 @@ ${breadcrumbs(page.breadcrumbs)}
   </div>
 </section>
 ${offerBox()}`;
-  addPage({ file: 'glossario/index.html', page, body });
+  addPage({ file: 'glossary/index.html', page, body });
 }
 
 function glossaryTermPage(g) {
@@ -1815,7 +1813,7 @@ function glossaryTermPage(g) {
     description: truncate(g.short, 158),
     breadcrumbs: [
       { label: 'Início', href: '/' },
-      { label: 'Glossário', href: '/glossario/' },
+      { label: 'Glossário', href: '/glossary/' },
       { label: g.term, href: `/glossario/${g.slug}/` },
     ],
     priority: 0.5,
@@ -1826,7 +1824,7 @@ function glossaryTermPage(g) {
         '@type': 'DefinedTerm',
         name: g.term,
         description: g.short,
-        inDefinedTermSet: site.url + '/glossario/',
+        inDefinedTermSet: site.url + '/glossary/',
       },
     ],
   };
@@ -1849,7 +1847,7 @@ ${breadcrumbs(page.breadcrumbs)}
     ${offerBox({ compact: true })}
   </div>
 </article>`;
-  addPage({ file: `glossario/${g.slug}/index.html`, page, body });
+  addPage({ file: `glossary/${g.slug}/index.html`, page, body });
 }
 
 function faqPage() {
@@ -1866,7 +1864,7 @@ function faqPage() {
 ${breadcrumbs(page.breadcrumbs)}
 <section class="listing">
   <header class="listing__head">
-    <h1>Perguntas frequentes</h1>
+    <h1>Frequently asked questions</h1>
     <p class="listing__lead">As dúvidas que aparecem em toda reunião de implantação — respondidas sem enrolação.</p>
   </header>
   <div class="faq-list">
@@ -1886,22 +1884,22 @@ ${offerBox()}`;
 
 function pricesPage() {
   const page = {
-    url: '/precos/',
-    title: 'Preços e custos de IA e automação: tabela atualizada',
+    url: '/pricing/',
+    title: 'Pricing and costs de IA e automação: tabela atualizada',
     description:
       'Tabela de preços de ferramentas de IA e automação, custo por token e por execução, e o cálculo de ROI para saber quando a automação se paga.',
-    breadcrumbs: [{ label: 'Início', href: '/' }, { label: 'Preços e custos', href: '/precos/' }],
+    breadcrumbs: [{ label: 'Início', href: '/' }, { label: 'Pricing and costs', href: '/pricing/' }],
     priority: 0.8,
-    schemas: [organizationSchema(), websiteSchema(), itemListSchema(allTools.map((t) => ({ title: t.name, url: t.url })), 'Preços de ferramentas de IA', '/precos/')],
+    schemas: [organizationSchema(), websiteSchema(), itemListSchema(allTools.map((t) => ({ title: t.name, url: t.url })), 'Preços de ferramentas de IA', '/pricing/')],
   };
   const body = `
 ${breadcrumbs(page.breadcrumbs)}
 <section class="listing">
   <header class="listing__head">
-    <h1>Preços e custos</h1>
+    <h1>Pricing and costs</h1>
     <p class="listing__lead">Quanto custa, de verdade, colocar IA para trabalhar. Tabela de planos, custo por execução e como calcular o retorno.</p>
   </header>
-  <div class="section__head"><h2>Tabela de preços por ferramenta</h2><p class="muted">Verificado em ${ptBrDate(TODAY)}. Planos mudam — confirme no site oficial.</p></div>
+  <div class="section__head"><h2>Tool pricing table</h2><p class="muted">Verificado em ${ptBrDate(TODAY)}. Planos mudam — confirme no site oficial.</p></div>
   ${comparisonTable(
     [...allTools].sort((a, b) => (b.rating || 0) - (a.rating || 0)).map((t) => ({
       name: t.name,
@@ -1913,7 +1911,7 @@ ${breadcrumbs(page.breadcrumbs)}
     })),
     { caption: 'Preço por ferramenta' }
   )}
-  <div class="section__head"><h2>Guias de custo</h2></div>
+  <div class="section__head"><h2>Cost guides</h2></div>
   <div class="grid grid--3">
     ${allArticles
       .filter((a) => a.category === 'custos' || /custo|preço/i.test(a.title))
@@ -1922,7 +1920,7 @@ ${breadcrumbs(page.breadcrumbs)}
   </div>
 </section>
 ${offerBox({ title: 'Quer o custo real do seu caso?', text: 'Fazemos a conta com os seus números: volume, tarefas e horas envolvidas.', button: 'Pedir orçamento' })}`;
-  addPage({ file: 'precos/index.html', page, body });
+  addPage({ file: 'pricing/index.html', page, body });
 }
 
 function simplePage({ file, url, title, description, h1, lead, content, priority = 0.4, noindex = false }) {
@@ -1971,24 +1969,21 @@ generatedPairs.forEach(pairComparisonPage);
 calculators.forEach(calculatorPage);
 calculatorsIndex();
 
-// Atalhos e modelos
-atalhosPage();
-modelosPage();
-modelos.templates.forEach(modeloPage);
+
 
 // Índices
 homePage();
 
 listPage({
-  url: '/guias/',
-  file: 'guias/index.html',
+  url: '/guides/',
+  file: 'guides/index.html',
   title: 'Todos os guias de IA e automação',
   description:
     'Guia completo de IA e automação para empresas brasileiras: agentes, ferramentas, custos e implementação passo a passo.',
   items: allArticles,
-  breadcrumbsCrumb: { label: 'Guias', href: '/guias/' },
+  breadcrumbsCrumb: { label: 'Guides', href: '/guides/' },
   itemRenderer: (a) => articleCard(a),
-  schemas: [itemListSchema(allArticles.map((a) => ({ title: a.title, url: a.url })), 'Guias de IA e automação', '/guias/')],
+  schemas: [itemListSchema(allArticles.map((a) => ({ title: a.title, url: a.url })), 'Guias de IA e automação', '/guides/')],
 });
 
 const comparisonIndexItems = [
@@ -2008,25 +2003,25 @@ const comparisonIndexItems = [
 ];
 
 listPage({
-  url: '/comparativos/',
-  file: 'comparativos/index.html',
+  url: '/comparisons/',
+  file: 'comparisons/index.html',
   title: 'Comparativos: X ou Y? Decidimos com critério',
   description:
     'Comparativos diretos entre ferramentas de IA e automação, com preço, curva de aprendizado, integração e o veredito de quem implementa.',
   items: comparisonIndexItems,
-  breadcrumbsCrumb: { label: 'Comparativos', href: '/comparativos/' },
+  breadcrumbsCrumb: { label: 'Comparativos', href: '/comparisons/' },
   itemRenderer: (a) => articleCard(a),
-  schemas: [itemListSchema(comparisonIndexItems.map((a) => ({ title: a.title, url: a.url })), 'Comparativos de ferramentas', '/comparativos/')],
+  schemas: [itemListSchema(comparisonIndexItems.map((a) => ({ title: a.title, url: a.url })), 'Comparativos de ferramentas', '/comparisons/')],
 });
 
 listPage({
-  url: '/ferramentas/',
-  file: 'ferramentas/index.html',
+  url: '/tools/',
+  file: 'tools/index.html',
   title: 'Ferramentas de IA e automação: preço, prós, contras',
   description:
     'Catálogo de ferramentas de IA e automação avaliadas: preço, prós, contras, para quem serve e alternativas.',
   items: allTools,
-  breadcrumbsCrumb: { label: 'Ferramentas', href: '/ferramentas/' },
+  breadcrumbsCrumb: { label: 'Tools', href: '/tools/' },
   itemRenderer: (t) => `<article class="card card--tool">
       <div class="card__body">
         <div class="card__toolhead">
@@ -2040,7 +2035,7 @@ listPage({
         <p class="card__price">${escapeHtml(t.price || '')}</p>
       </div>
     </article>`,
-  schemas: [itemListSchema(allTools.map((t) => ({ title: t.name, url: t.url })), 'Ferramentas de IA e automação', '/ferramentas/')],
+  schemas: [itemListSchema(allTools.map((t) => ({ title: t.name, url: t.url })), 'Ferramentas de IA e automação', '/tools/')],
 });
 
 // Categorias
@@ -2057,8 +2052,8 @@ pricesPage();
 
 // Busca
 simplePage({
-  file: 'busca/index.html',
-  url: '/busca/',
+  file: 'search/index.html',
+  url: '/search/',
   title: 'Buscar no site',
   description: 'Busca interna na Yooka.',
   h1: 'Buscar',
@@ -2070,109 +2065,149 @@ simplePage({
 
 // Páginas institucionais
 simplePage({
-  file: 'sobre/index.html',
-  url: '/sobre/',
-  title: 'Sobre a Yooka',
-  description: 'Quem escreve, como conferimos tabelas e valores, e por que o site existe.',
-  h1: 'Sobre a Yooka',
-  lead: 'Um site para resolver burocracia: passo a passo, com data em cada número.',
-  content: `<p>A Yooka existe porque quase toda informação pública do Brasil está espalhada: a regra está num decreto, o passo a passo num PDF da concessionária e o valor numa tabela que muda todo ano. A pessoa que precisa do dado sai da busca pior do que entrou: dez abas, três vídeos de 2019 e nenhuma resposta direta.</p>
-  <p>Publicamos o caminho completo de uma vez: onde entrar, o que levar, quanto tempo demora, quanto custa, o que fazer quando dá errado e onde conferir. Tudo com data.</p>
-  <h2>Como conferimos</h2>
+  file: 'about/index.html',
+  url: '/about/',
+  title: 'About Yooka',
+  description: 'Who writes Yooka, how we verify prices and limits, and how we correct mistakes.',
+  h1: 'About Yooka',
+  lead: 'Practical content for small teams — with the date attached to every number.',
+  content: `<p>Most "how do I…" answers about AI and automation are scattered: the rule is in a help centre, the step-by-step is in a video from three years ago, and the price is a screenshot of a plan that changed last month. The person who needs the number leaves the search with more tabs open than when they started.</p>
+  <p>Yooka publishes the whole path in one place: where to go, what to bring, how long it takes, what it costs, what to do when it breaks and where to double-check.</p>
+  <h2>How we verify</h2>
   <ol>
-    <li><strong>Fonte oficial primeiro.</strong> Tabelas do INSS, do DAS, do salário mínimo e dos encargos vêm da fonte primária, com a data da consulta.</li>
-    <li><strong>Passo a passo testado.</strong> A segunda pessoa refaz o processo antes de publicar. Se o caminho mudou, o texto muda.</li>
-    <li><strong>Ressalva explícita.</strong> Quando a regra varia por município, por concessionária ou por operador, o texto diz isso em vez de esconder.</li>
-    <li><strong>Revisão periódica.</strong> Todo conteúdo tem data de atualização visível e passa por revisão a cada três meses.</li>
+    <li><strong>Primary sources first.</strong> Vendor documentation, published tax and limit tables, and official guidance — not blog posts.</li>
+    <li><strong>Every number carries a date.</strong> Pricing, limits and tax tables move. The date on the page tells you how fresh it is.</li>
+    <li><strong>Second person re-runs the steps.</strong> If they cannot follow it, the page goes back.</li>
+    <li><strong>Quarterly review.</strong> Each page has an updated-on date and goes through a review cycle.</li>
   </ol>
-  <h2>Como ganhamos dinheiro</h2>
-  <p>De duas formas, ambas declaradas: <strong>anúncios</strong> (Google AdSense) e <strong>links de afiliado</strong> (recebemos comissão se você contratar uma ferramenta recomendada). Nenhum anunciante paga por review e nenhum texto é publicado a pedido.</p>
-  <p>A Yooka não vende serviço próprio nem faz publicidade disfarçada de conteúdo. Nos temas de automação e IA, comparamos ferramentas de terceiros com link de afiliado declarado.</p>
-  <h2>Limites</h2>
-  <p>Isto é conteúdo informativo. Não substitui advogado, contador, médico nem sincronizador. Em caso de benefício authorsitário, sempre escrevemos "confirme no seu caso com um profissional".</p>
-  <h2>Fale com a gente</h2>
-  <p>Achou um erro ou faltou um tema? <a href="/contato/">Fale com a equipe</a>.</p>`,
+  <h2>How we make money</h2>
+  <p>Two ways, both disclosed: <strong>display ads</strong> (Google AdSense) and <strong>affiliate links</strong> — we may earn a commission if you subscribe to a tool we recommend. No advertiser pays for a review, and every review lists the cons.</p>
+  <p>Yooka does not sell a service of its own and does not resell anything.</p>
+  <h2>Corrections</h2>
+  <p>Found an error? <a href="/contact/">Tell us</a>. We fix it and change the updated-on date so the correction is visible.</p>
+  <h2>Get in touch</h2>
+  <p>Missing a topic? <a href="/contact/">Write to us</a>.</p>`,
 });
 
 simplePage({
-  file: 'contato/index.html',
-  url: '/contato/',
-  title: 'Contato',
-  description: 'Fale com a Yooka: correção de conteúdo, dúvida de MEI ou projeto de automação.',
-  h1: 'Contato',
-  lead: 'Correção de conteúdo, dúvida pontual ou projeto de automação.',
-  content: `<p><strong>Conteúdo e correções:</strong> <a href="mailto:ola@yooka.com.br">ola@yooka.com.br</a>. Respondemos em até 2 dias úteis.</p>
-  <p><strong>Dúvida específica de MEI, INSS ou rescisão:</strong> a gente indica o caminho e a fonte oficial, mas não substitui contador ou advogado.</p>
-  <p><strong>Automação e IA:</strong> mande sua dúvida pelo e-mail — respondemos com a ferramenta mais adequada para o caso, sem compromisso de contratação.</p>
-  <div class="offer"><div class="offer__text"><h3>Prefere a calculadora?</h3><p>${calculators.length} calculadoras grátis: 13º, férias, rescisão, DAS do MEI, markup, CLT x PJ e orçamento. Sem cadastro.</p></div><a class="btn btn--primary" href="/calculadoras/">Abrir calculadoras</a></div>`,
+  file: 'contact/index.html',
+  url: '/contact/',
+  title: 'Contact',
+  description: 'Get in touch with the Yooka editorial team.',
+  h1: 'Contact',
+  lead: 'Corrections, a specific question, or a topic you need covered.',
+  content: `<p><strong>Content and corrections:</strong> <a href="mailto:hello@yooka.online">hello@yooka.online</a>. We reply within two business days.</p>
+  <p><strong>Tool recommendations:</strong> describe the task, the team size and the budget range — we will point you at the options that fit, including the free ones.</p>
+  <div class="offer"><div class="offer__text"><h3>Prefer the calculator?</h3><p>Free calculators for net salary, VAT, markup, break-even, freelance rates and budget planning. No signup, no paywall.</p></div><a class="btn btn--primary" href="/calculators/">Open the calculators</a></div>`,
 });
 
 simplePage({
   file: 'editorial/index.html',
   url: '/editorial/',
-  title: 'Política editorial',
-  description: 'Como escrevemos, revisamos, datamos e corrigimos o conteúdo da Yooka.',
-  h1: 'Política editorial',
-  lead: 'Como cada texto é escrito, revisado e atualizado.',
-  content: `<h2>Processo</h2>
+  title: 'Editorial policy',
+  description: 'How Yooka writes, verifies, updates and corrects its content.',
+  h1: 'Editorial policy',
+  lead: 'How every page is written, checked, dated and corrected.',
+  content: `<h2>Process</h2>
   <ol>
-    <li>A pessoa redatora consulta a fonte oficial (gov.br, legislação, portal do serviço) e anota a data.</li>
-    <li>O texto é escrito com o passo a passo real, na ordem em que a tela aparece.</li>
-    <li>Uma segunda pessoa refaz o caminho. Se não conseguir, o texto volta.</li>
-    <li>Publicação com data de atualização visível no topo da página.</li>
-    <li>Revisão trimestral: o que envelhece tem data nova e o histórico fica registrado.</li>
+    <li>The writer pulls the source — vendor docs, published tables, official guidance — and notes the date.</li>
+    <li>The page is written in the order the screen appears, with the real steps.</li>
+    <li>A second person follows the steps. If they get stuck, the page goes back.</li>
+    <li>Publication carries a visible updated-on date.</li>
+    <li>Quarterly review: what ages gets a new date and the change is recorded.</li>
   </ol>
-  <h2>Fontes</h2>
-  <p>Legislação (Planalto), portais do governo federal (gov.br), portais de serviço do município ou da concessionária quando o serviço é local, e o registro oficial do serviço (tabela do INSS, tabela do DAS, CLT). Quando não há fonte pública clara, escrevemos "consulte o site oficial" em vez de estimar.</p>
-  <h2>Valores e datas</h2>
-  <p>Nenhum valor aparece sem data. Valores de conta de luz, IPTU, IPVA e similares são exemplificados com faixa e ressalva de que variam por município ou por concessionária — nunca inventamos o valor da sua conta.</p>
-  <h2>Correções</h2>
-  <p>Encontrou erro? <a href="/contato/">Avise</a>. Corrigimos e mudamos a data de atualização do texto, deixando a correção visível.</p>
-  <h2>Conflito de interesse</h2>
-  <p>Links de afiliado são declarados. Nenhum fornecedor pagou por review e nenhum texto foi publicado a pedido. Se alguma ferramenta que recomendamos é ruim para o seu caso, o texto diz isso.</p>
-  <h2>Limite técnico</h2>
-  <p>As calculadoras usam as tabelas de referência de outubro de 2026 e exibem a ressalva na própria página. Elas servem para estimar, não para substituir o cálculo oficial.</p>`,
+  <h2>Sources</h2>
+  <p>Official documentation, published rate and limit tables, and government or regulator guidance. Where no clear public source exists, we write "check the official site" instead of estimating.</p>
+  <h2>Numbers and dates</h2>
+  <p>No figure appears without a date. Examples use ranges and say so, rather than inventing a number for your situation.</p>
+  <h2>Corrections</h2>
+  <p>Found an error? <a href="/contact/">Tell us</a>. We fix it and change the updated-on date so the correction is visible.</p>
+  <h2>Conflicts of interest</h2>
+  <p>Affiliate links are disclosed on every tool page. No vendor has paid for a review, and no page was published on request. If a tool we recommend is a poor fit for your case, the page says so.</p>
+  <h2>Calculators</h2>
+  <p>Calculators use reference tables dated October 2026 and show the caveat on the page itself. They are estimates, not official calculations.</p>`,
 });
 
 simplePage({
-  file: 'privacidade/index.html',
-  url: '/privacidade/',
-  title: 'Política de privacidade',
-  description: 'Como a Yooka trata dados, cookies e o que o AdSense registra.',
-  h1: 'Política de privacidade',
-  lead: 'Coletamos o mínimo, nunca vendemos dados e não usamos o que você digita para publicidade.',
-  content: `<h2>Dados coletados</h2>
-  <p>Coletamos dados de navegação padrão (IP, navegador, páginas visitadas) por meio do Google AdSense e de métricas agregadas de acesso. Esses dados podem ser usados pelo Google para escolher anúncios.</p>
+  file: 'privacy/index.html',
+  url: '/privacy/',
+  title: 'Privacy policy',
+  description: 'What Yooka collects, what it does not, and how to get your data deleted.',
+  h1: 'Privacy policy',
+  lead: 'We collect the minimum, sell nothing, and do not read what you type into the calculators.',
+  content: `<h2>What we collect</h2>
+  <p>Standard web analytics — IP address, browser, pages visited — through Google AdSense and privacy-friendly analytics. Ad networks use this to pick which ads to show you.</p>
   <h2>Cookies</h2>
-  <p>Usamos cookies de publicidade do Google (personalização de anúncios), cookies de analytics e um cookie próprio de preferências. Você pode bloquear cookies nas configurações do navegador; o site continua funcionando.</p>
-  <h2>Formulários</h2>
-  <p>Quando você pede contato, guardamos nome, e-mail e a mensagem pelo tempo necessário para responder, e não além disso. Não vendemos nem cedemos esses dados.</p>
-  <h2>Seus direitos (LGPD)</h2>
-  <p>Você pode pedir acesso, correção ou exclusão dos seus dados a <a href="mailto:privacidade@yooka.com.br">privacidade@yooka.com.br</a>. Respondemos em até 15 dias.</p>
-  <h2>Cookies de terceiros</h2>
-  <p>Alguns links apontam para sites de terceiros com políticas próprias. A partir do clique, a coleta segue a política do site de destino.</p>`,
+  <p>Google advertising cookies, analytics cookies and a small preference cookie. You can block cookies in your browser; the site keeps working, including every calculator.</p>
+  <h2>The calculators</h2>
+  <p>They run entirely in your browser. The numbers you type are never sent to a server and are not stored. Sharing a result copies a link with the values in the URL — that link leaves your device only when you choose to share it.</p>
+  <h2>Forms</h2>
+  <p>When you contact us we keep your name, email and message only for as long as it takes to reply. We do not sell or share it.</p>
+  <h2>Your rights</h2>
+  <p>You can ask for access, correction or deletion of your data at <a href="mailto:privacy@yooka.online">privacy@yooka.online</a>. We reply within 15 days.</p>
+  <h2>Third parties</h2>
+  <p>Some links take you to other sites with their own policies. Once you click, their policy applies.</p>`,
 });
 
 simplePage({
-  file: 'termos/index.html',
-  url: '/termos/',
-  title: 'Termos de uso',
-  description: 'Condições de uso do site Yooka.',
-  h1: 'Termos de uso',
-  lead: 'As regras de uso do site e o alcance do conteúdo.',
-  content: `<h2>Sobre o conteúdo</h2>
-  <p>O conteúdo da Yooka é informativo e não substitui advice jurídico, contábil, médico ou de segurança da informação. Preços, planos e recursos de terceiros mudam: confirme no site oficial antes de contratar.</p>
-  <h2>Links de afiliado</h2>
-  <p>Alguns links são de afiliado. Se você comprar por eles, podemos receber uma comissão, sem custo adicional para você. Isso não altera nossa avaliação.</p>
-  <h2>Uso do conteúdo</h2>
-  <p>Os textos podem ser citados com crédito e link. Reprodução integral exige autorização prévia.</p>
-  <h2>Limitação de responsabilidade</h2>
-  <p>Não nos responsabilizamos por danos decorrentes do uso de ferramentas de terceiros citadas, nem por decisões tomadas com base no conteúdo.</p>`,
+  file: 'terms/index.html',
+  url: '/terms/',
+  title: 'Terms of use',
+  description: 'The terms that apply to using Yooka.',
+  h1: 'Terms of use',
+  lead: 'The rules for using the site, and what our content does and does not cover.',
+  content: `<h2>About the content</h2>
+  <p>Yooka is informative. It does not replace legal, accounting, tax or security advice. Prices, plans, features and limits of third-party tools change constantly — confirm on the official site before you buy.</p>
+  <h2>Affiliate links</h2>
+  <p>Some links are affiliate links. We may earn a commission if you subscribe through them, at no extra cost to you. That never changes our assessment, and every tool page lists the cons.</p>
+  <h2>Calculators</h2>
+  <p>Calculators use reference tables dated October 2026 and are estimates. They are not official calculations and should not be the basis of a filing, a payment or a contract without professional review.</p>
+  <h2>Using our content</h2>
+  <p>Quoting with credit and a link is fine. Full republication needs written permission.</p>
+  <h2>Liability</h2>
+  <p>We are not responsible for losses arising from decisions made based on third-party tools we list or on estimates our calculators produce.</p>`,
 });
 
-/* ------------------------------------------------------------------ *
- * Sitemap, robots, RSS, busca, 404
- * ------------------------------------------------------------------ */
+function copyStatic() {
+  const src = path.join(ROOT, cfg.staticDir);
+  if (!fs.existsSync(src)) return;
+
+  // Arquivos da raiz de static/ vão para a raiz do site (ex.: favicon.svg);
+  // a pasta assets/ vai inteira para /assets.
+  for (const entry of fs.readdirSync(src, { withFileTypes: true })) {
+    if (entry.isFile()) fs.copyFileSync(path.join(src, entry.name), path.join(OUT, entry.name));
+  }
+
+  const walk = (dir, dest) => {
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      const s = path.join(dir, entry.name);
+      const d = path.join(dest, entry.name);
+      if (entry.isDirectory()) {
+        fs.mkdirSync(d, { recursive: true });
+        walk(s, d);
+      } else {
+        fs.copyFileSync(s, d);
+      }
+    }
+  };
+  const assetsSrc = path.join(src, 'assets');
+  if (fs.existsSync(assetsSrc)) {
+    const dest = path.join(OUT, 'assets');
+    fs.mkdirSync(dest, { recursive: true });
+    walk(assetsSrc, dest);
+  }
+}
+
+function copyOgImages() {
+  const src = path.join(ROOT, 'og');
+  if (!fs.existsSync(src)) return;
+  const dest = path.join(OUT, 'assets', 'og');
+  fs.mkdirSync(dest, { recursive: true });
+  for (const f of fs.readdirSync(src)) {
+    if (f.endsWith('.png') || f.endsWith('.jpg')) fs.copyFileSync(path.join(src, f), path.join(dest, f));
+  }
+}
+
 function writeSitemap() {
   const urls = pages
     .filter((p) => !p.noindex)
@@ -2191,15 +2226,13 @@ ${urls}
 </urlset>
 `;
   fs.writeFileSync(path.join(OUT, 'sitemap.xml'), xml);
-  fs.writeFileSync(path.join(OUT, 'sitemap-index.xml'), xml.replace('<urlset', '<sitemapindex').replace(/<\/urlset>/, '</sitemapindex>'));
 }
 
 function writeRobots() {
   const robots = `User-agent: *
 Allow: /
-Disallow: /busca/
+Disallow: /search/
 
-# Bots de IA generativos — permita a leitura (o conteúdo é público e citation-friendly)
 User-agent: GPTBot
 Allow: /
 User-agent: ClaudeBot
@@ -2236,7 +2269,7 @@ function writeRss() {
     <title>${site.name}</title>
     <link>${site.url}</link>
     <description><![CDATA[${site.description}]]></description>
-    <language>pt-br</language>
+    <language>en-us</language>
     <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
     <atom:link href="${site.url}/rss.xml" rel="self" type="application/rss+xml"/>
 ${items}
@@ -2244,39 +2277,6 @@ ${items}
 </rss>
 `;
   fs.writeFileSync(path.join(OUT, 'rss.xml'), xml);
-}
-
-function writeSearchIndex() {
-  const idx = [
-    ...allArticles.map((a) => ({ t: a.title, d: a.description, u: a.url, k: 'guia', c: catLabel(a.category) })),
-    ...allComparisons.map((a) => ({ t: a.title, d: a.description, u: a.url, k: 'comparativo', c: catLabel(a.category) })),
-    ...allTools.map((t) => ({ t: t.name, d: t.tagline || t.description, u: t.url, k: 'ferramenta', c: catLabel(t.category) })),
-    ...glossary.map((g) => ({ t: g.term, d: g.short, u: `/glossario/${g.slug}/`, k: 'glossário', c: 'Glossário' })),
-    ...calculators.map((c) => ({ t: c.title, d: c.description, u: `/calculadoras/${c.slug}/`, k: 'calculadora', c: catLabel(c.category) })),
-  ];
-  fs.writeFileSync(path.join(OUT, 'search-index.json'), JSON.stringify(idx));
-}
-
-function writeIndexNowKey() {
-  // A chave do IndexNow precisa estar publicada na raiz do site para o Bing
-  // validar o envio. O arquivo .indexnow-key fica fora do git (ver .gitignore).
-  const keyFile = path.join(ROOT, '.indexnow-key');
-  if (!fs.existsSync(keyFile)) return;
-  const key = fs.readFileSync(keyFile, 'utf8').trim();
-  if (!key) return;
-  fs.writeFileSync(path.join(OUT, `${key}.txt`), key);
-}
-
-function writeAdsTxt() {
-  const client = site.adsense.client.replace(/^ca-/, '');
-  const line = client
-    ? `google.com, ${client}, DIRECT, f08c47fec0942fa0\n`
-    : '# AdSense ainda não configurado — defina ADSENSE_CLIENT no build.\n';
-  fs.writeFileSync(path.join(OUT, 'ads.txt'), line);
-}
-
-function writeOgManifest() {
-  fs.writeFileSync(path.join(OUT, 'og-manifest.json'), JSON.stringify(ogManifest, null, 2));
 }
 
 function writeManifest() {
@@ -2299,19 +2299,31 @@ function writeManifest() {
   );
 }
 
+function writeAdsTxt() {
+  const client = site.adsense.client.replace(/^ca-/, '');
+  const line = client
+    ? `google.com, ${client}, DIRECT, f08c47fec0942fa0\n`
+    : '# AdSense not configured yet — set ADSENSE_CLIENT at build time.\n';
+  fs.writeFileSync(path.join(OUT, 'ads.txt'), line);
+}
+
+function writeOgManifest() {
+  fs.writeFileSync(path.join(OUT, 'og-manifest.json'), JSON.stringify(ogManifest, null, 2));
+}
+
 function write404() {
   const page = {
     url: '/404.html',
-    title: 'Página não encontrada',
-    description: 'A página que você procura não existe — ou mudou de endereço.',
+    title: 'Page not found',
+    description: 'That page does not exist — or it moved.',
     noindex: true,
     schemas: [organizationSchema()],
   };
   const body = `
 <section class="listing listing--narrow">
   <header class="listing__head">
-    <h1>Não achamos essa página</h1>
-    <p class="listing__lead">O endereço pode ter mudado. Use a busca ou pule para um dos caminhos abaixo.</p>
+    <h1>We could not find that page</h1>
+    <p class="listing__lead">The address may have changed. Use the search or jump to one of these.</p>
     ${searchBox()}
   </header>
   <div class="grid grid--3">
@@ -2321,44 +2333,25 @@ function write404() {
   emit('404.html', layout(page, body, { noindex: true }));
 }
 
-function copyOgImages() {
-  const src = path.join(ROOT, 'og');
-  if (!fs.existsSync(src)) return;
-  const dest = path.join(OUT, 'assets', 'og');
-  fs.mkdirSync(dest, { recursive: true });
-  for (const f of fs.readdirSync(src)) {
-    if (f.endsWith('.png') || f.endsWith('.jpg')) fs.copyFileSync(path.join(src, f), path.join(dest, f));
-  }
+function writeSearchIndex() {
+  const idx = [
+    ...allArticles.map((a) => ({ t: a.title, d: a.description, u: a.url, k: 'guide', c: catLabel(a.category) })),
+    ...allComparisons.map((a) => ({ t: a.title, d: a.description, u: a.url, k: 'comparison', c: catLabel(a.category) })),
+    ...allTools.map((t) => ({ t: t.name, d: t.tagline || t.description, u: t.url, k: 'tool', c: catLabel(t.category) })),
+    ...glossary.map((g) => ({ t: g.term, d: g.short, u: `/glossary/${g.slug}/`, k: 'glossary', c: 'Glossary' })),
+    ...calculators.map((c) => ({ t: c.title, d: c.description, u: `/calculators/${c.slug}/`, k: 'calculator', c: catLabel(c.category) })),
+  ];
+  fs.writeFileSync(path.join(OUT, 'search-index.json'), JSON.stringify(idx));
 }
 
-function copyStatic() {
-  const src = path.join(ROOT, cfg.staticDir);
-  if (!fs.existsSync(src)) return;
-
-  // Arquivos da raiz de static/ vão para a raiz do site (ex.: favicon.svg);
-  // a pasta assets/ vai inteira para /assets.
-  for (const entry of fs.readdirSync(src, { withFileTypes: true })) {
-    if (entry.isFile()) fs.copyFileSync(path.join(src, entry.name), path.join(OUT, entry.name));
-  }
-
-  const walk = (dir, dest) => {
-    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
-      const s = path.join(dir, entry.name);
-      const d = path.join(dest, entry.name);
-      if (entry.isDirectory()) {
-        fs.mkdirSync(d, { recursive: true });
-        walk(s, d);
-      } else {
-        fs.copyFileSync(s, d);
-      }
-    }
-  };
-  const assetsSrc = path.join(src, 'assets');
-  if (fs.existsSync(assetsSrc)) {
-    const dest = path.join(OUT, 'assets');
-    fs.mkdirSync(dest, { recursive: true });
-    walk(assetsSrc, dest);
-  }
+function writeIndexNowKey() {
+  // A chave do IndexNow precisa estar publicada na raiz do site para o Bing
+  // validar o envio. O arquivo .indexnow-key fica fora do git.
+  const keyFile = path.join(ROOT, '.indexnow-key');
+  if (!fs.existsSync(keyFile)) return;
+  const key = fs.readFileSync(keyFile, 'utf8').trim();
+  if (!key) return;
+  fs.writeFileSync(path.join(OUT, `${key}.txt`), key);
 }
 
 /* ------------------------------------------------------------------ *
