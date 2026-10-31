@@ -35,7 +35,7 @@ function announcementBar() {
   return `<div class="announce">
   <div class="wrap">
     <span>🧮 <strong>New:</strong> ${calculators.length} free calculators — net salary, VAT, markup, break-even and freelance rates</span>
-    <a class="announce__cta" href="/calculadoras/">Abrir <span aria-hidden="true">→</span></a>
+    <a class="announce__cta" href="/calculators/">Abrir <span aria-hidden="true">→</span></a>
   </div>
 </div>`;
 }
@@ -191,11 +191,11 @@ export function comparisonTable(tools, { caption } = {}) {
   const rows = tools
     .map(
       (t) => `<tr>
-      <th scope="row"><a href="${t.url || '/ferramentas/'}">${escapeHtml(t.name)}</a></th>
+      <th scope="row"><a href="${t.url || '/tools/'}">${escapeHtml(t.name)}</a></th>
       <td>${escapeHtml(t.price || '—')}</td>
       <td>${escapeHtml(t.bestFor || '—')}</td>
       <td>${t.rating ? `<span class="stars" aria-label="Nota ${t.rating} de 5">${'★'.repeat(Math.round(t.rating))}${'☆'.repeat(5 - Math.round(t.rating))}</span>` : '—'}</td>
-      <td><a class="btn btn--ghost btn--xs" href="${t.affiliateUrl || t.url || '/ferramentas/'}">Ver preço</a></td>
+      <td><a class="btn btn--ghost btn--xs" href="${t.affiliateUrl || t.url || '/tools/'}">Ver preço</a></td>
     </tr>`
     )
     .join('\n    ');
@@ -326,7 +326,7 @@ export function shareBar({ url, title, text, extra = '' }) {
 }
 
 export function searchBox() {
-  return `<form class="searchbox" action="/busca/" method="get" role="search">
+  return `<form class="searchbox" action="/search/" method="get" role="search">
   <label class="sr-only" for="q">Search the site</label>
   <input id="q" name="q" type="search" placeholder="Search: n8n vs make, agent cost, invoice checklist…" autocomplete="off">
   <button class="btn btn--primary btn--sm" type="submit">Buscar</button>

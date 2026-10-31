@@ -1,6 +1,6 @@
 ---
 title: "How to Build an AI Agent: 8 Steps from Idea to Production (2026)"
-description: "How to build an AI agent in 8 steps: scope the task, write the system prompt, connect tools, add guardrails, test it and control the cost."
+description: "How to build an AI agent in 8 steps: scope the task, write the system prompt, connect the right tools, add guardrails, test it and control the cost."
 date: "2026-10-30"
 updated: "2026-10-30"
 category: "ai-tools"
@@ -35,7 +35,7 @@ Four parts do all the work:
 
 That last part is where most of the confusion starts. If a workflow has a fixed path — trigger, condition, action — you want automation, not an agent. If the path depends on what the data actually contains, you want an agent. A lot of failed agent projects are really fixed workflows that were given a reasoning loop they never needed.
 
-Before you build anything, check whether an existing tool already covers the task. The [best AI tools for small business](/guias/best-ai-tools-for-small-business/) guide covers what is ready to use today, and [automations that pay for themselves](/guias/automations-that-pay-for-themselves/) ranks the repetitive jobs that deserve a fixed workflow instead.
+Before you build anything, check whether an existing tool already covers the task. The [best AI tools for small business](/guides/best-ai-tools-for-small-business/) guide covers what is ready to use today, and [automations that pay for themselves](/guides/automations-that-pay-for-themselves/) ranks the repetitive jobs that deserve a fixed workflow instead.
 
 ## The six pieces every agent needs
 
@@ -60,7 +60,7 @@ A prompt written before the scope is settled usually turns into forty lines nobo
 
 3. **Model the tools before you integrate anything.** For each action, write down what goes in and what comes out. `check_availability(location, date)` returns open slots with the practitioner name. Writing this table first keeps the integration from turning into a series of guesses.
 
-4. **Choose the orchestration layer.** Without a developer on staff, start with a visual builder. The [comparison hub](/comparativos/) holds side-by-side reviews, and [the tool directory](/ferramentas/) covers the platforms most small teams end up using. With a developer, code-based frameworks give you more control and more responsibility.
+4. **Choose the orchestration layer.** Without a developer on staff, start with a visual builder. The [comparison hub](/comparisons/) holds side-by-side reviews, and [the tool directory](/tools/) covers the platforms most small teams end up using. With a developer, code-based frameworks give you more control and more responsibility.
 
 5. **Write the system prompt in five blocks.** Role, business context, task definition, output format, and limits. Vague prompts produce long, useless answers that cost money and that nobody reads.
 
@@ -86,7 +86,7 @@ A dental clinic with three locations ran a different version of the same idea. T
 
 ## What it costs to run
 
-Model usage is the line everyone asks about and rarely the one that matters. The table below uses figures published in October 2026 and treated as reference points rather than quotes; confirm current pricing on each vendor's own page before you budget.
+Model usage is the line everyone asks about and rarely the one that matters. As of October 2026, the figures below are reference points rather than quotes. Confirm current pricing on each vendor's own pricing page before you budget.
 
 | Line item | Typical monthly cost | What drives it |
 |---|---|---|
@@ -122,12 +122,12 @@ Review these weekly in the first month. The fine-tuning comes from the execution
 
 **Do I need to be a programmer to build an AI agent?** No to start. Visual builders assemble the agent from connected blocks and hosted platform APIs mean you do not run a server. Basic familiarity with APIs and JSON pays off the moment the agent has to read from your CRM or accounting system rather than a spreadsheet.
 
-**How much does an AI agent cost to run each month?** Usually US$20 to US$300 for model usage at small-business volume, plus US$20 to US$150 for the orchestration platform. Human review and maintenance cost more than the model calls, which is why scope matters more than model choice. The [comparison hub](/comparativos/) breaks down the platforms by cost.
+**How much does an AI agent cost to run each month?** Usually US$20 to US$300 for model usage at small-business volume, plus US$20 to US$150 for the orchestration platform. Human review and maintenance cost more than the model calls, which is why scope matters more than model choice. The [comparison hub](/comparisons/) breaks down the platforms by cost.
 
 **How long does it take to put an AI agent into production?** Two to four weeks for one narrow workflow such as appointment confirmation or email triage. Two to three months when the agent touches a legacy system, requires human approval, or handles regulated records.
 
-**What is the difference between an AI agent and a chatbot?** The chatbot returns text that a person then acts on. The agent decides, calls tools that change data and returns finished work. For sales use cases the difference is visible in [AI agents for sales teams](/guias/ai-agents-for-sales-teams/).
+**What is the difference between an AI agent and a chatbot?** The chatbot returns text that a person then acts on. The agent decides, calls tools that change data and returns finished work. For sales use cases the difference is visible in [AI agents for sales teams](/guides/ai-agents-for-sales-teams/).
 
 ## Next steps
 
-If you are still deciding whether the task deserves an agent, work through the eight steps above with one process and a spreadsheet. When you need the tool landscape before you commit, the [best AI tools for small business](/guias/best-ai-tools-for-small-business/) guide has the current pricing, and the [calculators](/calculadoras/) help you work out what an hour of your team's time is worth before you compare it with a monthly subscription.
+If you are still deciding whether the task deserves an agent, work through the eight steps above with one process and a spreadsheet. When you need the tool landscape before you commit, the [best AI tools for small business](/guides/best-ai-tools-for-small-business/) guide has the current pricing, and the [calculators](/calculators/) help you work out what an hour of your team's time is worth before you compare it with a monthly subscription.

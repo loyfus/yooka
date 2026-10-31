@@ -1,0 +1,44 @@
+{
+  "name": "Figma",
+  "slug": "figma",
+  "category": "design",
+  "tagline": "Interface design and prototyping for product teams",
+  "description": "Collaborative interface design and prototyping in the browser, with auto layout, developer handoff and AI features that shorten the path from idea to screen.",
+  "url": "https://www.figma.com",
+  "affiliateUrl": "https://www.figma.com/?utm_source=yooka&utm_medium=referral",
+  "price": "From $16/editor/month",
+  "priceNote": "Professional is $16 per full editor/month billed annually ($20 monthly); Organization is $55 per editor/month, annual billing only; Enterprise is quoted. Dev and Collab seats cost less than a full seat. Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Product designers and developers working on the same interface",
+  "rating": 4.7,
+  "ratingCount": 486,
+  "pros": [
+    "Real-time multiplayer with comments and version history keeps design and review in one file",
+    "Dev Mode and auto layout hand off spacing and specs that developers can actually use",
+    "The free Starter plan covers small teams, so you can test Figma with real project work",
+    "AI features such as layer renaming, copy drafting and layout suggestions cut the busywork"
+  ],
+  "cons": [
+    "Per-editor pricing split across Full, Dev and Collab seats gets confusing as headcount grows",
+    "Large files with thousands of frames become slow and memory hungry on older laptops",
+    "The free plan limits files and pages, which stops non-designers from exploring the tool",
+    "Heavy reliance on one proprietary file format creates real lock-in for agencies"
+  ],
+  "features": [
+    { "name": "Vector design and auto layout", "detail": "Constraint-based frames that resize without breaking the layout" },
+    { "name": "Prototyping", "detail": "Interactive flows with variables, animations and conditional logic" },
+    { "name": "Dev Mode", "detail": "Inspect specs, CSS and assets that developers can pull into code" },
+    { "name": "AI assist", "detail": "Layer renaming, placeholder copy and layout suggestions in the canvas" },
+    { "name": "Design systems", "detail": "Shared components, tokens and libraries for the whole organisation" },
+    { "name": "Branching and history", "detail": "Explore directions in branches and restore any earlier state" }
+  ],
+  "useCases": [
+    "Design a mobile app for a startup and hand the specs to developers the same day",
+    "Run a small agency client account from one shared file and a published design system",
+    "Prototype a landing page, test it with a handful of users and iterate before writing code",
+    "Keep marketing and product designers on the same components, tokens and spacing rules"
+  ],
+  "bestForWho": "Product design teams and small software shops that need collaborative UI design with clean developer handoff.",
+  "verdict": "Figma remains the best place for a small product team to design, review and hand off an interface in one file. The auto layout system and Dev Mode are what actually change how design and engineering talk: developers stop reverse-engineering spacing and start reading real specs. The AI features are useful for the tedious layer of the job, like renaming a hundred inherited components, and less useful for the thinking part. The two things that frustrate people are price complexity and file performance, because a three-year-old file with thousands of frames drags on any machine. For design and product teams of two to thirty people, it is still the shortest path from idea to a shipped screen.",
+  "alternatives": ["canva", "notion", "capcut"],
+  "updated": "2026-10-30"
+}

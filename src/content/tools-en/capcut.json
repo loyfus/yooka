@@ -1,0 +1,44 @@
+{
+  "name": "CapCut",
+  "slug": "capcut",
+  "category": "design",
+  "tagline": "Short-form video editing with auto captions and templates",
+  "description": "ByteDance video editor with auto captions, trend templates, background removal and AI generation, made for short-form content teams that publish every day.",
+  "url": "https://www.capcut.com",
+  "affiliateUrl": "https://www.capcut.com/?via=yooka",
+  "price": "From $9.99/month (annual web plan)",
+  "priceNote": "Pro is around $9.99 per month on annual billing through the web store, while app store and web prices differ and a newer Standard tier starts near $19.99/month; the free tier caps export at 1080p. Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Social teams publishing short-form video daily on a tight budget",
+  "rating": 4.3,
+  "ratingCount": 476,
+  "pros": [
+    "Auto captions with animated word highlighting are the fastest social caption workflow we tested",
+    "A large template library makes daily posts possible with almost no editing skill required",
+    "Background removal and auto cut handle the awkward edits that normally cost an hour",
+    "The editor runs in the browser with no install, and the free tier is enough to try it"
+  ],
+  "cons": [
+    "Pricing is inconsistent: the same Pro plan costs roughly twice as much in the app store",
+    "CapCut belongs to ByteDance, so media and project data sit under a Chinese parent company",
+    "The free plan exports at 1080p and adds a watermark on several asset types",
+    "Heavy editing stutters on older laptops, and the mobile app drains battery quickly"
+  ],
+  "features": [
+    { "name": "Auto captions", "detail": "Transcribes speech and styles captions with animated word highlighting" },
+    { "name": "Templates and trends", "detail": "Ready-made formats that follow current social trends and formats" },
+    { "name": "Background removal", "detail": "Isolates a subject from video or stills in a single click" },
+    { "name": "AI generation", "detail": "Script drafts, stock video, voice tracks and text-to-video helpers" },
+    { "name": "Effects and transitions", "detail": "Large library of trends, filters and keyframe animations" },
+    { "name": "Desktop and mobile", "detail": "Browser, desktop and phone editors with synced projects" }
+  ],
+  "useCases": [
+    "Turn a webinar recording into three captioned clips for LinkedIn in under an hour",
+    "Post daily short-form content for a small brand without a video editor on payroll",
+    "Cut product demos for a small e-commerce catalogue and add subtitles for reach",
+    "Localise client videos by swapping captions and audio tracks per market"
+  ],
+  "bestForWho": "Social and content teams that publish short video daily and want captions and templates more than fine control.",
+  "verdict": "CapCut is the tool that made short-form video a daily task rather than a production project, and for a small brand the caption workflow alone justifies it. Auto captions with animated word highlighting are genuinely faster than anything else we tested, and the template library covers trends you would otherwise rebuild from scratch each week. The practical warning is pricing: the same plan costs roughly double if you subscribe through the app store, so buy on the web and keep the subscription in one place. The other thing worth stating plainly is ownership, because ByteDance is the parent company and that matters to agencies and clients with strict data rules. For daily social output on a budget, it is hard to beat; for brand work with legal review, look elsewhere.",
+  "alternatives": ["descript", "opusclip", "canva"],
+  "updated": "2026-10-30"
+}

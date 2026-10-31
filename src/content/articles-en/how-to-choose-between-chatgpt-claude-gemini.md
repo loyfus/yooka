@@ -42,7 +42,7 @@ Two things are true across all three and worth stating plainly. Output quality b
 
 ## Pricing as of October 2026
 
-These figures were published in October 2026 and should be treated as reference points rather than quotes. Confirm the current price on each vendor's own pricing page before you commit, since tiers change and region availability varies.
+As of October 2026, the figures below are reference points rather than quotes. Confirm the current price on each vendor's own pricing page before you commit, since tiers change and region availability varies.
 
 | Plan | ChatGPT | Claude | Gemini |
 |---|---|---|---|
@@ -104,12 +104,12 @@ The metric that settles the question is editing time. Whichever assistant produc
 
 **Which is better, ChatGPT, Claude or Gemini?** It depends on the work. Gemini for teams already on Google Workspace, Claude for long documents and careful formal writing, ChatGPT for general use and the widest feature set. Many small businesses pay for two and assign one to each type of work.
 
-**Can I subscribe to more than one?** Yes, and for many small businesses that is the right answer. One assistant for everyday work plus a more capable one for long documents usually costs less than a team bundle and covers more cases.
+**Can I subscribe to more than one of them?** Yes, and for many small businesses that is the right answer. One assistant for everyday work plus a more capable one for long documents usually costs less than a team bundle and covers more cases.
 
-**Can these assistants handle client or accounting data?** Not without checking. The consumer subscriptions have different data terms from the business tiers, and confidentiality obligations in your own contracts come first. Use a tier with explicit data-processing terms, and do not paste client records into a personal plan.
+**Do these AI assistants handle my accounting or CRM data?** Not without checking. The consumer subscriptions have different data terms from the business tiers, and confidentiality obligations in your own contracts come first. Use a tier with explicit data-processing terms, and do not paste client records into a personal plan.
 
-**How much should a small business spend?** Between US$20 and US$60 per person per month for individual seats, and more for a business tier with admin controls, audit logs and contractual data terms. For the broader picture, the [best AI tools for small business](/guias/best-ai-tools-for-small-business/) guide has the pricing across the category.
+**How much should a small business spend on an AI assistant?** Between US$20 and US$60 per person per month for individual seats, and more for a business tier with admin controls, audit logs and contractual data terms. For the broader picture, the [best AI tools for small business](/guides/best-ai-tools-for-small-business/) guide has the pricing across the category.
 
 ## Next steps
 
-Run the ten-task test with a colleague before you buy. Two perspectives catch things one person misses, and the cost of two weeks is small compared with a year-long subscription nobody uses. For tool-by-tool detail, the [tool directory](/ferramentas/) has the current entries, and the [comparison hub](/comparativos/) holds the head-to-head reviews.
+Run the ten-task test with a colleague before you buy. Two perspectives catch things one person misses, and the cost of two weeks is small compared with a year-long subscription nobody uses. For tool-by-tool detail, the [tool directory](/tools/) has the current entries, and the [comparison hub](/comparisons/) holds the head-to-head reviews.

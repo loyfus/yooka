@@ -1,0 +1,44 @@
+{
+  "name": "Airtable",
+  "slug": "airtable",
+  "category": "productivity",
+  "tagline": "A spreadsheet that behaves like a real database",
+  "description": "Airtable turns spreadsheets into structured, viewable databases with automations, forms and an app builder, so small teams can run a back office in the browser.",
+  "url": "https://www.airtable.com",
+  "affiliateUrl": "https://www.airtable.com/?utm_source=yooka&utm_medium=referral",
+  "price": "From $20/user/month (annual)",
+  "priceNote": "Free plan; Team is $20 per user/month billed annually ($24 monthly), Business is $45 per user/month ($54 monthly) and Enterprise is quoted. Read-only collaborators cost nothing on every plan. Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Teams that need a flexible operational database instead of another spreadsheet",
+  "rating": 4.5,
+  "ratingCount": 389,
+  "pros": [
+    "Table, grid, kanban, calendar and gallery views turn one dataset into several working views",
+    "Automations remove the copying and pasting that spreadsheets always breed",
+    "The form builder and sharing links turn a base into a lightweight intake system",
+    "Read-only collaborators cost nothing, so clients and freelancers can see the data"
+  ],
+  "cons": [
+    "Business pricing more than doubles the per-seat cost of Team, which is a steep jump to explain",
+    "Record caps on the Team plan mean a growing base quietly needs a higher tier",
+    "Automations are powerful but the trigger logic has a genuine learning curve",
+    "Heavily customised bases become hard to maintain, and there is no proper audit trail"
+  ],
+  "features": [
+    { "name": "Views and filtering", "detail": "Grid, kanban, calendar, gallery and timeline views over one table" },
+    { "name": "Automations", "detail": "Triggered actions that send, update and assign without manual work" },
+    { "name": "Forms and interfaces", "detail": "Collect structured input and publish a clean front end for partners" },
+    { "name": "App builder and API", "detail": "Airtable apps, scripts and APIs for custom internal workflows" },
+    { "name": "Permissions", "detail": "Field-level roles, sharing links and free read-only seats" },
+    { "name": "Sync and integrations", "detail": "Two-way sync with Google Sheets, accounting tools and many others" }
+  ],
+  "useCases": [
+    "Build a lightweight CRM for a consultancy instead of paying per seat for a full platform",
+    "Run a content calendar where an editor form feeds a publishing board automatically",
+    "Manage a small e-commerce catalogue with stock levels synchronised to the store",
+    "Collect supplier quotes through a form and compare them side by side in a grid view"
+  ],
+  "bestForWho": "Operations-minded small teams that need a flexible database with views, forms and automations rather than a rigid spreadsheet.",
+  "verdict": "Airtable is the answer when a team has outgrown the spreadsheet but does not want to pay for a full CRM or database tool. The differentiator is views: the same table of work becomes a kanban board for one person and a calendar for another without copying anything, which is the exact thing spreadsheets refuse to do. Automations then handle the repetitive handoffs, and the free collaborator seats make it easy to put a client inside the process instead of emailing a PDF. The catch is the price step from Team to Business, which more than doubles the per-seat cost, and the record caps that make a growing base fail at the worst moment. For operations and content teams of five to thirty people, it is the most flexible tool in this category.",
+  "alternatives": ["notion", "trello", "hubspot"],
+  "updated": "2026-10-30"
+}

@@ -1,6 +1,6 @@
 ---
 title: "How to Automate Invoice Processing: A Practical Guide for Small Teams"
-description: "How to automate invoice processing step by step: capture, extract, match, approve and reconcile invoices with AI tools, from setup to ROI."
+description: "How to automate invoice processing step by step: capture, extract, match, approve and reconcile invoices with AI and workflow tools, from setup to ROI."
 date: "2026-10-30"
 updated: "2026-10-30"
 category: "automation"
@@ -51,7 +51,7 @@ That is why the design principle for every part of this guide is the same: autom
 
 ## Where the money goes, and what it saves
 
-The cost table below uses figures published in October 2026 as reference points rather than quotes. Confirm current pricing on each vendor's own page before you commit budget.
+As of October 2026, the cost table below is a set of reference points rather than quotes. Confirm current pricing on each vendor's own pricing page before you commit budget.
 
 | Component | Small business volume (300 invoices a month) | Mid-size (1,500 a month) | Note |
 |---|---|---|---|
@@ -98,12 +98,12 @@ The two numbers that predict whether the project survives are touchless rate and
 
 **How long does it take to automate invoice processing?** One to two weeks to capture and extract, another two to six weeks to add matching, approval routing and accounting system integration. Software selection is rarely the delay; it is mapping the exceptions your business already has.
 
-**What does it cost per month?** Roughly US$50 to US$400 a month for a few hundred invoices, plus a one-time setup charge. Human review of exceptions stays part of the budget, and it is the line that shrinks as the rules improve. The [automations that pay for themselves](/guias/automations-that-pay-for-themselves/) guide has a framework for judging whether a given workflow clears the bar.
+**What does invoice automation cost per month?** Roughly US$50 to US$400 a month for a few hundred invoices, plus a one-time setup charge. Human review of exceptions stays part of the budget, and it is the line that shrinks as the rules improve. The [automations that pay for themselves](/guides/automations-that-pay-for-themselves/) guide has a framework for judging whether a given workflow clears the bar.
 
-**Is AI better than OCR?** For fixed templates from known suppliers, rule-based OCR is cheaper and more predictable. AI is worth its cost when layouts vary, documents are scanned poorly, or handwriting is involved, because that is where OCR makes silent errors. Most teams use both, with a cheap path for the easy majority.
+**Is AI actually better than optical character recognition for invoices?** For fixed templates from known suppliers, rule-based OCR is cheaper and more predictable. AI is worth its cost when layouts vary, documents are scanned poorly, or handwriting is involved, because that is where OCR makes silent errors. Most teams use both, with a cheap path for the easy majority.
 
-**Do I need an accountant involved?** Yes. Tax rules on required documentation, retention periods and how deductions must be supported differ by country and entity type, and the workflow should be configured to match your filing obligations. The [AI tools for accountants and bookkeepers](/guias/ai-tools-for-accountants-and-bookkeepers/) guide covers the tool side of that work.
+**Do I need an accountant to approve an automated invoice process?** Yes. Tax rules on required documentation, retention periods and how deductions must be supported differ by country and entity type, and the workflow should be configured to match your filing obligations. The [AI tools for accountants and bookkeepers](/guides/ai-tools-for-accountants-and-bookkeepers/) guide covers the tool side of that work.
 
 ## Next steps
 
-Before you buy anything, pull three months of invoices and sort them by type and volume. The top three types will be 80 percent of the work, and they are where you should start. For the platform options, the [tool directory](/ferramentas/) has current pricing, and the [calculators](/calculadoras/) help you translate the hours you would save into a monthly figure you can compare against a quote.
+Before you buy anything, pull three months of invoices and sort them by type and volume. The top three types will be 80 percent of the work, and they are where you should start. For the platform options, the [tool directory](/tools/) has current pricing, and the [calculators](/calculators/) help you translate the hours you would save into a monthly figure you can compare against a quote.

@@ -1,0 +1,44 @@
+{
+  "name": "Descript",
+  "slug": "descript",
+  "category": "ai-tools",
+  "tagline": "Edit video and audio by editing the transcript",
+  "description": "Descript turns video and audio editing into text editing: transcribe, cut sentences like paragraphs, remove filler words and generate clips and overdubs.",
+  "url": "https://www.descript.com",
+  "affiliateUrl": "https://www.descript.com/?via=yooka",
+  "price": "From $16/month (annual)",
+  "priceNote": "The entry paid plan is $16 per person/month billed annually ($24 monthly) with 10 media hours; Business is around $50 per person/month billed annually and a free plan allows roughly an hour a month. Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Podcasters and video teams that would rather edit words than timelines",
+  "rating": 4.4,
+  "ratingCount": 342,
+  "pros": [
+    "Editing by transcript removes timeline tedium for anyone who writes for a living",
+    "Filler word removal and studio sound fix the two most common podcast problems instantly",
+    "Overdub lets you correct a mistake by typing new words instead of re-recording the take",
+    "Screen recording and clip detection cover the whole explainer video workflow in one tool"
+  ],
+  "cons": [
+    "Media hours are capped per plan, and one long interview can burn a month of allowance",
+    "Plan names and prices have changed repeatedly, which makes year-to-year budgeting harder",
+    "Rendering and AI processing take time, so large projects need patience and spare hours",
+    "It is a specialist tool: complex motion graphics still mean opening Premiere or Resolve"
+  ],
+  "features": [
+    { "name": "Transcript-based editing", "detail": "Cut and rearrange video by editing the words on screen" },
+    { "name": "Filler word removal", "detail": "Strip ums, repeats and false starts in a single pass" },
+    { "name": "Studio sound", "detail": "Clean up voice audio with a bundled speech enhancement model" },
+    { "name": "Overdub", "detail": "Type corrected words and match the original voice and room tone" },
+    { "name": "Clip detection", "detail": "Pull short vertical clips out of long recordings automatically" },
+    { "name": "Screen recording", "detail": "Capture walkthroughs with camera and microphone on separate tracks" }
+  ],
+  "useCases": [
+    "Turn a two-hour client interview into a polished episode in a fraction of the usual time",
+    "Produce a weekly video newsletter without ever opening a timeline editor",
+    "Generate social clips from long webinars with captions already applied",
+    "Fix a single sentence in a recorded course without re-recording the whole take"
+  ],
+  "bestForWho": "Podcasters, course creators and marketing teams that produce spoken video and want fast, text-driven edits.",
+  "verdict": "Descript wins for anyone who finds timeline editing painful, because deleting a sentence in the transcript deletes it in the video, and that idea alone changes how long a podcast takes to produce. Filler word removal and studio sound quietly fix the two things that make small-team audio sound unprofessional, in about a minute of work. Overdub is the feature I did not expect to use daily and now rely on, since fixing one sentence no longer means re-recording the whole take. The real constraint is the media hour allowance, because a long interview can eat a month's quota in one edit, so you have to plan projects around the cap. If your work is spoken-word video, it pays for itself quickly.",
+  "alternatives": ["capcut", "opusclip", "heygen"],
+  "updated": "2026-10-30"
+}

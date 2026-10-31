@@ -1,0 +1,44 @@
+{
+  "name": "Notion",
+  "slug": "notion",
+  "category": "productivity",
+  "tagline": "The all-in-one workspace where docs, wikis and AI meet",
+  "description": "One workspace for docs, wikis, project boards and databases, with Notion AI answering questions and drafting content inside the page your team already uses.",
+  "url": "https://www.notion.com",
+  "affiliateUrl": "https://www.notion.com/?via=yooka",
+  "price": "From $10/user/month",
+  "priceNote": "Plus is $10 per user/month billed annually ($12 month-to-month); Business is $20 per user/month billed annually and includes Notion AI; Enterprise is quoted. Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Teams that want docs, wikis and lightweight project tracking in one place",
+  "rating": 4.5,
+  "ratingCount": 642,
+  "pros": [
+    "One workspace replaces scattered docs, wikis and kanban boards, so context stops living in six tabs",
+    "Notion AI answers questions against your own pages and databases instead of a blank chat window",
+    "Templates and databases cover meeting notes, content calendars and light CRM without any code",
+    "The free tier is generous enough for a solo consultant to start with no card on file"
+  ],
+  "cons": [
+    "Paid pricing is per seat, so a 20-person team on Plus runs close to $200 a month before any AI usage",
+    "Large databases get slow: pages with thousands of blocks take a noticeable pause to open",
+    "Offline support is thin compared with Google Docs, which hurts field and sales teams",
+    "Export works but is not lossless, and migrating a mature workspace out is a project of its own"
+  ],
+  "features": [
+    { "name": "Docs, wikis and databases", "detail": "Blocks, relations and roll-ups inside one editable page" },
+    { "name": "Notion AI", "detail": "Summaries, drafting and Q&A grounded in your workspace content" },
+    { "name": "Publishing and sync", "detail": "Publish pages as a site or sync your team calendar" },
+    { "name": "Templates and AI blocks", "detail": "Reusable page templates plus custom AI prompts for the team" },
+    { "name": "Multiple project views", "detail": "Board, list, calendar and timeline over the same database" },
+    { "name": "Permissions and SSO", "detail": "Page-level sharing, guest seats and SAML SSO on Business" }
+  ],
+  "useCases": [
+    "Run a solo consultancy with client pages, notes, proposals and a pipeline in one system",
+    "Keep a small agency briefs, feedback and deliverables in a wiki the client can actually read",
+    "Publish a content calendar that marketing updates from a database instead of a spreadsheet",
+    "Onboard new hires with a handbook the AI can answer questions about on day one"
+  ],
+  "bestForWho": "Small teams and solo operators who want docs, wikis and light project tracking in a single per-seat workspace.",
+  "verdict": "Notion is the tool I keep recommending when a small team is living across a Word doc, a wiki and a kanban board that refuse to talk to each other. The database view is the real unlock: turn a page into a content pipeline or a client tracker and stop maintaining a separate spreadsheet. Notion AI is genuinely useful for summarising a long meeting note or answering a question about last quarter's decisions, though on the Plus plan it stays in trial mode, which is annoying for daily use. The two honest limits are performance on very large bases and per-seat cost, because every guest who needs edit access is another line on the invoice. For a team of three to fifteen that has outgrown shared docs, it is the best value in this category.",
+  "alternatives": ["trello", "airtable", "zapier"],
+  "updated": "2026-10-30"
+}

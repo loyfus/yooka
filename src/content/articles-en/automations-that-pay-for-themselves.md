@@ -40,6 +40,8 @@ The thresholds worth using:
 
 ## The automations worth building, in order
 
+The costs below are typical ranges as of October 2026 for automation platforms and the tools they connect. Treat them as reference points and confirm current pricing on each vendor's own pricing page before you budget.
+
 | Automation | Time saved per month | Setup effort | Typical monthly cost | Payback |
 |---|---|---|---|---|
 | Auto-generated invoices and receipts | 3 to 8 hours | Low | US$0 to US$40 | Under 1 month |
@@ -70,7 +72,7 @@ The ranking is not by hours saved. It is by ratio of time saved to setup cost, w
 
 **A law firm** automated two things: conflict-check intake, where the system assembles the party names into a structured format before a lawyer reviews, and the weekly matter status email, which used to be written by hand every Friday afternoon and now builds itself from the case management system. The status email took two days to build and removed 90 minutes a week for a partner whose time is billed at the highest rate in the firm.
 
-**A construction company** connected its supplier invoices to a system that extracts the details and files them for review. This is the same workflow described in [how to automate invoice processing](/guias/how-to-automate-invoice-processing/), and it took the better part of two months because subcontractor invoices arrive in wildly inconsistent formats. It was still worth it: at 400 invoices a month, they moved roughly 70 hours of data entry a month off two people.
+**A construction company** connected its supplier invoices to a system that extracts the details and files them for review. This is the same workflow described in [how to automate invoice processing](/guides/how-to-automate-invoice-processing/), and it took the better part of two months because subcontractor invoices arrive in wildly inconsistent formats. It was still worth it: at 400 invoices a month, they moved roughly 70 hours of data entry a month off two people.
 
 **A solo consultant** looked at the list and built almost nothing, which was the right call. Their work was judgment-heavy and irregular, so they automated only one thing: sending the invoice and the calendar link two days after a meeting ends. It cost an afternoon and saves them twenty minutes a month. Everything else on the list would have cost more time to maintain than it returned.
 
@@ -100,12 +102,12 @@ The metric that catches bad automations is net hours saved, because it includes 
 
 **How do I calculate whether an automation pays for itself?** Multiply the minutes the task takes by runs per month and by the loaded hourly cost, then compare the annual total with setup time plus subscription. Payback under twelve months is a reasonable threshold for a small business.
 
-**What is the cheapest automation platform?** Visual builders start around US$9 to US$30 a month for small volumes, and several offer free tiers good enough to test with. Self-hosted open source platforms cost only server time, at the price of requiring someone to maintain them. The [comparison hub](/comparativos/) has the platform-by-platform detail.
+**What is the cheapest automation platform for a small business?** Visual builders start around US$9 to US$30 a month for small volumes, and several offer free tiers good enough to test with. Self-hosted open source platforms cost only server time, at the price of requiring someone to maintain them. The [comparison hub](/comparisons/) has the platform-by-platform detail.
 
 **How long should an automation take to build?** Three to five steps without judgement can often be working in a day. Workflows crossing several systems with real error handling take two to four weeks, mostly because of edge cases nobody wrote down.
 
-**Should we automate before having a process?** No. Automation makes an inconsistent process faster, which spreads the inconsistency. Document it, run it manually until it is predictable, then automate the stable version.
+**Should a small business automate before it has a process?** No. Automation makes an inconsistent process faster, which spreads the inconsistency. Document it, run it manually until it is predictable, then automate the stable version.
 
 ## Next steps
 
-Log your week before you buy anything. The task that repeats every day and follows the same rule every time is your first automation, and it is usually not the one you would have guessed. The [tool directory](/ferramentas/) has current platform pricing, and the [calculators](/calculadoras/) help you convert hours saved into a monthly figure you can compare against a quote.
+Log your week before you buy anything. The task that repeats every day and follows the same rule every time is your first automation, and it is usually not the one you would have guessed. The [tool directory](/tools/) has current platform pricing, and the [calculators](/calculators/) help you convert hours saved into a monthly figure you can compare against a quote.

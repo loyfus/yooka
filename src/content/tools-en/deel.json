@@ -1,0 +1,44 @@
+{
+  "name": "Deel",
+  "slug": "deel",
+  "category": "hr",
+  "tagline": "Hire and pay contractors and staff in any country",
+  "description": "Deel provides contractor payments, global payroll and employer-of-record services, so a small company can hire abroad without opening a local entity.",
+  "url": "https://www.deel.com",
+  "affiliateUrl": "https://www.deel.com/?via=yooka",
+  "price": "From $49/contractor/month; EOR from $599/employee/month",
+  "priceNote": "Contractor management and global payroll start at $49 per contractor/month, the US PEO starts at $125 per employee/month and EOR starts at $599 per employee/month, with employer-side taxes and benefits extra. Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Small companies hiring contractors and staff across many countries",
+  "rating": 4.5,
+  "ratingCount": 351,
+  "pros": [
+    "Contractors get paid in their local currency with invoices and tax forms handled in-platform",
+    "Employer of record removes the need for a local entity before you hire anyone abroad",
+    "A reviewed contract library covers contractor agreements for dozens of countries",
+    "One dashboard shows who is being paid what, in which currency, and at what cost"
+  ],
+  "cons": [
+    "EOR at $599 per employee per month is a heavy fixed cost for a company with thin margins",
+    "Employer-side taxes, benefits and currency conversion are extra and vary by country",
+    "Payment runs take longer than a direct bank transfer, sometimes several days per cycle",
+    "Country-specific legal questions still need a local lawyer for anything unusual"
+  ],
+  "features": [
+    { "name": "Contractor payments", "detail": "Global payouts, compliant contracts and tax documents for contractors" },
+    { "name": "Employer of record", "detail": "Employ someone abroad with local payroll, benefits and filings handled" },
+    { "name": "Global payroll", "detail": "Run payroll for your own entity across many countries in one flow" },
+    { "name": "Contracts and templates", "detail": "Reviewed contractor agreements with e-signature for dozens of countries" },
+    { "name": "Deel AI", "detail": "Automated pay-run checks and anomaly flags before any money moves" },
+    { "name": "Integrations", "detail": "Connect with QuickBooks, Xero, NetSuite and the rest of your HR stack" }
+  ],
+  "useCases": [
+    "Hire a designer in another country as a contractor without setting up an entity there",
+    "Convert a long-term contractor into a local employee through EOR when volume justifies it",
+    "Pay a distributed team of five people in four currencies from a single dashboard",
+    "Give an HR-free founder a clean view of total labour cost per country"
+  ],
+  "bestForWho": "Small global companies hiring across borders that cannot yet justify local entities or a payroll operator.",
+  "verdict": "Deel solves a problem that stops small companies from hiring the right person: paying a contractor abroad compliantly without registering anything. Contractor management is the entry point most teams need, and the contract library removes the legal guesswork that usually stalls a first hire abroad. Employer of record is the expensive tier, and at $599 per employee per month it only makes sense once the alternative is a local entity with its own payroll and filings. The costs people forget are employer-side taxes, benefits and the currency conversion on top of the headline fee, so the real figure lands above the sticker price. The dashboard is quietly the best part for a founder without an HR team, since it shows total labour cost per country in one view.",
+  "alternatives": ["hubspot", "quickbooks", "notion"],
+  "updated": "2026-10-30"
+}

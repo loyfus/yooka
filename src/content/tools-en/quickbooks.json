@@ -1,0 +1,44 @@
+{
+  "name": "QuickBooks Online",
+  "slug": "quickbooks",
+  "category": "finance",
+  "tagline": "Accounting and invoicing for small businesses",
+  "description": "Intuit cloud accounting for small business, covering invoicing, expenses, bank feeds, payroll add-ons and reports for both cash-basis and accrual books.",
+  "url": "https://quickbooks.intuit.com",
+  "affiliateUrl": "https://quickbooks.intuit.com/?via=yooka",
+  "price": "From $38/month",
+  "priceNote": "Simple Start is $38/month, Essentials $85/month, Plus $140/month and Advanced $340/month, each with a half-price discount for the first three months on new accounts. Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Small business owners who want books, invoicing and tax-ready reports",
+  "rating": 4.5,
+  "ratingCount": 557,
+  "pros": [
+    "Bank feeds and auto-categorisation turn month-end bookkeeping into a review pass, not data entry",
+    "Invoicing, estimates and payment reminders are included, with no add-on needed",
+    "Tax estimates and year-end reports are solid enough to hand straight to a bookkeeper",
+    "Accountant access means your bookkeeper can work without buying another full seat"
+  ],
+  "cons": [
+    "The August 2026 price rise pushed the entry plan up sharply, and the first-year total is real money",
+    "User and feature limits force a jump from Essentials to Plus for a team of only five people",
+    "Payroll is a separate paid add-on, so the all-in cost is higher than the headline price",
+    "The interface assumes a US taxpayer and localises poorly for businesses outside the United States"
+  ],
+  "features": [
+    { "name": "Invoicing and estimates", "detail": "Branded invoices, quotes and automatic payment reminders" },
+    { "name": "Bank feeds and rules", "detail": "Auto-categorisation with rules that learn repeat transactions" },
+    { "name": "AI bookkeeping", "detail": "AI chat assistant and automatic expense categorisation" },
+    { "name": "Reports and tax estimates", "detail": "Profit and loss, balance sheet, cash flow and quarterly estimates" },
+    { "name": "Project profitability", "detail": "Track time, cost and margin by job on Plus and above" },
+    { "name": "Payroll add-on", "detail": "Optional paid payroll and contractor tax handling" }
+  ],
+  "useCases": [
+    "Run invoicing and expense tracking for a one-person consultancy without an accountant",
+    "Keep books for a small studio where three people need access but not full seats",
+    "Prepare quarterly tax estimates and hand year-end work to a bookkeeper in minutes",
+    "Track margin per client project to learn which retainer is actually profitable"
+  ],
+  "bestForWho": "US small businesses and solo operators that need straightforward bookkeeping, invoicing and tax-ready reports.",
+  "verdict": "QuickBooks Online is the default answer for a US small business that wants its books in order without hiring a full-time accountant, and for good reason: the bank feeds do most of the categorisation and the reports survive an accountant review. The invoice and estimate flow is the part consultants mention most, because chasing payment from clients is where SMB cash flow usually breaks. What deserves a warning is the pricing trajectory, since the 2026 increase means a three-person studio is looking at Essentials or Plus plus payroll rather than the old entry plan. It also stays firmly a US product, with local tax logic baked in, so a business outside the country should look at Xero instead. For a domestic small business, it is still the safest choice in this category.",
+  "alternatives": ["xero", "stripe", "hubspot"],
+  "updated": "2026-10-30"
+}

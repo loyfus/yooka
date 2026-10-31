@@ -1,0 +1,44 @@
+{
+  "name": "Xero",
+  "slug": "xero",
+  "category": "finance",
+  "tagline": "Accounting with fast reconciliation and a large app market",
+  "description": "Cloud accounting for small business with fast bank reconciliation, unlimited users on every plan, a large app marketplace and multi-currency for global sellers.",
+  "url": "https://www.xero.com",
+  "affiliateUrl": "https://www.xero.com/?via=yooka",
+  "price": "From $27/month (US Early plan)",
+  "priceNote": "US list pricing: Early $27/month, Growing $59/month and Established $97/month, with 90% off for the first six months for new customers and auto-reconciliation at $5/month on Early. Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Small businesses that want clean books plus an ecosystem of apps around them",
+  "rating": 4.4,
+  "ratingCount": 398,
+  "pros": [
+    "Bank reconciliation is the smoothest of the three mainstream accounting tools we have tested",
+    "Unlimited users on every paid plan, so your accountant joins without buying a seat",
+    "The app marketplace covers payroll, inventory, time tracking and ecommerce in one place",
+    "Multi-currency and multi-entity support suit sellers who invoice in more than one currency"
+  ],
+  "cons": [
+    "US list prices rose about 8% in late 2026, and the Early plan caps you at 20 invoices a month",
+    "The introductory rate is a six-month promotion, not a permanent price, and renewal jumps",
+    "Advanced reporting and multi-entity consolidation only arrive on the expensive Established plan",
+    "The interface can feel busy, and setting up a second entity takes real configuration time"
+  ],
+  "features": [
+    { "name": "Bank reconciliation", "detail": "Match bank lines to transactions in a few clicks, with rules for repeats" },
+    { "name": "Unlimited users", "detail": "Every paid plan includes unlimited seats for owners, staff and accountants" },
+    { "name": "App marketplace", "detail": "Payroll, inventory, time tracking, ecommerce and POS integrations" },
+    { "name": "Multi-currency", "detail": "Hold multiple currencies and pay suppliers in their own currency" },
+    { "name": "Invoices and quotes", "detail": "Branded invoices, quotes and payment reminders with online payment" },
+    { "name": "Multi-entity", "detail": "Manage several entities and consolidate results on Established" }
+  ],
+  "useCases": [
+    "Keep books for an international consultancy that bills in three currencies",
+    "Give an owner, three staff and an accountant access without buying extra seats",
+    "Connect a small e-commerce store so orders and inventory post to the ledger automatically",
+    "Reconcile a busy payment processor payout feed every Friday in minutes"
+  ],
+  "bestForWho": "Small and mid-sized businesses that want a partner-friendly accounting tool with a deep app ecosystem around it.",
+  "verdict": "Xero is the one I recommend when a business has a bookkeeper, an accountant or several people who all need access, because unlimited users on every paid plan removes the seat maths that makes QuickBooks expensive. Bank reconciliation is noticeably quicker here, which matters more to a small team than any feature list, because that task happens every single week. The marketplace is the other strength, with mature payroll, inventory and ecommerce apps that remove the need for a second platform. Two things to plan for: the six-month introductory price is a promotion, and the Early plan's 20-invoice ceiling will catch a growing business sooner than expected. Outside the US, check the local price list first, since the figures here are the US page.",
+  "alternatives": ["quickbooks", "stripe", "hubspot"],
+  "updated": "2026-10-30"
+}

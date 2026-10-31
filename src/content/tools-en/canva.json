@@ -1,0 +1,44 @@
+{
+  "name": "Canva",
+  "slug": "canva",
+  "category": "design",
+  "tagline": "Design and video for teams without a full-time designer",
+  "description": "Browser-based design and video platform with millions of templates, brand kits and AI tools, built for small teams that ship visuals without a designer.",
+  "url": "https://www.canva.com",
+  "affiliateUrl": "https://www.canva.com/?via=yooka",
+  "price": "From $12/month (annual)",
+  "priceNote": "Pro is $12 per person/month billed yearly ($18 month-to-month); Business starts at $20.83 per person/month billed yearly and scales with team size. Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Marketing and social teams that need on-brand assets without a designer",
+  "rating": 4.6,
+  "ratingCount": 718,
+  "pros": [
+    "Templates plus a drag-and-drop editor let a non-designer ship credible work in minutes",
+    "Brand kits lock fonts, colours and logos so every freelancer stays on brand",
+    "Magic Studio handles background removal, resizing and copy generation in one click",
+    "The free tier is usable for real social posts, so you can start before paying anything"
+  ],
+  "cons": [
+    "Per-seat pricing punishes a team where only two people publish often",
+    "Business billing scales with headcount, which surprises teams after a hiring spree",
+    "Advanced editing still trails Photoshop and Illustrator for print-ready artwork",
+    "Rights on stock assets and AI-generated output are murkier than the terms suggest"
+  ],
+  "features": [
+    { "name": "Templates and brand kits", "detail": "Millions of templates with locked brand colours, fonts and logos" },
+    { "name": "Magic Studio AI", "detail": "Background removal, resize, image generation and copy in one click" },
+    { "name": "Video and motion", "detail": "Timeline editor with captions, transitions and auto reframe" },
+    { "name": "Decks and documents", "detail": "Presentations, whiteboards and printable pieces from the same canvas" },
+    { "name": "Review and approval", "detail": "Comment threads, shared folders and one-click sign-off for campaigns" },
+    { "name": "Content planner", "detail": "Schedule and publish to social channels without leaving Canva" }
+  ],
+  "useCases": [
+    "Produce a month of social posts for a small brand without hiring a freelance designer",
+    "Turn a webinar recording into a promo clip with captions for the sales team to share",
+    "Build a client pitch deck over a weekend using a shared brand kit",
+    "Standardise product photos and promo templates across a small e-commerce catalogue"
+  ],
+  "bestForWho": "SMB marketing and social teams that need consistent, on-brand visuals fast and cannot justify a full-time designer.",
+  "verdict": "Canva is the fastest way for a small team to produce something that looks professionally designed without a designer in the room. The brand kit feature is what turns it from a nice toy into a system: once colours, fonts and logos are locked, a freelancer can build a launch kit that still looks like your brand. Magic Studio saves real time on the repetitive work, particularly background removal and resizing a single asset for five channels. The catch is pricing model drift, because Business bills on actual headcount and the bill changes as people join and leave. Print-ready and advanced retouching are still not there, so serious product work ends in Adobe, though for social, ads and internal collateral it earns its place in the stack.",
+  "alternatives": ["figma", "capcut", "opusclip"],
+  "updated": "2026-10-30"
+}

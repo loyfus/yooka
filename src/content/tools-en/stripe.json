@@ -1,0 +1,44 @@
+{
+  "name": "Stripe",
+  "slug": "stripe",
+  "category": "finance",
+  "tagline": "Developer-first payments, billing and payout infrastructure",
+  "description": "Payment infrastructure for online businesses: checkout, subscriptions, invoicing, tax and payouts, exposed through an API developers genuinely enjoy using.",
+  "url": "https://stripe.com",
+  "affiliateUrl": "https://stripe.com/?utm_source=yooka&utm_medium=referral",
+  "price": "2.9% + $0.30 per card charge",
+  "priceNote": "No setup fee and no monthly fee on the standard plan: 2.9% plus 30 cents per successful US domestic card charge, plus 1.5% on international cards and 1% for currency conversion; Radar fraud screening and Billing volume pricing are extra. Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Product-led and developer-run businesses selling online or by subscription",
+  "rating": 4.8,
+  "ratingCount": 827,
+  "pros": [
+    "The documentation and the API are the best in the industry, which saves real engineering hours",
+    "Billing, invoicing, tax and Connect are built in, so most businesses need no second vendor",
+    "No monthly fee means cost tracks revenue instead of adding a fixed line to the books",
+    "Checkout converts well and supports many local payment methods out of the box"
+  ],
+  "cons": [
+    "The flat 30-cent fee makes small tickets expensive, which hurts low-priced digital goods",
+    "Cross-border charges add percentage fees on top, and currency conversion adds another 1%",
+    "Disputes cost $15 each, and Radar fraud rules add a per-transaction fee of their own",
+    "There is no free tier, so evaluation means testing in test mode only"
+  ],
+  "features": [
+    { "name": "Checkout and Payment Links", "detail": "Hosted pages and no-code links that accept cards and wallets" },
+    { "name": "Subscriptions and Billing", "detail": "Recurring pricing, trials, metered usage and payment recovery" },
+    { "name": "Invoicing", "detail": "Branded invoices and hosted invoice pages with online payment" },
+    { "name": "Tax and compliance", "detail": "Automatic tax calculation, registrations and filing integrations" },
+    { "name": "Connect and payouts", "detail": "Pay sellers and creators in dozens of countries from one integration" },
+    { "name": "Radar and disputes", "detail": "Machine-learning fraud screening plus dispute evidence tooling" }
+  ],
+  "useCases": [
+    "Take card payments on a landing page within a day, without a sales call",
+    "Run a subscription SaaS with trials, seat-based pricing and failed-payment recovery",
+    "Pay a roster of freelance creators automatically after each client invoice clears",
+    "Sell digital products across several countries with automatic tax handling"
+  ],
+  "bestForWho": "Software companies, online sellers and agencies that want to own payments and billing instead of renting them.",
+  "verdict": "Stripe is the infrastructure I recommend whenever a small business sells online and has someone who can read an API doc, because the breadth of what is included removes three vendors from the stack. Billing, invoicing, tax and Connect are not add-ons here, they are just part of the platform, and that is where the savings show up at volume. The API and the documentation are genuinely a category apart, which matters more than it sounds when a developer has to integrate payouts or proration. The honest weakness is the 30-cent fixed fee, which quietly eats the margin on a $3 digital product, and the extra percentage on cross-border sales. For anything with a real cart or a subscription, it is the most reliable choice on this list.",
+  "alternatives": ["quickbooks", "xero", "hubspot"],
+  "updated": "2026-10-30"
+}

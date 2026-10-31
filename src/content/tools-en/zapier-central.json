@@ -1,0 +1,44 @@
+{
+  "name": "Zapier Central",
+  "slug": "zapier-central",
+  "category": "automation",
+  "tagline": "Zapier Central, now Zapier Agents, for AI-driven workflows",
+  "description": "Zapier Central is the AI agent layer inside Zapier, now branded Zapier Agents: build agents that read pages, pull data and act across your connections.",
+  "url": "https://zapier.com",
+  "affiliateUrl": "https://zapier.com/?utm_source=yooka&utm_medium=referral",
+  "price": "From $19.99/month (Zapier Professional)",
+  "priceNote": "Zapier Central was renamed Zapier Agents and ships inside the Zapier platform, where Professional starts at $19.99/month for 750 tasks and Team at $69/month, with limited agent activity included and larger allowances sold as add-ons. Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Small teams automating SaaS work without writing a line of code",
+  "rating": 4.4,
+  "ratingCount": 528,
+  "pros": [
+    "Thousands of app connectors mean most small-business tools connect without code",
+    "Agents handle the step that used to need a human: reading a page and pulling the data",
+    "A free tier covers small automations, so you can prove the value before paying anything",
+    "Tables and the interface builder add a small database and a front end on top of the workflows"
+  ],
+  "cons": [
+    "Pricing is charged per task, so a multi-step flow burns allowance far faster than expected",
+    "Agent runs consume separate activity credits on top of the task allowance",
+    "Deep automations get brittle: one upstream format change and the Zaps fail quietly",
+    "For high-volume flows the per-task cost is far above a code-based alternative"
+  ],
+  "features": [
+    { "name": "App connections", "detail": "Thousands of SaaS connectors with triggers, actions and webhooks" },
+    { "name": "Agents", "detail": "AI steps that read pages, extract fields and act in other apps" },
+    { "name": "Tables and interfaces", "detail": "A database and a simple front end built on the same underlying data" },
+    { "name": "Multi-step Zaps", "detail": "Paths, filters, loops and reusable sub-Zaps for branching logic" },
+    { "name": "Code steps", "detail": "JavaScript or Python inside a flow when a connector is not enough" },
+    { "name": "Templates and sharing", "detail": "Community templates plus a shared library for the whole team" }
+  ],
+  "useCases": [
+    "Copy every new form submission into a CRM, a spreadsheet and a chat channel at once",
+    "Let an agent read a supplier invoice and draft the bookkeeping entry for a human to approve",
+    "Connect a small online store to email marketing, support and accounting without developers",
+    "Post every finished video to three social channels on a schedule"
+  ],
+  "bestForWho": "Small teams with no developer who need to connect SaaS tools and automate the routine handoffs between them.",
+  "verdict": "Zapier Central, now Zapier Agents, is the most practical way for a small team to automate SaaS work without hiring a developer, and the agent layer is what makes it competitive again because it can read a page and pull the field a connector cannot. The classic Zaps are still the reason most teams stay, since the connector library covers nearly every tool a small business uses. The cost model is the trap: you are billed per task, so a five-step flow consumes five tasks per run, and agent runs add a separate activity allowance on top. Anyone who has had a Zap fail silently at 2am learns to monitor them. For straightforward handoffs it is unbeatable; for high-volume, code it instead.",
+  "alternatives": ["zapier", "make", "n8n"],
+  "updated": "2026-10-30"
+}

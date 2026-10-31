@@ -1,0 +1,44 @@
+{
+  "name": "Trello",
+  "slug": "trello",
+  "category": "productivity",
+  "tagline": "Kanban boards a team can actually keep up to date",
+  "description": "Atlassian's lightweight kanban tool with boards, lists, cards and automations for small teams, and a free tier generous enough to run a real client project.",
+  "url": "https://trello.com",
+  "affiliateUrl": "https://trello.com/?utm_source=yooka&utm_medium=referral",
+  "price": "From $5/user/month (annual)",
+  "priceNote": "Free plan; Standard is $5 per user/month billed annually ($6 monthly), Premium is $10 per user/month ($12.50 monthly) and Enterprise is $17.50 per user/month with a 25-seat minimum. Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Small teams that want visible work in progress without a project management rollout",
+  "rating": 4.4,
+  "ratingCount": 512,
+  "pros": [
+    "Boards are learned in minutes, so a team can be working on them the same afternoon",
+    "The free tier supports ten boards and up to ten collaborators, enough for real projects",
+    "Butler automation handles the tedious moves, like advancing a card when a label changes",
+    "It sits inside the Atlassian ecosystem, so Jira and Confluence connect without extra cost"
+  ],
+  "cons": [
+    "Boards are flat, with no native timelines, dependencies or workload views for complex work",
+    "Per-user pricing on Standard and Premium adds up once a client team joins the board",
+    "Automation runs are capped on Standard and the limits are not obvious from the pricing page",
+    "Premium Power-Ups run third-party code, which is a small supply-chain risk to consider"
+  ],
+  "features": [
+    { "name": "Boards, lists and cards", "detail": "Drag-and-drop work items with checklists, due dates and attachments" },
+    { "name": "Butler automation", "detail": "Rule-based moves, assignments and notifications when things change" },
+    { "name": "Multiple views", "detail": "Switch a board from kanban to table, timeline or calendar on Premium" },
+    { "name": "Power-Ups and integrations", "detail": "Extend cards with Slack, Google Drive and dozens of other apps" },
+    { "name": "Blueprints and templates", "detail": "Start from a proven workflow for software, marketing or agencies" },
+    { "name": "Admin controls", "detail": "SSO, workspace controls and attachment policies on the upper tiers" }
+  ],
+  "useCases": [
+    "Run a five-person client project on a free board without paying for anything",
+    "Track a content pipeline from idea to published with a simple card pipeline",
+    "Give an agency a per-client board template and spot capacity problems at a glance",
+    "Coordinate a marketing launch with a checklist per channel and an automation per stage"
+  ],
+  "bestForWho": "Teams of up to about ten who need simple, visual task tracking without a project management rollout.",
+  "verdict": "Trello is still the fastest way to get a team organised, and for small companies that is exactly what a project tool needs to be. The board model is obvious after two minutes, so there is no rollout project and nobody has to learn a methodology before the work starts. Butler quietly removes the card-chasing that eats admin time, and the free tier is genuinely usable for a client project with a handful of people. The limitation is depth: boards stay flat, so dependencies, timelines and capacity planning all require a different tool or a discipline of keeping the board tidy. Paid pricing also arrives per user, which makes the decision easy if only four people ever touch the board and awkward if a client joins it, but for visual, lightweight coordination it is hard to beat.",
+  "alternatives": ["notion", "airtable", "hubspot"],
+  "updated": "2026-10-30"
+}

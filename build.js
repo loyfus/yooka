@@ -57,7 +57,7 @@ function loadArticles() {
       return {
         type: 'article',
         slug,
-        url: `/guias/${slug}/`,
+        url: `/guides/${slug}/`,
         title: data.title,
         description: data.description,
         date: data.date || TODAY,
@@ -85,12 +85,12 @@ function loadComparisons() {
       const html = renderMarkdown(content);
       const tools = (data.tools || []).map((t) => ({
         ...t,
-        url: t.pageUrl || `/ferramentas/${slugify(t.name)}/`,
+        url: t.pageUrl || `/tools/${slugify(t.name)}/`,
       }));
       return {
         type: 'comparison',
         slug,
-        url: `/comparativos/${slug}/`,
+        url: `/comparisons/${slug}/`,
         title: data.title,
         description: data.description,
         date: data.date || TODAY,
@@ -129,7 +129,7 @@ function loadTools() {
     .map((t) => ({
       ...t,
       slug: t.slug || path.basename(t.__file, '.json'),
-      url: `/ferramentas/${t.slug || path.basename(t.__file, '.json')}/`,
+      url: `/tools/${t.slug || path.basename(t.__file, '.json')}/`,
       updated: t.updated || TODAY,
     }));
 }
@@ -254,7 +254,7 @@ ${breadcrumbs(crumbs)}
             .map(
               (c) => `<article class="card card--calc">
             <div class="card__body">
-              <h3 class="card__title"><a href="/calculadoras/${c.slug}/">${escapeHtml(c.title)}</a></h3>
+              <h3 class="card__title"><a href="/calculators/${c.slug}/">${escapeHtml(c.title)}</a></h3>
               <p class="card__desc">${escapeHtml(c.description)}</p>
               <p class="card__meta"><span>${escapeHtml(c.badge || 'Free')}</span><span>·</span><span>no signup</span></p>
             </div>
@@ -541,7 +541,7 @@ ${breadcrumbs(crumbs)}
             )
             .join('\n          ')}
         </div>
-        <p><a class="btn btn--ghost btn--sm" href="/ferramentas/${t.slug}/alternativas/">See all alternatives to ${escapeHtml(t.name)}</a></p>
+        <p><a class="btn btn--ghost btn--sm" href="/tools/${t.slug}/alternatives/">See all alternatives to ${escapeHtml(t.name)}</a></p>
       </section>`
           : ''
       }
@@ -551,7 +551,7 @@ ${breadcrumbs(crumbs)}
         text: 'A gente instala, integra e monitora. Você entra no com o time focado no negócio.',
         button: 'Falar com um especialista',
       })}
-      <p class="section__more"><a class="btn btn--ghost btn--sm" href="/ferramentas/${t.slug}/preco/">See pricing, plans and what lands on the bill →</a></p>
+      <p class="section__more"><a class="btn btn--ghost btn--sm" href="/tools/${t.slug}/price/">See pricing, plans and what lands on the bill →</a></p>
       ${shareBar({
         url: site.url.replace(/\/$/, '') + t.url,
         title: `${t.name}: review, preço e alternativas`,
@@ -667,7 +667,7 @@ const moneyFmt = (n) =>
 const numFmt = (n) => new Intl.NumberFormat('pt-BR', { maximumFractionDigits: 2 }).format(n || 0);
 
 function calculatorPage(calc) {
-  const url = `/calculadoras/${calc.slug}/`;
+  const url = `/calculators/${calc.slug}/`;
   const values = Object.fromEntries(calc.fields.map((f) => [f.id, f.default]));
   const out = computeOutputs(calc, values);
 
@@ -866,7 +866,7 @@ function calculatorsIndex() {
     schemas: [
       organizationSchema(),
       websiteSchema(),
-      itemListSchema(calculators.map((c) => ({ title: c.title, url: `/calculadoras/${c.slug}/` })), 'Calculadoras da Yooka', '/calculators/'),
+      itemListSchema(calculators.map((c) => ({ title: c.title, url: `/calculators/${c.slug}/` })), 'Calculadoras da Yooka', '/calculators/'),
     ],
   };
 
@@ -884,7 +884,7 @@ ${breadcrumbs(crumbs)}
         (c) => `<article class="card card--calc">
       <div class="card__body">
         <span class="card__tag">${escapeHtml(catLabel(c.category))}</span>
-        <h3 class="card__title"><a href="/calculadoras/${c.slug}/">${escapeHtml(c.title)}</a></h3>
+        <h3 class="card__title"><a href="/calculators/${c.slug}/">${escapeHtml(c.title)}</a></h3>
         <p class="card__desc">${escapeHtml(c.description)}</p>
         <p class="card__meta"><span>${escapeHtml(c.badge || 'Grátis')}</span></p>
       </div>
@@ -1155,7 +1155,7 @@ function pairComparisonPage({ a, b, slug, sameCat }) {
   const loser = winner === a ? b : a;
   const title = `${a.name} x ${b.name}: qual escolher em 2026?`;
   const description = `${a.name} ou ${b.name}? Comparamos preço, facilidade, integrações e casos de uso para você escolher sem teste de 30 dias.`;
-  const url = `/comparativos/${slug}/`;
+  const url = `/comparisons/${slug}/`;
   const crumbs = [
     { label: 'Início', href: '/' },
     { label: 'Comparativos', href: '/comparisons/' },
@@ -1208,7 +1208,7 @@ function pairComparisonPage({ a, b, slug, sameCat }) {
 ${breadcrumbs(crumbs)}
 <article class="post post--comparison">
   <header class="post__head">
-    <a class="pill" href="/comparativos/">Comparativo</a>
+    <a class="pill" href="/comparisons/">Comparativo</a>
     <h1>${escapeHtml(title)}</h1>
     <p class="post__lead">${escapeHtml(description)}</p>
     <div class="post__meta">
@@ -1302,7 +1302,7 @@ ${breadcrumbs(crumbs)}
 }
 
 function toolPricePage(t) {
-  const url = `/ferramentas/${t.slug}/preco/`;
+  const url = `/tools/${t.slug}/price/`;
   const title = `Preço do ${t.name} em 2026: planos, valores e quanto custa`;
   const description = `Preço do ${t.name}: planos disponíveis, custo por execução e o que muda no total da conta. Valores verificados em ${ptBrDate(TODAY)}.`;
   const crumbs = [
@@ -1425,47 +1425,47 @@ ${breadcrumbs(crumbs)}
 /** CTA por categoria: cada vertical tem a oferta que faz sentido para ela. */
 function offerForCategory(category) {
   switch (category) {
-    case 'automacao-e-ia':
+    case 'ai-tools':
       return offerBox({
-        title: 'Tools that solve this in practice',
-        text: 'We compare the main platforms on real pricing, fees and what each one actually solves.',
-        button: 'See the tools',
+        title: 'Picking the right AI tool',
+        text: 'We compare the main platforms on real pricing, limits and the workflows they handle well — including where the cheaper option wins.',
+        button: 'See the tool reviews',
         href: '/tools/',
       });
-    case 'mei-e-nota-fiscal':
+    case 'automation':
       return offerBox({
-        title: 'Contabilidade online que resolve o MEI',
-        text: 'Comparamos as principais opções com preço real e o que cada uma resolve — e o que continua sendo seu.',
-        button: 'Ver contabilidade online',
-        href: '/tools/contabilizei/',
+        title: 'Wiring it up for real',
+        text: 'Comparisons of the main automation platforms, with the price per task, the reliability limits and the honest trade-offs.',
+        button: 'See the comparisons',
+        href: '/comparisons/',
       });
-    case 'trabalho-e-carreira':
+    case 'marketing':
       return offerBox({
-        title: 'A conta não fechou?',
-        text: 'A Yooka explica a regra; a revisão do seu caso é com advogado ou contador. Nós indicamos o caminho.',
-        button: 'Talk to the team',
-        href: '/contact/',
-      });
-    case 'renda-e-negocio':
-      return offerBox({
-        title: 'Plataforma para você vender',
-        text: 'Comparamos as principais plataformas de venda online, cobrança e curso com preço e taxa de verdade.',
-        button: 'Ver ferramentas de venda',
+        title: 'Tools that pay for themselves',
+        text: 'CRMs, outreach and content tools reviewed on pricing and time saved — with the cases where a spreadsheet is enough.',
+        button: 'See the tool reviews',
         href: '/tools/',
       });
-    case 'servicos-publicos':
+    case 'finance':
       return offerBox({
-        title: 'Precisa do valor exato?',
-        text: 'Nossas calculadoras dão o número na hora: 13º, férias, rescisão, DAS e contas em atraso.',
+        title: 'Run the numbers first',
+        text: 'Free calculators for net salary, VAT, markup, break-even and freelance rates. No signup, no paywall.',
         button: 'Open the calculators',
         href: '/calculators/',
       });
+    case 'productivity':
+      return offerBox({
+        title: 'How much does it really cost?',
+        text: 'We compare pricing, per-seat costs and the hidden totals, so you can budget before you commit.',
+        button: 'See pricing',
+        href: '/pricing/',
+      });
     default:
       return offerBox({
-        title: 'Quanto isso custa na prática?',
-        text: 'Comparamos preços e custos reais de cartão, crédito, assinatura e ferramenta — sem letra miúda.',
-        button: 'Ver custos e planos',
-        href: '/pricing/',
+        title: 'Free tools, no signup',
+        text: 'Calculators for net salary, VAT, markup, break-even, freelance rate and budget planning.',
+        button: 'Open the calculators',
+        href: '/calculators/',
       });
   }
 }
@@ -1502,7 +1502,7 @@ ${hero({
     subtitle:
       'Passo a passo de serviços públicos, MEI, nota fiscal, CLT e renda extra — com prazo, valor atualizado e o que fazer quando dá errado.',
     ctaPrimary: { label: 'Open the calculators', href: '/calculators/' },
-    ctaSecondary: { label: 'AI tools guides', href: '/categorias/servicos-publicos/' },
+    ctaSecondary: { label: 'AI tools guides', href: '/categorias/ai-tools/' },
     badges: [`${allArticles.length} guias`, `${calculators.length} calculadoras grátis`, `${allTools.length} ferramentas`, 'Sem paywall'],
   })}
 
@@ -1522,7 +1522,7 @@ ${hero({
         (c) => `<article class="card card--calc">
       <div class="card__body">
         <span class="card__tag">${escapeHtml(catLabel(c.category))}</span>
-        <h3 class="card__title"><a href="/calculadoras/${c.slug}/">${escapeHtml(c.title)}</a></h3>
+        <h3 class="card__title"><a href="/calculators/${c.slug}/">${escapeHtml(c.title)}</a></h3>
         <p class="card__desc">${escapeHtml(c.description)}</p>
         <p class="card__meta"><span>${escapeHtml(c.badge || 'Free')}</span><span>·</span><span>no signup</span></p>
       </div>
@@ -1530,7 +1530,7 @@ ${hero({
       )
       .join('\n    ')}
   </div>
-  <p class="section__more"><a class="btn btn--ghost" href="/calculadoras/">Ver todas as ${calculators.length} calculadoras</a></p>
+  <p class="section__more"><a class="btn btn--ghost" href="/calculators/">Ver todas as ${calculators.length} calculadoras</a></p>
 </section>
 
 <section class="wrap section section--alt">
@@ -1715,7 +1715,7 @@ ${breadcrumbs(page.breadcrumbs)}
       .map(
         (c) => `<article class="card card--calc">
       <div class="card__body">
-        <h3 class="card__title"><a href="/calculadoras/${c.slug}/">${escapeHtml(c.title)}</a></h3>
+        <h3 class="card__title"><a href="/calculators/${c.slug}/">${escapeHtml(c.title)}</a></h3>
         <p class="card__desc">${escapeHtml(c.description)}</p>
         <p class="card__meta"><span>${escapeHtml(c.badge || 'Free')}</span><span>·</span><span>no signup</span></p>
       </div>
@@ -1778,7 +1778,7 @@ function glossaryPage() {
     schemas: [
       organizationSchema(),
       websiteSchema(),
-      itemListSchema(glossary.map((g) => ({ title: g.term, url: `/glossario/${g.slug}/` })), 'Glossário de IA e automação', '/glossary/'),
+      itemListSchema(glossary.map((g) => ({ title: g.term, url: `/glossary/${g.slug}/` })), 'Glossário de IA e automação', '/glossary/'),
     ],
   };
   const body = `
@@ -1808,13 +1808,13 @@ ${offerBox()}`;
 function glossaryTermPage(g) {
   const related = (g.related || []).map((s) => glossary.find((x) => x.slug === s)).filter(Boolean);
   const page = {
-    url: `/glossario/${g.slug}/`,
+    url: `/glossary/${g.slug}/`,
     title: `${g.term}: o que significa e como usar na prática`,
     description: truncate(g.short, 158),
     breadcrumbs: [
       { label: 'Início', href: '/' },
       { label: 'Glossário', href: '/glossary/' },
-      { label: g.term, href: `/glossario/${g.slug}/` },
+      { label: g.term, href: `/glossary/${g.slug}/` },
     ],
     priority: 0.5,
     schemas: [
@@ -1840,7 +1840,7 @@ ${breadcrumbs(page.breadcrumbs)}
     ${
       related.length
         ? `<section class="related"><h2>Termos relacionados</h2><ul class="linklist">
-      ${related.map((r) => `<li><a href="/glossario/${r.slug}/">${escapeHtml(r.term)}</a> — ${escapeHtml(r.short)}</li>`).join('\n      ')}
+      ${related.map((r) => `<li><a href="/glossary/${r.slug}/">${escapeHtml(r.term)}</a> — ${escapeHtml(r.short)}</li>`).join('\n      ')}
     </ul></section>`
         : ''
     }
@@ -1991,7 +1991,7 @@ const comparisonIndexItems = [
   ...generatedPairs.map((p) => ({
     title: `${p.a.name} x ${p.b.name}: qual escolher em 2026?`,
     description: `${p.a.name} ou ${p.b.name}? Comparamos preço, facilidade, integrações e casos de uso para você escolher sem teste de 30 dias.`,
-    url: `/comparativos/${p.slug}/`,
+    url: `/comparisons/${p.slug}/`,
     date: TODAY,
     updated: TODAY,
     readingTime: 5,

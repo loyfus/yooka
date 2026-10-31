@@ -52,7 +52,7 @@ The column on the right matters more than the features on the left. A task belon
 
 ## What it costs
 
-Figures below were published in October 2026 and are reference points, not quotes. Verify current pricing on each vendor's page before you build a budget around them.
+As of October 2026, the figures below are reference points, not quotes. Verify current pricing on each vendor's own pricing page before you build a budget around them.
 
 | Component | Pilot (1 to 2 reps) | Team rollout (5 to 15 reps) | Note |
 |---|---|---|---|
@@ -104,8 +104,8 @@ Watch the last line carefully. If adoption is high and revenue per rep is fallin
 
 **Which sales tasks should never be automated?** Discount negotiation, complaints, contractual commitments, and outreach to prospects who have not consented. The consent question is legal and jurisdictional, so have a lawyer review the template once rather than assuming a rule applies everywhere.
 
-**Do sales reps need to be technically skilled?** Not to use the tools. One afternoon of training plus a written prompt library covers most teams. The technical work sits in the connections to the CRM and mail system, which belongs to whoever already maintains those systems. The [guide on building an AI agent](/guias/how-to-build-an-ai-agent/) covers that side.
+**Do sales agents need to be technically skilled?** Not to use the tools. One afternoon of training plus a written prompt library covers most teams. The technical work sits in the connections to the CRM and mail system, which belongs to whoever already maintains those systems. The [guide on building an AI agent](/guides/how-to-build-an-ai-agent/) covers that side.
 
 ## Next steps
 
-Run a one-week log of what your reps actually spend their time on before you pick a tool. When you compare options, the [best AI tools for small business](/guias/best-ai-tools-for-small-business/) guide has the current pricing, and the [comparison hub](/comparativos/) covers the platforms most teams end up comparing.
+Run a one-week log of what your reps actually spend their time on before you pick a tool. When you compare options, the [best AI tools for small business](/guides/best-ai-tools-for-small-business/) guide has the current pricing, and the [comparison hub](/comparisons/) covers the platforms most teams end up comparing.

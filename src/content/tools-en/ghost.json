@@ -1,0 +1,44 @@
+{
+  "name": "Ghost",
+  "slug": "ghost",
+  "category": "marketing",
+  "tagline": "Publishing and newsletters with no lock-in and no clutter",
+  "description": "Ghost is a publishing platform for newsletters and blogs with memberships, built-in email delivery and a clean editor, and it can be self-hosted.",
+  "url": "https://ghost.org",
+  "affiliateUrl": "https://ghost.org/?via=yooka",
+  "price": "From $18/month (billed yearly)",
+  "priceNote": "Ghost(Pro) starts at $18/month billed yearly on the Starter plan and $29/month on Publisher, which is required for paid memberships; Business is $199/month and the price scales with audience size. Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Writers and small publishers who want newsletters without a page-builder tax",
+  "rating": 4.6,
+  "ratingCount": 264,
+  "pros": [
+    "Memberships and paid subscriptions work out of the box, which most newsletter tools bolt on",
+    "The editor is markdown-first, so posts live in plain text that a developer can read",
+    "Email delivery, segmentation and analytics are included rather than sold as add-ons",
+    "Self-hosting is genuinely supported, which removes lock-in for technical teams"
+  ],
+  "cons": [
+    "Ghost(Pro) pricing scales with audience size, so growing the list raises the bill",
+    "Theme customisation expects some HTML and CSS, which is a barrier for non-technical owners",
+    "There is no built-in ad network or plugin marketplace revenue split like WordPress offers",
+    "Fewer integrations than WordPress or a page builder, and a much smaller plugin ecosystem"
+  ],
+  "features": [
+    { "name": "Newsletters", "detail": "Built-in sending, segmentation, welcome sequences and email analytics" },
+    { "name": "Memberships", "detail": "Paid subscriptions, tiers and member-only content without plugins" },
+    { "name": "Markdown editor", "detail": "A fast, distraction-free editor with version history and restore" },
+    { "name": "Self-hosting", "detail": "Run Ghost on your own infrastructure under the open-source licence" },
+    { "name": "Themes and the app framework", "detail": "Custom themes plus an app framework for building your own features" },
+    { "name": "Publishing API", "detail": "A documented API for headless setups and custom front ends" }
+  ],
+  "useCases": [
+    "Run a paid newsletter for a niche audience with subscriptions handled end to end",
+    "Publish a company blog and newsletter without paying for a page-builder subscription",
+    "Let a technical founder self-host the newsletter so the content stays portable",
+    "Send a weekly client digest with segmented editions for different customer groups"
+  ],
+  "bestForWho": "Writers, coaches and small media businesses who want newsletter revenue without a heavyweight CMS.",
+  "verdict": "Ghost is the tool I suggest to anyone whose main business is words, because the newsletter and the membership system are the product, not an add-on bolted onto a blog engine. The markdown editor means your posts stay in plain text, which matters the moment a developer touches the site or you decide to self-host. Email delivery, segmentation and analytics are included in the subscription, so you are not assembling a stack of four tools to charge for a newsletter. The two real drawbacks are the audience-based pricing, which rises as you succeed, and the fact that theming expects some HTML and CSS. Self-hosting is the escape hatch that makes the lock-in fear manageable, and for a paid newsletter or a company publication it is excellent value.",
+  "alternatives": ["notion", "hubspot", "stripe"],
+  "updated": "2026-10-30"
+}

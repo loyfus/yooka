@@ -1,0 +1,44 @@
+{
+  "name": "Grammarly",
+  "slug": "grammarly",
+  "category": "ai-tools",
+  "tagline": "Writing help, rewriting and tone control in every draft",
+  "description": "Grammarly checks grammar, clarity and tone across browser, desktop and mobile, with AI rewriting and shared style guides that keep a team writing consistently.",
+  "url": "https://www.grammarly.com",
+  "affiliateUrl": "https://www.grammarly.com/?via=yooka",
+  "price": "From $12/user/month (annual)",
+  "priceNote": "Pro is $12 per member/month billed annually ($144 per year) or $30 month-to-month; Business sits around $12 per user/month on annual billing and Enterprise is quoted. Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Teams that write a lot of customer-facing copy and want one shared style",
+  "rating": 4.3,
+  "ratingCount": 634,
+  "pros": [
+    "It catches grammar and clarity issues in Gmail, Word and Slack without changing the workflow",
+    "AI rewriting and tone control turn a clumsy first draft into a sendable one in a click",
+    "Style guides and snippets keep every writer using the same terms and phrasing",
+    "A free tier handles the basics, so a single user can start at no cost"
+  ],
+  "cons": [
+    "The free tier is limited enough that a heavy writer hits the wall within days",
+    "Per-member billing means a company-wide rollout is a line item that grows with headcount",
+    "It flags many false positives on technical and legal wording, which trains people to ignore it",
+    "Support moved to a different company after the rebrand, and the quality of answers varies"
+  ],
+  "features": [
+    { "name": "Grammar and clarity checks", "detail": "Context-aware suggestions across email, documents and chat" },
+    { "name": "AI rewriting", "detail": "Rewrite for tone, length and formality without leaving the draft" },
+    { "name": "Style guides", "detail": "Team rules for terms, structure and tone applied to every suggestion" },
+    { "name": "Generative drafting", "detail": "Draft, summarise and rewrite paragraphs from a short instruction" },
+    { "name": "Works where you write", "detail": "Browser extension, desktop app, mobile keyboard and Word add-in" },
+    { "name": "Brand and tone controls", "detail": "Custom vocabulary and tone preferences per team or account" }
+  ],
+  "useCases": [
+    "Catch awkward customer emails before they leave the founder's inbox",
+    "Keep a small agency client-facing copy consistent across five freelancers",
+    "Polish sales follow-ups written fast on a phone during a trade show",
+    "Turn a long internal document into a summary a client will actually read"
+  ],
+  "bestForWho": "Written-heavy roles such as support, sales and marketing that need fast, consistent editing without a copywriter.",
+  "verdict": "Grammarly is one of those tools that looks optional until you notice how many awkward emails were caught on the way out, and for a team that writes to customers all day it pays for itself quickly. The AI rewriting and tone controls are the part I use most, since fixing tone in one click beats hunting for the right word. Style guides are what make it a team tool rather than a personal one, because they stop five freelancers describing the same feature five different ways. The limitation is that it flags plenty of false positives on technical, legal and non-native phrasing, which gradually teaches writers to dismiss the suggestions without reading them. Billed per member, it is cheap for a small team and obvious in the budget for a fifty-person company.",
+  "alternatives": ["chatgpt", "claude", "notion"],
+  "updated": "2026-10-30"
+}

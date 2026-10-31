@@ -1,0 +1,44 @@
+{
+  "name": "OpusClip",
+  "slug": "opusclip",
+  "category": "design",
+  "tagline": "Turn long videos into short clips for social media",
+  "description": "OpusClip finds the best moments in a long recording, reframes them to vertical, adds captions and a score, then schedules them to your social channels.",
+  "url": "https://www.opus.pro",
+  "affiliateUrl": "https://www.opus.pro/?via=yooka",
+  "price": "From $15/month",
+  "priceNote": "Starter is $15/month, Pro is $29/month or $14.50/month billed annually ($174 per year) with 300 credits, Business is quoted, and the free plan is capped at about 60 minutes a month with a watermark. Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Creators and marketers who need many short clips out of long videos",
+  "rating": 4.3,
+  "ratingCount": 297,
+  "pros": [
+    "Clip detection reliably finds the quotable moments in a podcast, webinar or stream",
+    "Auto reframe keeps the speaker centred when landscape footage has to become vertical",
+    "Captions, stock B-roll and a royalty-free score are applied without leaving the editor",
+    "Scheduling pushes finished clips to the social accounts you connect, with captions"
+  ],
+  "cons": [
+    "The free plan watermarks exports and caps you at roughly 60 minutes of processing a month",
+    "Credit limits mean a backlog of long videos can burn through the monthly allowance fast",
+    "Clips sometimes cut mid-sentence, so every output still needs a human review pass",
+    "Social publishing covers only the platforms it supports and is not a full content calendar"
+  ],
+  "features": [
+    { "name": "Clip detection", "detail": "Scores and pulls the strongest moments out of long recordings" },
+    { "name": "Auto reframe", "detail": "Reframes landscape footage to vertical while tracking the speaker" },
+    { "name": "Captions and B-roll", "detail": "Styled captions, stock B-roll and royalty-free music in one pass" },
+    { "name": "Virality score", "detail": "Ranks each clip by predicted performance before you export it" },
+    { "name": "Social scheduling", "detail": "Publishes clips to connected accounts with captions and hashtags" },
+    { "name": "Team workspace", "detail": "Shared brand presets and clip libraries for small content teams" }
+  ],
+  "useCases": [
+    "Post five short clips from every podcast episode without hiring an editor",
+    "Turn customer webinar recordings into sales clips for the company website",
+    "Batch social content for a small brand with one recording session a week",
+    "Repurpose long founder interviews into clips for the company newsletter"
+  ],
+  "bestForWho": "Podcasters, educators and marketers who already record long video and need many short clips out of it.",
+  "verdict": "OpusClip is the shortcut for anyone who already records long video and treats short clips as a chore. Clip detection does the tedious part, finding the moments worth cutting, and auto reframe handles the vertical crop that most tools get wrong when a speaker moves. The result still needs a human pass, because the detector sometimes cuts mid-sentence, but you are reviewing ten candidates instead of editing a timeline. The credit allowance is the part to watch: a backlog of hour-long interviews will eat a month of processing in a week. Free exports carry a watermark, so a paid plan is effectively required the moment you publish, and for a creator or agency with a steady stream of long recordings the time saved pays for it in the first month.",
+  "alternatives": ["descript", "capcut", "heygen"],
+  "updated": "2026-10-30"
+}

@@ -1,0 +1,44 @@
+{
+  "name": "HubSpot",
+  "slug": "hubspot",
+  "category": "marketing",
+  "tagline": "A free CRM with marketing, sales and service hubs attached",
+  "description": "HubSpot bundles a free CRM with paid marketing, sales and service hubs, adding AI writing, lead scoring and reporting that small teams can grow into over time.",
+  "url": "https://www.hubspot.com",
+  "affiliateUrl": "https://www.hubspot.com/?via=yooka",
+  "price": "Free CRM; paid from $20/seat/month",
+  "priceNote": "Free tier available; the Starter hub is $20 per seat/month on monthly billing ($7 per seat/month on annual billing for new customers); Professional is $890/month with a one-time $3,000 onboarding fee and Enterprise is quoted. Pricing as of October 2026; plans change — check the official site.",
+  "bestFor": "Small sales and marketing teams that want one CRM with marketing built in",
+  "rating": 4.4,
+  "ratingCount": 604,
+  "pros": [
+    "The free tier carries a usable CRM with contacts, deals and pipelines at no cost",
+    "Marketing, sales and service data sit on one record, so the handoff stops losing context",
+    "HubSpot AI drafts emails, logs calls and summarises meetings instead of making you type them",
+    "A large integration and template ecosystem connects a small stack without custom work"
+  ],
+  "cons": [
+    "Professional tier onboarding adds a $3,000 one-time fee that catches small buyers off guard",
+    "Credit-based limits on paid hubs make monthly forecasting harder than a flat seat price",
+    "The product is deep enough that a new admin loses weeks to setup before the first campaign",
+    "Buying Marketing Hub alone costs more than a focused email tool for the same list size"
+  ],
+  "features": [
+    { "name": "Free CRM", "detail": "Contacts, deals, pipelines and tasks for a small sales team" },
+    { "name": "Marketing hub", "detail": "Email, landing pages, forms and workflows with A/B testing" },
+    { "name": "HubSpot AI", "detail": "Email drafting, call logging, meeting summaries and content generation" },
+    { "name": "Sales and service hubs", "detail": "Sequences, proposals, tickets and a knowledge base on one record" },
+    { "name": "Analytics and attribution", "detail": "Funnels, campaign ROI and closed-lost reporting" },
+    { "name": "Integrations and API", "detail": "Marketplace, webhooks and an open API for the rest of your stack" }
+  ],
+  "useCases": [
+    "Start a startup pipeline on the free CRM and upgrade only when volume justifies it",
+    "Turn blog and newsletter traffic into a tracked lead funnel without extra tools",
+    "Give a small agency one place to manage client campaigns, contacts and monthly reporting",
+    "Trigger onboarding emails and support tickets the moment a deal closes"
+  ],
+  "bestForWho": "Growing SMB sales and marketing teams that want a genuine CRM with marketing automation attached to it.",
+  "verdict": "HubSpot earns its reputation with the free tier, which is a real CRM rather than a demo, and that is how most small teams end up paying for it later. Once a lead arrives, the marketing, sales and service hubs share one record, so the context that used to live in three spreadsheets finally travels with the customer. The AI features are a genuine time saver on the busywork: call logging, meeting notes and first-draft emails. The honest warning is the jump to Professional, because the $3,000 onboarding fee and $890 monthly price land on a company that bought the free tier expecting a small bill. Teams that stay on Starter and treat it as a small-business CRM get excellent value.",
+  "alternatives": ["zapier", "notion", "trello"],
+  "updated": "2026-10-30"
+}
