@@ -300,6 +300,33 @@ export function hero({ title, subtitle, ctaPrimary, ctaSecondary, badges }) {
 }
 
 /** Caixa de busca — captura de intenção e links internos. */
+/** Barra de compartilhamento — cada visita vira um canal de distribuição. */
+export function shareBar({ url, title, text, extra = '' }) {
+  const u = encodeURIComponent(url);
+  const t = encodeURIComponent(title);
+  const s = encodeURIComponent(text || title);
+  const targets = [
+    { label: 'WhatsApp', href: `https://wa.me/?text=${t}%20${u}`, icon: '💬' },
+    { label: 'X', href: `https://twitter.com/intent/tweet?text=${s}&url=${u}`, icon: '𝕏' },
+    { label: 'LinkedIn', href: `https://www.linkedin.com/sharing/share-offsite/?url=${u}`, icon: 'in' },
+    { label: 'Facebook', href: `https://www.facebook.com/sharer/sharer.php?u=${u}`, icon: 'f' },
+    { label: 'Telegram', href: `https://t.me/share/url?url=${u}&text=${s}`, icon: '✈' },
+  ];
+
+  return `<div class="share" data-share>
+  <span class="share__label">Compartilhe</span>
+  <div class="share__buttons">
+    ${targets
+      .map(
+        (x) => `<a class="share__btn" href="${x.href}" target="_blank" rel="noopener nofollow" aria-label="Compartilhar no ${x.label}">${escapeHtml(x.icon)}</a>`
+      )
+      .join('\n    ')}
+    <button type="button" class="share__btn share__btn--copy" data-copy-link aria-label="Copiar link">🔗</button>
+  </div>
+  ${extra}
+</div>`;
+}
+
 export function searchBox() {
   return `<form class="searchbox" action="/busca/" method="get" role="search">
   <label class="sr-only" for="q">Buscar no site</label>

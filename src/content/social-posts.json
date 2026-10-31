@@ -1,0 +1,36 @@
+{
+  "linkedin": [
+    {
+      "id": "mei-das",
+      "text": "O MEI não é burocracia. É limite de faturamento.\n\nUm cliente com R$ 120 mil/ano achava que o problema era o DAS. Não era: o problema é que, no ano seguinte, ele teria que fechar a empresa — e perder o CNPJ e o Simples.\n\nA conta real de manter um MEI aberto (DAS por faixa, contabilidade, alvará, NFS-e e o ponto em que sair compensa) está aqui, com o cálculo:\n\nhttps://www.yooka.online/calculadoras/das-mei/\n\nE o guia que explica linha por linha: https://www.yooka.online/guias/custo-real-de-ter-mei/",
+      "waitAfter": 12000
+    },
+    {
+      "id": "13o-calculo",
+      "text": "Quanto você vai receber de 13º salário?\n\nA conta que 90% das pessoas faz de cabeça e erra.\n\nBruto = salário × meses trabalhados ÷ 12.\nDo bruto sai o INSS (tabela progressiva) e, se houver, o IRRF.\n\nFizemos uma calculadora que resolve isso na hora, sem cadastro — e são 20 no total (férias, rescisão, DAS, markup, CLT x PJ, orçamento mensal):\n\nhttps://www.yooka.online/calculadoras/",
+      "waitAfter": 12000
+    },
+    {
+      "id": "clt-pj",
+      "text": "CLT ou PJ é a comparação que todo mundo faz errado.\n\nO erro é olhar só o holerite. O PJ parece maior porque a empresa não desconta 13º, férias, FGTS e INSS patronal — mas isso não é salário, é custo que volta para o seu bolso.\n\nA conta correta (encargos, 13º, férias, 1/3 e inadimplência) está nesta calculadora:\n\nhttps://www.yooka.online/calculadoras/clt-vs-pj/\n\nE o guia que explica linha por linha: https://www.yooka.online/guias/clt-ou-pj/",
+      "waitAfter": 12000
+    },
+    {
+      "id": "ferias",
+      "text": "Vender as férias sai mais caro do que gozar.\n\nAs férias valem 1/3 do salário mais um terço disso de adicional (o \"férias mais 1/3\"). Quem vende recebe o valor cheio e continua com o saldo.\n\nA conta na calculadora: https://www.yooka.online/calculadoras/ferias/\n\nO passo a passo: https://www.yooka.online/guias/como-calcular-ferias/",
+      "waitAfter": 12000
+    }
+  ],
+  "x": [
+    {
+      "id": "clt-pj-thread",
+      "text": "\"CLT ou PJ\" é a comparação que todo mundo faz errado.\n\nErram em 3 coisas:\n1) olham só o holerite e ignoram 13º, férias e FGTS;\n2) ignoram que PJ não tem estabilidade, férias nem 13º — e isso vale dinheiro;\n3) esquecem da inadimplência (5% dos PJ atrasam).\n\nCom a conta certa (encargos + 13º + férias + 1/3 + inadimplência), PJ só ganha acima de certo faturamento.\n\nA calculadora faz isso com os SEUS números: https://www.yooka.online/calculadoras/clt-vs-pj/",
+      "waitAfter": 9000
+    },
+    {
+      "id": "das-thread",
+      "text": "DAS do MEI não é alíquota sobre o que você faturou.\n\nÉ valor FIXO por faixa de receita bruta anual. Muita gente faz a conta por percentual e erra por um fator de 20.\n\nR$ 60 mil/ano → R$ 212,40/mês (faixa de R$ 53.851 a R$ 66.000).\n\nCalculadora com a tabela e o proporcional aos meses: https://www.yooka.online/calculadoras/das-mei/",
+      "waitAfter": 9000
+    }
+  ]
+}

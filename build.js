@@ -6,7 +6,7 @@ import { readMarkdown, renderMarkdown, extractHeadings, textToHtml } from './src
 import { slugify, escapeHtml, truncate, stripHtml, urlPath, isoDate, ptBrDate, readingTime, uniq } from './src/lib/utils.js';
 import {
   layout, breadcrumbs, articleCard, adSlot, offerBox, faqBlock, toc,
-  comparisonTable, hero, searchBox, authorBox, updatedBox, trustBar, answerBox,
+  comparisonTable, hero, searchBox, authorBox, updatedBox, trustBar, answerBox, shareBar,
 } from './src/lib/templates.js';
 import {
   organizationSchema, websiteSchema, articleSchema, faqSchema,
@@ -270,6 +270,11 @@ ${breadcrumbs(crumbs)}
         <h2>Perguntas frequentes</h2>
         ${faqBlock(a.faq)}
       </section>` : ''}
+      ${shareBar({
+        url: site.url.replace(/\/$/, '') + a.url,
+        title: a.title,
+        text: a.description,
+      })}
       ${authorBox()}
       ${offerForCategory(a.category)}
       ${
@@ -548,6 +553,11 @@ ${breadcrumbs(crumbs)}
         button: 'Falar com um especialista',
       })}
       <p class="section__more"><a class="btn btn--ghost btn--sm" href="/ferramentas/${t.slug}/preco/">Ver preço, planos e o que compõe a conta →</a></p>
+      ${shareBar({
+        url: site.url.replace(/\/$/, '') + t.url,
+        title: `${t.name}: review, preço e alternativas`,
+        text: t.description,
+      })}
       ${
         relatedGuides.length
           ? `<section class="related">
@@ -783,8 +793,15 @@ ${breadcrumbs(crumbs)}
     ${resultRows}
           </div>
           <p class="calc__disclaimer">Cálculo de referência (outubro de 2026). Confirme os valores na fonte oficial antes de tomar decisão.</p>
+          <button type="button" class="btn btn--ghost btn--sm calc__share" data-share-result>Compartilhar meu resultado</button>
         </div>
       </section>
+
+      ${shareBar({
+        url: site.url.replace(/\/$/, '') + url,
+        title: calc.title,
+        text: calc.description,
+      })}
 
       <h2>Como interpretar o resultado</h2>
       <ul>

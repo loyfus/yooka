@@ -141,6 +141,28 @@
     });
   }
 
+  /* --- Copiar link --------------------------------------------------- */
+  var copyLink = document.querySelector('[data-copy-link]');
+  if (copyLink) {
+    copyLink.addEventListener('click', function () {
+      var url = window.location.href;
+      var done = function () {
+        copyLink.textContent = '✓';
+        setTimeout(function () { copyLink.textContent = '🔗'; }, 1800);
+      };
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(url).then(done);
+      } else {
+        var ta = document.createElement('textarea');
+        ta.value = url;
+        document.body.appendChild(ta);
+        ta.select();
+        try { document.execCommand('copy'); done(); } catch (e) {}
+        document.body.removeChild(ta);
+      }
+    });
+  }
+
   /* --- Newsletter / toast ------------------------------------------ */
   window.yookaToast = function (msg) {
     var t = document.querySelector('.toast');

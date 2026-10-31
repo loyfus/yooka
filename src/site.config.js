@@ -9,7 +9,7 @@ export const site = {
     'Passo a passo para resolver serviços públicos, MEI, nota fiscal, CLT e renda extra no Brasil. Prazos reais, valores atualizados e nenhum enrolação.',
   // URL canônica. Troque pelo domínio final (yooka.com.br) quando ele estiver
   // apontando para a Vercel — e mantenha o valor idêntico na Vercel (env SITE_URL).
-  url: process.env.SITE_URL || 'https://yooka.loyfus.com.br',
+  url: process.env.SITE_URL || 'https://www.yooka.online',
   locale: 'pt_BR',
   lang: 'pt-BR',
   themeColor: '#0b1020',
